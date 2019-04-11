@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="Tl1XowaDYw6NkBrI9w4HhQ" Version="0.99">
+  <Patch Id="FPcbjxYefM6L1qCNlaizA3">
+    <Canvas Id="Sd2vQyiXIKONJTpaMviTiv" DefaultCategory="Main" CanvasType="FullCategory" />
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="HqAHZQJiAdFOqsiG4QpDMs">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="BGV9hCQxUdAPxW4qafFSfp">
+        <Canvas Id="LOXGVj5TikrLYQJ9dOxzQy" BordersChecked="false" CanvasType="Group" />
+        <Patch Id="OFUIXS1rUOUNB7tOuHdI7X" Name="Create" />
+        <Patch Id="FjFikCYtmwxLbVSitMp23F" Name="Update" />
+        <ProcessDefinition Id="LH6JKG3wlCBP8XujOwCxHN">
+          <Fragment Id="KsamT0SPuCoLK6JXrwvty9" Patch="OFUIXS1rUOUNB7tOuHdI7X" Enabled="true" />
+          <Fragment Id="VIi8F4YOzZZLGR6k3hxRi8" Patch="FjFikCYtmwxLbVSitMp23F" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <NugetDependency Id="RvaWzamZuGAMRrysLWCCrY" Location="VL.Core" Version="0.93.21-g99c25bebaf" />
+  <NugetDependency Id="EZo1WVmvRPTLukBPxn4nTh" Location="VL.CoreLib" Version="0.93.21-g99c25bebaf" />
+  <NugetDependency Id="FR2gyq1bYEwLqwsN8INGt8" Location="VL.CoreLib.VVVV" Version="0.93.21-g99c25bebaf" />
+  <DocumentDependency Id="GWnwnH1pjw0L8iThpIaezI" Location="./CNTK_Core.vl" IsForward="true" />
+  <DocumentDependency Id="ScQYgYGLz3jNc2rQg2AyPM" Location="./CNTK_DataIO.vl" IsForward="true" />
+  <DocumentDependency Id="DabJVBR6apYQFv1AEtPIrz" Location="./CNTK_Evaluation.vl" IsForward="true" />
+  <DocumentDependency Id="I4NJw4Ks20SN822CZEfMRy" Location="./CNTK_Layers.vl" IsForward="true" />
+  <DocumentDependency Id="NdwEWcYL7JANMTIdpx8diZ" Location="./CNTK_Losses.vl" IsForward="true" />
+  <DocumentDependency Id="FzPsqEGfyEdNmNU8Ammec2" Location="./CNTK_Operations.vl" IsForward="true" />
+  <DocumentDependency Id="EfmAWJv2H4CNrUahc2mXzC" Location="./CNTK_Sequence.vl" IsForward="true" />
+  <DocumentDependency Id="K06TJYnvkQaPviJHkbeLyB" Location="./CNTK_Trainers.vl" IsForward="true" />
+  <DocumentDependency Id="QkYCSMSIC7UNtsmzCl5Ty5" Location="./CNTK_Utils.vl" IsForward="true" />
+  <DocumentDependency Id="KLiJHTEVIj4MzxUyxyl3YK" Location="./CNTK_Variables.vl" IsForward="true" />
+  <DocumentDependency Id="FsuSOGPlkZkNGiqFLidpwe" Location="./CNTK_Metrics.vl" IsForward="true" />
+  <DocumentDependency Id="MRhJJYUVrNhP8BPcmhhHCu" Location="./CNTK_HighLevelOps.vl" IsForward="true" />
+</Document>

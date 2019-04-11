@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+  <metadata>
+    <id>VLML</id>
+    <version>$version$</version>
+    <title>VLML</title>
+    <authors>Hayden Anyasi, vvvv group</authors>
+    <owners>Thinkning Forms</owners>
+    <licenseUrl>https://github.com/ThinkingForms/VLML/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ThinkingForms/VLML</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>A machine learning framework for VL visual programming language</summary>
+    <description>VLML for VL</description>
+    <copyright>Copyright © 2018 by Thinkning Forms. All rights reserved.</copyright>
+    <tags>VL, CNTK</tags>
+    <dependencies>
+      <dependency id="CNTK.GPU" version="[2.6.0]" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\lib\**" target="lib\" exclude="" />
+<!--     <file src="..\Girlpower\**" target="Girlpower\" exclude="" /> -->
+    <file src="..\*.vl" target="" exclude="" />
+    <file src="..\vl\*.vl" target="vl\" exclude="" />
+  </files>
+</package>

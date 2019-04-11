@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" Version="0.99">
+  <NugetDependency Id="RKFCmk1Lg5EP3I4IQegLTw" Location="VL.CoreLib" Version="0.35.21" />
+  <NugetDependency Id="U2JwHqMJLyGLDs97lM6eZ6" Location="VL.CoreLib.VVVV" Version="0.35.21" />
+  <Patch Id="Th8hpfHvBF4Lk6VOwDCc9D">
+    <Canvas Id="NtZT52Xp5qNOXK0fF2H7kv" DefaultCategory="VVVV.Value" CanvasType="FullCategory">
+      <!--
+
+    ************************ MNISTImporter ************************
+
+-->
+      <Node Name="MNISTImporter" Bounds="153,200" Id="TSttkfeJHQSN5gkEF54G9o">
+        <p:NodeReference>
+          <Choice Kind="ContainerDefinition" Name="Patch" />
+          <FullNameCategoryReference ID="Primitive" />
+        </p:NodeReference>
+        <Patch Id="CzjSvRY5dvXQDxmAOA8mZj">
+          <Patch Id="ESJZDDS0I02LAWDOx9RJVV" Name="Create" />
+          <Patch Id="OkqGvJfa3PDOppp4PFQghD" Name="Update">
+            <Pin Id="BexawuGR4eQP3HQ7ss6dHn" Name="trainImagesFlat" Kind="OutputPin" Bounds="402,666" />
+            <Pin Id="AQOsdsWXhJxQdt91Pz0gVR" Name="Reload" Kind="InputPin" Bounds="342,132" />
+            <Pin Id="SQaJuULsSyVPapmTN4xPH3" Name="trainImages" Kind="OutputPin" Bounds="455,668" />
+            <Pin Id="H8tprnd0H0KQUFnsZwtZBK" Name="Training Batch Size" Kind="InputPin" Bounds="502,381" />
+            <Pin Id="FWTSOdxecLmOqJkYpOuUnY" Name="trainLabelsFlat" Kind="OutputPin" Bounds="552,661" />
+            <Pin Id="V4JWi1t0ujILOuOSLm1w7d" Name="trainLabels" Kind="OutputPin" />
+            <Pin Id="EfS86oBnaW0PqkoijNVHZU" Name="testImages" Kind="OutputPin" Bounds="690,658" />
+            <Pin Id="FaVsSKZsmVjN12ZrQVJ1kF" Name="Test Batch Size" Kind="InputPin" Bounds="758,361" />
+            <Pin Id="IHXWTakaXc6NPZ0VYi68QM" Name="testLabels" Kind="OutputPin" Bounds="801,651" />
+          </Patch>
+          <Canvas Id="C4yd3S6BFv9NWqJ2WO3OFi" CanvasType="Group">
+            <Node Bounds="382,238,294,122" Id="HhZWLwXF9qkNQPQSzffZTe">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="ProcessStatefulRegion" Name="Cache" />
+                <FullNameCategoryReference ID="Primitive" />
+              </p:NodeReference>
+              <Patch Id="S64jVkhpmwFNHmBLPheYFs" ManuallySortedPins="true">
+                <Patch Id="DPQA442KKphQQGjopvribc" Name="Create" ManuallySortedPins="true" />
+                <Patch Id="DmUuxfrrvLtMd2UpTM4uag" Name="Then" ManuallySortedPins="true" />
+                <Node Bounds="396,261,31,13" Id="G4Z4G7NFeYxPIpqTWVNJDJ">
+                  <p:NodeReference LastCategoryFullName="Learn.Mnist.Mnist" LastSymbolSource="VL.Tensorflow.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Load" />
+                    <CategoryReference Kind="AssemblyCategory" Name="Mnist" NeedsToBeDirectParent="true">
+                      <p:OuterCategoryReference Kind="AssemblyCategory" Name="Mnist" NeedsToBeDirectParent="true" />
+                    </CategoryReference>
+                  </p:NodeReference>
+                  <Pin Id="TKjdGy1FVdBPh9h7LwiRLX" Name="Result" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="394,288,81,13" Id="Q4VKl7r13KcMjDYY7MiAi3">
+                  <p:NodeReference LastCategoryFullName="Learn.Mnist.Mnist" LastSymbolSource="VL.Tensorflow.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="GetTrainReader" />
+                  </p:NodeReference>
+                  <Pin Id="RhmB2EJhE6oOaGNmGpJpbi" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="Ce2YARinbIqMXzwoF8bItj" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="TNvsJcD7Xw6QX9mNbzEudk" Name="Result" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="579,293,77,22" Id="BI589jwVdO8LlQjXSUEtU4">
+                  <p:NodeReference LastCategoryFullName="Learn.Mnist.Mnist" LastSymbolSource="VL.Tensorflow.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="GetTestReader" />
+                  </p:NodeReference>
+                  <Pin Id="EaTb9KNqScwN3WVEVzcPQG" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="Bw4CbcgAW8nLEF4aY364EK" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="MkvzI6DGVCyNWqP6k73SiI" Name="Result" Kind="OutputPin" />
+                </Node>
+              </Patch>
+              <ControlPoint Id="SOpgzQdzzKaM7eAIWNZCHS" Bounds="457,354" Alignment="Bottom" />
+              <ControlPoint Id="JfSJxOLaRuBOz6FicGXhGO" Bounds="653,354" Alignment="Bottom" />
+              <Pin Id="LlUrlOtBWNFLdELeyLxuOi" Name="Force" Kind="InputPin" />
+              <Pin Id="LZAgo95qzs7MYNJOZtUJSX" Name="Dispose Cached Outputs" Kind="InputPin" />
+              <Pin Id="MLNqpQ2FW7sL2kRbB28Ur8" Name="Has Changed" Kind="OutputPin" />
+            </Node>
+            <Pad Id="IuP3HtLtDurOolMStjjUvO" Comment="Force" Bounds="384,168,40,19" ShowValueBox="true" isIOBox="true" Value="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+              <p:ValueBoxSettings>
+                <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+              </p:ValueBoxSettings>
+            </Pad>
+            <Node Bounds="382,195,64,13" Id="QbuRrZbQRoHPRjtV1gtKLI">
+              <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                <Choice Kind="ProcessAppFlag" Name="OnOpen" />
+              </p:NodeReference>
+              <Pin Id="QDGyjAzrpdELZveA7lpkDZ" Name="Simulate" Kind="InputPin" />
+              <Pin Id="NZRJzdXB6zENCujzEJNFCX" Name="Output" Kind="OutputPin" />
+            </Node>
+            <Node Bounds="383,417,488,201" Id="ONyR6xNSR5bLcwFU48fHPs">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="ProcessStatefulRegion" Name="Cache" />
+                <FullNameCategoryReference ID="Primitive" />
+              </p:NodeReference>
+              <Patch Id="TRqIVmvk0EoMgwQgLZuFkx" ManuallySortedPins="true">
+                <Patch Id="CM3ETZOLqvXMbMQRvkbHjW" Name="Create" ManuallySortedPins="true" />
+                <Patch Id="LMGFDPnQ1VVO0NncUABey8" Name="Then" ManuallySortedPins="true" />
+                <Node Bounds="451,467,56,13" Id="UVIP5cvWTSnP5DVVkfeHFp">
+                  <p:NodeReference LastCategoryFullName="Learn.Mnist.Mnist.BatchReader" LastSymbolSource="VL.Tensorflow.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="AssemblyCategory" Name="BatchReader" />
+                    <Choice Kind="OperationCallFlag" Name="NextBatch" />
+                  </p:NodeReference>
+                  <Pin Id="PmA4DOpJxqVLJAdmTBnSt4" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="BzGt8Un7tg5OqJLCW7alHH" Name="Batch Size" Kind="InputPin" DefaultValue="5000">
+                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                      <Choice Kind="TypeFlag" Name="Integer32" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="GZIHMMgB0rQOBGG1ycEQh0" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="GIPmwJMOBAOObWwXjMBvJ5" Name="Result" Kind="OutputPin" />
+                </Node>
+                <Pad Id="KGlVglFkX9YMeRQvVjq56g" Comment="Batch Size" Bounds="505,447,42,19" ShowValueBox="true" isIOBox="true" Value="40000">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Integer32" />
+                  </p:TypeAnnotation>
+                </Pad>
+                <Node Bounds="395,535,81,13" Id="A4NxC2dgrnaLXTTuV3edjV">
+                  <p:NodeReference LastCategoryFullName="Learn.Mnist.Mnist.ImageAndLabelData" LastSymbolSource="VL.Tensorflow.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="AssemblyCategory" Name="ImageAndLabelData" />
+                    <Choice Kind="OperationCallFlag" Name="imageData" />
+                  </p:NodeReference>
+                  <Pin Id="N2vOozbjtmoNrfLsKQQhky" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="HHNjbsYch7SOx71gQfjsQz" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="Gd9l0L8XEdKNYkGEInczlT" Name="Image Data" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="496,535,81,13" Id="NdzE8mMSD03OPO7f1tjrpG">
+                  <p:NodeReference LastCategoryFullName="Learn.Mnist.Mnist.ImageAndLabelData" LastSymbolSource="VL.Tensorflow.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="labelData" />
+                  </p:NodeReference>
+                  <Pin Id="Pta4Y5fPB9qQH8J6umchiM" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="HPy7OfHFUvvOinqzLY37ky" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="TAcYhAQgvqYNMiAN00G0lF" Name="Label Data" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="706,468,56,13" Id="FxOm2fWC6B2Mt1m5D5iJfm">
+                  <p:NodeReference LastCategoryFullName="Learn.Mnist.Mnist.BatchReader" LastSymbolSource="VL.Tensorflow.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="AssemblyCategory" Name="BatchReader" />
+                    <Choice Kind="OperationCallFlag" Name="NextBatch" />
+                  </p:NodeReference>
+                  <Pin Id="AFI7hCjK3IfLcy00UUPi1J" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="Lpg3px6ZazSLrxxRScndwU" Name="Batch Size" Kind="InputPin" DefaultValue="2000">
+                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                      <Choice Kind="TypeFlag" Name="Integer32" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="UAWDzPBa2cPOBJTuJIVeya" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="U1lUCssl3gWOPBsBsw3lFb" Name="Result" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="650,536,81,13" Id="SWQCPecd9nNM3Bv5mu2BEI">
+                  <p:NodeReference LastCategoryFullName="Learn.Mnist.Mnist.ImageAndLabelData" LastSymbolSource="VL.Tensorflow.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <CategoryReference Kind="AssemblyCategory" Name="ImageAndLabelData" />
+                    <Choice Kind="OperationCallFlag" Name="imageData" />
+                  </p:NodeReference>
+                  <Pin Id="K0cOYLZTsIVNTxnHU5ht5e" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="AvhXoFKDQn1PR9td890O8e" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="StfMFCWhSwEMbmYp5jL0sC" Name="Image Data" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="751,536,81,13" Id="Ou6dRI8JYG2OZ8RVXmiwdi">
+                  <p:NodeReference LastCategoryFullName="Learn.Mnist.Mnist.ImageAndLabelData" LastSymbolSource="VL.Tensorflow.dll">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="labelData" />
+                  </p:NodeReference>
+                  <Pin Id="RJLxNUQJZUOPqNniskhNaK" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="E4wPmeyDQbwNHYYEutnzlw" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="GwG8TLzgcFLMj2ZJveXVUP" Name="Label Data" Kind="OutputPin" />
+                </Node>
+                <Pad Id="HxAIvILN6uzPIIWyCA03JG" Comment="Batch Size" Bounds="758,449,36,19" ShowValueBox="true" isIOBox="true" Value="3000">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Integer32" />
+                  </p:TypeAnnotation>
+                </Pad>
+                <Node Bounds="406,578,57,13" Id="SuSewCV0OXHPVg2kjBjxfa">
+                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Flatten" />
+                  </p:NodeReference>
+                  <Pin Id="HwVXZoi5uawNkITKPN3ytm" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="CK1JzCr8ZIhMzc6gekYqTB" Name="Output" Kind="StateOutputPin" />
+                </Node>
+                <Node Bounds="543,575,57,13" Id="Von41AWf8LFNhHYsj0J7LL">
+                  <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="OperationCallFlag" Name="Flatten" />
+                  </p:NodeReference>
+                  <Pin Id="DFoxSTlgnLNLAwloM8o8kA" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="RP69mFgW94YLc0hSUyLq8s" Name="Output" Kind="StateOutputPin" />
+                </Node>
+              </Patch>
+              <ControlPoint Id="DVXMyZrM0XuPRY7RgBRqpp" Bounds="457,597" Name="trainImages" Alignment="Bottom" />
+              <ControlPoint Id="KWGTQVnskDGL9fVPs1Kw21" Bounds="553,597" Name="trainLabels" Alignment="Bottom" />
+              <ControlPoint Id="PojCurCDrKOO6Hom1erfv7" Bounds="693,597" Name="testImages" Alignment="Bottom" />
+              <ControlPoint Id="BfHnXgQzaVhP7pjCt7msDY" Bounds="806,597" Name="testLabels" Alignment="Bottom" />
+              <ControlPoint Id="PwIdCTpFKU9NBGUw3eKUZA" Bounds="500,423" Alignment="Top" />
+              <ControlPoint Id="VJVk45cf58vMeD5w79F4eG" Bounds="758,423" Alignment="Top" />
+              <ControlPoint Id="OdB3AmP6JV1PRIuARWFxyX" Bounds="409,612" Alignment="Bottom" />
+              <ControlPoint Id="PzsAIYYFFs0OGNnV7UG7uV" Bounds="643,612" Alignment="Bottom" />
+              <Pin Id="A1Kydx3BMnlLKdPDsTt5md" Name="Force" Kind="InputPin" />
+              <Pin Id="FpjFOvMzTbjPjtovErJMOl" Name="Dispose Cached Outputs" Kind="InputPin" />
+              <Pin Id="LUurJknSwF4LPnwmuygGeO" Name="Has Changed" Kind="OutputPin" />
+            </Node>
+            <Pad Id="T1IGLOcK6MKMqr9mnR50Pr" Comment="iobox" Bounds="385,387,40,19" ShowValueBox="true" isIOBox="true" Value="False">
+              <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                <Choice Kind="TypeFlag" Name="Boolean" />
+              </p:TypeAnnotation>
+              <p:ValueBoxSettings>
+                <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+              </p:ValueBoxSettings>
+            </Pad>
+            <ControlPoint Id="BN1eNcQYdgaQCF4ktvewfK" Bounds="455,668" />
+            <ControlPoint Id="Qy6Dn5TtAzBNVM33f9AtoO" Bounds="552,661" />
+            <ControlPoint Id="TP6rzysh7XULF5y6UnT6Ra" Bounds="690,658" />
+            <ControlPoint Id="HWvx7NasWleLPsWdiGxPTE" Bounds="805,653" />
+            <ControlPoint Id="QDWTKK6PVENPt11JD0dObi" Bounds="387,128" />
+            <ControlPoint Id="VfLI9Vo9S44QItj8ZxQcKC" Bounds="502,381" />
+            <ControlPoint Id="ExorVpMp1u4PU0htmWgMEM" Bounds="756,378" />
+            <ControlPoint Id="L2DUP8yggvHLkYFRGyfdmn" Bounds="351,668" />
+            <ControlPoint Id="JQsREueVXctPfs8IFwQVab" Bounds="633,642" />
+          </Canvas>
+          <ProcessDefinition Id="FHNLl8GWgcVOJzRkkPI83E">
+            <Fragment Id="MRFnVwHDf0WOO7H3jKbCxI" Patch="ESJZDDS0I02LAWDOx9RJVV" Enabled="true" />
+            <Fragment Id="PulIQZQ5YLtPp6C2yvbTNE" Patch="OkqGvJfa3PDOppp4PFQghD" Enabled="true" />
+          </ProcessDefinition>
+          <Link Id="RalAAFmcMNPLO5BZrA3OoF" Ids="TKjdGy1FVdBPh9h7LwiRLX,RhmB2EJhE6oOaGNmGpJpbi" />
+          <Link Id="OULUPyNiLDeMRg5ru36jTn" Ids="NZRJzdXB6zENCujzEJNFCX,LlUrlOtBWNFLdELeyLxuOi" />
+          <Link Id="RVTgiSQukxGLiyP0k4P2oi" Ids="GIPmwJMOBAOObWwXjMBvJ5,N2vOozbjtmoNrfLsKQQhky" />
+          <Link Id="HQna8LX5G5hOXtQp0PDEPI" Ids="Gd9l0L8XEdKNYkGEInczlT,DVXMyZrM0XuPRY7RgBRqpp" />
+          <Link Id="ClrhzUkvSamL8sQCiQDsxM" Ids="GIPmwJMOBAOObWwXjMBvJ5,Pta4Y5fPB9qQH8J6umchiM" />
+          <Link Id="NyQzXittX3vNkN3dMJvwD9" Ids="TNvsJcD7Xw6QX9mNbzEudk,SOpgzQdzzKaM7eAIWNZCHS" />
+          <Link Id="THHXezwi9LdPGKfRlsqVeq" Ids="SOpgzQdzzKaM7eAIWNZCHS,PmA4DOpJxqVLJAdmTBnSt4" />
+          <Link Id="MvjIhRGBMjgO3aEU6Frn3U" Ids="MLNqpQ2FW7sL2kRbB28Ur8,T1IGLOcK6MKMqr9mnR50Pr" />
+          <Link Id="ALWv5oycj83PGbBUg6CWPY" Ids="T1IGLOcK6MKMqr9mnR50Pr,A1Kydx3BMnlLKdPDsTt5md" />
+          <Link Id="Rvt3h4jyGLiLxOdSBlIQr4" Ids="DVXMyZrM0XuPRY7RgBRqpp,BN1eNcQYdgaQCF4ktvewfK" />
+          <Link Id="CcM2P0HytF3MgRvhUAySuY" Ids="BN1eNcQYdgaQCF4ktvewfK,SQaJuULsSyVPapmTN4xPH3" IsHidden="true" />
+          <Link Id="MM4QcqY0jAVODt7Emn9X26" Ids="KWGTQVnskDGL9fVPs1Kw21,Qy6Dn5TtAzBNVM33f9AtoO" />
+          <Link Id="GCE3BbqNU7SMxQ2jQJ9IY9" Ids="Qy6Dn5TtAzBNVM33f9AtoO,FWTSOdxecLmOqJkYpOuUnY" IsHidden="true" />
+          <Link Id="U4WEop7oLXzNu0oztyFCWQ" Ids="TKjdGy1FVdBPh9h7LwiRLX,EaTb9KNqScwN3WVEVzcPQG" />
+          <Link Id="UAwuFkFjp8lMtUpwfQUm5t" Ids="MkvzI6DGVCyNWqP6k73SiI,JfSJxOLaRuBOz6FicGXhGO" />
+          <Link Id="KDzwtlKWALLOptINzmvrAi" Ids="U1lUCssl3gWOPBsBsw3lFb,K0cOYLZTsIVNTxnHU5ht5e" />
+          <Link Id="OuEFACOsyb4Nl26GmrosYC" Ids="U1lUCssl3gWOPBsBsw3lFb,RJLxNUQJZUOPqNniskhNaK" />
+          <Link Id="Q5zr9mIAXzRPdEl38WUHs7" Ids="JfSJxOLaRuBOz6FicGXhGO,AFI7hCjK3IfLcy00UUPi1J" />
+          <Link Id="Pml2sFeHhXoOMz5Fh3Jk2m" Ids="StfMFCWhSwEMbmYp5jL0sC,PojCurCDrKOO6Hom1erfv7" />
+          <Link Id="KbGE6b5PqWMNzSWVgYj6LO" Ids="GwG8TLzgcFLMj2ZJveXVUP,BfHnXgQzaVhP7pjCt7msDY" />
+          <Link Id="CPWRGcdC9pjOpgFEo6lQB7" Ids="PojCurCDrKOO6Hom1erfv7,TP6rzysh7XULF5y6UnT6Ra" />
+          <Link Id="BjoQMnbOHPrNcSBxYbMeM6" Ids="TP6rzysh7XULF5y6UnT6Ra,EfS86oBnaW0PqkoijNVHZU" IsHidden="true" />
+          <Link Id="QAT6wfPTzMgNezb33kTXLg" Ids="BfHnXgQzaVhP7pjCt7msDY,HWvx7NasWleLPsWdiGxPTE" />
+          <Link Id="Er7O8mKGPWFOUqTTfEXpbs" Ids="HWvx7NasWleLPsWdiGxPTE,IHXWTakaXc6NPZ0VYi68QM" IsHidden="true" />
+          <Link Id="K3WkJ0J5yEAN8epdN8j3EY" Ids="AQOsdsWXhJxQdt91Pz0gVR,QDWTKK6PVENPt11JD0dObi" IsHidden="true" />
+          <Link Id="Ar54r3mvqohNnk9cjKgbNg" Ids="QDWTKK6PVENPt11JD0dObi,IuP3HtLtDurOolMStjjUvO" />
+          <Link Id="KcYBAr1BJ87L83RKEaCzDx" Ids="IuP3HtLtDurOolMStjjUvO,QDGyjAzrpdELZveA7lpkDZ" />
+          <Link Id="NIQL2pWAIMHMkOYLkoHDcc" Ids="PwIdCTpFKU9NBGUw3eKUZA,BzGt8Un7tg5OqJLCW7alHH" />
+          <Link Id="HtR5NciTTuNQVCACNMdF1P" Ids="VfLI9Vo9S44QItj8ZxQcKC,PwIdCTpFKU9NBGUw3eKUZA" />
+          <Link Id="SptEJOpL0DFLgMCRHagr9Q" Ids="H8tprnd0H0KQUFnsZwtZBK,VfLI9Vo9S44QItj8ZxQcKC" IsHidden="true" />
+          <Link Id="HyiuS73dfhmNSP2cFeKv78" Ids="VJVk45cf58vMeD5w79F4eG,Lpg3px6ZazSLrxxRScndwU" />
+          <Link Id="HqdBCPs7Q5zLeDBWvIkHHM" Ids="ExorVpMp1u4PU0htmWgMEM,VJVk45cf58vMeD5w79F4eG" />
+          <Link Id="N4485KQqysvP6jioWnrjBC" Ids="FaVsSKZsmVjN12ZrQVJ1kF,ExorVpMp1u4PU0htmWgMEM" IsHidden="true" />
+          <Link Id="N1tF0sZavYDOAVScNoSHNX" Ids="Gd9l0L8XEdKNYkGEInczlT,HwVXZoi5uawNkITKPN3ytm" />
+          <Link Id="OsBTiWVttKEOI9xhAsSCsz" Ids="CK1JzCr8ZIhMzc6gekYqTB,OdB3AmP6JV1PRIuARWFxyX" />
+          <Link Id="Cc28h5IMeOvQAkfer04GcM" Ids="OdB3AmP6JV1PRIuARWFxyX,L2DUP8yggvHLkYFRGyfdmn" />
+          <Link Id="Upg03bD1dDzQHeGw6BuA3C" Ids="L2DUP8yggvHLkYFRGyfdmn,BexawuGR4eQP3HQ7ss6dHn" IsHidden="true" />
+          <Link Id="JtVEp4cqBO2QU1YIPPBlez" Ids="TAcYhAQgvqYNMiAN00G0lF,DFoxSTlgnLNLAwloM8o8kA" />
+          <Link Id="UCBB3gZ8hkeN2EP87FSp3W" Ids="RP69mFgW94YLc0hSUyLq8s,KWGTQVnskDGL9fVPs1Kw21" />
+          <Link Id="J6Nad0shcq4PqqyVnhAICC" Ids="JQsREueVXctPfs8IFwQVab,V4JWi1t0ujILOuOSLm1w7d" IsHidden="true" />
+          <Link Id="KZJAvFQaydqM5KVIpSyrje" Ids="PzsAIYYFFs0OGNnV7UG7uV,JQsREueVXctPfs8IFwQVab" />
+          <Link Id="OlYWLStbNXLP9gn2HpKxa1" Ids="TAcYhAQgvqYNMiAN00G0lF,PzsAIYYFFs0OGNnV7UG7uV" />
+        </Patch>
+      </Node>
+    </Canvas>
+    <!--
+
+    ************************ Application ************************
+
+-->
+    <Node Name="Application" Bounds="100,100" Id="Il6atGdskgLLTT7uLNxcBz">
+      <p:NodeReference>
+        <Choice Kind="ContainerDefinition" Name="Process" />
+        <FullNameCategoryReference ID="Primitive" />
+      </p:NodeReference>
+      <Patch Id="KmhiJ49toYyN48IPIyZBbK">
+        <Canvas Id="UHWS6JXhjtTQI3427MIx5T" BordersChecked="false" CanvasType="Group" />
+        <Patch Id="CurAZgTrg4aPBOwIkcxNCi" Name="Create" />
+        <Patch Id="R8Z2ZuScGzULGVR6yupN0W" Name="Update" />
+        <ProcessDefinition Id="PXZIPKGVGxcOzbrjhVtH2L">
+          <Fragment Id="UCLkdoxhJw3PUsWposgzqu" Patch="CurAZgTrg4aPBOwIkcxNCi" Enabled="true" />
+          <Fragment Id="HPMKx4rrBn8PoHBY6d7CnO" Patch="R8Z2ZuScGzULGVR6yupN0W" Enabled="true" />
+        </ProcessDefinition>
+      </Patch>
+    </Node>
+  </Patch>
+  <PlatformDependency Id="FeFvGBuP3EkQZ0LtAgojdc" Location="C:/Users/H/Documents/Praxis/hayds_vl-packs/CNTK/VL.CNTK/lib/Mnist/VL.Tensorflow.dll" />
+</Document>
