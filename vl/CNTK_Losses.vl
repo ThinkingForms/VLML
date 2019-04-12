@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="B6DOoJR72RyLEFXDuFqRS2" Version="0.99">
+<Document xmlns:p="property" Id="B6DOoJR72RyLEFXDuFqRS2" LanguageVersion="2019.1.0-0177-g8feb9fe666" Version="0.128">
   <Patch Id="ERP90BKJLBgPyjg1xaxREJ">
-    <Canvas Id="GFjpELdK7XpNdqiTYotKCR" DefaultCategory="VLMLInternal" CanvasType="FullCategory">
+    <Canvas Id="GFjpELdK7XpNdqiTYotKCR" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="HRnBt0PcIsoNqnQIrms9mR" Name="Losses" Position="337,324">
         <!--
 
@@ -21,7 +21,7 @@
               <ControlPoint Id="QF99r0YPm1MP4p0PvtRaN6" Bounds="485,234" />
               <ControlPoint Id="TZUYzI7T4rkLKTGj6uZP8U" Bounds="746,233" />
               <Node Bounds="438,479,112,19" AutoConnect="true" Id="FaQr3mU8C7RQPLJp6xGubS">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -101,7 +101,7 @@
             <Link Id="DsrrlgzJzcINorTQsRDVDo" Ids="LZDCzFexsyHMEFj4BGnGrC,NXgjqMNh0JCPYi94tAuVid" />
           </Patch>
         </Node>
-        <Pad Id="REiAAMTHomAP3CLcZGP4Hk" Bounds="188,485,216,39" ShowValueBox="true" isIOBox="true" Value="LossFunctions">
+        <Pad Id="REiAAMTHomAP3CLcZGP4Hk" Bounds="188,473,216,39" ShowValueBox="true" isIOBox="true" Value="LossFunctions">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -128,7 +128,7 @@
               <ControlPoint Id="BmejuGc29xhMpAw55II5e5" Bounds="514,229" />
               <ControlPoint Id="JCaOgY2LtXBQcu806daYvP" Bounds="597,225" />
               <Node Bounds="338,485,236,19" AutoConnect="true" Id="Fo2D6wFEML2LFdUnLuOwWS">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -230,7 +230,7 @@
             <Link Id="DrrhQddbbUrM2ScdsuJ6q5" Ids="Jtl7jrOPN9NPPfSz9eoY3Q,HANBDbEYpFPMIUvNOTwTRw" />
           </Patch>
         </Node>
-        <Pad Id="QaB33nUoEHqNQiQxCLXfmQ" Bounds="589,491,368,39" ShowValueBox="true" isIOBox="true" Value="EvaluationErrorFunctions">
+        <Pad Id="QaB33nUoEHqNQiQxCLXfmQ" Bounds="589,479,368,39" ShowValueBox="true" isIOBox="true" Value="EvaluationErrorFunctions">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -239,7 +239,7 @@
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
           </p:ValueBoxSettings>
         </Pad>
-        <Pad Id="Jb2lYTsQ2UxNtSc8e9o7Wz" Bounds="234,264,171,22" ShowValueBox="true" isIOBox="true" Value="Basic Classifction Fucntion">
+        <Pad Id="Jb2lYTsQ2UxNtSc8e9o7Wz" Bounds="234,260,171,22" ShowValueBox="true" isIOBox="true" Value="Basic Classifction Fucntion">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -248,7 +248,7 @@
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
           </p:ValueBoxSettings>
         </Pad>
-        <Pad Id="B8JXUEan3lQMchYq1TVSHh" Bounds="560,316,155,22" ShowValueBox="true" isIOBox="true" Value="More to come, probably">
+        <Pad Id="B8JXUEan3lQMchYq1TVSHh" Bounds="560,312,155,22" ShowValueBox="true" isIOBox="true" Value="More to come, probably">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -275,7 +275,7 @@
               <ControlPoint Id="DqdyhzPcf9WLrDMbw5khWY" Bounds="603,261" />
               <ControlPoint Id="KdTnXvyHkF8LNYIMMFWr77" Bounds="864,260" />
               <Node Bounds="556,506,112,19" AutoConnect="true" Id="FflGm2FKvHTLctbCJnUbqj">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -367,7 +367,7 @@
           <Patch Id="Kx8qHTTdPmzNh7nwpeVAN3">
             <Canvas Id="ECmZjDXnG6RNmx5akUbq61" CanvasType="Group">
               <Node Bounds="275,553,25,13" Id="TyMMj0pZ6miNBNIu4Pzrm9">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="V" />
                   <PinReference Kind="InputPin" Name="Device" />
@@ -376,7 +376,7 @@
                 <Pin Id="NyEkFwSWHWmNzi6vHFeGbX" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="290,647,65,13" Id="St6EJyCcRToNRr2tDgkmvM">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Max" />
                 </p:NodeReference>
@@ -385,7 +385,7 @@
                 <Pin Id="UFiNY8KgplKQWPue59ixHV" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="348,598,-3,19" Id="NCqYD3Stz1TOdazEsYFcxD">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Neg" />
                 </p:NodeReference>
@@ -395,7 +395,7 @@
               <ControlPoint Id="AcrSPpfLJDzMa0DbXAyYZR" Bounds="445,384" />
               <ControlPoint Id="AEK3snPD5DyP1BcYS79MQX" Bounds="333,382" />
               <Node Bounds="283,711,67,13" Id="M7xfSm72iznLOicmwOAnJE">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps.Reducers" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps.Reducers" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="ReduceMean" />
                 </p:NodeReference>
@@ -404,7 +404,7 @@
               </Node>
               <ControlPoint Id="RyQl0xW7334P6SVSPRK2Ww" Bounds="285,791" />
               <Node Bounds="346,551,11,19" Id="Rhk0vP3FP1GPv2Uz7gX8uE">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="* (element)" />
                   <PinReference Kind="InputPin" Name="Right Operand">
@@ -466,7 +466,7 @@
           <Patch Id="L7iTZgR0hW9MBRmsgiDUAY">
             <Canvas Id="ILPsIthp9ZXLYi4rTKQtSr" CanvasType="Group">
               <Node Bounds="414,334,25,13" Id="IkTNAdmXjAyLCJ7fKKGRZ2">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="V" />
                   <PinReference Kind="InputPin" Name="Device" />
@@ -479,7 +479,7 @@
                 <Pin Id="V4ithPJmQTzL2dUG2RRUwy" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="429,428,65,13" Id="P2NWpYfxkxsPUriIAENnnC">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Max" />
                 </p:NodeReference>
@@ -488,7 +488,7 @@
                 <Pin Id="DTZbO95lKJpNRvxjPvjziH" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="487,379,45,13" Id="QLYmQEu9iiGN3iY2IBZiFu">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Neg" />
                 </p:NodeReference>
@@ -498,7 +498,7 @@
               <ControlPoint Id="Une13jAXS9SLbTywiWztwm" Bounds="584,165" />
               <ControlPoint Id="MBOcsKv2kXmQJTmXFdzbII" Bounds="483,187" />
               <Node Bounds="424,534,67,13" Id="HavvWPpU668N3mEDHSTnCd">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps.Reducers" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps.Reducers" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="ReduceMean" />
                 </p:NodeReference>
@@ -506,7 +506,7 @@
                 <Pin Id="DXCdFyCqxVlMJUfYlvve2N" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="488,325,65,13" Id="QwviEuzOmfnOjfvkAsSUXG">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="*" />
                   <PinReference Kind="InputPin" Name="Right Operand">
@@ -526,7 +526,7 @@
               </Node>
               <ControlPoint Id="PVR32jxuZjvMwKNb51urPB" Bounds="426,614" />
               <Node Bounds="428,486" Id="HEO8rDelbwgPvg6juruiSF">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Square" />
                 </p:NodeReference>
@@ -578,7 +578,7 @@
           <Patch Id="NbaWQiAHgVsNkbu5DleQKK">
             <Canvas Id="RPl3KDoFOZGPBhMDExvnzx" CanvasType="Group">
               <Node Bounds="480,330,20,20" Id="Ss6rB9jfOTiN1DZU2pynlp">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="+" />
                   <PinReference Kind="InputPin" Name="Right Operand">
@@ -597,7 +597,7 @@
                 <Pin Id="EVtN2PlHExlNpsF6g15aE2" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="520,303,25,13" Id="NbrSyDJYaQVQYlqAF3Gtjp">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="V" />
                   <PinReference Kind="InputPin" Name="Device" />
@@ -610,7 +610,7 @@
                 <Pin Id="GA1H6F4n9oCNY6T2kwgUx1" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="431,220,20,20" Id="NrjQk0pkhLpNnKEuaXgNoQ">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="* (element)" />
                   <PinReference Kind="InputPin" Name="Right Operand">
@@ -631,7 +631,7 @@
               <ControlPoint Id="UaAoc3i2OSmP0S6dXt0VnM" Bounds="436,88" />
               <ControlPoint Id="Thxo33YrmXZPYZQwCm5UBC" Bounds="274,83" />
               <Node Bounds="239,165,25,13" Id="E2z4SO6x3noOAbTSukYLdt">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="V" />
                   <PinReference Kind="InputPin" Name="Device" />
@@ -644,7 +644,7 @@
                 <Pin Id="Od9Dx3u27V5MsSOEH2kOgW" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="358,415,65,13" Id="IGogp249nfTPp6Qi19r1tc">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="Max" />
                 </p:NodeReference>
@@ -653,7 +653,7 @@
                 <Pin Id="CV1oYFDOlnmP8gQqf99Jd3" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="268,195,25,19" Id="DgYBhR4uhU3MxSDisPowUB">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="-" />
                   <PinReference Kind="InputPin" Name="Right Operand">
@@ -672,7 +672,7 @@
                 <Pin Id="LAk83JgqhvPNhIXQsrUSyi" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="278,256,20,20" Id="THjN0wFBCKRMkD9IIjxCly">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="* (element)" />
                   <PinReference Kind="InputPin" Name="Right Operand">
@@ -771,7 +771,7 @@
                   <Canvas Id="RWsWaztqKOcQHcb7Vt0hii" CanvasType="Group">
                     <ControlPoint Id="Lso0k2ehgCzLlTrWwoIwjl" Bounds="222,257" />
                     <Node Bounds="220,624,65,19" Id="QoRuS5JVS4vNAQ2snGMoXi">
-                      <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="+" />
                         <PinReference Kind="InputPin" Name="Right Operand">
@@ -790,7 +790,7 @@
                       <Pin Id="IkgvLnxESf0NO35n2FGe8Q" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="280,476,53,19" Id="QrxNRtbCz85LyLybDxyVYX">
-                      <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps.Activation" LastSymbolSource="CNTK_Operations.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.MathOps.Activation" LastSymbolSource="CNTK_Operations.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Softplus" />
                       </p:NodeReference>
@@ -798,7 +798,7 @@
                       <Pin Id="OxMG45zbSsYNP1Hwu5hnU9" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="280,337,25,19" Id="FS2OkjtVvkNPQmSAk05abK">
-                      <p:NodeReference LastCategoryFullName="VLMLInternal.Core" LastSymbolSource="CNTK_Core.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="V" />
                         <PinReference Kind="InputPin" Name="Device" />
@@ -811,7 +811,7 @@
                       <Pin Id="AHkxWrk8AZ3OwM0pDrTNNQ" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="280,407,45,19" Id="Sy5RIOKgoNoMPVKFzZLXEN">
-                      <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="* (element)" />
                         <PinReference Kind="InputPin" Name="Right Operand">
@@ -830,7 +830,7 @@
                       <Pin Id="PG1aADOYogqP07aUccEmbS" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="280,530,45,19" Id="JMserlmqHctLy6HjOVh4bV">
-                      <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="-" />
                         <PinReference Kind="InputPin" Name="Right Operand">
@@ -849,7 +849,7 @@
                       <Pin Id="TSIWm3W7tiyL595nswGx1A" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="364,501,33,19" Id="HiOiQB8dKJ1OFN8TO3UL7H">
-                      <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="Log" />
                       </p:NodeReference>
@@ -857,7 +857,7 @@
                       <Pin Id="TIxNrqByfNsNRiPFhB5jwt" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="364,470,25,19" Id="ED1j4aoLZB3QE53lEfUb70">
-                      <p:NodeReference LastCategoryFullName="VLMLInternal.Core" LastSymbolSource="CNTK_Core.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="V" />
                         <PinReference Kind="InputPin" Name="Device" />
@@ -903,7 +903,7 @@
                 <Pin Id="FKYDpNcEwHYLNxwruOR3Uq" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="242,414,43,19" Id="IcvJtBsTaQ0ORHZ3HgBAIo">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="-" />
                   <PinReference Kind="InputPin" Name="Right Operand">
@@ -924,7 +924,7 @@
               <ControlPoint Id="SxkLxuG6tEOLQRqIJMcami" Bounds="195,332" />
               <ControlPoint Id="TKVdOzuwn0ZM5udkRkkc1b" Bounds="333,336" />
               <Node Bounds="244,519,69,19" Id="M1tZIvqSk59NTODHnL5fD3">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.MathOps.Reducers" LastSymbolSource="CNTK_Operations.vl">
+                <p:NodeReference LastCategoryFullName="VLML.MathOps.Reducers" LastSymbolSource="CNTK_Operations.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="ReduceSum" />
                 </p:NodeReference>
@@ -954,7 +954,7 @@
                   <Patch Id="BwDxIrfHb53LoHm21IwP1Z" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="PzPPsjy0Ez3PzGrLrWioE5" Name="Then" ManuallySortedPins="true" />
                   <Node Bounds="355,520,85,19" Id="QiWxZi1zqrBQADFdDtYZSa">
-                    <p:NodeReference LastCategoryFullName="VLMLInternal.SequenceOps" LastSymbolSource="CNTK_Sequence.vl">
+                    <p:NodeReference LastCategoryFullName="VLML.SequenceOps" LastSymbolSource="CNTK_Sequence.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="SeqReduceSum" />
                     </p:NodeReference>
@@ -1014,7 +1014,7 @@
               <ControlPoint Id="POa1rjEDsrjPRs5w9YprSZ" Bounds="526,247" />
               <ControlPoint Id="UWK11RJ3HbtNvLhl3LA874" Bounds="837,241" />
               <Node Bounds="529,487,112,19" AutoConnect="true" Id="CbeRKq79rASNkpoZglwfWa">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_1" />
                 </p:NodeReference>
@@ -1116,7 +1116,7 @@
           <Patch Id="RmzE8DR1ioJP6EBz1La07G">
             <Canvas Id="F9XJBZNmcryNwVXGT3oVYq" CanvasType="Group">
               <Node Bounds="390,536" AutoConnect="true" Id="O6Mt9EJ8JA7PXSMQEbgi4e">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_2" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -1221,7 +1221,7 @@
           <Patch Id="FeEkwkygTSFPy9Fx6AAASD">
             <Canvas Id="VEiqzjlvLknMFvH3t1bA50" CanvasType="Group">
               <Node Bounds="213,518,589,19" Id="KUcA6LtvZvOQHrWNqKV7Kj">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_2" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="SQtEPj1VjwQMYwdjnYEpwD" Summary="VLML Evalutor Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" Version="0.99">
+<Document xmlns:p="property" Id="SQtEPj1VjwQMYwdjnYEpwD" Summary="VLML Evalutor Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.1.0-0177-g8feb9fe666" Version="0.128">
   <Patch Id="DhhY8Vnl3b5LNEWFz5NpCg">
-    <Canvas Id="NUe4JYbim00LnqO7F9qc6E" DefaultCategory="VLMLInternal" CanvasType="FullCategory">
+    <Canvas Id="NUe4JYbim00LnqO7F9qc6E" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="RDJ8egp4UwNPUwRZACftpx" Name="Evaluation" Position="368,390">
         <!--
 
@@ -46,7 +46,7 @@
             <Pin Id="UaV3zZ1brIYPPjrwIzQ9Ah" Name="Dummy" Kind="InputPin" />
           </Patch>
         </Node>
-        <Pad Id="VuR0fgvUYHrNcLmLqBtrIa" Bounds="361,346,154,22" ShowValueBox="true" isIOBox="true" Value="Type refers to the input">
+        <Pad Id="VuR0fgvUYHrNcLmLqBtrIa" Bounds="361,342,154,22" ShowValueBox="true" isIOBox="true" Value="Type refers to the input">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -55,8 +55,10 @@
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
           </p:ValueBoxSettings>
         </Pad>
-        <Overlay Id="D4qv5XA7qCaMGA9cHOrqc0" Name="Evaluators" Bounds="222,320,306,247" />
-        <Pad Id="C8P7WwYb3XwMePrbxCYTBo" Bounds="970,765,147,40" ShowValueBox="true" isIOBox="true" Value="Make a template for these evaluators">
+        <Overlay Id="D4qv5XA7qCaMGA9cHOrqc0" Name="Evaluators" Bounds="222,320,306,247">
+          <p:ColorIndex p:Type="Int32">0</p:ColorIndex>
+        </Overlay>
+        <Pad Id="C8P7WwYb3XwMePrbxCYTBo" Bounds="970,752,147,40" ShowValueBox="true" isIOBox="true" Value="Make a template for these evaluators">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -84,7 +86,7 @@
                 <ControlPoint Id="UXHzuN0RMMQN9cT9emP6rt" Bounds="-229,463" />
                 <ControlPoint Id="DVdifFPz0tVP4W2uWZsauT" Bounds="472,-223" />
                 <ControlPoint Id="Ij3Q7f6G8QhLJ2yzZsxw1Y" Bounds="295,-213" />
-                <Pad Id="MMFgR5Oi3KRNjQ8dhaZcpc" Comment="Apply" Bounds="339,-183,40,19" ShowValueBox="true" isIOBox="true" />
+                <Pad Id="MMFgR5Oi3KRNjQ8dhaZcpc" Comment="Apply" Bounds="339,-185,40,19" ShowValueBox="true" isIOBox="true" />
                 <ControlPoint Id="KTxe7UrKzYKM9v5RzEL1LH" Bounds="699,-141" />
                 <ControlPoint Id="QbajJkhhpSDNLeL62oH1gI" Bounds="784,400" />
                 <ControlPoint Id="KnDSQiKaGbYPucMSxTTKTA" Bounds="137,1081" />
@@ -496,7 +498,7 @@
                 <ControlPoint Id="CdwSoYYcPWYLU1S8ekLfGS" Bounds="139,-147" />
                 <ControlPoint Id="DhHGDqycflaLirjjCzp4ir" Bounds="214,577" />
                 <ControlPoint Id="KaGwyikNdbzN1qN6qyQDJH" Bounds="274,-214" />
-                <Pad Id="V8jDMynenktOVlDXPWMULM" Comment="Apply" Bounds="339,-183,40,19" ShowValueBox="true" isIOBox="true" />
+                <Pad Id="V8jDMynenktOVlDXPWMULM" Comment="Apply" Bounds="339,-185,40,19" ShowValueBox="true" isIOBox="true" />
                 <ControlPoint Id="I46IxtOjtNJP25XmH1aAwW" Bounds="316,573" />
                 <Node Bounds="246,-8,160,148" Id="ATWoRQbp4PbQHmdW4gmUOi">
                   <p:NodeReference LastCategoryFullName="Reactive" LastSymbolSource="VL.Reactive.vl">
@@ -932,7 +934,7 @@
                   <Pin Id="AT0Lt3ejsgqL2S6IN5ej9B" Name="Output" Kind="StateOutputPin" />
                   <Pin Id="E3tqfO3u2m3NUBjINMQTaj" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Pad Id="EuVQeFY1nYjNNVUoXLX3nT" Comment="Val" Bounds="777,812,12,19" ShowValueBox="true" isIOBox="true">
+                <Pad Id="EuVQeFY1nYjNNVUoXLX3nT" Comment="Val" Bounds="777,810,12,19" ShowValueBox="true" isIOBox="true">
                   <p:TypeAnnotation LastCategoryFullName="CNTK" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
                     <Choice Kind="TypeFlag" Name="Value" />
                   </p:TypeAnnotation>
@@ -955,7 +957,7 @@
                   <Pin Id="VlDKub3CLOyL13i6O7nNrQ" Name="Input" Kind="InputPin" />
                   <Pin Id="TeW2YItRjizNAtlKF22yRY" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Pad Id="F6dhNT3xk3YMri2OZyhYsy" Comment="" Bounds="791,1120,12,19" ShowValueBox="true" isIOBox="true">
+                <Pad Id="F6dhNT3xk3YMri2OZyhYsy" Comment="" Bounds="791,1118,12,19" ShowValueBox="true" isIOBox="true">
                   <p:TypeAnnotation>
                     <Choice Kind="TypeFlag" Name="IMutableList" />
                     <p:TypeArguments>
@@ -991,7 +993,7 @@
                   <Pin Id="GwNL0L3P7mPMAOOHJamzTf" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="599,229,100,13" Id="C3HYtwEDJDBLMylsaTlt38">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="VariableDataOutput" />
                   </p:NodeReference>
@@ -1053,7 +1055,7 @@
             </Patch>
           </Node>
         </Canvas>
-        <Pad Id="A4HDcxSjJPZLvHTUViQiSM" Bounds="226,1064,396,22" ShowValueBox="true" isIOBox="true" Value="We need to be able to evaluate to a value (Internal NDarrayView)">
+        <Pad Id="A4HDcxSjJPZLvHTUViQiSM" Bounds="226,1060,396,22" ShowValueBox="true" isIOBox="true" Value="We need to be able to evaluate to a value (Internal NDarrayView)">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -1062,7 +1064,7 @@
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
           </p:ValueBoxSettings>
         </Pad>
-        <Pad Id="I04Hzn1DIOyOSVj9AUb1GB" Bounds="226,1108,295,22" ShowValueBox="true" isIOBox="true" Value="We need to evaluate to the usual Dense Output">
+        <Pad Id="I04Hzn1DIOyOSVj9AUb1GB" Bounds="226,1104,295,22" ShowValueBox="true" isIOBox="true" Value="We need to evaluate to the usual Dense Output">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -1071,7 +1073,7 @@
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
           </p:ValueBoxSettings>
         </Pad>
-        <Pad Id="IXOuw7aZ4YbNYR4iejonXS" Bounds="225,1152,524,22" ShowValueBox="true" isIOBox="true" Value="We need to evaluate to Sparse Output (even though we haven't trialed ths method yet">
+        <Pad Id="IXOuw7aZ4YbNYR4iejonXS" Bounds="225,1148,524,22" ShowValueBox="true" isIOBox="true" Value="We need to evaluate to Sparse Output (even though we haven't trialed ths method yet">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -1081,7 +1083,7 @@
           </p:ValueBoxSettings>
         </Pad>
         <Canvas Id="Pi4Go6FapaYNjD3iBCgM3M" Name="Obsolete" Position="564,576">
-          <Pad Id="QzUi5i36m6INwKKUUQZJIh" Bounds="427,249,461,22" ShowValueBox="true" isIOBox="true" Value="Type-based Evaluators, that try to return the type processed by the model.">
+          <Pad Id="QzUi5i36m6INwKKUUQZJIh" Bounds="427,245,461,22" ShowValueBox="true" isIOBox="true" Value="Type-based Evaluators, that try to return the type processed by the model.">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1090,7 +1092,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="HkW6vBxX8OCP1AuaWut8OA" Bounds="432,280,418,44" ShowValueBox="true" isIOBox="true" Value="Abandonned for DataOutput Nodes instead id users wish to they can rewrap these but it seems  unnecessary KBs for the library">
+          <Pad Id="HkW6vBxX8OCP1AuaWut8OA" Bounds="432,265,418,44" ShowValueBox="true" isIOBox="true" Value="Abandonned for DataOutput Nodes instead id users wish to they can rewrap these but it seems  unnecessary KBs for the library">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1099,7 +1101,7 @@
               <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
             </p:ValueBoxSettings>
           </Pad>
-          <Pad Id="SXnDBWQi7J5OfYDfr1Im44" Bounds="11,236,374,76" ShowValueBox="true" isIOBox="true" Value="Replaced with Check (Temporary name?) and used to evaluate values in the graph based on the first value encountered in the batch">
+          <Pad Id="SXnDBWQi7J5OfYDfr1Im44" Bounds="11,205,374,76" ShowValueBox="true" isIOBox="true" Value="Replaced with Check (Temporary name?) and used to evaluate values in the graph based on the first value encountered in the batch">
             <p:TypeAnnotation>
               <Choice Kind="TypeFlag" Name="String" />
             </p:TypeAnnotation>
@@ -1434,9 +1436,8 @@
                   <Patch Id="PR2SwGNEPhZNEIp49pmeah" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="AxDhJ4or8rMQQe4T6HvTOw" Name="Then" ManuallySortedPins="true" />
                   <Node Bounds="712,195,35,13" Id="Ks76FrgdByxNtDyBnh6Pll">
-                    <p:NodeReference LastCategoryFullName="VLMLInternal.Core" LastSymbolSource="CNTK_Core.vl">
+                    <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                      <CategoryReference Kind="Category" Name="VLMLInternal" />
                       <CategoryReference Kind="Category" Name="Core" />
                       <Choice Kind="OperationCallFlag" Name="IsNull" />
                     </p:NodeReference>
@@ -1907,7 +1908,7 @@
                   <Pin Id="G6oxO1KX0ZnQZUu16fyCzO" Name="Outputs" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="9,-70,77,13" Id="LyqZ3YTvDRnOzyHS8ZLvvJ">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Functions" LastSymbolSource="CNTK_Utils.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Functions" LastSymbolSource="CNTK_Utils.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="Arguments" />
                   </p:NodeReference>
@@ -2014,7 +2015,7 @@
                   <ControlPoint Id="GmBzjfJhAN2P34etifocsj" Bounds="-8,-15" Alignment="Top" />
                   <ControlPoint Id="TnxrYcHBDsqPfoEIgJdEiQ" Bounds="191,193" Alignment="Bottom" />
                 </Node>
-                <Pad Id="LUoZSlaWC9mQRZYPwsAd00" Comment="" Bounds="643,267,40,19" ShowValueBox="true" isIOBox="true" />
+                <Pad Id="LUoZSlaWC9mQRZYPwsAd00" Comment="" Bounds="643,265,40,19" ShowValueBox="true" isIOBox="true" />
                 <ControlPoint Id="QJXoAREqAe0P35Gq0BXqgT" Bounds="342,924" />
                 <Node Bounds="660,47,25,13" Id="FQI9mgrFhNdNroD6Ec4Vce">
                   <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastSymbolSource="CoreLibBasics.vl">
@@ -2474,7 +2475,7 @@
                   <Pin Id="Tqo3PN4JaxuOyC9X56jpP7" Name="Outputs" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="9,-70,77,13" Id="SwL1VMmj9PwPZRphfCacOH">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Functions" LastSymbolSource="CNTK_Utils.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Functions" LastSymbolSource="CNTK_Utils.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="Arguments" />
                   </p:NodeReference>
@@ -2581,7 +2582,7 @@
                   <ControlPoint Id="AL2m4FIsdidL67LwPGGq3h" Bounds="-8,-15" Alignment="Top" />
                   <ControlPoint Id="Bj9JX9nyjyiOPK6BvkBK8C" Bounds="191,193" Alignment="Bottom" />
                 </Node>
-                <Pad Id="IcHRcsOdVtOOj1OIMRapjR" Comment="" Bounds="643,267,40,19" ShowValueBox="true" isIOBox="true" />
+                <Pad Id="IcHRcsOdVtOOj1OIMRapjR" Comment="" Bounds="643,265,40,19" ShowValueBox="true" isIOBox="true" />
                 <ControlPoint Id="R0vlt0Gk69SP6zCXHw2UPd" Bounds="424,775" />
                 <Node Bounds="660,47,25,13" Id="DaJrsgp9ewOMnyXXFfaMi4">
                   <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastSymbolSource="CoreLibBasics.vl">
@@ -3472,7 +3473,7 @@
                 </Node>
                 <ControlPoint Id="PJFXYAljzLYLkaFDaEx597" Bounds="409,522" />
                 <Node Bounds="688,213,35,13" Id="CVkRBnq9phKL22jkVkLpaj">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="IsNull" />
                   </p:NodeReference>
@@ -3834,7 +3835,7 @@
                 </Node>
                 <ControlPoint Id="VlDzXgwXTvKMg0pXLFYORh" Bounds="434,-119" />
                 <ControlPoint Id="UEAw08zkeJWPGiJlJyr6Rb" Bounds="257,-109" />
-                <Pad Id="TNQXVZ4tKadPijyfGYr9XM" Comment="Apply" Bounds="301,-79,40,19" ShowValueBox="true" isIOBox="true" />
+                <Pad Id="TNQXVZ4tKadPijyfGYr9XM" Comment="Apply" Bounds="301,-81,40,19" ShowValueBox="true" isIOBox="true" />
                 <Node Bounds="31,525,43,22" Id="JvjYEKxTcjnPICoXhlmOgj">
                   <p:NodeReference LastCategoryFullName="Collections.Sequence" LastSymbolSource="VL.Collections.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -3960,7 +3961,7 @@
             </Patch>
           </Node>
         </Canvas>
-        <Pad Id="RlpthRULM4HLJOPn4Amjvo" Bounds="266,530,109,22" ShowValueBox="true" isIOBox="true" Value="Evaluate Async?!">
+        <Pad Id="RlpthRULM4HLJOPn4Amjvo" Bounds="266,526,109,22" ShowValueBox="true" isIOBox="true" Value="Evaluate Async?!">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -4185,7 +4186,7 @@
                     <Pin Id="P2FjMq6FUViLqcbhncIive" Name="Outputs" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="551,144,82,19" Id="N0dPfIhkRTzOmfkvbnrnBc">
-                    <p:NodeReference LastCategoryFullName="VLMLInternal.Core.FetchLast" LastSymbolSource="CNTK_Core.vl">
+                    <p:NodeReference LastCategoryFullName="VLML.Core.FetchLast" LastSymbolSource="CNTK_Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="ReturnContext" />
                     </p:NodeReference>
@@ -4223,8 +4224,8 @@
                     <Pin Id="RyKJMlhlWuDPzTByKG9bza" Name="Output" Kind="StateOutputPin" />
                     <Pin Id="Hs5K2U5mAtAO6BMjDgIY3j" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="F82XtLU5yPKLoz7sgRPcB1" Comment="" Bounds="695,144,180,35" ShowValueBox="true" isIOBox="true" />
-                  <Pad Id="AF4DYy9xZJqLdlXzzc0LdH" Comment="" Bounds="62,570,184,45" ShowValueBox="true" isIOBox="true" />
+                  <Pad Id="F82XtLU5yPKLoz7sgRPcB1" Comment="" Bounds="695,134,180,35" ShowValueBox="true" isIOBox="true" />
+                  <Pad Id="AF4DYy9xZJqLdlXzzc0LdH" Comment="" Bounds="62,555,184,45" ShowValueBox="true" isIOBox="true" />
                   <Node Bounds="540,186,135,80" Id="U8OAjcZmNKIPHBLMDgri8z">
                     <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -4236,7 +4237,7 @@
                       <Patch Id="Ut541oXBzDUMT3zOd8ive5" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="Ule84dwoojUOsXzOXbN6m3" Name="Then" ManuallySortedPins="true" />
                       <Node Bounds="552,215,103,26" Id="BDIpTNKRxgKQUVJDaUl1q0">
-                        <p:NodeReference LastCategoryFullName="VLMLInternal.Core.ContextSketch" LastSymbolSource="CNTK_Core.vl">
+                        <p:NodeReference LastCategoryFullName="VLML.Core.ContextSketch" LastSymbolSource="CNTK_Core.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="GetDictForNextRun" />
                         </p:NodeReference>
@@ -4289,7 +4290,7 @@
               <ControlPoint Id="OP3BEu5cJC4QXTmyqTBqCX" Bounds="745,-40" />
               <ControlPoint Id="JVfczoJ7DoOPnddF4lSDSs" Bounds="48,-79" />
               <Node Bounds="338,-27,106,19" Id="IFOz7sICgbTM9udyJlaKU6">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="VariableDataOutput" />
                 </p:NodeReference>
@@ -4322,7 +4323,7 @@
                   <Patch Id="QQ9lgEY8LzlP0YZMZB897t" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="KbUhPjxArTRMY6NIVkxfSB" Name="Then" ManuallySortedPins="true" />
                   <Node Bounds="526,-106,42,19" Id="T6tEifH3HYGPtIlMfhrdMC">
-                    <p:NodeReference LastCategoryFullName="VLMLInternal.Core" LastSymbolSource="CNTK_Core.vl">
+                    <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="IsNull" />
                     </p:NodeReference>
@@ -4648,7 +4649,7 @@
                               <Pin Id="KMgADCFLf7DNN3e8lMECjW" Name="Internal Func" Kind="OutputPin" />
                             </Node>
                             <Node Bounds="383,467,163,13" Id="PWPliEMVcuUN2yVLmNd7An">
-                              <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic" LastSymbolSource="CNTK_Core.vl">
+                              <p:NodeReference LastCategoryFullName="VLML.Core.DataDic" LastSymbolSource="CNTK_Core.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationNode" Name="DataFromDic" />
                               </p:NodeReference>
@@ -4871,7 +4872,7 @@
                         </Patch>
                         <Patch Id="MTKMqFI85o6NWaWoEVJ9BE" Name="Dispose" ManuallySortedPins="true" />
                         <Node Bounds="276,91,100,13" Id="FfJhCgyHUU6PLVbweU73Kp">
-                          <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
+                          <p:NodeReference LastCategoryFullName="VLML.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="VariableDataOutput" />
                           </p:NodeReference>
@@ -4993,7 +4994,7 @@
                 <Patch Id="EDB5Gq74Im9Nj14rwin2jZ">
                   <Canvas Id="D4hUJMKNvv4QXldKWVbzj6" CanvasType="Group">
                     <ControlPoint Id="NoctPsrxJJVNjKCNaf2JV7" Bounds="616,639" />
-                    <Pad Id="Ch8OAD4fBMzNKMrXJKZPD7" Comment="BatchSize" Bounds="648,235,24,19" ShowValueBox="true" isIOBox="true" Value="1">
+                    <Pad Id="Ch8OAD4fBMzNKMrXJKZPD7" Comment="BatchSize" Bounds="648,233,24,19" ShowValueBox="true" isIOBox="true" Value="1">
                       <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="TypeFlag" Name="Integer32" />
                       </p:TypeAnnotation>
@@ -5009,7 +5010,7 @@
                       <Pin Id="VEJVPyDFOpVN911jAfOYVr" Name="Unchanged" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="578,128,129,20" Id="RaTSqH8WuHnOSawXxtzEMh">
-                      <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="VariableDataOutput" />
                       </p:NodeReference>
@@ -5029,7 +5030,7 @@
                         <Patch Id="PBC3gzv9U5CNPgM5kLlHXr" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="D9EPtZL8ZScMrYsiKnnge5" Name="Then" ManuallySortedPins="true" />
                         <Node Bounds="576,265,38,22" Id="U1sKs5CO4sqQUdfzurOe2M">
-                          <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic" LastSymbolSource="CNTK_Core.vl">
+                          <p:NodeReference LastCategoryFullName="VLML.Core.DataDic" LastSymbolSource="CNTK_Core.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="values" />
                           </p:NodeReference>
@@ -5228,17 +5229,17 @@
                                     <Pin Id="ViT2PKXxh7KOoSNp9Km6II" Name="Item" Kind="InputPin" />
                                     <Pin Id="GP744D8QUdOQGrwcFv7MOC" Name="Output" Kind="OutputPin" />
                                   </Node>
-                                  <Pad Id="LWMnxBLnlnpNqMdlp7mZT1" Comment="This is The Batch Size" Bounds="609,516,36,19" ShowValueBox="true" isIOBox="true" Value="66">
+                                  <Pad Id="LWMnxBLnlnpNqMdlp7mZT1" Comment="This is The Batch Size" Bounds="609,514,36,19" ShowValueBox="true" isIOBox="true" Value="66">
                                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                       <Choice Kind="TypeFlag" Name="Integer32" />
                                     </p:TypeAnnotation>
                                   </Pad>
-                                  <Pad Id="Gq42PAFFDmcN6zi7QmufmH" Comment="Condition" Bounds="352,775,40,19" ShowValueBox="true" isIOBox="true" Value="True">
+                                  <Pad Id="Gq42PAFFDmcN6zi7QmufmH" Comment="Condition" Bounds="352,773,40,19" ShowValueBox="true" isIOBox="true" Value="True">
                                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                       <Choice Kind="TypeFlag" Name="Boolean" />
                                     </p:TypeAnnotation>
                                   </Pad>
-                                  <Pad Id="JEgGgfo0RpTOvZIOUtTAj1" Comment="Batch Step" Bounds="368,454,30,19" ShowValueBox="true" isIOBox="true" Value="16">
+                                  <Pad Id="JEgGgfo0RpTOvZIOUtTAj1" Comment="Batch Step" Bounds="368,452,30,19" ShowValueBox="true" isIOBox="true" Value="16">
                                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                       <Choice Kind="TypeFlag" Name="Integer32" />
                                     </p:TypeAnnotation>
@@ -5263,12 +5264,12 @@
                                     <Pin Id="P7UOsMfMNlGOoGIBfJ8Va5" Name="Output" Kind="StateOutputPin" />
                                     <Pin Id="B9OlaF3rQGZMr1SdU6zQ8a" Name="Remainder" Kind="OutputPin" />
                                   </Node>
-                                  <Pad Id="U5ap0QlsJPWMCrsLR1OYzP" Comment="" Bounds="749,491,36,19" ShowValueBox="true" isIOBox="true" Value="1024">
+                                  <Pad Id="U5ap0QlsJPWMCrsLR1OYzP" Comment="" Bounds="749,489,36,19" ShowValueBox="true" isIOBox="true" Value="1024">
                                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                       <Choice Kind="TypeFlag" Name="Integer32" />
                                     </p:TypeAnnotation>
                                   </Pad>
-                                  <Pad Id="DxE5lWwckbTNbmFG5QI4B3" Comment="" Bounds="669,527,18,19" ShowValueBox="true" isIOBox="true" Value="5">
+                                  <Pad Id="DxE5lWwckbTNbmFG5QI4B3" Comment="" Bounds="669,525,18,19" ShowValueBox="true" isIOBox="true" Value="5">
                                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                       <Choice Kind="TypeFlag" Name="Integer32" />
                                     </p:TypeAnnotation>
@@ -5283,7 +5284,7 @@
                                     <Patch Id="OpLsPdaH2QJNa8tmDGCDD8" ManuallySortedPins="true">
                                       <Patch Id="IyUtG9DYHy6PGDtu1YXx9x" Name="Create" ManuallySortedPins="true" />
                                       <Patch Id="KK6ZVkv7D1HPzJugYuWYu3" Name="Then" ManuallySortedPins="true" />
-                                      <Pad Id="C42bLuTHpI8L82pf9VOFjz" Bounds="739,725,40,19" ShowValueBox="true" isIOBox="true" Value="True">
+                                      <Pad Id="C42bLuTHpI8L82pf9VOFjz" Bounds="739,723,40,19" ShowValueBox="true" isIOBox="true" Value="True">
                                         <p:TypeAnnotation>
                                           <Choice Kind="TypeFlag" Name="Boolean" />
                                           <FullNameCategoryReference ID="Primitive" />
@@ -5305,14 +5306,14 @@
                                     <Pin Id="RFkvl7yVWMtLADxSnT7xxG" Name="Input 2" Kind="InputPin" />
                                     <Pin Id="FPsNcVB6bTcPFQu7zPqtHI" Name="Result" Kind="OutputPin" />
                                   </Node>
-                                  <Pad Id="BjFjleGw6jGLLF9wGIak1e" Comment="" Bounds="741,786,40,19" ShowValueBox="true" isIOBox="true" />
-                                  <Pad Id="HJU6ZXrLnYiLQhrIXQyNh0" Comment="SweepEnd" Bounds="738,666,40,19" ShowValueBox="true" isIOBox="true">
+                                  <Pad Id="BjFjleGw6jGLLF9wGIak1e" Comment="" Bounds="741,784,40,19" ShowValueBox="true" isIOBox="true" />
+                                  <Pad Id="HJU6ZXrLnYiLQhrIXQyNh0" Comment="SweepEnd" Bounds="738,664,40,19" ShowValueBox="true" isIOBox="true">
                                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                       <Choice Kind="TypeFlag" Name="Boolean" />
                                     </p:TypeAnnotation>
                                   </Pad>
-                                  <Pad Id="JAMNftagRPkLS2Qnu2LPM4" Comment="" Bounds="623,631,24,19" ShowValueBox="true" isIOBox="true" />
-                                  <Pad Id="GokcEs9aiNbPg5qe7dwtZn" Comment="" Bounds="662,646,24,19" ShowValueBox="true" isIOBox="true" />
+                                  <Pad Id="JAMNftagRPkLS2Qnu2LPM4" Comment="" Bounds="623,629,24,19" ShowValueBox="true" isIOBox="true" />
+                                  <Pad Id="GokcEs9aiNbPg5qe7dwtZn" Comment="" Bounds="662,644,24,19" ShowValueBox="true" isIOBox="true" />
                                   <Node Bounds="486,636,49,13" Id="TYWJg5YHRJ0NqjEQDbHDwt">
                                     <p:NodeReference LastCategoryFullName="Math.Ranges" LastSymbolSource="CoreLibBasics.vl">
                                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -5595,7 +5596,7 @@
                       <Pin Id="IGF88Xrd5a1MAlCPqBDF4M" Name="Output" Kind="StateOutputPin" />
                     </Node>
                     <Node Bounds="332,149,58,13" Id="UUlrHJ6kDPBQWYBP4jrD4C">
-                      <p:NodeReference LastCategoryFullName="VLMLInternal.Core" LastSymbolSource="CNTK_Core.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationNode" Name="IsNull" />
                       </p:NodeReference>
@@ -5625,7 +5626,7 @@
                       <Pin Id="JHXxeGFYrTrOgwHb3PdI4W" Name="Name" Kind="InputPin" />
                       <Pin Id="CZrgdFVxgq0NxJDubPA1Jt" Name="Output" Kind="OutputPin" />
                     </Node>
-                    <Pad Id="IJi6CgrC9h9O3w1cP1aRf7" Comment="Name" Bounds="438,291,45,20" ShowValueBox="true" isIOBox="true" Value="Output">
+                    <Pad Id="IJi6CgrC9h9O3w1cP1aRf7" Comment="Name" Bounds="438,288,45,20" ShowValueBox="true" isIOBox="true" Value="Output">
                       <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="TypeFlag" Name="String" />
                       </p:TypeAnnotation>
@@ -5781,7 +5782,7 @@
                               <Pin Id="IL6EQ15l5O9Lqp2ZGY4SvQ" Name="Internal Func" Kind="OutputPin" />
                             </Node>
                             <Node Bounds="457,684,163,13" Id="Ul9JaXIpF5NLS0UujNDx5r">
-                              <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic" LastSymbolSource="CNTK_Core.vl">
+                              <p:NodeReference LastCategoryFullName="VLML.Core.DataDic" LastSymbolSource="CNTK_Core.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationNode" Name="DataFromDic" />
                               </p:NodeReference>
@@ -5927,7 +5928,7 @@
                             </Patch>
                             <Patch Id="QGTE0kPfZvDLqpya6qgzvv" Name="Dispose" ManuallySortedPins="true" />
                             <Node Bounds="348,398,100,13" Id="IBNIejansQyOFtjmsqAFbT">
-                              <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
+                              <p:NodeReference LastCategoryFullName="VLML.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="VariableDataOutput" />
                               </p:NodeReference>
@@ -6127,7 +6128,7 @@
                               <Pin Id="D7sbBb159rEOdQxIm2Ep1L" Name="Internal Func" Kind="OutputPin" />
                             </Node>
                             <Node Bounds="384,606,163,13" Id="AhMC29r28e2OzafGJ2QN5Q">
-                              <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic" LastSymbolSource="CNTK_Core.vl">
+                              <p:NodeReference LastCategoryFullName="VLML.Core.DataDic" LastSymbolSource="CNTK_Core.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationNode" Name="DataFromDic" />
                               </p:NodeReference>
@@ -6344,7 +6345,7 @@
                             </Patch>
                             <Patch Id="He6OSFFaBDoNNo3ta07Xg0" Name="Dispose" ManuallySortedPins="true" />
                             <Node Bounds="277,329,100,13" Id="UO19pDN7R4XMya4jzp2xyS">
-                              <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
+                              <p:NodeReference LastCategoryFullName="VLML.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="VariableDataOutput" />
                               </p:NodeReference>
@@ -6490,7 +6491,7 @@
                 </Patch>
               </Node>
             </Canvas>
-            <Pad Id="JesYOEpt1FSOIQbDBOkfta" Bounds="113,362,205,114" ShowValueBox="true" isIOBox="true" Value="Evaluates of one slice of current Minibatch from where the connection occurs. Plug in an operation from anywhere in the networka see what its values are.">
+            <Pad Id="JesYOEpt1FSOIQbDBOkfta" Bounds="113,312,205,114" ShowValueBox="true" isIOBox="true" Value="Evaluates of one slice of current Minibatch from where the connection occurs. Plug in an operation from anywhere in the networka see what its values are.">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -6499,7 +6500,7 @@
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
               </p:ValueBoxSettings>
             </Pad>
-            <Pad Id="QaiJJjmCvs3LrGiakDT4IC" Bounds="676,273,20,22" ShowValueBox="true" isIOBox="true" Value="*  ">
+            <Pad Id="QaiJJjmCvs3LrGiakDT4IC" Bounds="676,269,20,22" ShowValueBox="true" isIOBox="true" Value="*  ">
               <p:TypeAnnotation>
                 <Choice Kind="TypeFlag" Name="String" />
               </p:TypeAnnotation>
@@ -6572,7 +6573,7 @@
                             <Pin Id="EoZqOb0C7ENMlkRXZ7yycP" Name="Internal Func" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="383,479,163,13" Id="DmCnCBDYyl3PyNXlj0fjKN">
-                            <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic" LastSymbolSource="CNTK_Core.vl">
+                            <p:NodeReference LastCategoryFullName="VLML.Core.DataDic" LastSymbolSource="CNTK_Core.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationNode" Name="DataFromDic" />
                             </p:NodeReference>
@@ -6780,7 +6781,7 @@
                           </Patch>
                           <Patch Id="IRShAtv9v0KPkSEfj65PWN" Name="Dispose" ManuallySortedPins="true" />
                           <Node Bounds="276,202,100,13" Id="Az7XFSXGCObL4DzK7hLm1Q">
-                            <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
+                            <p:NodeReference LastCategoryFullName="VLML.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="VariableDataOutput" />
                             </p:NodeReference>
@@ -7084,17 +7085,17 @@
                                   <Pin Id="HvGpVtIGWObP3bG7NfDc36" Name="Item" Kind="InputPin" />
                                   <Pin Id="PTlnlwRea1oO1q0G6HMXct" Name="Output" Kind="OutputPin" />
                                 </Node>
-                                <Pad Id="Hr0d2Y6MoehMArpEgnOVv9" Comment="This is The Batch Size" Bounds="609,516,36,19" ShowValueBox="true" isIOBox="true" Value="66">
+                                <Pad Id="Hr0d2Y6MoehMArpEgnOVv9" Comment="This is The Batch Size" Bounds="609,514,36,19" ShowValueBox="true" isIOBox="true" Value="66">
                                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                     <Choice Kind="TypeFlag" Name="Integer32" />
                                   </p:TypeAnnotation>
                                 </Pad>
-                                <Pad Id="UDQ3s9WXy5lMOYrXJ1k1RS" Comment="Condition" Bounds="352,775,40,19" ShowValueBox="true" isIOBox="true" Value="True">
+                                <Pad Id="UDQ3s9WXy5lMOYrXJ1k1RS" Comment="Condition" Bounds="352,773,40,19" ShowValueBox="true" isIOBox="true" Value="True">
                                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                     <Choice Kind="TypeFlag" Name="Boolean" />
                                   </p:TypeAnnotation>
                                 </Pad>
-                                <Pad Id="IV7rpxjFjtoOixvC7cz3Ir" Comment="Batch Step" Bounds="368,454,30,19" ShowValueBox="true" isIOBox="true" Value="16">
+                                <Pad Id="IV7rpxjFjtoOixvC7cz3Ir" Comment="Batch Step" Bounds="368,452,30,19" ShowValueBox="true" isIOBox="true" Value="16">
                                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                     <Choice Kind="TypeFlag" Name="Integer32" />
                                   </p:TypeAnnotation>
@@ -7119,12 +7120,12 @@
                                   <Pin Id="MCNHZBRHiBKOy1by7BtUUa" Name="Output" Kind="StateOutputPin" />
                                   <Pin Id="VVF3YdSlN62QJr18TwDeTV" Name="Remainder" Kind="OutputPin" />
                                 </Node>
-                                <Pad Id="PeLkB0UFuXoQOultn4muUp" Comment="" Bounds="749,491,36,19" ShowValueBox="true" isIOBox="true" Value="1024">
+                                <Pad Id="PeLkB0UFuXoQOultn4muUp" Comment="" Bounds="749,489,36,19" ShowValueBox="true" isIOBox="true" Value="1024">
                                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                     <Choice Kind="TypeFlag" Name="Integer32" />
                                   </p:TypeAnnotation>
                                 </Pad>
-                                <Pad Id="H5CJvhEgjFgPbZ7D4ZcsdP" Comment="" Bounds="669,527,18,19" ShowValueBox="true" isIOBox="true" Value="5">
+                                <Pad Id="H5CJvhEgjFgPbZ7D4ZcsdP" Comment="" Bounds="669,525,18,19" ShowValueBox="true" isIOBox="true" Value="5">
                                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                     <Choice Kind="TypeFlag" Name="Integer32" />
                                   </p:TypeAnnotation>
@@ -7139,7 +7140,7 @@
                                   <Patch Id="CdwSk6iRQXlMtpFEyZ7uhz" ManuallySortedPins="true">
                                     <Patch Id="Tv7tfaRdRHrOmtsmgEKy1T" Name="Create" ManuallySortedPins="true" />
                                     <Patch Id="MElGouqNTjLORYoRgPlrJE" Name="Then" ManuallySortedPins="true" />
-                                    <Pad Id="OMlE2CNdN1aPJ4qAG3JYMq" Bounds="739,725,40,19" ShowValueBox="true" isIOBox="true" Value="True">
+                                    <Pad Id="OMlE2CNdN1aPJ4qAG3JYMq" Bounds="739,723,40,19" ShowValueBox="true" isIOBox="true" Value="True">
                                       <p:TypeAnnotation>
                                         <Choice Kind="TypeFlag" Name="Boolean" />
                                         <FullNameCategoryReference ID="Primitive" />
@@ -7161,14 +7162,14 @@
                                   <Pin Id="BmncGMLIRfUL3b3FXqG5FA" Name="Input 2" Kind="InputPin" />
                                   <Pin Id="AMdz0ix1NKAOU8aanJP0K3" Name="Result" Kind="OutputPin" />
                                 </Node>
-                                <Pad Id="JeUTr4NSczEPH8JKsdCOK6" Comment="" Bounds="741,786,40,19" ShowValueBox="true" isIOBox="true" />
-                                <Pad Id="JzEwx3JJbh0OBKvAOBXe96" Comment="SweepEnd" Bounds="738,666,40,19" ShowValueBox="true" isIOBox="true">
+                                <Pad Id="JeUTr4NSczEPH8JKsdCOK6" Comment="" Bounds="741,784,40,19" ShowValueBox="true" isIOBox="true" />
+                                <Pad Id="JzEwx3JJbh0OBKvAOBXe96" Comment="SweepEnd" Bounds="738,664,40,19" ShowValueBox="true" isIOBox="true">
                                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                     <Choice Kind="TypeFlag" Name="Boolean" />
                                   </p:TypeAnnotation>
                                 </Pad>
-                                <Pad Id="Pti7D4pcsn4OU0CBIbkXO9" Comment="" Bounds="623,631,24,19" ShowValueBox="true" isIOBox="true" />
-                                <Pad Id="OEfnEe9xLhOP3CRxKjMnQo" Comment="" Bounds="662,646,24,19" ShowValueBox="true" isIOBox="true" />
+                                <Pad Id="Pti7D4pcsn4OU0CBIbkXO9" Comment="" Bounds="623,629,24,19" ShowValueBox="true" isIOBox="true" />
+                                <Pad Id="OEfnEe9xLhOP3CRxKjMnQo" Comment="" Bounds="662,644,24,19" ShowValueBox="true" isIOBox="true" />
                                 <Node Bounds="486,636,49,13" Id="GJlEIB7vlGgPe86vbIgosF">
                                   <p:NodeReference LastCategoryFullName="Math.Ranges" LastSymbolSource="CoreLibBasics.vl">
                                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -7427,7 +7428,7 @@
                       <Patch Id="Qs3jLKXrTUJN6q7DRuIVIT" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="UysdRevX5h0MrNxV5mpTBi" Name="Then" ManuallySortedPins="true" />
                       <Node Bounds="544,314,100,13" Id="GJKla633g7ALZ5y6KL6Qaz">
-                        <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
+                        <p:NodeReference LastCategoryFullName="VLML.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="VariableDataOutput" />
                         </p:NodeReference>
@@ -7494,7 +7495,7 @@
                         <Pin Id="PHzBQnRjZ3BOn7s0WMkhfA" Name="SweepEnd" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="634,212,35,13" Id="KzveH4g6RMkNIZY0ToU0ru">
-                        <p:NodeReference LastCategoryFullName="VLMLInternal.Core" LastSymbolSource="CNTK_Core.vl">
+                        <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationNode" Name="IsNull" />
                         </p:NodeReference>
@@ -7543,7 +7544,7 @@
                           <Patch Id="Kgj2bJ5IjcLLVMPIvaahgk" Name="Create" ManuallySortedPins="true" />
                           <Patch Id="KrOlGz7RdIaNF6RlxpKcZV" Name="Then" ManuallySortedPins="true" />
                           <Node Bounds="545,377,38,22" Id="RhKF8G8DUrlOLIqiK8m5O2">
-                            <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic" LastSymbolSource="CNTK_Core.vl">
+                            <p:NodeReference LastCategoryFullName="VLML.Core.DataDic" LastSymbolSource="CNTK_Core.vl">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="values" />
                             </p:NodeReference>
@@ -7654,7 +7655,7 @@
                         </Pin>
                       </Patch>
                       <Node Bounds="458,494,281,13" Id="LckIHUh11wxQVwRFCzwkII">
-                        <p:NodeReference LastCategoryFullName="VLMLInternal.Evaluation" LastSymbolSource="CNTK_Evaluation.vl">
+                        <p:NodeReference LastCategoryFullName="VLML.Evaluation" LastSymbolSource="CNTK_Evaluation.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="ProcessNode" Name="Evaluate (Value)" />
                         </p:NodeReference>
@@ -7676,7 +7677,7 @@
                         <Pin Id="U2oPtGfatWmMmHLc04j609" Name="Output" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="552,385,113,13" Id="FaR1yMKQXNfP1t4ofx6dNW">
-                        <p:NodeReference LastCategoryFullName="VLMLInternal.DataIO.IOUtils" LastSymbolSource="CNTK_DataIO.vl">
+                        <p:NodeReference LastCategoryFullName="VLML.DataIO.IOUtils" LastSymbolSource="CNTK_DataIO.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="ProcessNode" Name="RetrieveMiniBatchData" />
                         </p:NodeReference>
@@ -7688,7 +7689,7 @@
                         <Pin Id="Cs5eC5UOb0XPOnTUDuddP8" Name="Data" Kind="OutputPin" />
                         <Pin Id="RG7oHHJG4NJP5NoTn371fm" Name="Is Valid" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="ONihNudBH3MPKEcQ5Dbrlp" Comment="Minibatch Size In Samples" Bounds="666,326,18,19" ShowValueBox="true" isIOBox="true" Value="1">
+                      <Pad Id="ONihNudBH3MPKEcQ5Dbrlp" Comment="Minibatch Size In Samples" Bounds="666,324,18,19" ShowValueBox="true" isIOBox="true" Value="1">
                         <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                           <Choice Kind="TypeFlag" Name="Integer32 (Unsigned)" />
                         </p:TypeAnnotation>
@@ -7703,7 +7704,7 @@
                         <Pin Id="Nr33ifb0kzqM8q65Kv0iC4" Name="Output" Kind="StateOutputPin" />
                       </Node>
                       <Node Bounds="580,254,100,13" Id="K2w29GPSv4jNxOFBD7wcIT">
-                        <p:NodeReference LastCategoryFullName="VLMLInternal.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
+                        <p:NodeReference LastCategoryFullName="VLML.Core.DataDic.DataManager" LastSymbolSource="CNTK_Core.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="VariableDataOutput" />
                         </p:NodeReference>

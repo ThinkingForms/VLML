@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="TrzbRN3DfuyO04FR6wiGOK" Version="0.99">
+<Document xmlns:p="property" Id="TrzbRN3DfuyO04FR6wiGOK" LanguageVersion="2019.1.0-0177-g8feb9fe666" Version="0.128">
   <Patch Id="AVKzyEm14uNLseiwezk2R5">
-    <Canvas Id="DHtA5nes63uMGfL46EOr9u" DefaultCategory="VLMLInternal" CanvasType="FullCategory">
+    <Canvas Id="DHtA5nes63uMGfL46EOr9u" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="NOAEsLaa8xNO7PdRar6Toi" Name="Metrics" Position="425,355">
         <!--
 
@@ -21,7 +21,7 @@
               <ControlPoint Id="QxbIvIf3e5ELkoo4laSlJi" Bounds="505,229" />
               <ControlPoint Id="GzGKS6WLrV6M7Mvw6IDdeu" Bounds="766,228" />
               <Node Bounds="458,474,112,19" AutoConnect="true" Id="IWIVnU7fL8aOzRVGRllRQ6">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -101,7 +101,7 @@
             <Link Id="VcdhLi5m16OO4rty1nrXUV" Ids="NQTLTdqUTiYNhIA89THyd8,JipNGPrdFmXNyYUY1DJLJm" />
           </Patch>
         </Node>
-        <Pad Id="NSounZJ8LDZOqpNLdEBMeW" Bounds="607,102,79,27" ShowValueBox="true" isIOBox="true" Value="Metrics ">
+        <Pad Id="NSounZJ8LDZOqpNLdEBMeW" Bounds="607,96,79,27" ShowValueBox="true" isIOBox="true" Value="Metrics ">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -110,7 +110,7 @@
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
           </p:ValueBoxSettings>
         </Pad>
-        <Pad Id="Be8X7K1m8yhM4sm1EqAh95" Bounds="443,211,557,96" ShowValueBox="true" isIOBox="true" Value="VLML contains a number of common predefined loss functions (or training criteria, to optimize for in training), and metrics (or evaluation criteria, for performance tracking).expressions.">
+        <Pad Id="Be8X7K1m8yhM4sm1EqAh95" Bounds="443,170,557,96" ShowValueBox="true" isIOBox="true" Value="VLML contains a number of common predefined loss functions (or training criteria, to optimize for in training), and metrics (or evaluation criteria, for performance tracking).expressions.">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -119,7 +119,7 @@
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
           </p:ValueBoxSettings>
         </Pad>
-        <Pad Id="H6lXZYF2J9FLKFpyxMzETq" Bounds="710,310,313,40" ShowValueBox="true" isIOBox="true" Value="In addition, custom loss functions/metrics can be defined with Math and Reduction nodes">
+        <Pad Id="H6lXZYF2J9FLKFpyxMzETq" Bounds="710,297,313,40" ShowValueBox="true" isIOBox="true" Value="In addition, custom loss functions/metrics can be defined with Math and Reduction nodes">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -146,7 +146,7 @@
               <ControlPoint Id="I7RPKTzDwHXNMFTKVr9dF5" Bounds="463,230" />
               <ControlPoint Id="IdgzUIUFNKLLaqhQQQsvG2" Bounds="766,228" />
               <Node Bounds="458,474,112,19" AutoConnect="true" Id="GH0jTdFVabKQAKLPGjJucU">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_1" />
                 </p:NodeReference>
@@ -266,7 +266,7 @@
               <ControlPoint Id="JuhnvI1askZMD58S1jw6xY" Bounds="463,230" />
               <ControlPoint Id="EOPo1vOPO25LJ6WbwtirSB" Bounds="766,228" />
               <Node Bounds="458,474,112,19" AutoConnect="true" Id="H8COC2x1tzVMVWmvjz3ftD">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_1" />
                 </p:NodeReference>
@@ -382,7 +382,7 @@
           <Patch Id="SLpeOWDR9gyQYMtA3bwDKr">
             <Canvas Id="Plzdb2pkmLWLXvfLmH8Ft6" CanvasType="Group">
               <Node Bounds="322,555,477,19" Id="UZFoQGQGuCIPQtJ2fUnF37">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_5" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -544,7 +544,7 @@
               <ControlPoint Id="SIPJ96gudgJLWAJGZC2yo2" Bounds="397,466" />
               <ControlPoint Id="VrjMHnNcgUaOBuZqqcAsdu" Bounds="509,462" />
               <Node Bounds="145,580,460,19" AutoConnect="true" Id="IKkd92EVBXbOl6A76mfghm">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_2" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="P5jcwScTkgQOKnwpUwLCjz" Summary="VLML Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" Version="0.99">
+<Document xmlns:p="property" Id="P5jcwScTkgQOKnwpUwLCjz" Summary="VLML Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.1.0-0177-g8feb9fe666" Version="0.128">
   <Patch Id="K5WstgkwwbFPVnvFSt5PXN">
-    <Canvas Id="KUj70RuuPE9PFBjdHFx1Ud" DefaultCategory="VLMLInternal" CanvasType="FullCategory">
+    <Canvas Id="KUj70RuuPE9PFBjdHFx1Ud" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="PE0szg2zj6uQRvA8orbOT3" Name="MathOps" Position="254,234">
         <!--
 
@@ -21,7 +21,7 @@
               <ControlPoint Id="HnkKriKjAmQMnOXephYQhn" Bounds="491,304" />
               <ControlPoint Id="M8vnN17ImIsNT1LWF7NR6A" Bounds="752,303" />
               <Node Bounds="444,549,112,19" AutoConnect="true" Id="J6Ydx153t8WP0O9eNFI6FM">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -112,7 +112,7 @@
           <Patch Id="HZZPVNbrg7MMI9a8B4eSao">
             <Canvas Id="UcoAqy1uP5jN36lPOudVgl" CanvasType="Group">
               <Node Bounds="446,427,173,93" Id="U3XcPR4xDjqPaNwZctyqQn">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                   <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                 </p:NodeReference>
@@ -206,7 +206,7 @@
               <ControlPoint Id="JwRee5ezbRSP2luqIyXXj3" Bounds="639,507" />
               <ControlPoint Id="RRHZ79Y6gSVOSByzLqQ3ff" Bounds="700,259" />
               <Node Bounds="425,411,223,19" AutoConnect="true" Id="IunTgCMi63kOZQHWFBIEgE">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -297,7 +297,7 @@
           <Patch Id="VrrMlf4h2O7Ou73S5eARoI">
             <Canvas Id="VnbHr2aSz9jNk0WyMR5KK0" CanvasType="Group">
               <Node Bounds="417,348,160,93" Id="JNnTLtQuVoSNp5vsRQ7L6F">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                   <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                 </p:NodeReference>
@@ -392,7 +392,7 @@
               <ControlPoint Id="RFBKfWUUNzTMUUFBFctoqF" Bounds="384,208" />
               <ControlPoint Id="F7JjhP4e1c7OFgtJYttZCO" Bounds="594,200" />
               <Node Bounds="410,348,112,19" AutoConnect="true" Id="GN7GBmin9ICPGzFGt8s1fc">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -486,7 +486,7 @@
                 <ControlPoint Id="UKLfpnUtKSFLKEoBeZxYrS" Bounds="679,177" />
                 <ControlPoint Id="L8q8ilHFXDNNlABfgXsWu0" Bounds="763,177" />
                 <Node Bounds="500,365,224,19" AutoConnect="true" Id="MHoz9JEF6CyPxxbsZAUyRb">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -596,7 +596,7 @@
                 <ControlPoint Id="Qhp8HOxfdb3OxwW6pPqo95" Bounds="592,170" />
                 <ControlPoint Id="NGA81ytbDVrLJiiPjbLco9" Bounds="676,170" />
                 <Node Bounds="413,358,224,19" AutoConnect="true" Id="PKDPTtE9070N0A1DpAyC3V">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -708,7 +708,7 @@
                 <ControlPoint Id="Pv0JF8oSCZBQFALI3ksaJh" Bounds="707,167" />
                 <ControlPoint Id="Nt0sP5tAjFcO04jaIaq7rZ" Bounds="785,203" />
                 <Node Bounds="537,381,224,19" AutoConnect="true" Id="N9mVVCaSiEwLyaaSpZiQ5g">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -820,7 +820,7 @@
                 <ControlPoint Id="ABAoiZk0Q51MXo9kZe3B53" Bounds="717,187" />
                 <ControlPoint Id="EdOOghNGNroMtfa75wcmA6" Bounds="801,187" />
                 <Node Bounds="538,375,224,19" AutoConnect="true" Id="GGpCWawYkmEMmizaKIAQo6">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -932,7 +932,7 @@
                 <ControlPoint Id="CqbAzLILXvGL4t4sAEdb2W" Bounds="715,237" />
                 <ControlPoint Id="KKMzdkgO5KjMUUdAnIYJO5" Bounds="799,237" />
                 <Node Bounds="536,425,224,19" AutoConnect="true" Id="Jhiu8aGjL6IPfpcK1El8fP">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -1042,7 +1042,7 @@
                 <ControlPoint Id="NIOu3GZlEgRLIMFsd5CZv8" Bounds="635,170" />
                 <ControlPoint Id="Df0vVHKKVb6LQl8R6WBrJN" Bounds="713,206" />
                 <Node Bounds="465,384,224,19" AutoConnect="true" Id="UAV43XsnD9INJ7Ml5jiXzV">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -1152,7 +1152,7 @@
                 <ControlPoint Id="EAGqBII43q9P6uPit6SXKn" Bounds="666,448" />
                 <ControlPoint Id="KmD9PKkKYtVMSANlDUdiDt" Bounds="744,484" />
                 <Node Bounds="496,662,224,19" AutoConnect="true" Id="Qvw9vYAuicuLrBXuqSdbml">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -1282,7 +1282,7 @@
                 <ControlPoint Id="D4WJQhenKhbLzb9G7fjLV7" Bounds="427,225" />
                 <ControlPoint Id="QEfqII6RLENMGXJIOyXTU3" Bounds="637,217" />
                 <Node Bounds="453,365,112,19" AutoConnect="true" Id="JI4dxG4JLs0NpNMD4u1AYG">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -1388,7 +1388,7 @@
                 <ControlPoint Id="U42vJ2kAmerQWSPjQM2Oin" Bounds="408,169" />
                 <ControlPoint Id="Ozk2vqFQ22RLNtZmKCu2bZ" Bounds="618,161" />
                 <Node Bounds="434,309,112,19" AutoConnect="true" Id="CLxl32vokSxNOSY51gXzxb">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -1494,7 +1494,7 @@
                 <ControlPoint Id="CFCsK2iEzoHLpFCkaDoiCJ" Bounds="390,184" />
                 <ControlPoint Id="Rtlaroh3EItODIBKcBACnL" Bounds="600,176" />
                 <Node Bounds="416,324,112,19" AutoConnect="true" Id="GRmndcLB0W9NycA7WL59bw">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -1602,7 +1602,7 @@
                 <ControlPoint Id="SwMJ6cqIShpPTw11mnjoXA" Bounds="376,162" />
                 <ControlPoint Id="ERGdihqJElNOV8wvGBbC3l" Bounds="586,154" />
                 <Node Bounds="402,302,112,19" AutoConnect="true" Id="GFaiqTZzz3YMh0tvDiuy3u">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -1724,7 +1724,7 @@
                 <ControlPoint Id="HfJQOS2vpSnP1sd4cpnE2d" Bounds="400,174" />
                 <ControlPoint Id="HeSSS8jX2UdPBjnSIUEM3j" Bounds="610,166" />
                 <Node Bounds="426,314,112,19" AutoConnect="true" Id="JT23D4YsfOFMdwaHfLqwyt">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -1830,7 +1830,7 @@
                 <ControlPoint Id="PNrJ9HjLcMwQMZO88mzEDV" Bounds="444,163" />
                 <ControlPoint Id="AayKmpuoAFRLcaGWs2Vckr" Bounds="654,155" />
                 <Node Bounds="470,303,112,19" AutoConnect="true" Id="EUA2Iuk1UlqOhWfrlmhTsd">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -1938,7 +1938,7 @@
                 <ControlPoint Id="Jk69S1ZWqFjN6GiBgvptYS" Bounds="461,171" />
                 <ControlPoint Id="BgC8yDifFcgNsx1WxmmZ3x" Bounds="671,163" />
                 <Node Bounds="487,311,112,19" AutoConnect="true" Id="UqQjLz45GjgN3Xw49AsYiK">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -2854,7 +2854,7 @@
                 <ControlPoint Id="MNKbZt0griHLb39hyUoZUu" Bounds="587,379" />
                 <ControlPoint Id="UuUXsq2j5gVObYvFuQkZl4" Bounds="659,376" />
                 <Node Bounds="409,603,112,19" Id="As05RsSqrfKM4ZUb0RQfxL">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_2" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -2971,9 +2971,15 @@
               <Link Id="RIX3TFBRwaULfPUzZFDRHM" Ids="DHarP3v89UEMyUDvb5LHHD,BYUrjl6ER9dOMeszVrEIO4" />
             </Patch>
           </Node>
-          <Overlay Id="LYUkEnEkWfsNaEMNDnIPHa" Name="Manual Axis Choices" Bounds="178,68,221,425" FillColor="#EFEFEF33" />
-          <Overlay Id="PllBnY51DEhPAs1AL6P0Jr" Name="Manual AXES Choices" Bounds="418,66,211,430" FillColor="#EFEFEF33" />
-          <Overlay Id="Jl9NbOSkHn5NdYZ0DYQ7AG" Name="All Static Axes" Bounds="652,66,210,431" FillColor="#EFEFEF33" />
+          <Overlay Id="LYUkEnEkWfsNaEMNDnIPHa" Name="Manual Axis Choices" Bounds="178,68,221,425">
+            <p:ColorIndex p:Type="Int32">1</p:ColorIndex>
+          </Overlay>
+          <Overlay Id="PllBnY51DEhPAs1AL6P0Jr" Name="Manual AXES Choices" Bounds="418,66,211,430">
+            <p:ColorIndex p:Type="Int32">1</p:ColorIndex>
+          </Overlay>
+          <Overlay Id="Jl9NbOSkHn5NdYZ0DYQ7AG" Name="All Static Axes" Bounds="652,66,210,431">
+            <p:ColorIndex p:Type="Int32">1</p:ColorIndex>
+          </Overlay>
           <Canvas Id="SGfp5AbyNZhMTwvA4oYfPG" Name="Experimental" Position="485,653">
             <!--
 
@@ -2987,7 +2993,7 @@
               <Patch Id="Spfxbr6bklZNnuxeEJHEXR">
                 <Canvas Id="R1QmyUEP0fnQFKDBX1Cr3w" CanvasType="Group">
                   <Node Bounds="461,290,245,252" Id="SUA3b3vYsEROwnzkcvsKy6">
-                    <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                    <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                       <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
@@ -3075,7 +3081,7 @@
               <Patch Id="Q1GlbAr8GM7MJVFbRJbwG9">
                 <Canvas Id="M6Tfsjq9TM3LbQ7GWDLWYk" CanvasType="Group">
                   <Node Bounds="415,250,245,252" Id="KpIjDUAPf7yLcZS1fqqUVJ">
-                    <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                    <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                       <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
@@ -3169,7 +3175,7 @@
               <ControlPoint Id="E4WRXZyDfXOMUEnTNc7fPv" Bounds="362,501" />
               <ControlPoint Id="VAGHbzwKATkMEflf4hs4JH" Bounds="372,234" />
               <Node Bounds="398,374,112,19" AutoConnect="true" Id="SyYtibkNs6ZOahofEEKH6p">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -3259,7 +3265,7 @@
           <Patch Id="GueD5yxMy7NPSrKl9y7YGh">
             <Canvas Id="HxhaNXTwpz4OrTR6oXRzap" CanvasType="Group">
               <Node Bounds="352,348,272,120" Id="R0e2ZvvdY7wLPTvJjaKhwF">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                   <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                 </p:NodeReference>
@@ -3370,7 +3376,7 @@
               <ControlPoint Id="BMMPdDpCwXQLLmiEgWpg5r" Bounds="471,205" />
               <ControlPoint Id="A0zQtyO14E3N3C0XMRbWQs" Bounds="681,197" />
               <Node Bounds="497,345,112,19" AutoConnect="true" Id="Q3hPvrCsqQnOLRxy4sKbje">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -3464,7 +3470,7 @@
               <ControlPoint Id="GKAyWnblBlqQQk7Prnr9uW" Bounds="375,285" />
               <ControlPoint Id="DTaUDtynOEXMnUM0MAh9Bc" Bounds="585,277" />
               <Node Bounds="401,425,112,19" AutoConnect="true" Id="DrVAv7ItgFWLko2LW5pvCD">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -3559,7 +3565,7 @@
               <ControlPoint Id="P3ZMEw5SRpSOgX0srctem2" Bounds="379,505" />
               <ControlPoint Id="BaIdzS7Y4zZPRkpwGoqMwJ" Bounds="696,194" />
               <Node Bounds="386,378,112,19" AutoConnect="true" Id="VGx1cN5ti4nMTAYK3BT8yf">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -3661,7 +3667,7 @@
               <ControlPoint Id="KXStxUPDbHOPEdgfFhIgD2" Bounds="424,512" />
               <ControlPoint Id="POQsNI2XooOOA46Ep9nBdr" Bounds="735,232" />
               <Node Bounds="425,416,112,19" AutoConnect="true" Id="LWf3hgRQJojQashOtwSs6h">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -3762,7 +3768,7 @@
               <ControlPoint Id="AbAMQ0kODD5LFVvctlC4Ov" Bounds="367,239" />
               <ControlPoint Id="G5I0oX1LdLRQVZaGIk1DT3" Bounds="577,231" />
               <Node Bounds="393,379,112,19" AutoConnect="true" Id="JbqtWcj918gM47xmfG9uD7">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -3839,7 +3845,7 @@
             <Link Id="QQQaILHUHj7QThFAZPV6ki" Ids="D4keFTaZr5OL1d4w4EKP5K,JNH3TDyvXitMOhfiP7fsL0" />
           </Patch>
         </Node>
-        <Pad Id="RPUVmEE2Xw7NmUxPvQ6unG" Bounds="711,230,94,22" ShowValueBox="true" isIOBox="true" Value="More to come">
+        <Pad Id="RPUVmEE2Xw7NmUxPvQ6unG" Bounds="711,226,94,22" ShowValueBox="true" isIOBox="true" Value="More to come">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -3848,8 +3854,10 @@
             <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
           </p:ValueBoxSettings>
         </Pad>
-        <Overlay Id="J8HuecwnSNPQIVoYKs2Am0" Name="Math Operations" Bounds="287,207,299,836" />
-        <Pad Id="E3ar60LHKyJMBhy2IdQqvw" Bounds="342,279,265,54" ShowValueBox="true" isIOBox="true" Value="Basic math operations for use with whatever means you wish to pre process the data">
+        <Overlay Id="J8HuecwnSNPQIVoYKs2Am0" Name="Math Operations" Bounds="287,207,299,836">
+          <p:ColorIndex p:Type="Int32">0</p:ColorIndex>
+        </Overlay>
+        <Pad Id="E3ar60LHKyJMBhy2IdQqvw" Bounds="342,259,265,54" ShowValueBox="true" isIOBox="true" Value="Basic math operations for use with whatever means you wish to pre process the data">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -3875,7 +3883,7 @@
               <ControlPoint Id="VIbtamNmIqWPNToy4uO5Yw" Bounds="342,526" />
               <ControlPoint Id="UPMsX7toJAtOax7z9tjFWg" Bounds="571,525" />
               <Node Bounds="341,365,233,116" Id="I8HGIZEDJdVQHWgskZ4EQe">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_1" />
                   <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                 </p:NodeReference>
@@ -3989,7 +3997,7 @@
               <ControlPoint Id="MOZknVaOda0NoA40ycLC3u" Bounds="341,509" />
               <ControlPoint Id="TIreMSAFYJmOyPVkXeOPM8" Bounds="571,500" />
               <Node Bounds="341,365,233,110" Id="K8ZR0mjPr6QM48Vo5jp6xE">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                 </p:NodeReference>
@@ -4076,7 +4084,7 @@
               <ControlPoint Id="Km72vnSYoipMOC6PupGoho" Bounds="529,216" />
               <ControlPoint Id="RavXqu4OymAPHD7yiJ6pAW" Bounds="790,215" />
               <Node Bounds="482,461,112,19" AutoConnect="true" Id="U2FymC6SxhxL62oxSfVt4w">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -4176,7 +4184,7 @@
               <ControlPoint Id="P7Tmw1hsfoRMLoZNJJ8qzb" Bounds="981,472" />
               <ControlPoint Id="RFUjCe7ePtgPtCoFUSdDxE" Bounds="992,703" />
               <Node Bounds="701,565,282,19" Id="V7KeyuQly9dMjmIgIuiZoo">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_3" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -4273,7 +4281,7 @@
             <Link Id="PJJLsiOFFdvQFuJweeGXEO" Ids="FhhwcB1WjVhPVUR6ab0whn,KawWw2d0LjrL1PF1oDoDMS" />
           </Patch>
         </Node>
-        <Pad Id="FrxMrVsdRMlMelDWKvdQlQ" Bounds="348,570,99,22" ShowValueBox="true" isIOBox="true" Value="Rank Handling">
+        <Pad Id="FrxMrVsdRMlMelDWKvdQlQ" Bounds="348,566,99,22" ShowValueBox="true" isIOBox="true" Value="Rank Handling">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -4299,7 +4307,7 @@
               <ControlPoint Id="N7oGQZ5t4eUMVhEEPZclxq" Bounds="784,416" />
               <ControlPoint Id="L9Jz6EG58iJOHUshqR7b6a" Bounds="974,420" />
               <Node Bounds="810,556,112,19" AutoConnect="true" Id="I2VM1N4Tk2UMO0GiHI83RD">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -4389,7 +4397,7 @@
                 <ControlPoint Id="DoOOEJr6G3kOhgrpFRZCSx" Bounds="465,530" />
                 <ControlPoint Id="ES7ENyldouaNpJRm2tDkBO" Bounds="782,219" />
                 <Node Bounds="472,403,112,19" AutoConnect="true" Id="BC4QZ2C9zkGLb041rHxWPT">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -4491,7 +4499,7 @@
                 <ControlPoint Id="PtNEwFcfWsiNmx5JUsttDM" Bounds="617,571" />
                 <ControlPoint Id="FmjVQcsYZxMN8nPGJxbrHF" Bounds="934,260" />
                 <Node Bounds="624,444,112,19" AutoConnect="true" Id="LAR3qGuVSfLMtoHoHROKQA">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -4593,7 +4601,7 @@
                 <ControlPoint Id="NvrEZ5526BgOKGEzZQpfaT" Bounds="520,523" />
                 <ControlPoint Id="KjHetMAHgRpN0MtYf2oTI8" Bounds="837,212" />
                 <Node Bounds="527,396,112,19" AutoConnect="true" Id="SGc6C6BxFzQOYm0mv7drIB">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -4695,7 +4703,7 @@
                 <ControlPoint Id="RiB9uYSmUIRNR3LKNZ9L7F" Bounds="372,545" />
                 <ControlPoint Id="VhO33VPsqrMLyfiXnWxm4W" Bounds="689,234" />
                 <Node Bounds="379,418,112,19" AutoConnect="true" Id="AQzYSS7lOFSMbANAc74ST6">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -4796,7 +4804,7 @@
                 <ControlPoint Id="DSmfsivPGKRODPs8GwQaND" Bounds="583,605" />
                 <ControlPoint Id="MDzUCiNohUgMVLOQLVLNPA" Bounds="356,605" />
                 <Node Bounds="355,355,233,183" Id="QTsxvqvzVO9LLknUe2r0Gu">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_1" />
                     <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                   </p:NodeReference>
@@ -4923,7 +4931,7 @@
                 <ControlPoint Id="StrrKcuMon8PJLTNA9Ubjs" Bounds="524,537" />
                 <ControlPoint Id="Gw555QTeuzvL8x4bL2oSzp" Bounds="841,221" />
                 <Node Bounds="531,410,112,19" AutoConnect="true" Id="PM0c1XGpMK6O60bnAhxgfW">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -5025,7 +5033,7 @@
                 <ControlPoint Id="HhvGsEktq63OxdqjMtG2OT" Bounds="594,524" />
                 <ControlPoint Id="IaLktELuRYwLW6Rsgz3IWy" Bounds="911,213" />
                 <Node Bounds="601,397,112,19" AutoConnect="true" Id="MlFidHs7x2gNipX0oq7ayJ">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -5127,7 +5135,7 @@
                 <ControlPoint Id="Tw49lBumQf1NW0IifMp7yY" Bounds="567,510" />
                 <ControlPoint Id="TbC05ySVATxPWEIR5k0qjX" Bounds="884,199" />
                 <Node Bounds="574,383,112,19" AutoConnect="true" Id="CtKoya95WTLNUFXIWcVsu0">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -5228,7 +5236,7 @@
                 <ControlPoint Id="Nylm0OVR9NhM2tGUFEl0U3" Bounds="382,278" />
                 <ControlPoint Id="Olu8gUHPxtiNQraNOHkFlK" Bounds="592,270" />
                 <Node Bounds="408,418,112,19" AutoConnect="true" Id="LAn7kjBPfAXMu1LFt2f7OA">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -5320,7 +5328,7 @@
                 <ControlPoint Id="U3jL2xZILQTLhHmZHeHTfX" Bounds="486,559" />
                 <ControlPoint Id="FnLKVW7QuL1LD0NqJTBILi" Bounds="803,248" />
                 <Node Bounds="493,432,112,19" AutoConnect="true" Id="AiMX2zF3HYdPdwWq9AhH41">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -5422,7 +5430,7 @@
                 <ControlPoint Id="HbLylTagPvkPYtsG3qJiQt" Bounds="607,623" />
                 <ControlPoint Id="IYOha6UJvsqOl7eELaiG6T" Bounds="924,312" />
                 <Node Bounds="614,496,112,19" AutoConnect="true" Id="QyJPqEco6aVM5J9sPicWqz">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -5518,7 +5526,7 @@
             <Patch Id="ObvgOaRDvJtNeYOyKKlQoj">
               <Canvas Id="UlFGxwO3VvmPjfidCFYLP6" CanvasType="Group">
                 <Node Bounds="256,514" AutoConnect="true" Id="KvO3IgHjw4hMtpnTyVDzIP">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_2" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -5627,7 +5635,7 @@
                 <ControlPoint Id="VFdIQvicrJOMMQ6jaEJAup" Bounds="388,174" />
                 <ControlPoint Id="Soux5s1pC5jLPK7u5VTiqG" Bounds="598,166" />
                 <Node Bounds="414,314,112,19" AutoConnect="true" Id="OWLEkYF2vtDMrG2viNVHRq">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -5721,7 +5729,7 @@
                 <ControlPoint Id="IjYnrpJLtNWNoTBrIZmCwD" Bounds="384,196" />
                 <ControlPoint Id="UBDjMbMSHxBNYKhLbWH907" Bounds="594,188" />
                 <Node Bounds="410,336,112,19" AutoConnect="true" Id="OywtEHzPcOWO8yRviKonTH">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -5813,7 +5821,7 @@
                 <ControlPoint Id="EyPT2LFTU0POBHOudOmTKc" Bounds="443,284" />
                 <ControlPoint Id="OHgfqJlY4pHPNNF8RQgx6o" Bounds="634,286" />
                 <Node Bounds="469,424,112,19" AutoConnect="true" Id="UQTdH3faeRwNAcgDuHmhrc">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -5909,7 +5917,7 @@
                 <ControlPoint Id="HsiI6UGVkEJQHQYfcawDVd" Bounds="583,115" />
                 <ControlPoint Id="QDLNe8ja7SkMLDxHKquRXZ" Bounds="690,114" />
                 <Node Bounds="374,306,249,19" Id="MMdI6L2JxRzLcKa0eyNWFA">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_2" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -6019,7 +6027,7 @@
                 <ControlPoint Id="OEONGZGnuCQPljWjG1BBuw" Bounds="571,132" />
                 <ControlPoint Id="LSvqgcVQUbZLQxHsahSaGC" Bounds="666,148" />
                 <Node Bounds="436,398,112,19" AutoConnect="true" Id="Dfd1RPQp5HdLwQAYT2dYn3">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -6115,7 +6123,7 @@
             <Patch Id="IiGqmNlZJoNLCVpLjzpL6Q">
               <Canvas Id="JcmhN1f3PsPPNZK7l6Caxo" CanvasType="Group">
                 <Node Bounds="362,354,80,80" Id="Pp9MAVPKLIlPfnA9eXJe16">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_2" />
                     <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                   </p:NodeReference>
@@ -6222,7 +6230,7 @@
                 <ControlPoint Id="H7AnDQ0WpkfLUL3N9B9NQh" Bounds="326,182" />
                 <ControlPoint Id="B8R2S7oEycwPNRuiySTPp5" Bounds="536,174" />
                 <Node Bounds="352,322,112,19" AutoConnect="true" Id="MJLewwkkjKpMnz5u04VN2a">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -6317,7 +6325,7 @@
                 <ControlPoint Id="KAW8yy3ASiYOdCKYPKgzZy" Bounds="574,396" />
                 <ControlPoint Id="Pakeqtw2IYjONUjRj5sFkG" Bounds="729,401" />
                 <Node Bounds="424,495,308,19" AutoConnect="true" Id="NPdG94UYWyMLFw8c2QlSfr">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -6413,7 +6421,7 @@
                 <ControlPoint Id="VEXmansN0rVPkCv8ijhLX5" Bounds="397,182" />
                 <ControlPoint Id="JEfvHfCcmQ1P5duCs3EeN7" Bounds="607,174" />
                 <Node Bounds="423,322,112,19" AutoConnect="true" Id="RSdFve0w7Q9LVXrt4Thykb">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -6508,7 +6516,7 @@
                   <ControlPoint Id="PISxuMnwGPZLsmEQNS4DdI" Bounds="448,258" />
                   <ControlPoint Id="Kh4NlBJU7HcMDs6F7rbdvX" Bounds="605,260" />
                   <Node Bounds="346,466,248,19" Id="I5LD8hNQ94NQOIdO1Kh8aG">
-                    <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                    <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                       <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     </p:NodeReference>
@@ -6614,7 +6622,7 @@
               <Patch Id="IHyeEShy8AQNOmE5tLPQtv">
                 <Canvas Id="T1kCNjoVHOSPkZrt7RjjMI" CanvasType="Group">
                   <Node Bounds="364,353,224,111" Id="RPFiCy4eeUnPQNMSNDGDH0">
-                    <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                    <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                       <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                     </p:NodeReference>
@@ -6714,7 +6722,7 @@
                 <ControlPoint Id="I2ANDu11Ok3Naeppj4e972" Bounds="396,221" />
                 <ControlPoint Id="JMeMzS2pk6ZQQKeKfEBxbL" Bounds="606,213" />
                 <Node Bounds="422,361,112,19" AutoConnect="true" Id="RHtw23fzaxMLPJDm19VE5B">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -6806,7 +6814,7 @@
                 <ControlPoint Id="O4FqZ0XYRjaPMeMWUNct7U" Bounds="396,221" />
                 <ControlPoint Id="VqwT9XqctpBNkPbEb4N3O3" Bounds="606,213" />
                 <Node Bounds="422,361,112,19" AutoConnect="true" Id="FAqYjRvyGRRPhZk9x9Jg3q">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -6898,7 +6906,7 @@
                 <ControlPoint Id="L8xnWDiXT1eNqW2noni5MX" Bounds="396,221" />
                 <ControlPoint Id="LoEw4eNq28oNlmCTn0KM1P" Bounds="606,213" />
                 <Node Bounds="422,361,112,19" AutoConnect="true" Id="PHWlayRZxWpP6NvLFtEXdO">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -6991,7 +6999,7 @@
               <ControlPoint Id="ELI5yl8I6GTNj7NJisA3it" Bounds="406,232" />
               <ControlPoint Id="Vrk8xA4ObvoPCvbefhmjSH" Bounds="616,224" />
               <Node Bounds="432,372,112,19" AutoConnect="true" Id="HDoFHs0mDvLO5XvccnxGlR">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -7083,7 +7091,7 @@
               <ControlPoint Id="Jzcyr1Nl4jrMCyWiV0lNGz" Bounds="448,210" />
               <ControlPoint Id="PAxRKYSBFMzPQwqu9K3ild" Bounds="658,202" />
               <Node Bounds="474,350,112,19" AutoConnect="true" Id="QMEw4k5wfh6Mrm7xP5A1L1">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -7175,7 +7183,7 @@
               <ControlPoint Id="P9LMqQMVMSnN0iUzIqzHak" Bounds="419,251" />
               <ControlPoint Id="OLvF4WNtTPsQQxTKEHr7Hj" Bounds="629,243" />
               <Node Bounds="445,391,112,19" AutoConnect="true" Id="EyPGmzxr7rbLozkpaebxvM">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -7267,7 +7275,7 @@
               <ControlPoint Id="EiunbZqyIQeMfF2U9WVcUC" Bounds="400,226" />
               <ControlPoint Id="O9N9cIJ89pwOxdxolvaPKR" Bounds="610,218" />
               <Node Bounds="426,366,112,19" AutoConnect="true" Id="AirPi3K7o4tO43VaYNQ3rL">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -7362,7 +7370,7 @@
               <ControlPoint Id="Lvy5eMekBQpOkCCxUljxoV" Bounds="425,227" />
               <ControlPoint Id="SRVBSV5oz0xOhEfEqHIMHm" Bounds="635,219" />
               <Node Bounds="451,367,112,19" AutoConnect="true" Id="UAHephGmVTHLscy9fh2ufo">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -7454,7 +7462,7 @@
               <ControlPoint Id="EazZKCQ7PyFLNV1g1GwbHd" Bounds="404,226" />
               <ControlPoint Id="DicLjNpWcaMOx3junHlvkp" Bounds="614,218" />
               <Node Bounds="430,366,112,19" AutoConnect="true" Id="JE0fxcfv4PIPa4p25ADY2e">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -7545,7 +7553,7 @@
               <ControlPoint Id="NhgCFvMjeHdN8hqC9OpAQx" Bounds="445,233" />
               <ControlPoint Id="N3lm5qYLi8NQBtnB0myMH9" Bounds="655,225" />
               <Node Bounds="471,373,112,19" AutoConnect="true" Id="IsD301pKaHVP5u3Ntb49CY">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -7633,7 +7641,7 @@
             <Canvas Id="Qk0YPLgv7akLmbsbCb8xPy" CanvasType="Group">
               <ControlPoint Id="PAFwLTO92hWLFkvSzYWwVr" Bounds="346,337" />
               <Node Bounds="309,548" AutoConnect="true" Id="MWtaoNaPcJmPA2BDUixQZE">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -7725,7 +7733,7 @@
               <ControlPoint Id="HZQwS65OTfZOXJLuAfNKm9" Bounds="367,194" />
               <ControlPoint Id="RKL6LuK5FNxNcSDveRH85L" Bounds="577,186" />
               <Node Bounds="393,334,112,19" AutoConnect="true" Id="IiTllBD7aYSNBuodJalJyi">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -7817,7 +7825,7 @@
               <ControlPoint Id="U8Izc01IMMmOIjMDRCP2BU" Bounds="392,195" />
               <ControlPoint Id="C1hvTjUZJ9AM4XkvOB2m5T" Bounds="602,187" />
               <Node Bounds="418,335,112,19" AutoConnect="true" Id="IgcHqm3FhqONcy0OkglKQS">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -7909,7 +7917,7 @@
               <ControlPoint Id="TL0RxmpCn2fPZvyzEdmVwa" Bounds="464,216" />
               <ControlPoint Id="VlaeQiFBkbjMJXVyqIhG2G" Bounds="528,499" />
               <Node Bounds="433,365,112,19" AutoConnect="true" Id="Easx2OpOGT4L5XGWT4Pg1Z">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -7991,7 +7999,7 @@
             <Patch Id="TmeI9stbYI6MnBDO7Yee42" IsGeneric="true">
               <Canvas Id="DuHcfX9eX2RPjltr8xUoCR" CanvasType="Group">
                 <Node Bounds="417,348,304,120" Id="Sr7euLIXAFqPx9ZZb697QU">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_2" />
                   </p:NodeReference>
@@ -8114,7 +8122,7 @@
           <Patch Id="Tfy80feXQscM94WjGr80dI">
             <Canvas Id="QMklrlcEXPELGD1sFncrnQ" CanvasType="Group">
               <Node Bounds="297,351,324,153" Id="PCh3s9D0ObTPMci9dobbs1">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_2" />
                   <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                 </p:NodeReference>
@@ -8143,7 +8151,7 @@
                     <Pin Id="JxOJn15QYuYNcgB8kjq5hE" Name="Alpha" Kind="InputPin" />
                     <Pin Id="K3LUCLts3w5NdwAfLIFfFA" Name="Result" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="TPNNKDLgCIBOc1xenEeG2f" Comment="Arg 5" Bounds="544,388,20,19" ShowValueBox="true" isIOBox="true">
+                  <Pad Id="TPNNKDLgCIBOc1xenEeG2f" Comment="Arg 5" Bounds="544,386,20,19" ShowValueBox="true" isIOBox="true">
                     <p:TypeAnnotation>
                       <Choice Kind="TypeFlag" Name="String" />
                     </p:TypeAnnotation>
@@ -8249,7 +8257,7 @@
               <ControlPoint Id="ER9IMKxmq91Nba4mXp8uUt" Bounds="468,274" />
               <ControlPoint Id="Vyzrv5q6i9PObAszvRJz7X" Bounds="678,266" />
               <Node Bounds="494,414,112,19" AutoConnect="true" Id="QTCGgGiOtbhOLGvxWd3iLp">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -8338,7 +8346,7 @@
               <ControlPoint Id="AddenaD9dAGL98YWy2pBd9" Bounds="395,443" />
               <ControlPoint Id="NTS1afOM4b4Ou9bMwXCZAg" Bounds="370,640" />
               <Node Bounds="362,558" AutoConnect="true" Id="AMigh07jH5MMexgrODvsJd">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -8423,7 +8431,7 @@
             <Canvas Id="QzexCilV0AMMrGr6vxYwbK" CanvasType="Group">
               <ControlPoint Id="A9WfXJMeHNSNUpiAKdMO4i" Bounds="306,440" />
               <Node Bounds="293,554" AutoConnect="true" Id="IqFy9nuZ95IQOOQaB5VWur">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_2" />
                 </p:NodeReference>
@@ -8536,7 +8544,7 @@
               <ControlPoint Id="J1M4XhMKY5HNfGPPCHSEbO" Bounds="407,607" />
               <ControlPoint Id="PPcHkBCm3Q3MiMW0yxjwg4" Bounds="724,291" />
               <Node Bounds="414,480,112,19" AutoConnect="true" Id="JE9xYmbISkYQOUBWI756fV">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -8632,7 +8640,7 @@
           <Patch Id="LCCtXRysBvCQOpO5aqx6Zq">
             <Canvas Id="R2aQZllEIidNlyvkF9ReZp" CanvasType="Group">
               <Node Bounds="389,379,112,19" AutoConnect="true" Id="JTpDwoSCK8AOxaqZLz4olQ">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_2" />
                 </p:NodeReference>
@@ -9236,7 +9244,7 @@
                 <ControlPoint Id="Tfl7e5tgtMCPILwEheHJRh" Bounds="809,163" />
                 <ControlPoint Id="UGqIvtE3FvpNTFZsUdibYw" Bounds="543,165" />
                 <Node Bounds="542,186,23,19" Id="JRhNgJURRo9PImg4INu2OY">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="V" />
                     <PinReference Kind="InputPin" Name="Device" />
@@ -9245,7 +9253,7 @@
                   <Pin Id="U99ng3qqI6pP43bXa8Yatz" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="415,431,317,19" AutoConnect="true" Id="OSFUO7rkz9LMPv1Tiq0D4M">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -9343,8 +9351,7 @@
           <Patch Id="Lp8NJ71AxLtNxEOCeTjySH">
             <Canvas Id="UY4TIKFMcn3OlRzNd2LmZV" CanvasType="Group">
               <Node Bounds="378,458,186,19" AutoConnect="true" Id="T9z36hvCCSmMc6edpvC3YA">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
-                  <CategoryReference Kind="Category" Name="VLMLInternal" />
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <CategoryReference Kind="Category" Name="Core" />
                   <CategoryReference Kind="Category" Name="Templates" />
                   <Choice Kind="ProcessAppFlag" Name="Coll_VarTemplate_0" />
@@ -9447,8 +9454,7 @@
           <Patch Id="NhMYu53IqMvLhsZlVBSrHr">
             <Canvas Id="RLqwdrn46gNMsfg7UZcbzL" CanvasType="Group">
               <Node Bounds="378,458,186,19" AutoConnect="true" Id="FKouPCK1fJhMLuMdUrmomJ">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
-                  <CategoryReference Kind="Category" Name="VLMLInternal" />
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <CategoryReference Kind="Category" Name="Core" />
                   <CategoryReference Kind="Category" Name="Templates" />
                   <Choice Kind="ProcessAppFlag" Name="Coll_VarTemplate_0" />
@@ -9551,7 +9557,7 @@
           <Patch Id="HbYMeMn5wYVPHZCfmlltqe">
             <Canvas Id="KxYtpnO8u8qMTn1GGWYEjS" CanvasType="Group">
               <Node Bounds="379,387,116,95" Id="E1MeRicJdFpM2AI6MUyMSk">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                 </p:NodeReference>
@@ -9648,7 +9654,7 @@
                     <Pin Id="JWoFVIeJ8lGQc3SE4r3h5r" Name="Internal Var" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="164,899,49,22" Id="MT6qBiy3uEtMPvfb2SQbp8">
-                    <p:NodeReference LastCategoryFullName="VLMLInternal.Core.F" LastSymbolSource="CNTK_Core.vl">
+                    <p:NodeReference LastCategoryFullName="VLML.Core.F" LastSymbolSource="CNTK_Core.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Create" />
                       <PinReference Kind="InputPin" Name="Dummy For Infering Data Type" />
@@ -9701,7 +9707,7 @@
               <ControlPoint Id="KICoW0uELaOLygVcqu3vT9" Bounds="316,181" />
               <ControlPoint Id="KIdlVIC19VHQLt8mWRoomT" Bounds="436,189" />
               <Node Bounds="435,962,69,13" AutoConnect="true" Id="DhUUA0iAJfDOcok4Y7XYx2">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="FetchLast" />
                 </p:NodeReference>
@@ -9768,7 +9774,7 @@
                   <Link Id="S4kl51IZSNDMLZXayva5Zh" Ids="Rb1NhmGrMlcNDdPiYPVlgm,DO5oo1jXY6COsceuRB96XC" />
                   <Pin Id="KgEMr4cO37WPJnzQgBdNsH" Name="Input" Kind="InputPin" Bounds="677,288" />
                   <Link Id="SFA0jODJm0oPQsFGZOHaia" Ids="KgEMr4cO37WPJnzQgBdNsH,Rb1NhmGrMlcNDdPiYPVlgm" IsHidden="true" />
-                  <Pad Id="LsjKfGo7glmQcukc2219ZR" Comment="Seed" Bounds="1093,329,18,19" ShowValueBox="true" isIOBox="true" Value="1">
+                  <Pad Id="LsjKfGo7glmQcukc2219ZR" Comment="Seed" Bounds="1093,327,18,19" ShowValueBox="true" isIOBox="true" Value="1">
                     <p:TypeAnnotation>
                       <Choice Kind="TypeFlag" Name="Integer32" />
                       <FullNameCategoryReference ID="Primitive" />
@@ -9812,7 +9818,7 @@
                         </Patch>
                         <ControlPoint Id="LDxDyu547iSM98dIjJuosk" Bounds="386,860" />
                         <Node Bounds="393,652,34,13" Id="AkC82hGBq1ZPBgHbPFiXYO">
-                          <p:NodeReference LastCategoryFullName="VLMLInternal.Variables" LastSymbolSource="CNTK_Utils.vl">
+                          <p:NodeReference LastCategoryFullName="VLML.Variables" LastSymbolSource="CNTK_Utils.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="VSize" />
                           </p:NodeReference>
@@ -9880,7 +9886,7 @@
                           <Pin Id="PgCA2oFag5BO4XV8cCSZ55" Name="Condition" Kind="InputPin" />
                           <Pin Id="SumuNTWTQN1L3Azewvr9AR" Name="Message" Kind="InputPin" />
                         </Node>
-                        <Pad Id="MPv3EWZdhu9O53YdljIyJ0" Comment="Message" Bounds="494,731,174,53" ShowValueBox="true" isIOBox="true" Value="The size of the new shape ({0}) must be the same total size as that of the input shape ({1}), or -1">
+                        <Pad Id="MPv3EWZdhu9O53YdljIyJ0" Comment="Message" Bounds="494,712,174,53" ShowValueBox="true" isIOBox="true" Value="The size of the new shape ({0}) must be the same total size as that of the input shape ({1}), or -1">
                           <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="TypeFlag" Name="String" />
                           </p:TypeAnnotation>
@@ -9888,7 +9894,7 @@
                       </Patch>
                     </Node>
                     <Node Bounds="380,555,43,13" Id="BaB2gJkiQEBOlznFiap1ma">
-                      <p:NodeReference LastCategoryFullName="VLMLInternal.Variables" LastSymbolSource="CNTK_Utils.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.Variables" LastSymbolSource="CNTK_Utils.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="VShape" />
                       </p:NodeReference>
@@ -9896,7 +9902,7 @@
                       <Pin Id="CvrLRRFb2FjPHKaP3JnT57" Name="Result" Kind="OutputPin" />
                     </Node>
                     <Pad Id="Q3ZSCrZCwYcMe3kGcKzTms" Comment="" Bounds="393,467" isIOBox="true" />
-                    <Pad Id="ENdTVeWAuVVLMlUQxtdcWe" Comment="" Bounds="457,568,88,30" ShowValueBox="true" isIOBox="true" />
+                    <Pad Id="ENdTVeWAuVVLMlUQxtdcWe" Comment="" Bounds="457,560,88,30" ShowValueBox="true" isIOBox="true" />
                     <ControlPoint Id="G0ujzh59SZwPDzux1hBZYh" Bounds="389,411" />
                     <ControlPoint Id="GZKr8RQcn2UNDcy5ZWWwbH" Bounds="448,410" />
                     <ControlPoint Id="JefMzC518IEM0PR2rxsXn7" Bounds="384,922" />
@@ -10015,7 +10021,7 @@
               <ControlPoint Id="R6Sm8Pc9CZ1MfJMZTjP0L0" Bounds="416,467" />
               <ControlPoint Id="Fwa0vvYWRR0N0YxvtXqtQ7" Bounds="626,459" />
               <Node Bounds="406,607,175,19" AutoConnect="true" Id="LRJ3k8lruO5PhvGb2WZlCP">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -10107,7 +10113,7 @@
               <ControlPoint Id="LWkUh0ObPJYNAUOK6SExTX" Bounds="314,244" />
               <ControlPoint Id="Tm2Rp8su8gDL8JEgq8FFC1" Bounds="524,236" />
               <Node Bounds="340,384,112,19" AutoConnect="true" Id="GxzLK4P703POIpzkPJmmoP">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -10197,7 +10203,7 @@
               <ControlPoint Id="OD0XEGPMBlBO9ADiwwcBD7" Bounds="247,244" />
               <ControlPoint Id="ScqpdL4xZCQMZvOyDB4Wd5" Bounds="325,570" />
               <Node Bounds="365,347,180,142" Id="TNQgKm9LTXzLC7fhHHaCZb">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                   <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                 </p:NodeReference>
@@ -10297,7 +10303,7 @@
           <Patch Id="EEg62K3e8fbLO28yLeOeOI">
             <Canvas Id="EPFZaV7rGKRNFcoMLg4NUa" CanvasType="Group">
               <Node Bounds="287,373,243,104" Id="JoXHtjKfnnrL8QW0TQaIBA">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                   <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                 </p:NodeReference>
@@ -10523,7 +10529,7 @@
               <ControlPoint Id="UW3LSibnH1dOKTPpsgGEJH" Bounds="735,549" />
               <ControlPoint Id="ATQqF0gXfkHMFbeChE4pwE" Bounds="771,243" />
               <Node Bounds="465,430,274,19" AutoConnect="true" Id="VPO8lWOmxFfPTrJ4cIj4Dl">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_2" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -10634,8 +10640,10 @@
             <Link Id="TSSaCCUcXy3PIh2w21Lnp0" Ids="LOqZNXEWruBM3VNiZJZDJ6,UW3LSibnH1dOKTPpsgGEJH" />
           </Patch>
         </Node>
-        <Overlay Id="MpmbRu7ySoyNKLpQAafClA" Name="Shape Operations" Bounds="355,362,580,216" />
-        <Pad Id="HZ7T2MEcnYDMllOsvQPKav" Bounds="381,409,257,22" ShowValueBox="true" isIOBox="true" Value="For manipulating dimension of your data">
+        <Overlay Id="MpmbRu7ySoyNKLpQAafClA" Name="Shape Operations" Bounds="355,362,580,216">
+          <p:ColorIndex p:Type="Int32">0</p:ColorIndex>
+        </Overlay>
+        <Pad Id="HZ7T2MEcnYDMllOsvQPKav" Bounds="381,405,257,22" ShowValueBox="true" isIOBox="true" Value="For manipulating dimension of your data">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -10785,7 +10793,7 @@
                 <ControlPoint Id="BvWnjT0SBLNLG1CbjSViKN" Bounds="591,245" />
                 <ControlPoint Id="Ca0QyOetF1pNpH1dgdcOlo" Bounds="754,247" />
                 <Node Bounds="548,447,112,19" AutoConnect="true" Id="DPrRo6A2KnfQRIPyPbuwPp">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -10890,7 +10898,7 @@
                 <ControlPoint Id="JjdiJzeNcrcOyaRosoanVW" Bounds="320,192" />
                 <ControlPoint Id="JH6uF5r9r8nMmANjhiDXz3" Bounds="501,560" />
                 <Node Bounds="508,389,242,104" Id="I7GwEfXNoKML3waAyQyJ2V">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                     <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                   </p:NodeReference>
@@ -11036,7 +11044,7 @@
                 <ControlPoint Id="IPn0DhOWY6JM37SfrCnYDo" Bounds="721,587" />
                 <ControlPoint Id="V4L9jNfcUaCPVfq0PITlgm" Bounds="718,278" />
                 <Node Bounds="480,445,209,19" AutoConnect="true" Id="HIoMrYZYMW1Nw6bJBl3MRR">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   </p:NodeReference>
@@ -11137,7 +11145,7 @@
             <Patch Id="CXzl6MddWSmMEz2in498GP">
               <Canvas Id="D7tuBQb2umYM6vvCPm3Zn8" CanvasType="Group">
                 <Node Bounds="498,386,242,137" Id="N5PYRE8ztwSMgQXJsdxT36">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                     <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                   </p:NodeReference>
@@ -11247,7 +11255,7 @@
               <ControlPoint Id="OKqR5EA0kQ7N7rgFxlpTcp" Bounds="834,160" />
               <ControlPoint Id="KW6rHIax2hXPrsWaGmXQHw" Bounds="433,620" />
               <Node Bounds="489,226,59,19" Id="AhJOu5mSsSIM27X6YqSWpk">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Variables" LastSymbolSource="CNTK_Utils.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Variables" LastSymbolSource="CNTK_Utils.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="VShape" />
                 </p:NodeReference>
@@ -11255,7 +11263,7 @@
                 <Pin Id="KCooegaOKadPitEWIcQKOg" Name="Result" Kind="OutputPin" />
               </Node>
               <Node Bounds="519,188,42,19" Id="UicfK6spXboMVpbY0BeWNR">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="IsNull" />
                 </p:NodeReference>
@@ -11293,7 +11301,7 @@
                     <Pin Id="SqxYlmLuPVuN3toL7zS0bO" Name="Input 2" Kind="InputPin" />
                     <Pin Id="RIk8aM16BXsMz5zp4W61Jt" Name="Output" Kind="OutputPin" />
                   </Node>
-                  <Pad Id="OQ017ABnS9bPu3N4M9bzku" Comment="" Bounds="686,399,24,19" ShowValueBox="true" isIOBox="true" />
+                  <Pad Id="OQ017ABnS9bPu3N4M9bzku" Comment="" Bounds="686,397,24,19" ShowValueBox="true" isIOBox="true" />
                   <Node Bounds="598,361,39,19" Id="CdQUux40uV0QLZ1qfkrUPo">
                     <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -11330,7 +11338,7 @@
               <ControlPoint Id="IKoGkee2DcHNEJYtxoRm81" Bounds="783,607" />
               <ControlPoint Id="K3bjltdpeZXOFACiHMLkg4" Bounds="865,220" />
               <Node Bounds="429,503,349,19" AutoConnect="true" Id="JUNJv0B70GKPwN2pNevHQI">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_4" />
                 </p:NodeReference>
@@ -11604,7 +11612,7 @@
                   <Patch Id="N13Il2B2zbLLhVqbedIfWi" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="P3fQ9ojv9qoOi33U8kcdBk" Name="Then" ManuallySortedPins="true" />
                   <Node Bounds="366,656,174,180" Id="OpHSRzyeBA2N6HovuP1jD7">
-                    <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                    <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                       <Choice Kind="ProcessAppFlag" Name="SingleVarVecTemplate_1" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                     </p:NodeReference>
@@ -11708,7 +11716,7 @@
                         <Pin Id="UKW5JT5hImRPEFivGtlRML" Name="Input 2" Kind="InputPin" />
                         <Pin Id="VjPSz4KsEh0MdzwtUAWh11" Name="Result" Kind="OutputPin" />
                       </Node>
-                      <Pad Id="KFXKtBLVeTKNvAzDh4FDqf" Comment="Input 2" Bounds="299,373,12,19" ShowValueBox="true" isIOBox="true">
+                      <Pad Id="KFXKtBLVeTKNvAzDh4FDqf" Comment="Input 2" Bounds="299,371,12,19" ShowValueBox="true" isIOBox="true">
                         <p:TypeAnnotation>
                           <Choice Kind="TypeFlag" Name="V" />
                         </p:TypeAnnotation>
@@ -11741,7 +11749,7 @@
                 <Pin Id="IcjpMqGzd89QQze1XwGYOM" Name="Result" Kind="OutputPin" />
                 <Pin Id="VqGk7621q7YLoGdm2OYp5U" Name="Unchanged" Kind="OutputPin" />
               </Node>
-              <Pad Id="GB7BCoT37ggNrqjwO6oXx5" Comment="" Bounds="262,562,35,35" ShowValueBox="true" isIOBox="true" />
+              <Pad Id="GB7BCoT37ggNrqjwO6oXx5" Comment="" Bounds="262,552,35,35" ShowValueBox="true" isIOBox="true" />
             </Canvas>
             <Patch Id="VyAxVjFWIEsNjmRVRH3MIP" Name="Create" />
             <Patch Id="BWWhrn5GWhqOu5qryORQmw" Name="Update">
@@ -11900,7 +11908,7 @@
               <ControlPoint Id="Eiub9qjNoaZOXZUTr2Txbt" Bounds="1137,119" />
               <ControlPoint Id="IIlmE3piwo3LgCOwvUL7FZ" Bounds="946,697" />
               <Node Bounds="545,609,404,19" AutoConnect="true" Id="E77Rjyu9hcHNrrY2BD0Kcm">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_4" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -12044,7 +12052,7 @@
           <Patch Id="Td4n70QGaiQM8vl6brfbSI">
             <Canvas Id="VUXAurKdDehOjhVragmVGZ" CanvasType="Group">
               <Node Bounds="353,429,112,19" AutoConnect="true" Id="QJuUbRZSgI4L4d4RvqojT6">
-                <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 </p:NodeReference>
@@ -12128,8 +12136,10 @@
         </Node>
       </Canvas>
       <Canvas Id="Bz9vb6M7OI5NfHYL4XntW3" Name="BatchOps" Position="454,271">
-        <Overlay Id="M9lGmhm29umNPhikUeCv87" Name="Batch Operations" Bounds="333,234,250,267" />
-        <Pad Id="Lgab7fohGeTM8q6JeU3OOy" Bounds="341,299,230,40" ShowValueBox="true" isIOBox="true" Value="Think along similar lines to spread operations">
+        <Overlay Id="M9lGmhm29umNPhikUeCv87" Name="Batch Operations" Bounds="333,234,250,267">
+          <p:ColorIndex p:Type="Int32">0</p:ColorIndex>
+        </Overlay>
+        <Pad Id="Lgab7fohGeTM8q6JeU3OOy" Bounds="341,286,230,40" ShowValueBox="true" isIOBox="true" Value="Think along similar lines to spread operations">
           <p:TypeAnnotation>
             <Choice Kind="TypeFlag" Name="String" />
           </p:TypeAnnotation>
@@ -12235,7 +12245,7 @@
             <Patch Id="PM7uhYKOpJEL5NLkRIEBuG" IsGeneric="true">
               <Canvas Id="FWsjzxZzdDBNpYGwOMnujF" CanvasType="Group">
                 <Node Bounds="406,353,161,95" Id="CBLIJWgMmbNO2Z66Ad2GLu">
-                  <p:NodeReference LastCategoryFullName="VLMLInternal.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
                     <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
                   </p:NodeReference>
@@ -12269,7 +12279,7 @@
                 <ControlPoint Id="S8kA8vH1b9yLpgSuadMHmX" Bounds="279,225" />
                 <ControlPoint Id="P85A2IBSOlSLtZ7XHYtV0t" Bounds="474,217" />
                 <ControlPoint Id="QtNQfDa29tlMquC4RnYbfP" Bounds="422,518" />
-                <Pad Id="LKoIRwLgsn6M4p83SYKUzH" Comment="Debug" Bounds="591,302,40,19" ShowValueBox="true" isIOBox="true" Value="False">
+                <Pad Id="LKoIRwLgsn6M4p83SYKUzH" Comment="Debug" Bounds="591,300,40,19" ShowValueBox="true" isIOBox="true" Value="False">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Boolean" />
                   </p:TypeAnnotation>
