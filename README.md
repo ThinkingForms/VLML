@@ -2,11 +2,12 @@
 Machine learning in the visual language VL, part of [vvvv Gamma](https://vvvv.org/blog/vvvv-gamma-2019.1-preview) and [vvvv Beta](https://vvvv.org/downloads)
 
 ---
-VLML is a machine learning framwork that aims to take some of the hassle out getting your hands dirty with machine learning, making it a relatively easy to get started. VLML uses CNTK as its back end, one of the most performant machinel learning libraries out there.
+VLML is a machine learning framwork that aims to take some of the hassle out getting your hands dirty with machine learning, making it a relatively easy to get started. VLML uses CNTK as its back end, one of the most performant machinel learning libraries out there. __There is a short guide [here](https://github.com/ThinkingForms/VLML/wiki/How-to-Install,-in-pictures) on how to install VLML.__ 
 ---
 ## Setting up a basic network
 #### Create and two flattened collections of data.
-The first will be X (the kind of data you want to process) and second will be Y(the kind of data you expect the process to result in)
+
+The first will be X (the kind of data you want to process) and second will be Y (the kind of data you expect the process to result in).
 
 ![Creating a dataset](https://github.com/YanYas/VLMLDocuments/blob/master/documentation_assets/Getting_Started/light/VLML101-Application-Dataset.png)
 
