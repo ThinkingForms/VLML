@@ -14,7 +14,7 @@ version: 0.1.{build}
 image: Visual Studio 2017
 
 # clone directory
-clone_folder: c:\projects\VL.OpenCV
+clone_folder: c:\projects\VLML
 
 branches:
   only:
