@@ -2983,10 +2983,10 @@
           <Canvas Id="SGfp5AbyNZhMTwvA4oYfPG" Name="Experimental" Position="485,653">
             <!--
 
-    ************************ ReduceL2 ************************
+    ************************ ReduceL2Norm ************************
 
 -->
-            <Node Name="ReduceL2" Bounds="460,460" Id="MhwV0ejdrroLPYcfarXFN1">
+            <Node Name="ReduceL2Norm" Bounds="460,460" Id="MhwV0ejdrroLPYcfarXFN1" Summary="Computes the L2 norm of the input tensor’s element along the provided axes. The resulted tensor has the same rank as the input if keepdims equal 1. If keepdims is True, then the resulted tensor have the reduced dimension pruned." Remarks="This is not the same thing as the L2 Loss function. See MSE">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
                 <Choice Kind="ContainerDefinition" Name="Process" />
               </p:NodeReference>
@@ -3071,16 +3071,16 @@
             </Node>
             <!--
 
-    ************************ ReduceL1 ************************
+    ************************ ReduceL1Norm ************************
 
 -->
-            <Node Name="ReduceL1" Bounds="460,423" Id="RjEaTqqD1J9NfzSSPD5LMz">
+            <Node Name="ReduceL1Norm" Bounds="460,423" Id="RjEaTqqD1J9NfzSSPD5LMz" Summary="Computes the L1 norm of the input tensor’s element along the provided axes. The resulted tensor has the same rank as the input if keepdims equal 1. If keepdims is True, then the resulted tensor have the reduced dimension pruned." Remarks="This is not the same thing as the L1 Loss function. See MAE">
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
                 <Choice Kind="ContainerDefinition" Name="Process" />
               </p:NodeReference>
               <Patch Id="Q1GlbAr8GM7MJVFbRJbwG9">
                 <Canvas Id="M6Tfsjq9TM3LbQ7GWDLWYk" CanvasType="Group">
-                  <Node Bounds="415,250,245,252" Id="KpIjDUAPf7yLcZS1fqqUVJ">
+                  <Node Bounds="411,250,250,196" Id="KpIjDUAPf7yLcZS1fqqUVJ">
                     <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                       <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                       <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
@@ -3099,8 +3099,8 @@
                       <ControlPoint Id="JKER6Q7qzyGMMKdJ03M2Mp" Bounds="422,258" />
                       <ControlPoint Id="N1xsQ0VDYmCMVVdcNjECvg" Bounds="498,258" />
                       <ControlPoint Id="NFlPZLAF3NUPhzwRfJhCbX" Bounds="613,258" />
-                      <ControlPoint Id="QbwxW8R4ssdN013otX0uEq" Bounds="425,495" />
-                      <Node Bounds="427,363,125,19" Id="Q4KAZnAKuSeL3HTlBqz3Ex">
+                      <ControlPoint Id="QbwxW8R4ssdN013otX0uEq" Bounds="431,439" />
+                      <Node Bounds="423,373,125,19" Id="Q4KAZnAKuSeL3HTlBqz3Ex">
                         <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -3112,6 +3112,32 @@
                         <Pin Id="PCFYgbH8PQAOKPEYL91reY" Name="Keep Dims" Kind="InputPin" />
                         <Pin Id="IYpUrDOGGhaNjFsDmwqCiD" Name="Name" Kind="InputPin" />
                         <Pin Id="Vh9GgoGxOuXObvXXE3rD9n" Name="Result" Kind="OutputPin" />
+                      </Node>
+                      <Node Bounds="454,291,75,19" Id="FPuqYeG1GRWPfQt8I6LXQ7">
+                        <p:NodeReference LastCategoryFullName="CNTK.Axis" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <Choice Kind="OperationCallFlag" Name="AllStaticAxes" />
+                        </p:NodeReference>
+                        <Pin Id="LJUAOhU34fCLCb93IAYbs0" Name="Result" Kind="OutputPin" />
+                      </Node>
+                      <Node Bounds="451,338,55,26" Id="TBxll39gQJvPy8w0r0OXjR">
+                        <p:NodeReference LastCategoryFullName="CNTK.AxisVector" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <Choice Kind="OperationCallFlag" Name="Create" />
+                          <CategoryReference Kind="AssemblyCategory" Name="AxisVector" NeedsToBeDirectParent="true" />
+                          <PinReference Kind="InputPin" Name="C" />
+                        </p:NodeReference>
+                        <Pin Id="OC0Lf6t95nLOiHNBIRtKbJ" Name="C" Kind="InputPin" />
+                        <Pin Id="FJNLFLj10GaQPqKRI6EaDf" Name="Output" Kind="StateOutputPin" />
+                      </Node>
+                      <Node Bounds="455,310,66,19" Id="ObsxFELWCMVN1tHTQrtaPF">
+                        <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <Choice Kind="OperationCallFlag" Name="FromValue" />
+                          <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+                        </p:NodeReference>
+                        <Pin Id="Fr8jum3WaP2QH5pJUy2FrR" Name="Input" Kind="StateInputPin" />
+                        <Pin Id="TB3Ja3wHJd3Nk9VYeIy2J6" Name="Result" Kind="OutputPin" />
                       </Node>
                     </Patch>
                   </Node>
@@ -3155,6 +3181,271 @@
                 <Link Id="NTqnDpjOfk7PvT5ljEO5th" Ids="NFlPZLAF3NUPhzwRfJhCbX,IYpUrDOGGhaNjFsDmwqCiD" />
                 <Link Id="G8gKIYfayiiNTaxI6DBNWe" Ids="QbwxW8R4ssdN013otX0uEq,K33SlfnahwhOyfPWFiIizN" IsHidden="true" />
                 <Link Id="Uj0T36hHASMM1dpjDWRF4p" Ids="N1xsQ0VDYmCMVVdcNjECvg,PCFYgbH8PQAOKPEYL91reY" />
+                <Link Id="Cz9V8HhW3ipMcmkd9ZQAng" Ids="LJUAOhU34fCLCb93IAYbs0,Fr8jum3WaP2QH5pJUy2FrR" />
+                <Link Id="TRUV2kYYketP8fWOUs1CRq" Ids="TB3Ja3wHJd3Nk9VYeIy2J6,OC0Lf6t95nLOiHNBIRtKbJ" />
+                <Link Id="B5aXuLvayTnO5NtegY10FZ" Ids="FJNLFLj10GaQPqKRI6EaDf,PkCpL5u4pBgMkBsMViTPBV" />
+              </Patch>
+            </Node>
+            <!--
+
+    ************************ ReduceL1Norm ************************
+
+-->
+            <Node Name="ReduceL1Norm" Bounds="627,422" Id="MezGFVeF1RCPubfkkr3RJU" Summary="Computes the L1 norm of the input tensor’s element along the provided axes. The resulted tensor has the same rank as the input if keepdims equal 1. If keepdims is True, then the resulted tensor have the reduced dimension pruned." Remarks="This is not the same thing as the L1 Loss function. See MAE">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
+                <Choice Kind="ContainerDefinition" Name="Process" />
+              </p:NodeReference>
+              <Patch Id="IUfOH7teV8vOUKD8QSDD5i">
+                <Canvas Id="MeQMwvs0vePMnYsX8zy0nX" CanvasType="Group">
+                  <Node Bounds="411,250,264,196" Id="HTTYQs1CLBdOxqey4PynZF">
+                    <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                      <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
+                      <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_2" />
+                    </p:NodeReference>
+                    <Patch Id="G8qxhCTBGGVLtERQzbuY6l" Name="Input">
+                      <ControlPoint Id="MvTvHuRq8hcPBpj9cZDjYC" Bounds="422,258" />
+                      <ControlPoint Id="I6XCbHPE9jnOWGUDOI6O1y" Bounds="498,258" />
+                      <ControlPoint Id="PA9mTUFjfNoM0FllDmx2yI" Bounds="547,271" />
+                      <ControlPoint Id="NbytrGS1HdvMxxcZzBdFef" Bounds="431,439" />
+                      <Node Bounds="423,373,125,19" Id="KJlnSB6x2OVOxCYD7g03d1">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
+                          <PinReference Kind="InputPin" Name="Name" />
+                          <Choice Kind="OperationCallFlag" Name="ReduceL1" />
+                        </p:NodeReference>
+                        <Pin Id="K8LE1e569toNjQhvv55CC5" Name="Operand" Kind="InputPin" />
+                        <Pin Id="CfNsMfDlbPPNjcQahyH2j9" Name="Axes" Kind="InputPin" />
+                        <Pin Id="V6ESZDSARIPO5F9IvHwEEQ" Name="Keep Dims" Kind="InputPin" />
+                        <Pin Id="TqZFAB66YTlOQKaVevWlyB" Name="Name" Kind="InputPin" />
+                        <Pin Id="DQwbaB9NR87O2vn7X0HTNA" Name="Result" Kind="OutputPin" />
+                      </Node>
+                      <Node Bounds="451,338,55,26" Id="RSyIvlPjRthMaQPXRELhH2">
+                        <p:NodeReference LastCategoryFullName="CNTK.AxisVector" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <Choice Kind="OperationCallFlag" Name="Create" />
+                          <CategoryReference Kind="AssemblyCategory" Name="AxisVector" NeedsToBeDirectParent="true" />
+                          <PinReference Kind="InputPin" Name="C" />
+                        </p:NodeReference>
+                        <Pin Id="VzWR37xhSQ2O5cW25wSYHC" Name="C" Kind="InputPin" />
+                        <Pin Id="GLNbkCX3xa7LLPSwWXpwMb" Name="Output" Kind="StateOutputPin" />
+                      </Node>
+                      <Node Bounds="450,315,66,19" Id="ORSrpwIOHq1Or2R9lnvnFt">
+                        <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <Choice Kind="OperationCallFlag" Name="FromValue" />
+                          <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+                        </p:NodeReference>
+                        <Pin Id="GwrenBYrp5KPaQN26ZCn0G" Name="Input" Kind="StateInputPin" />
+                        <Pin Id="DWUZJ8szN8oOW9wkT8tzHd" Name="Result" Kind="OutputPin" />
+                      </Node>
+                      <Pin Id="Bk1nvrdRtKGLC9tJAI57O1" Name="Arg 1" Kind="InputPin" />
+                      <Pin Id="F1Ay1fVVNQzOkGr2u8tRs1" Name="Arg 2" Kind="InputPin" />
+                      <Pin Id="JdJRyyOJ994NeYkD94gvMh" Name="Arg 3" Kind="InputPin" />
+                      <Pin Id="QMLfoDycB5TM7sYRqR1OtR" Name="Arg 4" Kind="InputPin" />
+                      <Pin Id="Qt2OJ9z0jSsLjQsBTsxGpn" Name="Result" Kind="OutputPin" />
+                      <ControlPoint Id="C5apcjNQHLOMxyD2q9c0Ys" Bounds="627,278" />
+                      <Node Bounds="450,285,46,26" Id="SlxulDmf8lgOGiaCpYlF0u">
+                        <p:NodeReference LastCategoryFullName="CNTK.Axis" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <Choice Kind="OperationCallFlag" Name="Create" />
+                          <CategoryReference Kind="AssemblyCategory" Name="Axis" NeedsToBeDirectParent="true" />
+                          <PinReference Kind="InputPin" Name="Static Axis Idx" />
+                        </p:NodeReference>
+                        <Pin Id="CT8TqqFqvsrN5HEQwplzPL" Name="Static Axis Idx" Kind="InputPin" />
+                        <Pin Id="CCiYmAhBrEjQcRP4SFFfzM" Name="Output" Kind="StateOutputPin" />
+                      </Node>
+                    </Patch>
+                    <Pin Id="HLWMmwOB1ZLMwfJbbm1JW7" Name="Operand" Kind="InputPin" />
+                    <Pin Id="Q3ioL654H5RLeMSjYRRwua" Name="Input1" Kind="InputPin" />
+                    <Pin Id="FneyFSAx6tHOYD5b7nV9MO" Name="Input2" Kind="InputPin" />
+                    <Pin Id="JMgHZLnf6rhNA8Y4xsqmqb" Name="Name" Kind="InputPin" />
+                    <Pin Id="NSk8CIK04xDOUFKXdmPGVM" Name="Debug" Kind="InputPin" />
+                    <Pin Id="Bsr5FmlMjLoLAX2MBonr2V" Name="Output" Kind="OutputPin" />
+                    <Pin Id="DAZhVXkLWZgLLqxV3Or6wn" Name="Value" Kind="OutputPin" />
+                  </Node>
+                  <ControlPoint Id="RcXBfWtHwKHO9zVzn6dtpl" Bounds="403,526" />
+                  <ControlPoint Id="Nu3rGr3CYoyPpkTDETVFmc" Bounds="641,529" />
+                  <ControlPoint Id="UtGa2MPDwjvO4djMZFl1xU" Bounds="361,172" />
+                  <ControlPoint Id="NlI7NOPSRrzP6k1578wgC9" Bounds="482,170" />
+                  <ControlPoint Id="PveePMLLBPGMbHEM05hzu6" Bounds="561,170" />
+                  <ControlPoint Id="GwUWTXczScsPFj6lN03dc2" Bounds="640,170" />
+                  <ControlPoint Id="Vywpf8XmsnrP7oEC0OyjcZ" Bounds="443,172" />
+                </Canvas>
+                <Patch Id="MR3p4eUTxt4PGGfWCasoAx" Name="Create" />
+                <Patch Id="FhFjvUuymfdL4VpQpLiKTP" Name="Update">
+                  <Pin Id="LPKlH4LRBsyOZ27XR76hRx" Name="Operand" Kind="InputPin" Bounds="423,186" />
+                  <Pin Id="IV3loZoLidzPlSVyuiN3zX" Name="Output" Kind="OutputPin" Bounds="454,438" />
+                  <Pin Id="ALDosJYhVbQNEJIrWZSaqS" Name="Axis" Kind="InputPin" Bounds="446,189" DefaultValue="-1">
+                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                      <Choice Kind="TypeFlag" Name="Integer32" />
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="DCVdna6iM37PigOCSC4vcd" Name="Keep Dims" Kind="InputPin" Bounds="543,172" />
+                  <Pin Id="SZwnRy2IQzSQZXxsiKGySK" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
+                  <Pin Id="NlfhzpYH1ENMj93DbPxRwV" Name="Debug" Kind="InputPin" Bounds="720,175" Visibility="Optional" />
+                  <Pin Id="In3Hh1KDSBVO7vFPnrLYV8" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
+                </Patch>
+                <ProcessDefinition Id="LINCYriUOtQLEqE4KuoN5M">
+                  <Fragment Id="GjzFx0S1ddWO0wmOKDshvB" Patch="MR3p4eUTxt4PGGfWCasoAx" Enabled="true" />
+                  <Fragment Id="KhrGWMEY9swLldxxpvKIsj" Patch="FhFjvUuymfdL4VpQpLiKTP" Enabled="true" />
+                </ProcessDefinition>
+                <Link Id="IBhuvFgxKKjPAiW4hSWI5T" Ids="Bsr5FmlMjLoLAX2MBonr2V,RcXBfWtHwKHO9zVzn6dtpl" />
+                <Link Id="BFjzQ6xJOZBNGP47fL8syu" Ids="RcXBfWtHwKHO9zVzn6dtpl,IV3loZoLidzPlSVyuiN3zX" IsHidden="true" />
+                <Link Id="FzdlP4XDPGAPTRhXMAZVI7" Ids="DAZhVXkLWZgLLqxV3Or6wn,Nu3rGr3CYoyPpkTDETVFmc" />
+                <Link Id="Hsr01Xzwh0ZMepoJjkeCOt" Ids="Nu3rGr3CYoyPpkTDETVFmc,In3Hh1KDSBVO7vFPnrLYV8" IsHidden="true" />
+                <Link Id="GjzHqiWFpLAPsTDTykpWws" Ids="UtGa2MPDwjvO4djMZFl1xU,HLWMmwOB1ZLMwfJbbm1JW7" />
+                <Link Id="O8cqeJ9eke0LxUc6mU3VGf" Ids="LPKlH4LRBsyOZ27XR76hRx,UtGa2MPDwjvO4djMZFl1xU" IsHidden="true" />
+                <Link Id="BzKGd9at2KvP2EfkeNojK4" Ids="DCVdna6iM37PigOCSC4vcd,NlI7NOPSRrzP6k1578wgC9" IsHidden="true" />
+                <Link Id="GSHyRde6gZJOFJMV1rUaKR" Ids="PveePMLLBPGMbHEM05hzu6,JMgHZLnf6rhNA8Y4xsqmqb" />
+                <Link Id="FqPBzz40fpdPcBo2NmW33u" Ids="SZwnRy2IQzSQZXxsiKGySK,PveePMLLBPGMbHEM05hzu6" IsHidden="true" />
+                <Link Id="GazVuI5dGSlL61MykbqQ41" Ids="GwUWTXczScsPFj6lN03dc2,NSk8CIK04xDOUFKXdmPGVM" />
+                <Link Id="Nu8mRoa4ckEL2BiN1dHbnK" Ids="NlfhzpYH1ENMj93DbPxRwV,GwUWTXczScsPFj6lN03dc2" IsHidden="true" />
+                <Link Id="AbjaJqpfit7NGkyORH2Dad" Ids="Bk1nvrdRtKGLC9tJAI57O1,MvTvHuRq8hcPBpj9cZDjYC" IsHidden="true" />
+                <Link Id="HaQsVYxGyN1MIm8JGEnXsb" Ids="F1Ay1fVVNQzOkGr2u8tRs1,I6XCbHPE9jnOWGUDOI6O1y" IsHidden="true" />
+                <Link Id="TcmCuxUrYbUO1D02hw96GK" Ids="JdJRyyOJ994NeYkD94gvMh,PA9mTUFjfNoM0FllDmx2yI" IsHidden="true" />
+                <Link Id="ANYetwtf2V7LnqjFWX3iPz" Ids="DQwbaB9NR87O2vn7X0HTNA,NbytrGS1HdvMxxcZzBdFef" />
+                <Link Id="Ey6VMpas25AM1tcrgCLKiX" Ids="MvTvHuRq8hcPBpj9cZDjYC,K8LE1e569toNjQhvv55CC5" />
+                <Link Id="SD14KoWiWZKLKRdpWfld0f" Ids="NbytrGS1HdvMxxcZzBdFef,Qt2OJ9z0jSsLjQsBTsxGpn" IsHidden="true" />
+                <Link Id="MV0nOeW6lcbLltI5jVty4O" Ids="DWUZJ8szN8oOW9wkT8tzHd,VzWR37xhSQ2O5cW25wSYHC" />
+                <Link Id="NPrwPg7Ma5DNWN3JohNoKG" Ids="GLNbkCX3xa7LLPSwWXpwMb,CfNsMfDlbPPNjcQahyH2j9" />
+                <Link Id="IXkpZpW9l0LQSmkywvXNGO" Ids="QMLfoDycB5TM7sYRqR1OtR,C5apcjNQHLOMxyD2q9c0Ys" IsHidden="true" />
+                <Link Id="CVqdkBwzZlrPYuA2DOKJ1b" Ids="I6XCbHPE9jnOWGUDOI6O1y,CT8TqqFqvsrN5HEQwplzPL" />
+                <Link Id="Vhc6DmPwc7dOHRWBYFFTMR" Ids="CCiYmAhBrEjQcRP4SFFfzM,GwrenBYrp5KPaQN26ZCn0G" />
+                <Link Id="NwAmIeC1hdLMJUeU2vwKeT" Ids="PA9mTUFjfNoM0FllDmx2yI,V6ESZDSARIPO5F9IvHwEEQ" />
+                <Link Id="ODADVnSXajkOEhpNcrtsLr" Ids="C5apcjNQHLOMxyD2q9c0Ys,TqZFAB66YTlOQKaVevWlyB" />
+                <Link Id="Ct6UzEEDm66O5qT7AbYEPg" Ids="NlI7NOPSRrzP6k1578wgC9,FneyFSAx6tHOYD5b7nV9MO" />
+                <Link Id="LM8TosZIMHVMxLLiQa1kq6" Ids="Vywpf8XmsnrP7oEC0OyjcZ,Q3ioL654H5RLeMSjYRRwua" />
+                <Link Id="QgEyPd5FnuENJBBN6R8SEP" Ids="ALDosJYhVbQNEJIrWZSaqS,Vywpf8XmsnrP7oEC0OyjcZ" IsHidden="true" />
+              </Patch>
+            </Node>
+            <!--
+
+    ************************ ReduceL2Norm ************************
+
+-->
+            <Node Name="ReduceL2Norm" Bounds="630,460" Id="LxLioRCHVNNOM5CFY9V9A9" Summary="Computes the L2 norm of the input tensor’s element along the provided axes. The resulted tensor has the same rank as the input if keepdims equal 1. If keepdims is True, then the resulted tensor have the reduced dimension pruned." Remarks="This is not the same thing as the L2 Loss function. See MSE">
+              <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
+                <Choice Kind="ContainerDefinition" Name="Process" />
+              </p:NodeReference>
+              <Patch Id="MABbfumzwZvNcXoYUxJR1j">
+                <Canvas Id="F6vSqCsRQrhO3fk7rRhb3N" CanvasType="Group">
+                  <Node Bounds="411,250,264,196" Id="UZE5bfMIYlWQN8i7dFIBYp">
+                    <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                      <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
+                      <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_2" />
+                    </p:NodeReference>
+                    <Patch Id="VYDfBqsHPtbLHTJzb5x3IG" Name="Input">
+                      <ControlPoint Id="CjDqaI0m4DkMD6cnRtNP6G" Bounds="422,258" />
+                      <ControlPoint Id="TRyZiVuS1wmOawcdJQOKYg" Bounds="498,258" />
+                      <ControlPoint Id="EcHqJqwsmUyOpxyguECiKx" Bounds="547,271" />
+                      <ControlPoint Id="H5UlwYU0W5FO4cWZMEZqJb" Bounds="431,439" />
+                      <Node Bounds="423,373,125,19" Id="JTqHRJ5F0zVPjN8F3X1ORw">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
+                          <PinReference Kind="InputPin" Name="Name" />
+                          <Choice Kind="OperationCallFlag" Name="ReduceL2" />
+                        </p:NodeReference>
+                        <Pin Id="AZI0xj78g6ILpjCKYH1zJV" Name="Operand" Kind="InputPin" />
+                        <Pin Id="PqY40B2xURoL5VBqf4jwPf" Name="Axes" Kind="InputPin" />
+                        <Pin Id="DxD9sk7b774LvEuYC9PDLp" Name="Keep Dims" Kind="InputPin" />
+                        <Pin Id="CCunaMhzE6uQCzXbsDl1SU" Name="Name" Kind="InputPin" />
+                        <Pin Id="JUFOomujTo8LVLJ5fFcts4" Name="Result" Kind="OutputPin" />
+                      </Node>
+                      <Node Bounds="451,338,55,26" Id="Gw40Xul6CTmNv7enRPRjFj">
+                        <p:NodeReference LastCategoryFullName="CNTK.AxisVector" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <Choice Kind="OperationCallFlag" Name="Create" />
+                          <CategoryReference Kind="AssemblyCategory" Name="AxisVector" NeedsToBeDirectParent="true" />
+                          <PinReference Kind="InputPin" Name="C" />
+                        </p:NodeReference>
+                        <Pin Id="RpLVsSOq8jLP9OVrfDdF2W" Name="C" Kind="InputPin" />
+                        <Pin Id="TBmgWb1Aq2dQAg0jQl4Kdr" Name="Output" Kind="StateOutputPin" />
+                      </Node>
+                      <Node Bounds="450,315,66,19" Id="V2LVyrYuICCLikVL9sQpxT">
+                        <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <Choice Kind="OperationCallFlag" Name="FromValue" />
+                          <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
+                        </p:NodeReference>
+                        <Pin Id="M6DqIuEm4lpPIVwlBzTWAE" Name="Input" Kind="StateInputPin" />
+                        <Pin Id="UweHuZFdr24PKdVrusdmz7" Name="Result" Kind="OutputPin" />
+                      </Node>
+                      <Pin Id="KMYbUn7vfYcLFAcXk1V9EO" Name="Arg 1" Kind="InputPin" />
+                      <Pin Id="AQNSP1jh9pkNVxslRALITI" Name="Arg 2" Kind="InputPin" />
+                      <Pin Id="AsW6ra6FuCUNAWoFaJCvMA" Name="Arg 3" Kind="InputPin" />
+                      <Pin Id="PTy755wlRS0OiEKyAf6jfT" Name="Arg 4" Kind="InputPin" />
+                      <Pin Id="D5Oih0w6UEQO8U5IKIjkQL" Name="Result" Kind="OutputPin" />
+                      <ControlPoint Id="SXpgIDF2ZCrNtOvD1JFJ2C" Bounds="627,278" />
+                      <Node Bounds="450,285,46,26" Id="V27j4gF7oXcLrqqhFtUIkW">
+                        <p:NodeReference LastCategoryFullName="CNTK.Axis" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                          <Choice Kind="OperationCallFlag" Name="Create" />
+                          <CategoryReference Kind="AssemblyCategory" Name="Axis" NeedsToBeDirectParent="true" />
+                          <PinReference Kind="InputPin" Name="Static Axis Idx" />
+                        </p:NodeReference>
+                        <Pin Id="TmhaEJNmzcxPHMWkIIqSF2" Name="Static Axis Idx" Kind="InputPin" />
+                        <Pin Id="N1VjRXwOE85NUhYIKx4LWN" Name="Output" Kind="StateOutputPin" />
+                      </Node>
+                    </Patch>
+                    <Pin Id="O57lZg0oxsWPZ07OLNXf49" Name="Operand" Kind="InputPin" />
+                    <Pin Id="QVP9NhtHAIbNcxKFjIQKzw" Name="Input1" Kind="InputPin" />
+                    <Pin Id="BiYcsUpQLbEMf7j9h7xtOT" Name="Input2" Kind="InputPin" />
+                    <Pin Id="ELRRfzxcTk1OWwddeM1XrP" Name="Name" Kind="InputPin" />
+                    <Pin Id="RqZxeDpVd28Mp9TxnZKL0T" Name="Debug" Kind="InputPin" />
+                    <Pin Id="BtTPKJSLGOlOvfVvTYLbp4" Name="Output" Kind="OutputPin" />
+                    <Pin Id="DeOx2b2cfG3PG3MYLjNshZ" Name="Value" Kind="OutputPin" />
+                  </Node>
+                  <ControlPoint Id="SXhBsxjipZcLKuHNl44MaZ" Bounds="403,526" />
+                  <ControlPoint Id="DMffilX8ctILFqHYVqmHMe" Bounds="641,529" />
+                  <ControlPoint Id="FAPNQlNtOsmOj5yI9l6Cr8" Bounds="361,172" />
+                  <ControlPoint Id="VmEfGhtHVSYNcRIkUQ2w2i" Bounds="482,170" />
+                  <ControlPoint Id="LNmUAu2gnhLMHAOs2hbiLg" Bounds="561,170" />
+                  <ControlPoint Id="Oj3h8v6EOtLOlLbeQDVrVU" Bounds="640,170" />
+                  <ControlPoint Id="LfPuGRAD1uNNCB0Dk5oVqQ" Bounds="447,190" />
+                </Canvas>
+                <Patch Id="Gs4ccVVyg4QPN63xohCFdI" Name="Create" />
+                <Patch Id="NWLto6K6SYcMSmeeku8a3L" Name="Update">
+                  <Pin Id="IjXN4CqCp5JNHS9YKgyS2H" Name="Operand" Kind="InputPin" Bounds="423,186" />
+                  <Pin Id="Hwz82D7t0InQFY00tp511d" Name="Output" Kind="OutputPin" Bounds="454,438" />
+                  <Pin Id="PqiwuQ4W8EONTAtkfRfBpB" Name="Axis" Kind="InputPin" Bounds="446,189" />
+                  <Pin Id="Lwmw8ztFfWzOHbdOt9lctp" Name="Keep Dims" Kind="InputPin" Bounds="543,172" />
+                  <Pin Id="On7ABgKl20iNAnUYGg6KYm" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
+                  <Pin Id="V580JVcR4CQNTRQB7UXXU5" Name="Debug" Kind="InputPin" Bounds="720,175" Visibility="Optional" />
+                  <Pin Id="RjF9SqlC23YOqwfPL3x2lS" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
+                </Patch>
+                <ProcessDefinition Id="UFYtLPwUlk7LIIWTozsHY8">
+                  <Fragment Id="K6FD3EXfhrjL3D4nesQQFr" Patch="Gs4ccVVyg4QPN63xohCFdI" Enabled="true" />
+                  <Fragment Id="A3DBXY5V1iOMhGzYqWsJUu" Patch="NWLto6K6SYcMSmeeku8a3L" Enabled="true" />
+                </ProcessDefinition>
+                <Link Id="Axsg0Hf8xiYNWC0uyoPk1V" Ids="BtTPKJSLGOlOvfVvTYLbp4,SXhBsxjipZcLKuHNl44MaZ" />
+                <Link Id="MLzNMJdCefpPZBhS5zyLSC" Ids="SXhBsxjipZcLKuHNl44MaZ,Hwz82D7t0InQFY00tp511d" IsHidden="true" />
+                <Link Id="OKdxrT3bHLMPs9WK3t3B2u" Ids="DeOx2b2cfG3PG3MYLjNshZ,DMffilX8ctILFqHYVqmHMe" />
+                <Link Id="SzzaPOFWsYgLnmw6iEgPyP" Ids="DMffilX8ctILFqHYVqmHMe,RjF9SqlC23YOqwfPL3x2lS" IsHidden="true" />
+                <Link Id="PSxqzaAGXrxLmDEfdyha08" Ids="FAPNQlNtOsmOj5yI9l6Cr8,O57lZg0oxsWPZ07OLNXf49" />
+                <Link Id="Hs3CjMvS60hNrh6XnKwMJV" Ids="IjXN4CqCp5JNHS9YKgyS2H,FAPNQlNtOsmOj5yI9l6Cr8" IsHidden="true" />
+                <Link Id="LczBkGmUmqLMVBwEoCFnXl" Ids="Lwmw8ztFfWzOHbdOt9lctp,VmEfGhtHVSYNcRIkUQ2w2i" IsHidden="true" />
+                <Link Id="HSdz7EXT39JLndR2Pt4LVH" Ids="LNmUAu2gnhLMHAOs2hbiLg,ELRRfzxcTk1OWwddeM1XrP" />
+                <Link Id="NGO8S5PHgn8MIJy6OLj2S7" Ids="On7ABgKl20iNAnUYGg6KYm,LNmUAu2gnhLMHAOs2hbiLg" IsHidden="true" />
+                <Link Id="MtUTmY3OEqTPbEtIH1Etzt" Ids="Oj3h8v6EOtLOlLbeQDVrVU,RqZxeDpVd28Mp9TxnZKL0T" />
+                <Link Id="V2SLbYeFTIVN65z0tCsIAq" Ids="V580JVcR4CQNTRQB7UXXU5,Oj3h8v6EOtLOlLbeQDVrVU" IsHidden="true" />
+                <Link Id="VnGEtnILUakOs8hE4qT7Jo" Ids="KMYbUn7vfYcLFAcXk1V9EO,CjDqaI0m4DkMD6cnRtNP6G" IsHidden="true" />
+                <Link Id="Od4kUiZI3icPbwA9yw74wL" Ids="AQNSP1jh9pkNVxslRALITI,TRyZiVuS1wmOawcdJQOKYg" IsHidden="true" />
+                <Link Id="POyzk1AyjzYP2sRc9GOcu1" Ids="AsW6ra6FuCUNAWoFaJCvMA,EcHqJqwsmUyOpxyguECiKx" IsHidden="true" />
+                <Link Id="BuGmNpRsVdjPy3x1JZpRsO" Ids="JUFOomujTo8LVLJ5fFcts4,H5UlwYU0W5FO4cWZMEZqJb" />
+                <Link Id="CiOvZ9PA529P9wB66Xrus2" Ids="CjDqaI0m4DkMD6cnRtNP6G,AZI0xj78g6ILpjCKYH1zJV" />
+                <Link Id="P2nLYluE205OiypgO5WOsG" Ids="H5UlwYU0W5FO4cWZMEZqJb,D5Oih0w6UEQO8U5IKIjkQL" IsHidden="true" />
+                <Link Id="DJQyw2b8UpALueyFuzs6Rz" Ids="UweHuZFdr24PKdVrusdmz7,RpLVsSOq8jLP9OVrfDdF2W" />
+                <Link Id="QMV9TJsscNyOEaNRvXgwTU" Ids="TBmgWb1Aq2dQAg0jQl4Kdr,PqY40B2xURoL5VBqf4jwPf" />
+                <Link Id="MDQaCIqieXrNngD4eJLoL7" Ids="PTy755wlRS0OiEKyAf6jfT,SXpgIDF2ZCrNtOvD1JFJ2C" IsHidden="true" />
+                <Link Id="KfBMAG1xQ90QJ8yr2UPZjO" Ids="TRyZiVuS1wmOawcdJQOKYg,TmhaEJNmzcxPHMWkIIqSF2" />
+                <Link Id="CsNEWHpH53bNe9fJbpO6zZ" Ids="N1VjRXwOE85NUhYIKx4LWN,M6DqIuEm4lpPIVwlBzTWAE" />
+                <Link Id="TF9JlFJyibTNPwlKoGA6fr" Ids="EcHqJqwsmUyOpxyguECiKx,DxD9sk7b774LvEuYC9PDLp" />
+                <Link Id="Vbqu1NuGNwnP3BndG4OFjU" Ids="SXpgIDF2ZCrNtOvD1JFJ2C,CCunaMhzE6uQCzXbsDl1SU" />
+                <Link Id="LO9JV7uAsuxLAY2laL6fCT" Ids="VmEfGhtHVSYNcRIkUQ2w2i,BiYcsUpQLbEMf7j9h7xtOT" />
+                <Link Id="FlLqFKZ3LRhMtJ98gUajYp" Ids="LfPuGRAD1uNNCB0Dk5oVqQ,QVP9NhtHAIbNcxKFjIQKzw" />
+                <Link Id="NZuiPYBdujmMKOkxkaIjvm" Ids="PqiwuQ4W8EONTAtkfRfBpB,LfPuGRAD1uNNCB0Dk5oVqQ" IsHidden="true" />
               </Patch>
             </Node>
           </Canvas>
@@ -11265,7 +11556,7 @@
               <Node Bounds="519,188,42,19" Id="UicfK6spXboMVpbY0BeWNR">
                 <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="IsNull" />
+                  <Choice Kind="OperationNode" Name="IsNull" />
                 </p:NodeReference>
                 <Pin Id="NxTRh6YSoFHNFE4ajKG0d0" Name="Input" Kind="InputPin" />
                 <Pin Id="OLD8O5SfC83O3LEnGS0io0" Name="Result" Kind="OutputPin" />
@@ -11754,7 +12045,7 @@
             <Patch Id="VyAxVjFWIEsNjmRVRH3MIP" Name="Create" />
             <Patch Id="BWWhrn5GWhqOu5qryORQmw" Name="Update">
               <Pin Id="TZBWY531yHhPa31uUluQqO" Name="Output" Kind="OutputPin" Bounds="404,596" Summary="Concatenated tensor" />
-              <Pin Id="Qf5yXeqPrzaN1se0ccWksg" Name="Input" Kind="InputPin" Bounds="733,323" Summary="Spread of tensors for concatenation">
+              <Pin Id="Qf5yXeqPrzaN1se0ccWksg" Name="Input" Kind="InputPin" Bounds="733,323" IsPinGroup="true" PinGroupDefaultCount="2" Summary="Spread of tensors for concatenation">
                 <p:TypeAnnotation>
                   <Choice Kind="TypeFlag" Name="Spread" />
                 </p:TypeAnnotation>
