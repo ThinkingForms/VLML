@@ -19,6 +19,7 @@ clone_folder: c:\projects\VLML
 branches:
   only:
     - master
+    - Develop
 
 
 # enable patching of AssemblyInfo.* files
@@ -52,6 +53,7 @@ before_build:
 
 
 after_build:
+  branch: master
   - cd..
   - nuget pack build\VLML.nuspec -Version %APPVEYOR_BUILD_VERSION%
   - nuget setApiKey %nuget_api_key%
