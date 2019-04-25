@@ -14,7 +14,7 @@
     <copyright>Copyright © 2018 by Thinkning Forms. All rights reserved.</copyright>
     <tags>VL, CNTK</tags>
     <dependencies>
-      <dependency id="CNTK.GPU" version="[2.6.0]" />
+      <dependency id="CNTK.GPU" version="[2.7.0]" />
     </dependencies>
   </metadata>
   <files>
