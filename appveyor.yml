@@ -19,67 +19,6 @@ clone_folder: c:\projects\VLML
 branches:
   only:
     - master
-
-
-# enable patching of AssemblyInfo.* files
-assembly_info:
-  patch: true
-  file: AssemblyInfo.*
-  assembly_version: "0.1.{build}"
-  assembly_file_version: "{version}"
-
-
-install:
-  appveyor DownloadFile https://dist.nuget.org/win-x86-commandline/latest/nuget.exe
-
-#---------------------------------#
-#       build configuration       #
-#---------------------------------#
-
-platform: x64
-
-configuration: Release
-
-build:
-  project: src\CNTK.VL.Helpers.sln
-  publish_nuget: false
-  publish_nuget_symbols: false
-  include_nuget_references: true
-
-before_build:
-  - cd src
-  - nuget restore -DisableParallelProcessing
-
-
-after_build:
-  - cd..
-  - nuget pack build\VLML.nuspec -Version %APPVEYOR_BUILD_VERSION%
-  - nuget setApiKey %nuget_api_key%
-  - nuget push C:\projects\VLML\VLML.%APPVEYOR_BUILD_VERSION%.nupkg -Source https://api.nuget.org/v3/index.json
-
-artifacts:
-  - path: '*.nupkg'
-    type: NuGetPackage
-    name: master_depl_cvSetup
-
-test: off
-
-#---------------------------------#
-#         notifications           #
-#---------------------------------#
-
-notifications:
-
-  # Email
-  - provider: Email
-    to:
-      - hayden.anyasi@network.rca.ac.uk
-    subject: 'VLML Build {{status}}'                  # optional
-    message: "{{message}}, {{commitId}}, ..."    # optional
-    on_build_status_changed: true
-
-branches:
-  only:
     - Develop
 
 
@@ -117,6 +56,18 @@ artifacts:
     type: NuGetPackage
     name: master_depl_cvSetup
 
+for:
+  branches:
+  only:
+    - master
+
+    after_build:
+      - cd..
+      - nuget pack build\VLML.nuspec -Version %APPVEYOR_BUILD_VERSION%
+      - nuget setApiKey %nuget_api_key%
+      - nuget push C:\projects\VLML\VLML.%APPVEYOR_BUILD_VERSION%.nupkg -Source https://api.nuget.org/v3/index.json
+
+
 test: off
 
 #---------------------------------#
@@ -129,9 +80,11 @@ notifications:
   - provider: Email
     to:
       - hayden.anyasi@network.rca.ac.uk
-    subject: 'VLML Build Develop {{status}}'                  # optional
+    subject: 'VLML Build {{status}}'                  # optional
     message: "{{message}}, {{commitId}}, ..."    # optional
     on_build_status_changed: true
+
+
 #   verbosity: minimal
 # artifacts:
 # - path: build
