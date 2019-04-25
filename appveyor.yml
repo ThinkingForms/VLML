@@ -69,7 +69,14 @@ for:
       - nuget pack build\VLML.nuspec -Version %APPVEYOR_BUILD_VERSION%
       - nuget setApiKey %nuget_api_key%
       - nuget push C:\projects\VLML\VLML.%APPVEYOR_BUILD_VERSION%.nupkg -Source https://api.nuget.org/v3/index.json
+-
+  branches:
+    only:
+      - Develop
 
+  after_build:
+      - cd..
+      - nuget pack build\VLML.nuspec -Version %APPVEYOR_BUILD_VERSION%
     
 
 
