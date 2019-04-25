@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="U0u96t61MHPLDzJOnIvZZD" LanguageVersion="2019.1.0-0177-g8feb9fe666" Version="0.128">
+<Document xmlns:p="property" Id="U0u96t61MHPLDzJOnIvZZD" LanguageVersion="2019.1.0-0150-g4778b4a38a" Version="0.128">
   <Patch Id="JSW0PLjff6iOCBacLF0O2B">
     <Canvas Id="KOybJZnVw2QPNgHyVMU73W" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="HSpE7NEJAl7MlIlfjhxNO7" Name="DataIO" Position="329,384">
@@ -14,7 +14,7 @@
           </p:NodeReference>
           <Patch Id="QleMh6FljOqQcKUnvLPkPq" IsGeneric="true">
             <Node Bounds="880,360,81,13" Id="CmDGV1QfwgiNjDOT2FkSRD">
-              <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+              <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
               </p:NodeReference>
@@ -32,7 +32,7 @@
             <ControlPoint Id="LB0RITDdTS1NclSagJZiZW" Bounds="884,570" />
             <Link Id="SvzyYkE1wWgNf50Z6N0ruK" Ids="LB0RITDdTS1NclSagJZiZW,M7lDQ4DZVENMLSFssFHohp" IsHidden="true" />
             <Node Bounds="880,430,65,13" Id="VjEB1hUBncEM686UiL4vPr">
-              <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+              <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="CreateBatch" />
                 <PinReference Kind="InputPin" Name="Sample Shape" />
@@ -55,7 +55,7 @@
             <ControlPoint Id="M0N8ZOknKfZONYfuniDxJq" Bounds="919,467" />
             <Link Id="Fi5QJuszjZLQMUYBv63tdF" Ids="BAf5NMmQYPmQNdJHMUkDtp,M0N8ZOknKfZONYfuniDxJq" IsHidden="true" />
             <Node Bounds="881,503,65,22" Id="C8WUxzr4EagPBl2zr0cR64">
-              <p:NodeReference LastCategoryFullName="CNTK.MinibatchData" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+              <p:NodeReference LastCategoryFullName="CNTK.MinibatchData" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <CategoryReference Kind="AssemblyCategory" Name="MinibatchData" />
                 <Choice Kind="OperationCallFlag" Name="Create" />
@@ -118,7 +118,7 @@
                   <Patch Id="QHL838VOe4dMGtAAfesVRO" Name="Create" ManuallySortedPins="true" />
                   <Patch Id="Qt6WNE7vYxPNGENlmbwDQt" Name="Then" ManuallySortedPins="true" />
                   <Node Bounds="183,328,81,13" Id="EzIyWQlbIhxPrQNgcnJwh6">
-                    <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                     </p:NodeReference>
@@ -126,7 +126,7 @@
                     <Pin Id="HMBnpugT35yPJUB08UOlFv" Name="Result" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="195,388,65,13" Id="BY8spw4c08KODm80emDr0X">
-                    <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="CreateBatch" />
                       <PinReference Kind="InputPin" Name="Sample Shape" />
@@ -138,7 +138,7 @@
                     <Pin Id="VJheZslVBDeMQ4YUSYCXrP" Name="Result" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="194,454,65,22" Id="NETn3NCCPNzO6zsFOVMwcd">
-                    <p:NodeReference LastCategoryFullName="CNTK.MinibatchData" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.MinibatchData" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="MinibatchData" />
                       <Choice Kind="OperationCallFlag" Name="Create" />
@@ -476,7 +476,7 @@
                         <Patch Id="G4TXhClpG8YQUe1vw3rNON" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="CxzbS0sqZYeMIxfjVtWLdB" Name="Then" ManuallySortedPins="true" />
                         <Node Bounds="103,1056,81,13" Id="KjbDhFgWo2qPmBH0vA4SeM">
-                          <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                           </p:NodeReference>
@@ -484,7 +484,7 @@
                           <Pin Id="TBNAKg51jqtPqOi0snCtVk" Name="Result" Kind="OutputPin" />
                         </Node>
                         <Node Bounds="103,1099,65,13" Id="JpCA9pu9YHbQEGMOn4Fbcf">
-                          <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="CreateBatch" />
                             <PinReference Kind="InputPin" Name="Sample Shape" />
@@ -500,7 +500,7 @@
                           <Pin Id="OgCNXMXAwN1Ln1AK36QQcz" Name="Result" Kind="OutputPin" />
                         </Node>
                         <Node Bounds="103,1142,61,22" Id="UPqmrMxmND7O8q7g9APZPg">
-                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchData" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchData" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="Create" />
                             <CategoryReference Kind="AssemblyCategory" Name="MinibatchData" NeedsToBeDirectParent="true" />
@@ -1440,7 +1440,7 @@
                         <Patch Id="UNhGsbxbWImQZDJ2eWxSaE" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="L6LwDcWGb7mPHll28dnRiS" Name="Then" ManuallySortedPins="true" />
                         <Node Bounds="103,1056,81,13" Id="O74pu7QstaEPytOES1vH5h">
-                          <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                           </p:NodeReference>
@@ -1448,7 +1448,7 @@
                           <Pin Id="OtNl8chcoSXLNSheZ7vaJo" Name="Result" Kind="OutputPin" />
                         </Node>
                         <Node Bounds="103,1099,65,13" Id="I08p8huL3vmPrf1BwDxt0x">
-                          <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="CreateBatch" />
                             <PinReference Kind="InputPin" Name="Sample Shape" />
@@ -1464,7 +1464,7 @@
                           <Pin Id="FyyYdE6JIlbNdPwijD97hJ" Name="Result" Kind="OutputPin" />
                         </Node>
                         <Node Bounds="137,1146" Id="BK1UefOZz0yPk2kuo6vytl">
-                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchData" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchData" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="MinibatchData" />
                             <Choice Kind="OperationCallFlag" Name="Create" />
@@ -2465,7 +2465,7 @@
                         <Pin Id="QOteyYHpQaQNUC9DgjoHnA" Name="Result" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="291,717,82,13" Id="DsDdDmsCoe2QBYR12GIdi4">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="CTFDeserializer" />
                         </p:NodeReference>
@@ -2519,7 +2519,7 @@
                         <Pin Id="OUvfYngR2aOOGiBQkn9GWU" Name="Internal Var" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="489,1075,38,22" Id="A4eOMYts2hBMwCefSp2iOp">
-                        <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="Uid" />
                           <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -2529,7 +2529,7 @@
                         <Pin Id="HN3DZzRIMMDLb0srPsopiU" Name="Uid" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="355,594,84,22" Id="Ndb0FlkRJ01PY9KsVSBRKt">
-                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="StreamConfiguration" />
                           <Choice Kind="OperationCallFlag" Name="Create" />
@@ -2539,7 +2539,7 @@
                         <Pin Id="Ls92rmTRCGiQCC5pN0Ep81" Name="Output" Kind="StateOutputPin" />
                       </Node>
                       <Node Bounds="304,649,20,22" Id="VGWmNbe4N6BNt6Uhv0Ia4K">
-                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfigurationVector" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfigurationVector" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="StreamConfigurationVector" />
                           <Choice Kind="OperationCallFlag" Name="Add" />
@@ -2550,7 +2550,7 @@
                         <Pin Id="PHRf6t7VOwILyRxSyZpARE" Name="Output" Kind="StateOutputPin" />
                       </Node>
                       <Node Bounds="730,594,84,22" Id="MmawHpi65GHNc3vDLZXE98">
-                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="StreamConfiguration" />
                           <Choice Kind="OperationCallFlag" Name="Create" />
@@ -2578,7 +2578,7 @@
                         <Pin Id="CVlJL5IfI76P1hfm2N8rEC" Name="Internal Var" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="753,1079,38,22" Id="JzvJdbmn6syPltTbMvbI8v">
-                        <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="Uid" />
                           <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -2649,7 +2649,7 @@
                     </p:TypeAnnotation>
                   </Pad>
                   <Pad Id="ABHNqTORTISN9tWAd7qQ7E" Comment="Data Type" Bounds="950,396,67,19" ShowValueBox="true" isIOBox="true" Value="Float">
-                    <p:TypeAnnotation LastCategoryFullName="CNTK" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:TypeAnnotation LastCategoryFullName="CNTK" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="TypeFlag" Name="DataType" />
                     </p:TypeAnnotation>
                   </Pad>
@@ -2931,7 +2931,7 @@
               </p:NodeReference>
               <Patch Id="NVMC4lNzRSTLPcXYpcpHu2" ManuallySortedPins="true">
                 <Node Bounds="793,296,93,22" Id="GJx5NMlLzJWPXLLvgPjasv">
-                  <p:NodeReference LastCategoryFullName="CNTK.MinibatchSourceConfig" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                  <p:NodeReference LastCategoryFullName="CNTK.MinibatchSourceConfig" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <CategoryReference Kind="AssemblyCategory" Name="MinibatchSourceConfig" />
                     <Choice Kind="OperationCallFlag" Name="Create" />
@@ -2950,7 +2950,7 @@
                   <Pin Id="IYFgkJESluGORRRIAbG3x8" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="794,340,166,13" Id="BiU7qw8bSyCNOW46rzAJxI">
-                  <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                  <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="CreateCompositeMinibatchSource" />
                   </p:NodeReference>
@@ -3088,7 +3088,7 @@
                         <Pin Id="Q9tmJYIUOgrPJQ68vlGwvw" Name="Internal Var" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="514,1075,45,26" Id="VKarr2noTVyPOyFU2ea1g3">
-                        <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="Uid" />
                           <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -3098,7 +3098,7 @@
                         <Pin Id="I8K6Y1ZBFBUMDftNyqyNSI" Name="Uid" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="359,595,84,26" Id="PBf10dAhHeMOnd5g5FwyYV">
-                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="StreamConfiguration" />
                           <Choice Kind="OperationCallFlag" Name="Create" />
@@ -3108,7 +3108,7 @@
                         <Pin Id="Jp9zlwcKSoaO69aHBeITgN" Name="Output" Kind="StateOutputPin" />
                       </Node>
                       <Node Bounds="305,685,113,26" Id="SmTsQ920WLjMY3OR86A41a">
-                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfigurationVector" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfigurationVector" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="StreamConfigurationVector" />
                           <Choice Kind="OperationCallFlag" Name="Add" />
@@ -3119,7 +3119,7 @@
                         <Pin Id="H9YXEI4J0gAPlXYq6DUV3r" Name="Output" Kind="StateOutputPin" />
                       </Node>
                       <Node Bounds="575,597,90,26" Id="SGStryn7gh0MmZDj5heytn">
-                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="StreamConfiguration" />
                           <Choice Kind="OperationCallFlag" Name="Create" />
@@ -3147,7 +3147,7 @@
                         <Pin Id="H9PXU7rytywLjQU2yeh5l1" Name="Internal Var" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="703,1075,45,26" Id="M3wVvCC5ca3PkZ8VciwbPT">
-                        <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="Uid" />
                           <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -3197,7 +3197,7 @@
                       <Pad Id="UVkK6kKiT7bMz6EgO20Z0E" Comment="" Bounds="679,553,35,15" ShowValueBox="true" isIOBox="true" />
                       <Pad Id="JUT0K4gEnRwLH7iA7pA0n5" Comment="" Bounds="754,541,35,15" ShowValueBox="true" isIOBox="true" />
                       <Node Bounds="306,644,100,26" Id="By8eaMHhcm6NboSREqgqZy">
-                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfigurationVector" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfigurationVector" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="StreamConfigurationVector" />
                           <Choice Kind="OperationCallFlag" Name="Create" />
@@ -3206,7 +3206,7 @@
                         <Pin Id="Fe0ti4e0LxBM6kuCLw14U3" Name="Output" Kind="StateOutputPin" />
                       </Node>
                       <Node Bounds="291,759,87,19" Id="FzpRdX9dgtcParcp01wdoX">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="CBFDeserializer" />
                           <PinReference Kind="InputPin" Name="Streams" />
@@ -3251,7 +3251,7 @@
                     </p:TypeAnnotation>
                   </Pad>
                   <Pad Id="L8vCdQ0Ja4TOorktskHYwW" Comment="Data Type" Bounds="838,607,71,19" ShowValueBox="true" isIOBox="true" Value="Float">
-                    <p:TypeAnnotation LastCategoryFullName="CNTK" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:TypeAnnotation LastCategoryFullName="CNTK" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="TypeFlag" Name="DataType" />
                     </p:TypeAnnotation>
                   </Pad>
@@ -3427,7 +3427,7 @@
               </p:NodeReference>
               <Patch Id="VLhAKEf3GMIOoU8qt8joSJ">
                 <Node Bounds="489,786,66,22" Id="RF7jU1tEA0mQTIiKjhgYXi">
-                  <p:NodeReference LastCategoryFullName="CNTK.CNTKDictionary" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                  <p:NodeReference LastCategoryFullName="CNTK.CNTKDictionary" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Create" />
                     <CategoryReference Kind="AssemblyCategory" Name="CNTKDictionary" NeedsToBeDirectParent="true" />
@@ -3448,7 +3448,7 @@
                     </Patch>
                     <Patch Id="RqVYWQ1hXuALb8G4FEZe0S" Name="Dispose" ManuallySortedPins="true" />
                     <Node Bounds="485,978,66,22" Id="CHVP2IXdJK0PwkSNTb2pMr">
-                      <p:NodeReference LastCategoryFullName="CNTK.CNTKDictionary" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKDictionary" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="Add" />
                         <CategoryReference Kind="AssemblyCategory" Name="CNTKDictionary" NeedsToBeDirectParent="true" />
@@ -3460,7 +3460,7 @@
                       <Pin Id="J6n8lqFv7vbLRsLiod5eXY" Name="Output" Kind="StateOutputPin" />
                     </Node>
                     <Node Bounds="579,866,65,22" Id="E0ZXGKLZmc7MtpG1MFgki7">
-                      <p:NodeReference LastCategoryFullName="CNTK.DictionaryValue" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.DictionaryValue" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="AssemblyCategory" Name="DictionaryValue" />
                         <Choice Kind="OperationCallFlag" Name="Create" />
@@ -3517,7 +3517,7 @@
               </p:NodeReference>
               <Patch Id="EYQTyBJKknmO7b2avrM24O">
                 <Node Bounds="817,746,66,22" Id="NHCW98RIqxvQJ52nBEKqDC">
-                  <p:NodeReference LastCategoryFullName="CNTK.CNTKDictionary" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                  <p:NodeReference LastCategoryFullName="CNTK.CNTKDictionary" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Create" />
                     <CategoryReference Kind="AssemblyCategory" Name="CNTKDictionary" NeedsToBeDirectParent="true" />
@@ -3538,7 +3538,7 @@
                     </Patch>
                     <Patch Id="TYUH2QecobfLzpAVNKXmsm" Name="Dispose" ManuallySortedPins="true" />
                     <Node Bounds="813,941,66,13" Id="GBd9GOXm95KMCXwF5euHLF">
-                      <p:NodeReference LastCategoryFullName="CNTK.CNTKDictionary" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKDictionary" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="Add" />
                         <CategoryReference Kind="AssemblyCategory" Name="CNTKDictionary" NeedsToBeDirectParent="true" />
@@ -3550,7 +3550,7 @@
                       <Pin Id="IS0bIJpzlq3OTQSi6w1OVe" Name="Output" Kind="StateOutputPin" />
                     </Node>
                     <Node Bounds="907,829,65,13" Id="A3iYa9m1ytHNnXPNzQZyHH">
-                      <p:NodeReference LastCategoryFullName="CNTK.DictionaryValue" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.DictionaryValue" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="AssemblyCategory" Name="DictionaryValue" />
                         <Choice Kind="OperationCallFlag" Name="Create" />
@@ -4686,7 +4686,7 @@
                           <Patch Id="UyqlYLcfbD2OFuajrjJNnv" Name="Create" ManuallySortedPins="true" />
                           <Patch Id="JOd9q3afa6TNNWchMaxA3T" Name="Then" ManuallySortedPins="true" />
                           <Node Bounds="107,611,65,22" Id="DZ63FQoXKXALL97uxHAnH0">
-                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="Create" />
                               <CategoryReference Kind="AssemblyCategory" Name="Value" NeedsToBeDirectParent="true" />
@@ -4695,7 +4695,7 @@
                             <Pin Id="PISlrzCyf3KP9FfR1IF3Uw" Name="Output" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="107,564,65,22" Id="HlEw89f4HGnLz7wm3wCVef">
-                            <p:NodeReference LastCategoryFullName="CNTK.NDArrayView" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.NDArrayView" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="Create" />
                               <CategoryReference Kind="AssemblyCategory" Name="NDArrayView" NeedsToBeDirectParent="true" />
@@ -4731,7 +4731,7 @@
                             <Pin Id="PncFC2kGj3ZN3NGdiwa27A" Name="Result" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="108,443,81,13" Id="DtTL3sjXirhPGSaOadufgw">
-                            <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                             </p:NodeReference>
@@ -4756,7 +4756,7 @@
                             <Pin Id="Osso2sgfg8zN5O16WgvMjw" Name="Result" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="107,659,48,22" Id="Mv9v78Vhz7jNkARNsne7Qs">
-                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="AsString" />
                               <CategoryReference Kind="AssemblyCategory" Name="Value" NeedsToBeDirectParent="true" />
@@ -4782,7 +4782,7 @@
                           <Patch Id="TFJROCE1p7BP4d5WnGUsKj" Name="Create" ManuallySortedPins="true" />
                           <Patch Id="DgNDcw6yrlYPNrWpSxiPHF" Name="Then" ManuallySortedPins="true" />
                           <Node Bounds="105,298,81,13" Id="K2CNfLtRejqL0NPSdOFuxf">
-                            <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                             </p:NodeReference>
@@ -4790,7 +4790,7 @@
                             <Pin Id="DFaOILfdN3XPswUk5jVx2r" Name="Result" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="105,330,65,13" Id="NJKi80pu6TsMZca0uT1lqg">
-                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="CreateBatch" />
                               <PinReference Kind="InputPin" Name="Sample Shape" />
@@ -5063,7 +5063,7 @@
                     <Pin Id="EsvLphwEemcNSNnAF6Paxj" Name="Internal Var" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="550,445,38,22" Id="FBVmeXDbV1eLuUhgjtf7r3">
-                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Uid" />
                       <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -5307,7 +5307,7 @@
                       <Patch Id="Dwtx4fyYj4nQbDl7d3CYIm" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="IgsjizqmkbaOeibUlTZ7On" Name="Then" ManuallySortedPins="true" />
                       <Node Bounds="551,365,48,22" Id="JByqRi1d2xqPXJCznkaV79">
-                        <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="AsString" />
                           <CategoryReference Kind="AssemblyCategory" Name="Value" NeedsToBeDirectParent="true" />
@@ -5421,7 +5421,7 @@
                         <Pin Id="EAerzFhLf3dN081n1jIVDH" Name="Result" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="787,480,36,22" Id="B8726EeK11RN6dJCJCM9qO">
-                        <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="Value" />
                           <Choice Kind="OperationCallFlag" Name="Shape" />
@@ -5431,7 +5431,7 @@
                         <Pin Id="GVnEm0ZFaOPOHmS9Fjd2OP" Name="Shape" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="811,523,63,22" Id="Kd8wWDvZZO4MIAtE55VM2N">
-                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="NDShape" />
                           <Choice Kind="OperationCallFlag" Name="Dimensions" />
@@ -5649,7 +5649,7 @@
                         <Pin Id="Toqv50MtmEZPr0AqJkiZGT" Name="Result" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="114,437,48,22" Id="AZ4SKxYuUWsNBf82eDv3yr">
-                        <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="AsString" />
                           <CategoryReference Kind="AssemblyCategory" Name="Value" NeedsToBeDirectParent="true" />
@@ -5660,7 +5660,7 @@
                       </Node>
                       <Pad Id="KjcfFsDDXv2NJq0EBhjRhu" Comment="" Bounds="333,169" isIOBox="true" />
                       <Node Bounds="113,393,65,22" Id="I49mUJcwDRBN6405Ucpjmi">
-                        <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="Create" />
                           <CategoryReference Kind="AssemblyCategory" Name="Value" NeedsToBeDirectParent="true" />
@@ -5669,7 +5669,7 @@
                         <Pin Id="G4TFaXvX2x0MCmqEP2SgkW" Name="Output" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="114,358,65,22" Id="QiOQ8GSDJs1LtTB4tvLSV5">
-                        <p:NodeReference LastCategoryFullName="CNTK.NDArrayView" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.NDArrayView" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="Create" />
                           <CategoryReference Kind="AssemblyCategory" Name="NDArrayView" NeedsToBeDirectParent="true" />
@@ -5705,7 +5705,7 @@
                         <Pin Id="G3UO7yvAdq4PrgIqciRpDX" Name="Result" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="117,288,81,13" Id="BH5JqEi7OZ0MFTxudFU2hy">
-                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                         </p:NodeReference>
@@ -5981,7 +5981,7 @@
                     <Pin Id="MHWhc5JBIZtNyPn74H01Er" Name="Internal Var" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="590,280,38,22" Id="PmkhTGdzRJcNBwCWri7qyI">
-                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Uid" />
                       <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -6150,7 +6150,7 @@
                           <Patch Id="LW0ITTZiMRSODz9WOrxU6f" Name="Create" ManuallySortedPins="true" />
                           <Patch Id="KiKZCuJrst0ObGzqk1JXjt" Name="Then" ManuallySortedPins="true" />
                           <Node Bounds="112,336,81,13" Id="Emc0xgYeJy6MajKNlu9S5Q">
-                            <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                             </p:NodeReference>
@@ -6158,7 +6158,7 @@
                             <Pin Id="DPYuOB8DgXwLDEk5jebN7I" Name="Result" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="112,379,124,13" Id="TvcgTYqig71LLJsBoYNMMC">
-                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <CategoryReference Kind="AssemblyCategory" Name="Value" />
                               <Choice Kind="OperationCallFlag" Name="CreateBatchOfSequences" />
@@ -6185,7 +6185,7 @@
                             <Pin Id="EYpN07AmnbzMDhVRENLtkV" Name="Result" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="182,418,48,22" Id="IXcgvRmbnfIM8GVMWaMnHg">
-                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <CategoryReference Kind="AssemblyCategory" Name="Value" />
                               <Choice Kind="OperationCallFlag" Name="AsString" />
@@ -6655,7 +6655,7 @@
                     <Pin Id="Dam9Ziy0wzsNKcQyXZ1ZcO" Name="Internal Var" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="526,369,38,22" Id="CkyydxPtCneQOmXEBLth40">
-                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Uid" />
                       <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -6869,7 +6869,7 @@
                           <Patch Id="QjRmKCqa8NnP495eNUh1c7" Name="Create" ManuallySortedPins="true" />
                           <Patch Id="VLoKVwNl0GUNdvIfzBxRcv" Name="Then" ManuallySortedPins="true" />
                           <Node Bounds="113,336,81,13" Id="H721Vzts0XaONA5CWzIClx">
-                            <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                             </p:NodeReference>
@@ -6877,7 +6877,7 @@
                             <Pin Id="QcBG49wwL2mOlcirpmC3DZ" Name="Result" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="112,379,124,13" Id="Lu6Tolkg6ynNHH4IZkiKNf">
-                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <CategoryReference Kind="AssemblyCategory" Name="Value" />
                               <Choice Kind="OperationCallFlag" Name="CreateBatchOfSequences" />
@@ -6904,7 +6904,7 @@
                             <Pin Id="AnXKyIlvQPVNOjIGCpivZ4" Name="Result" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="182,418,48,22" Id="LjuWQo34O3MNoQaI7flyLz">
-                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <CategoryReference Kind="AssemblyCategory" Name="Value" />
                               <Choice Kind="OperationCallFlag" Name="AsString" />
@@ -7374,7 +7374,7 @@
                     <Pin Id="TI6bFAUk8nHQZ10zTomLD1" Name="Internal Var" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="526,369,38,22" Id="R7PcObZaaEOMIfS3KvwsWi">
-                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Uid" />
                       <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -7675,7 +7675,7 @@
                           <Patch Id="Ul78gMfc09gMKEzTQnjlWC" Name="Create" ManuallySortedPins="true" />
                           <Patch Id="EMJdv2TM7teNxaRswN8s0O" Name="Then" ManuallySortedPins="true" />
                           <Node Bounds="107,611,65,22" Id="U8WmMhRfBmUL3KVYdPzVSN">
-                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="Create" />
                               <CategoryReference Kind="AssemblyCategory" Name="Value" NeedsToBeDirectParent="true" />
@@ -7684,7 +7684,7 @@
                             <Pin Id="PAdqK8NgmtBLCB3vKaqcZT" Name="Output" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="107,564,65,22" Id="KhnkwbzM2hJNrny9hVvgOS">
-                            <p:NodeReference LastCategoryFullName="CNTK.NDArrayView" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.NDArrayView" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="Create" />
                               <CategoryReference Kind="AssemblyCategory" Name="NDArrayView" NeedsToBeDirectParent="true" />
@@ -7720,7 +7720,7 @@
                             <Pin Id="AhPw5vVXEA9LThu4llH3sf" Name="Result" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="108,443,81,13" Id="J1qBRyWe5zcMuAUiz0pQNo">
-                            <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                             </p:NodeReference>
@@ -7745,7 +7745,7 @@
                             <Pin Id="VaXMPsGvKlDPLh2jUjwTZu" Name="Result" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="107,659,48,22" Id="QPSHoLwmj9IMFxUT9P7hTz">
-                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="AsString" />
                               <CategoryReference Kind="AssemblyCategory" Name="Value" NeedsToBeDirectParent="true" />
@@ -7771,7 +7771,7 @@
                           <Patch Id="POGTr9MsIEtPB5sAv2tCzj" Name="Create" ManuallySortedPins="true" />
                           <Patch Id="Smlny6ss0iiOzuaPEr6Zj1" Name="Then" ManuallySortedPins="true" />
                           <Node Bounds="105,298,81,13" Id="RgOZMpbD1SlOiwnwgwmu0T">
-                            <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                             </p:NodeReference>
@@ -7779,7 +7779,7 @@
                             <Pin Id="Qkn1Q8uOpqJLAtmgduhqdy" Name="Result" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="105,330,65,13" Id="D6foKYJrMWEPJ8xXMLl3k2">
-                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="CreateBatch" />
                               <PinReference Kind="InputPin" Name="Sample Shape" />
@@ -8052,7 +8052,7 @@
                     <Pin Id="RcRrQk9C4wFPeF87Puft4V" Name="Internal Var" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="550,445,38,22" Id="NqlGo79lie6NiJOicgAbba">
-                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Uid" />
                       <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -8493,7 +8493,7 @@
                           <Patch Id="PgW5sBHLYSaOeuxF5WGmIr" Name="Create" ManuallySortedPins="true" />
                           <Patch Id="GUosBSqfYNdMmhcCSpGWjk" Name="Then" ManuallySortedPins="true" />
                           <Node Bounds="112,336,81,13" Id="Cz71EzN9if1OaH0FogFun1">
-                            <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                             </p:NodeReference>
@@ -8501,7 +8501,7 @@
                             <Pin Id="QwN1C5oHz7QOHqO59VIDmc" Name="Result" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="112,379,124,13" Id="TGw8ZLh4IUZNAu9zEiKItP">
-                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <CategoryReference Kind="AssemblyCategory" Name="Value" />
                               <Choice Kind="OperationCallFlag" Name="CreateBatchOfSequences" />
@@ -8528,7 +8528,7 @@
                             <Pin Id="A5Ps1jbTp4dLtOdNq7uwrg" Name="Result" Kind="OutputPin" />
                           </Node>
                           <Node Bounds="182,418,48,22" Id="Jn4sGPLBeCONuts5D0C3DP">
-                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <CategoryReference Kind="AssemblyCategory" Name="Value" />
                               <Choice Kind="OperationCallFlag" Name="AsString" />
@@ -8998,7 +8998,7 @@
                     <Pin Id="JUQRQM6FKwFQQ3shrjDfyW" Name="Internal Var" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="526,369,38,22" Id="Lwsy7sUrzqvPpmGxEQVBGa">
-                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Uid" />
                       <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -9196,7 +9196,7 @@
                     <Patch Id="BeKOemIhC6CNen9smfNNaD" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="KWuXTDrlW37PvRKIC7kDz1" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="359,714,193,13" Id="ILgtSWCHY0kN1Diwv0WVs6">
-                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="ImageDeserializer" />
                         <PinReference Kind="InputPin" Name="Transforms" />
@@ -9249,7 +9249,7 @@
                       <Pin Id="CdwqXP6o0uYPemAfQPUObO" Name="Result" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="523,600,74,20" Id="TbfbRpv80PfNRnKio8uu9i">
-                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="ReaderScale" />
                         <PinReference Kind="InputPin" Name="Interpolations" />
@@ -9261,7 +9261,7 @@
                       <Pin Id="NXCY8f0Ssb9PdgXj7wVgEi" Name="Result" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="523,660,69,22" Id="DTNDX9zTp7hNyMm0WCwZl8">
-                      <p:NodeReference LastCategoryFullName="CNTK.DictionaryVector" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.DictionaryVector" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="Create" />
                         <CategoryReference Kind="AssemblyCategory" Name="DictionaryVector" NeedsToBeDirectParent="true" />
@@ -9335,7 +9335,7 @@
                       <Pin Id="ByfOhPuyOBpPzbvZE91LXq" Name="Success" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="359,848,50,22" Id="PHAL1ajnTGXLvupmZmy3p1">
-                      <p:NodeReference LastCategoryFullName="CNTK.DictionaryVector" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.DictionaryVector" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="Create" />
                         <CategoryReference Kind="AssemblyCategory" Name="DictionaryVector" NeedsToBeDirectParent="true" />
@@ -9375,7 +9375,7 @@
                       <Pin Id="N54q5zfNPn0OfqCvdMaGXA" Name="Internal Var" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="693,927,38,22" Id="SAP9VAcjpygMyjriPmkOh9">
-                      <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="Uid" />
                         <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -9403,7 +9403,7 @@
                       <Pin Id="KETU7T41vFZLsCwx5ymJaP" Name="Internal Var" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="1006,927,38,22" Id="PtvCgDryUNNN6dOfoB5YUf">
-                      <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="Uid" />
                         <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -9437,7 +9437,7 @@
                       </Patch>
                     </Node>
                     <Node Bounds="508,860,81,13" Id="OI9BWKJgcvhNHL7OPkrFDw">
-                      <p:NodeReference LastCategoryFullName="CNTK.MinibatchSource" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.MinibatchSource" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="InfinitelyRepeat" />
                       </p:NodeReference>
@@ -9454,7 +9454,7 @@
                         <Patch Id="TzYJjwDzH7FPXF4lMGSFtW" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="RvMSzXwy3M5LtWQMOcEibH" Name="Then" ManuallySortedPins="true" />
                         <Node Bounds="359,891,93,22" Id="VqHdFAU1izHNDjmkBOItF9">
-                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchSourceConfig" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchSourceConfig" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="MinibatchSourceConfig" />
                             <Choice Kind="OperationCallFlag" Name="Create" />
@@ -9465,7 +9465,7 @@
                           <Pin Id="BEShhSBwAA5MvQDcC42sRl" Name="Output" Kind="StateOutputPin" />
                         </Node>
                         <Node Bounds="359,969,166,13" Id="NKPFAojIey8L2mS85teJiQ">
-                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="CreateCompositeMinibatchSource" />
                           </p:NodeReference>
@@ -9473,7 +9473,7 @@
                           <Pin Id="MNJKOZMOGa4O6PeYhuG9tN" Name="Result" Kind="OutputPin" />
                         </Node>
                         <Node Bounds="359,927,153,22" Id="FtCrekWi58SM7EBrCPgoOP">
-                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchSourceConfig" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchSourceConfig" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="MinibatchSourceConfig" />
                             <Choice Kind="OperationCallFlag" Name="SetMaxSamples" />
@@ -9514,7 +9514,7 @@
                         <Patch Id="MxdNB8dXxlwOkpAf4Dbeby" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="VHZLOPxcqeLQbShagQFt7X" Name="Then" ManuallySortedPins="true" />
                         <Node Bounds="534,1089,93,22" Id="FJYeKfohLlMLquBOfuaCy3">
-                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchSourceConfig" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchSourceConfig" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="MinibatchSourceConfig" />
                             <Choice Kind="OperationCallFlag" Name="Create" />
@@ -9583,7 +9583,7 @@
                 </Pad>
                 <ControlPoint Id="JfPeYOZrjZ2N6sT9sBqU6Q" Bounds="672,1288" />
                 <Pad Id="F65swetFqHGPka9HVqVoNc" Comment="Data Type" Bounds="855,687,67,19" ShowValueBox="true" isIOBox="true" Value="Float">
-                  <p:TypeAnnotation LastCategoryFullName="CNTK" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                  <p:TypeAnnotation LastCategoryFullName="CNTK" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                     <Choice Kind="TypeFlag" Name="DataType" />
                   </p:TypeAnnotation>
                 </Pad>
@@ -9612,7 +9612,7 @@
                 <ControlPoint Id="APcHZEzbJKcLrBY2q6Y1L2" Bounds="723,462" />
                 <Pad Id="PttapnTqVn7L6v4RGZLEVJ" Bounds="364,1248" />
                 <Node Bounds="361,1288,68,22" Id="JqKv8b5PUbuOY42CJVWQ7P">
-                  <p:NodeReference LastCategoryFullName="CNTK.MinibatchSource" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                  <p:NodeReference LastCategoryFullName="CNTK.MinibatchSource" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Dispose" />
                     <CategoryReference Kind="AssemblyCategory" Name="MinibatchSource" NeedsToBeDirectParent="true" />
@@ -9808,7 +9808,7 @@
                       <Pin Id="A5PMmem5PTWL4TW7To9845" Name="Result" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="618,390,74,19" Id="Kfh3TAKxzM7ONAMwEWZle6">
-                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="ReaderScale" />
                         <PinReference Kind="InputPin" Name="Interpolations" />
@@ -9820,7 +9820,7 @@
                       <Pin Id="NcoprgvlgHONGcpyiOhoW6" Name="Result" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="618,447,76,26" Id="SP7jPomcBztOgKgEQ7nks6">
-                      <p:NodeReference LastCategoryFullName="CNTK.DictionaryVector" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.DictionaryVector" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="Create" />
                         <CategoryReference Kind="AssemblyCategory" Name="DictionaryVector" NeedsToBeDirectParent="true" />
@@ -9872,7 +9872,7 @@
                         <Patch Id="VjFjVzqND4aN4z5dg1Xg2w" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="PJLksikEf9sOPTnXIMUXpF" Name="Then" ManuallySortedPins="true" />
                         <Node Bounds="455,541,193,19" Id="OaO14qZG7kHMfjgV99l4AH">
-                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="ImageDeserializer" />
                             <PinReference Kind="InputPin" Name="Transforms" />
@@ -10189,7 +10189,7 @@
                         <Patch Id="TLAnjsEViWVOhwZ2OUxbaZ" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="JaeaUT2OVSKP0D27POzm2u" Name="Then" ManuallySortedPins="true" />
                         <Node Bounds="332,761,99,26" Id="Bdrw3ueOezIOXwQTar7r1e">
-                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchSourceConfig" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchSourceConfig" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="MinibatchSourceConfig" />
                             <Choice Kind="OperationCallFlag" Name="Create" />
@@ -10200,7 +10200,7 @@
                           <Pin Id="QWXp0Z640yXMAOtJVHrAsY" Name="Output" Kind="StateOutputPin" />
                         </Node>
                         <Node Bounds="332,839,169,19" Id="Dq9ZdjKr4oMPn3T1bOSdVs">
-                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="CreateCompositeMinibatchSource" />
                           </p:NodeReference>
@@ -10208,7 +10208,7 @@
                           <Pin Id="CJrIY6NOdsMPfOehlEadO2" Name="Result" Kind="OutputPin" />
                         </Node>
                         <Node Bounds="332,797,119,26" Id="RrCYUlpzbnTOenpqKUn08z">
-                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchSourceConfig" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchSourceConfig" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="MinibatchSourceConfig" />
                             <Choice Kind="OperationCallFlag" Name="SetMaxSamples" />
@@ -10219,14 +10219,14 @@
                           <Pin Id="A1U4kUlE1PhLN6n4NyvMRR" Name="Output" Kind="StateOutputPin" />
                         </Node>
                         <Node Bounds="445,729,87,19" Id="RnTtbNUyJwzOIPTgXtmfkQ">
-                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchSource" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.MinibatchSource" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="InfinitelyRepeat" />
                           </p:NodeReference>
                           <Pin Id="SS59Xd7OMh0NMXrqRwl8Id" Name="Infinitely Repeat" Kind="OutputPin" />
                         </Node>
                         <Node Bounds="335,724,76,26" Id="QOgFMswuLfEPKqaN78eb8t">
-                          <p:NodeReference LastCategoryFullName="CNTK.DictionaryVector" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.DictionaryVector" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="Create" />
                             <CategoryReference Kind="AssemblyCategory" Name="DictionaryVector" NeedsToBeDirectParent="true" />
@@ -10390,7 +10390,7 @@
                               <Pin Id="VPpYSCNpzf4PnHcZpMW4ED" Name="Internal Var" Kind="OutputPin" />
                             </Node>
                             <Node Bounds="537,290,45,26" Id="AFMIpyDjk8SP64bz0VcUtL">
-                              <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                              <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="Uid" />
                                 <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -10419,7 +10419,7 @@
                               <Pin Id="U2awzWBm2rmOZxpWhAqgUZ" Name="Internal Var" Kind="OutputPin" />
                             </Node>
                             <Node Bounds="735,280,45,26" Id="Rmc2k3uu2oyO5ozl46ReTN">
-                              <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                              <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="Uid" />
                                 <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -10661,12 +10661,12 @@
                   </p:TypeAnnotation>
                 </Pin>
                 <Pin Id="Hwkwn3fZYL2LtMuuJDu80i" Name="Force" Kind="InputPin" Bounds="552,575" Visibility="Optional" />
-                <Pin Id="EWBx2sRJWfePOK3sup3DNW" Name="Features" Kind="OutputPin" Bounds="753,667" IsPinGroup="true" PinGroupDefaultCount="1">
+                <Pin Id="EWBx2sRJWfePOK3sup3DNW" Name="Features" Kind="OutputPin" Bounds="753,667" IsPinGroup="true">
                   <p:TypeAnnotation>
                     <Choice Kind="TypeFlag" Name="Spread" />
                   </p:TypeAnnotation>
                 </Pin>
-                <Pin Id="EAPl1G4znoPOyIeKiByJ5r" Name="Labels" Kind="OutputPin" Bounds="921,665" Visibility="Optional" IsPinGroup="true" PinGroupDefaultCount="1">
+                <Pin Id="EAPl1G4znoPOyIeKiByJ5r" Name="Labels" Kind="OutputPin" Bounds="921,665" Visibility="Optional" IsPinGroup="true">
                   <p:TypeAnnotation>
                     <Choice Kind="TypeFlag" Name="Spread" />
                   </p:TypeAnnotation>
@@ -10855,7 +10855,7 @@
                               <Patch Id="MRiTdUACV80N3NxKZrw5Gr" Name="Create" ManuallySortedPins="true" />
                               <Patch Id="MmFVInCWnfTMUz7npsWvMf" Name="Then" ManuallySortedPins="true" />
                               <Node Bounds="356,473,92,22" Id="KYs3zHdU6ogNiLyYn1g59f">
-                                <p:NodeReference LastCategoryFullName="CNTK.MinibatchSource" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                                <p:NodeReference LastCategoryFullName="CNTK.MinibatchSource" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                   <CategoryReference Kind="AssemblyCategory" Name="MinibatchSource" />
                                   <Choice Kind="OperationCallFlag" Name="GetNextMinibatch" />
@@ -10887,7 +10887,7 @@
                                 <Pin Id="Be4fW3OzOCvLS0iXcm4fNS" Name="Data" Kind="OutputPin" />
                               </Node>
                               <Node Bounds="569,954,39,22" Id="P0sFiMYoPV8LwoxNSrgDrE">
-                                <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                                <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                   <Choice Kind="OperationCallFlag" Name="IsValid" />
                                   <CategoryReference Kind="AssemblyCategory" Name="Value" NeedsToBeDirectParent="true" />
@@ -10897,7 +10897,7 @@
                                 <Pin Id="MF990agnH6XPxnfWBX8krl" Name="Is Valid" Kind="OutputPin" />
                               </Node>
                               <Node Bounds="578,816,36,22" Id="OLKPYJU0rjhM7LlwRly4XV">
-                                <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                                <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                   <CategoryReference Kind="AssemblyCategory" Name="Value" />
                                   <Choice Kind="OperationCallFlag" Name="Shape" />
@@ -10907,7 +10907,7 @@
                                 <Pin Id="SOZt6Hh09oaOJbDcHmjLFV" Name="Shape" Kind="OutputPin" />
                               </Node>
                               <Node Bounds="608,862,51,22" Id="TODkAp46oMvNDK1oNyK6MN">
-                                <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                                <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                   <CategoryReference Kind="AssemblyCategory" Name="NDShape" />
                                   <Choice Kind="OperationCallFlag" Name="TotalSize" />
@@ -11053,7 +11053,7 @@
                                 <Pin Id="VsjIG8t8axQQPLVYrKal8M" Name="Internal Var" Kind="OutputPin" />
                               </Node>
                               <Node Bounds="505,529,38,22" Id="H7HFshTjDcDLvEh1jhuJFp">
-                                <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                                <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                   <Choice Kind="OperationCallFlag" Name="Name" />
                                   <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -11098,7 +11098,7 @@
                                     <Pin Id="VIUQDKZwXy7MXOvzOhJrXw" Name="Key" Kind="OutputPin" />
                                   </Node>
                                   <Node Bounds="455,633,76,22" Id="Ek3GgTYzCwVPCuQ9BBjsHB">
-                                    <p:NodeReference LastCategoryFullName="CNTK.StreamInformation" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                                    <p:NodeReference LastCategoryFullName="CNTK.StreamInformation" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                       <Choice Kind="OperationCallFlag" Name="m_name" />
                                     </p:NodeReference>
@@ -11291,7 +11291,7 @@
                     <ControlPoint Id="EmYEpV9syvONfRSLvusl0t" Bounds="477,367" />
                     <ControlPoint Id="End3PnBvZ9kOsJZtngvmxV" Bounds="284,530" />
                     <Node Bounds="351,489,65,13" Id="BYyjHu6d4NJQDrpgF6KI2m">
-                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="AssemblyCategory" Name="CNTK" />
                         <Choice Kind="OperationCallFlag" Name="ImageScaler" />
@@ -11303,7 +11303,7 @@
                       <Pin Id="PCodDa0sUZLLBsDcyFriqQ" Name="Result" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="408,434" Id="GKioGJuLY94L6NNJHpPFPd">
-                      <p:NodeReference LastCategoryFullName="CNTK.FloatVector" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.FloatVector" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="AssemblyCategory" Name="FloatVector" />
                         <Choice Kind="OperationCallFlag" Name="Create" />
@@ -11595,7 +11595,7 @@
                     <ControlPoint Id="BoXqcumRDNDNebSusRywGR" Bounds="597,383" />
                     <ControlPoint Id="P91Refy27HfMOK9KdJ37E6" Bounds="404,644" />
                     <Node Bounds="407,572,85,13" Id="Mk2z1JpsZ6OMH2JZ5NEDLd">
-                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="OneHotOp" />
                         <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -11609,7 +11609,7 @@
                       <Pin Id="Pa4k77Qu373O5iNqxGisAl" Name="Result" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="493,466,39,22" Id="DdfvFP9USUXPjYejAkOxV0">
-                      <p:NodeReference LastCategoryFullName="CNTK.Axis" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.Axis" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="Create" />
                         <CategoryReference Kind="AssemblyCategory" Name="Axis" NeedsToBeDirectParent="true" />
@@ -11744,7 +11744,7 @@
                     <ControlPoint Id="KmQkleTS0miL8xXzCaSqR2" Bounds="220,196" />
                     <ControlPoint Id="R1CQ60p8itnLh4VHM1C3L4" Bounds="-20,276" />
                     <Node Bounds="31,230,197,19" Id="OFfnh8zbkp3N0hQJSyYc1C">
-                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="Crop" />
                         <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -11871,7 +11871,7 @@
                     <ControlPoint Id="G2eGE7nFnLZP2aCjYfDLkO" Bounds="220,196" />
                     <ControlPoint Id="KHEjEikBwMlO92NO2jKjNN" Bounds="-20,276" />
                     <Node Bounds="31,230,197,19" Id="Kc23uji653oOecyPa1wVXz">
-                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="Crop" />
                         <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -12881,7 +12881,7 @@
                     <Pin Id="NmWJSt2186uMxGuUb2Ydig" Name="Internal Var" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="470,908,45,26" Id="KwUT2JsSJY9NRw6qEOR1s5">
-                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Uid" />
                       <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -13047,7 +13047,7 @@
                               <Pin Id="BcGpkxPBpqqOy35aOyRe1R" Name="Output" Kind="OutputPin" />
                             </Node>
                             <Node Bounds="287,362,44,26" Id="PkN2lNYByaXPLhOXS5WGEk">
-                              <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                              <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <CategoryReference Kind="AssemblyCategory" Name="Value" />
                                 <Choice Kind="OperationCallFlag" Name="Shape" />
@@ -13057,7 +13057,7 @@
                               <Pin Id="H04ovEnHM0LOXUt3DU41KU" Name="Shape" Kind="OutputPin" />
                             </Node>
                             <Node Bounds="353,378,70,26" Id="Ok3ia5GoW7sLWlOo9sJkTc">
-                              <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                              <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <CategoryReference Kind="AssemblyCategory" Name="NDShape" />
                                 <Choice Kind="OperationCallFlag" Name="Dimensions" />
@@ -13167,7 +13167,7 @@
                       <Patch Id="FkyV4T7GDCgQF4ffYGkQil" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="Pq7IzUmG1lUQZsCAthgerL" Name="Then" ManuallySortedPins="true" />
                       <Node Bounds="241,510,46,26" Id="UmSej5Tn3YDLSROIkD033R">
-                        <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="Value" />
                           <Choice Kind="OperationCallFlag" Name="IsValid" />
@@ -20692,7 +20692,7 @@
                     <Patch Id="GdJXJpAwL5nPO6SjX23nUp" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="DtL0XbPy3G8P5GGhUIupFA" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="485,493,81,13" Id="Guz9098enUiOSNUEPJQjtv">
-                      <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                       </p:NodeReference>
@@ -20830,7 +20830,7 @@
                     <Patch Id="CIija1UNsq4LXLyW2OKrlw" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="KaY8tRBkk4SLWEFplvAgMB" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="485,493,81,13" Id="UO80l4hvkLyOECngtWFOI5">
-                      <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                       </p:NodeReference>
@@ -20960,7 +20960,7 @@
                         <ControlPoint Id="CuT6YUM1eqKMLfoBBb0J44" Bounds="541,350" />
                         <ControlPoint Id="QJr3uI0npCcMzR3v6cnopM" Bounds="361,430" />
                         <Node Bounds="411,381,107,13" Id="VLKRmipOIFSQWTlIo5aE6O">
-                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="CNTK" />
                             <Choice Kind="OperationCallFlag" Name="BernoulliRandomLike" />
@@ -21068,7 +21068,7 @@
                         <ControlPoint Id="DMCd5nqD7YhPxP8g4WcYIn" Bounds="590,360" />
                         <ControlPoint Id="SBY44HnpwmEQPHVeXOsptH" Bounds="350,440" />
                         <Node Bounds="427,397,107,13" Id="BeY10BgeaOGOyVE6II8nje">
-                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="CNTK" />
                             <PinReference Kind="InputPin" Name="Name" />
@@ -21176,7 +21176,7 @@
                         <ControlPoint Id="K5ouibklnB4NzPddyqgoj2" Bounds="583,334" />
                         <ControlPoint Id="EeS1lTJ6xzHNap9Sr6wXnL" Bounds="343,414" />
                         <Node Bounds="401,372,107,13" Id="K7euJKnopm6On5ll08d76Z">
-                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="CNTK" />
                             <PinReference Kind="InputPin" Name="Name" />
@@ -21286,7 +21286,7 @@
                         <ControlPoint Id="V1D6RleSZ5oPjsPh3Nwitb" Bounds="590,360" />
                         <ControlPoint Id="KVxNVJabZzhOZMmhf7HzGS" Bounds="350,440" />
                         <Node Bounds="415,410,125,13" Id="FWkU7ydItrWMJfhBJgs0kD">
-                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="AssemblyCategory" Name="CNTK" />
                             <PinReference Kind="InputPin" Name="Name" />
@@ -21386,7 +21386,7 @@
                       <ControlPoint Id="FHscchbgrhNLeXXCgMjild" Bounds="446,330" />
                       <ControlPoint Id="T05WtNXIIy5NyOW5YCo2Bf" Bounds="386,410" />
                       <Node Bounds="404,359" Id="C8lgHBM6SaiQHSqauMZrV1">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="BernoulliRandomLike" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -21462,7 +21462,7 @@
                       <ControlPoint Id="FtGQwcQsyNzOIxGZw6pPin" Bounds="430,326" />
                       <ControlPoint Id="TH8zkHBWa9XM0m7upPncn6" Bounds="370,406" />
                       <Node Bounds="387,361,102,13" Id="F8Bp75zrdgfN6D6IwpzmK1">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="GumbelRandomLike" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -21541,7 +21541,7 @@
                       <ControlPoint Id="Cl1ctxSS7K4LIkQRNhz6zx" Bounds="410,295" />
                       <ControlPoint Id="Ds3252wE8EHPiHoWQTMvIX" Bounds="350,375" />
                       <Node Bounds="380,325" Id="BWWs4lZv6DwLZwhowRGj9Q">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="NormalRandomLike" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -21617,7 +21617,7 @@
                       <ControlPoint Id="Qx6Wi7oicZ9L8tDkpNSKUF" Bounds="395,344" />
                       <ControlPoint Id="R7IsLjTpWK4Lk8rqYcilqY" Bounds="335,424" />
                       <Node Bounds="352,371" Id="IIN67YjorD1OtIjKBOrhSq">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="UniformRandomLike" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -21692,7 +21692,7 @@
                     <ControlPoint Id="Jz4jPLx5wWJL9vewHV5Wga" Bounds="360,351" />
                     <ControlPoint Id="Sb7cwMNcNfoOk1pKS9kkIT" Bounds="258,435" />
                     <Node Bounds="289,387,81,13" Id="QmDNGtyXXlmQEozDrkq5Fi">
-                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="NormalRandom" />
                         <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -21776,7 +21776,7 @@
                       <Pin Id="PCcVz5scBmRMRLd1BvYZO9" Name="Result" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="510,499,81,13" Id="L1ehzuGxpJeLOztxKU9Gax">
-                      <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                       </p:NodeReference>
@@ -21872,7 +21872,7 @@
                       <ControlPoint Id="Q0MptNWBplyPrVRHxEkTQG" Bounds="555,344" />
                       <ControlPoint Id="RKqUliMXf88Mt4UFb8jCF6" Bounds="254,452" />
                       <Node Bounds="285,399,252,13" Id="B7UpNcPwJF5LaSUg5BoO7p">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="NormalRandom" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -21974,7 +21974,7 @@
                       <ControlPoint Id="IGU270stshENAAnFSIdjxQ" Bounds="425,351" />
                       <ControlPoint Id="PA872wxQq17PhDpSQzZhbc" Bounds="185,431" />
                       <Node Bounds="231,404,88,13" Id="TPSNQ1FglfENW5BltWRwX8">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="BernoulliRandom" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -22068,7 +22068,7 @@
                       <ControlPoint Id="HfQSCY8efOXPTh75iRtbq0" Bounds="467,350" />
                       <ControlPoint Id="CyJ8Lxl0S8tNyNVPy32cKq" Bounds="167,461" />
                       <Node Bounds="171,411,287,20" Id="AKOdykoMPODL9g1zjONiAk">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="GumbelRandom" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -22092,7 +22092,7 @@
                     <Pin Id="C94k4oGC8lXNoZEkNvZ4ab" Name="Output" Kind="OutputPin" />
                   </Node>
                   <Pad Id="AD0eSirxc7rPwslDrFXJA1" Comment="Data Type" Bounds="237,289,67,19" ShowValueBox="true" isIOBox="true" Value="Float">
-                    <p:TypeAnnotation LastCategoryFullName="CNTK" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:TypeAnnotation LastCategoryFullName="CNTK" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="TypeFlag" Name="DataType" />
                     </p:TypeAnnotation>
                   </Pad>
@@ -22177,7 +22177,7 @@
                       <ControlPoint Id="SfHnWHTrMVCNZFVgXUzX29" Bounds="505,344" />
                       <ControlPoint Id="BKyO0WxF1V7LswSjF1XO1N" Bounds="204,479" />
                       <Node Bounds="225,394,105,13" Id="MdRJrukVJxrPjJfzgPhxwf">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="UniformRandom" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -22273,7 +22273,7 @@
                     <ControlPoint Id="Mytl9hYOrYgN6CNxEQ9ja1" Bounds="360,351" />
                     <ControlPoint Id="Okx9yBjHDzFMuvILxzMiOS" Bounds="258,435" />
                     <Node Bounds="289,387,81,13" Id="OEXMit3yXZcL7hoqk4m8VN">
-                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
                         <Choice Kind="OperationCallFlag" Name="BernoulliRandom" />
@@ -22334,7 +22334,7 @@
                     <ControlPoint Id="AQrlw7s837aPXtc8RTrSSv" Bounds="360,351" />
                     <ControlPoint Id="NLs5rfoKcVvLPLffEsUDxp" Bounds="258,435" />
                     <Node Bounds="289,387,81,13" Id="BHGcGgTF39lQP2xBKY8ffo">
-                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
                         <Choice Kind="OperationCallFlag" Name="GumbelRandom" />
@@ -22395,7 +22395,7 @@
                     <ControlPoint Id="B2NuygP8aV7NXvIKCNVKXY" Bounds="360,351" />
                     <ControlPoint Id="Mmb9qOLOLr5OGfhfpeBGo9" Bounds="258,435" />
                     <Node Bounds="289,387,81,13" Id="JUS68qqdzpYQYn5l7MkfE7">
-                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
                         <Choice Kind="OperationCallFlag" Name="UniformRandom" />
@@ -22462,7 +22462,7 @@
                       <Patch Id="D64vA8tSZnzP1oJxBOYnwD" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="QbMWH2p6Ei2LOy7y8Rpx6x" Name="Then" ManuallySortedPins="true" />
                       <Node Bounds="378,742,85,22" Id="A98ED5fMB2GMwFhtwTJcHN">
-                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="StreamConfiguration" />
                           <Choice Kind="OperationCallFlag" Name="Create" />
@@ -22487,7 +22487,7 @@
                         <Pin Id="Qvffe8EzYwbMFD2QSD4bBJ" Name="Output" Kind="StateOutputPin" />
                       </Node>
                       <Node Bounds="569,746,85,22" Id="IDHPkTaVWkjNBjc38QtlYc">
-                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="StreamConfiguration" />
                           <Choice Kind="OperationCallFlag" Name="Create" />
@@ -22520,7 +22520,7 @@
                         </p:TypeAnnotation>
                       </Pad>
                       <Node Bounds="127,606,71,13" Id="MfVsZIs2EQJL6tq2PsLBtt">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="InputVariable" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -22540,7 +22540,7 @@
                         <Pin Id="Jo37uQxsc6fM1cWtJ7NXJD" Name="Result" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="127,554,81,13" Id="RrB5CtNsAi3NHJ4SFPj6wR">
-                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                         </p:NodeReference>
@@ -22626,7 +22626,7 @@
                         <ControlPoint Id="UblahwtgnXCLDcWd2o8T4T" Bounds="126,1131" Alignment="Bottom" />
                       </Node>
                       <Node Bounds="631,578,71,13" Id="I8TXyr3BPpWMxvnNSikAyE">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="InputVariable" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -22646,7 +22646,7 @@
                         <Pin Id="EMuTimbHTmPOssKUTfRLZK" Name="Result" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="631,543,81,13" Id="CTWF3sgQqmuOwYhhXTKgnC">
-                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                         </p:NodeReference>
@@ -22775,7 +22775,7 @@
                         <Pin Id="JzdofzrJo9XQB8W3L7xKHY" Name="Result" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="578,824,107,22" Id="Q9QxgEqkgNfQAQQwXvjrhy">
-                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfigurationVector" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfigurationVector" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="Create" />
                           <CategoryReference Kind="AssemblyCategory" Name="StreamConfigurationVector" NeedsToBeDirectParent="true" />
@@ -22878,7 +22878,7 @@
                       <ControlPoint Id="VnkCoFEZHePLlPEC6CV3sC" Bounds="-28,611" />
                       <ControlPoint Id="QeOTPHGb1CUNJ92kN0Ea0a" Bounds="-318,803" />
                       <Node Bounds="-320,765,301,20" Id="VPxjijmI3LDMsiYjpW4hSo">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTK" />
                           <Choice Kind="OperationCallFlag" Name="TextFormatMinibatchSource" />
@@ -23036,7 +23036,7 @@
                         <Pin Id="KyA2kzinoyLPG49pgn8J18" Name="Sample Based Randomization Window" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="-550,960,139,13" Id="RUcsDXJpoWqNbJnqJZaSmI">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTK" />
                           <Choice Kind="OperationCallFlag" Name="TextFormatMinibatchSource" />
@@ -23052,7 +23052,7 @@
                         <Pin Id="LlkJDnvff7oPyJyYVgO6GK" Name="Result" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="-528,1141,179,13" Id="SgkspKdYOtYPlcTUtOfT5t">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="ImageDeserializer" />
                           <PinReference Kind="InputPin" Name="Deserializers" />
@@ -23075,7 +23075,7 @@
                         </p:TypeAnnotation>
                       </Pad>
                       <Node Bounds="-514,1257,93,22" Id="LmQBzvGdUyIOjjZRp6tay3">
-                        <p:NodeReference LastCategoryFullName="CNTK.MinibatchSourceConfig" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.MinibatchSourceConfig" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="MinibatchSourceConfig" />
                           <Choice Kind="OperationCallFlag" Name="Create" />
@@ -23094,7 +23094,7 @@
                         <Pin Id="DcxcJH8IgQHMPwovlaPnF9" Name="Output" Kind="StateOutputPin" />
                       </Node>
                       <Node Bounds="-514,1296,166,13" Id="QmFW2cEUnpZNaBbzGujF2C">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="CreateCompositeMinibatchSource" />
                         </p:NodeReference>
@@ -23298,7 +23298,7 @@
                       <Patch Id="MJHKfX2EqB7NYqIhP0x1Qs" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="FbPfw86S6JaN8BJODc5dD5" Name="Then" ManuallySortedPins="true" />
                       <Node Bounds="497,422,85,22" Id="NiZHWIBx9sgOSOdcwkUj0E">
-                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="StreamConfiguration" />
                           <Choice Kind="OperationCallFlag" Name="Create" />
@@ -23332,7 +23332,7 @@
                         <Pin Id="HuuLNARQczzNYaVinGNPQ1" Name="Output" Kind="StateOutputPin" />
                       </Node>
                       <Node Bounds="525,536,85,22" Id="SMhzV8ha8gROebM4qYM4z8">
-                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.StreamConfiguration" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <CategoryReference Kind="AssemblyCategory" Name="StreamConfiguration" />
                           <Choice Kind="OperationCallFlag" Name="Create" />
@@ -23365,7 +23365,7 @@
                         </p:TypeAnnotation>
                       </Pad>
                       <Node Bounds="-126,747,71,13" Id="HIwGcCcZJOHLQQTdHt3MYY">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="InputVariable" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -23385,7 +23385,7 @@
                         <Pin Id="Q1twGmhT1FKPJ5062Sg6t4" Name="Result" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="-126,712,81,13" Id="M8wy3SsHfHZNaozNPzOsou">
-                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                         </p:NodeReference>
@@ -23471,7 +23471,7 @@
                         <ControlPoint Id="IN3K0HDBbrnNVhslgCOjQa" Bounds="-105,1016" Alignment="Bottom" />
                       </Node>
                       <Node Bounds="432,820,71,13" Id="I81EhRn0i09M2QZ87OPzGu">
-                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="InputVariable" />
                           <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -23491,7 +23491,7 @@
                         <Pin Id="VGvLvgrbWkhPgxAOapD2L9" Name="Result" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="432,785,81,13" Id="JDfoDeiNHF9L2VPkdrWlHj">
-                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                         </p:NodeReference>
@@ -23588,7 +23588,7 @@
                           <Patch Id="IQ8XzCZon7OPnKllReMCrk" Name="Create" ManuallySortedPins="true" />
                           <Patch Id="G5LFpDbnwj3NG1oIEk3dch" Name="Then" ManuallySortedPins="true" />
                           <Node Bounds="143,684,143,19" Id="QXeLX64gpQ8NbAKOBJAyKo">
-                            <p:NodeReference LastCategoryFullName="CNTK.MinibatchSource" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                            <p:NodeReference LastCategoryFullName="CNTK.MinibatchSource" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                               <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                               <Choice Kind="OperationCallFlag" Name="TextFormatMinibatchSource" />
                               <CategoryReference Kind="AssemblyCategory" Name="MinibatchSource" NeedsToBeDirectParent="true" />
@@ -23733,7 +23733,7 @@
                   <Pad Id="UZMrxcnRmCLPZCqTRQsbdI" Comment="" Bounds="237,271,40,20" ShowValueBox="true" isIOBox="true" />
                   <Pad Id="OeQZEcQPRnEQMEvAHojYT5" Comment="" Bounds="356,271,40,20" ShowValueBox="true" isIOBox="true" />
                   <Node Bounds="446,211,81,13" Id="GHSEaaAllz9OBLUnVeuQSM">
-                    <p:NodeReference LastCategoryFullName="CNTK.MinibatchSource" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.MinibatchSource" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="InfinitelyRepeat" />
                     </p:NodeReference>
@@ -23963,7 +23963,7 @@
                         </Pin>
                       </Patch>
                       <Node Bounds="163,855,81,13" Id="JKcFcnMcYedNjUk5C7ohC7">
-                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                         </p:NodeReference>
@@ -23971,7 +23971,7 @@
                         <Pin Id="PbeUxrW5ZvFOkoF2X2cvlz" Name="Result" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="163,953,65,13" Id="QhyizTuWUm1MoGxAdOlt51">
-                        <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="CreateBatch" />
                           <PinReference Kind="InputPin" Name="Sample Shape" />
@@ -24002,7 +24002,7 @@
                         <Pin Id="ADoAm4lO6EELcVFLVyNeMJ" Name="Result" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="462,860,81,13" Id="Uo4oJNf3X6HNw7Ky9rvKTZ">
-                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.NDShape" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="CreateNDShape" />
                         </p:NodeReference>
@@ -24010,7 +24010,7 @@
                         <Pin Id="KczW1BgvyUDPOijzTgEldn" Name="Result" Kind="OutputPin" />
                       </Node>
                       <Node Bounds="462,905,65,13" Id="NAaa212KYYsP0DbzMRGoG6">
-                        <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                        <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationCallFlag" Name="CreateBatch" />
                           <PinReference Kind="InputPin" Name="Sample Shape" />
@@ -24222,7 +24222,7 @@
                     <Pin Id="VcibNCGvADePvzLhbLq6vh" Name="Internal Var" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="381,1248,38,22" Id="RSY6yQNf2ZFL1tJ34Oydow">
-                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Uid" />
                       <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -24262,7 +24262,7 @@
                     <Pin Id="DOKyoUovb7GMaq8ouE7Dz2" Name="Internal Var" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="708,1172,38,22" Id="MfV25E94bhVP4RKdZdU4Vg">
-                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.Variable" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="Uid" />
                       <CategoryReference Kind="AssemblyCategory" Name="Variable" NeedsToBeDirectParent="true" />
@@ -24487,5 +24487,5 @@
   <DocumentDependency Id="PifU1ymlfXGLjjCECB8l4S" Location="./VVVV.Value.MNISTImporter.vl" />
   <PlatformDependency Id="OPqwRDJMrOhLm0hhAzXUPd" Location="../lib/net461/CNTK.VL.Helpers.dll" />
   <DocumentDependency Id="KkwyPJrMfcSPKAkvHKJNT0" Location="./ImageHelper.vl" />
-  <PlatformDependency Id="HNFKSXs10LcMaWT8zIE1We" Location="../lib/net461/Cntk.Core.Managed-2.6.dll" />
+  <PlatformDependency Id="UjGrSNj72f9NViTkeZ6WXB" Location="../../CNTK.GPU.2.7.0/lib/netstandard2.0/Cntk.Core.Managed-2.7.dll" />
 </Document>
