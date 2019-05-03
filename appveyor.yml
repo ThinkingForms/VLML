@@ -73,11 +73,6 @@ for:
   branches:
     only:
       - Develop
-  assembly_info:
-  patch: true
-  file: AssemblyInfo.*
-  assembly_version: "0.1.0{build}"
-  assembly_file_version: "{version}"
 
   after_build:
       - cd..
