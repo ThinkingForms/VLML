@@ -76,7 +76,7 @@ for:
 
   after_build:
       - cd..
-      - nuget pack build\VLML.nuspec -Version 0.%APPVEYOR_BUILD_VERSION%
+      - nuget pack build\VLML.nuspec -Version %APPVEYOR_BUILD_VERSION%
     
 
 
