@@ -51,9 +51,8 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Cntk.Core.Managed-2.7">
-      <HintPath>..\_Dependencies\netstandard2.0\Cntk.Core.Managed-2.7.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Cntk.Core.Managed-2.6">
+      <HintPath>..\_Dependencies\netstandard2.0\Cntk.Core.Managed-2.6.dll</HintPath>
     </Reference>
     <Reference Include="netstandard, Version=2.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51" />
     <Reference Include="System" />
