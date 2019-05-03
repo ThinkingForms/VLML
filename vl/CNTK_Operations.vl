@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="P5jcwScTkgQOKnwpUwLCjz" Summary="VLML Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.1.0-0150-g4778b4a38a" Version="0.128">
+<Document xmlns:p="property" Id="P5jcwScTkgQOKnwpUwLCjz" Summary="VLML Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.1.0-0252-g8cce69ed60" Version="0.128">
   <Patch Id="K5WstgkwwbFPVnvFSt5PXN">
     <Canvas Id="KUj70RuuPE9PFBjdHFx1Ud" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="PE0szg2zj6uQRvA8orbOT3" Name="MathOps" Position="254,234">
@@ -11542,10 +11542,10 @@
               <ControlPoint Id="BQrvBvaFSLDLArrfBAagoy" Bounds="467,155" />
               <ControlPoint Id="JWg1kH5A9RKMHbdhKmgvUJ" Bounds="542,153" />
               <ControlPoint Id="LymD3DmGLlVP7h5Dnue0zl" Bounds="604,154" />
-              <ControlPoint Id="RZy1Qbpi7TlN5dPkRvGYVL" Bounds="687,152" />
-              <ControlPoint Id="OKqR5EA0kQ7N7rgFxlpTcp" Bounds="834,160" />
+              <ControlPoint Id="RZy1Qbpi7TlN5dPkRvGYVL" Bounds="677,152" />
+              <ControlPoint Id="OKqR5EA0kQ7N7rgFxlpTcp" Bounds="812,154" />
               <ControlPoint Id="KW6rHIax2hXPrsWaGmXQHw" Bounds="433,620" />
-              <Node Bounds="489,226,59,19" Id="AhJOu5mSsSIM27X6YqSWpk">
+              <Node Bounds="489,226,28,19" Id="AhJOu5mSsSIM27X6YqSWpk">
                 <p:NodeReference LastCategoryFullName="VLML.Variables" LastSymbolSource="CNTK_Utils.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="OperationCallFlag" Name="VShape" />
@@ -11626,9 +11626,9 @@
                 <ControlPoint Id="OkCQvFZDGjgOvcUpXgua7y" Bounds="661,423" Alignment="Bottom" />
                 <ControlPoint Id="DHmedsQQXGyMH7VZvG2Srn" Bounds="661,259" Alignment="Top" />
               </Node>
-              <ControlPoint Id="IKoGkee2DcHNEJYtxoRm81" Bounds="783,607" />
-              <ControlPoint Id="K3bjltdpeZXOFACiHMLkg4" Bounds="865,220" />
-              <Node Bounds="429,503,349,19" AutoConnect="true" Id="JUNJv0B70GKPwN2pNevHQI">
+              <ControlPoint Id="IKoGkee2DcHNEJYtxoRm81" Bounds="874,604" />
+              <ControlPoint Id="K3bjltdpeZXOFACiHMLkg4" Bounds="873,155" />
+              <Node Bounds="429,503,448,19" AutoConnect="true" Id="JUNJv0B70GKPwN2pNevHQI">
                 <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                   <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_4" />
@@ -11774,7 +11774,7 @@
                   </Node>
                 </Patch>
               </Node>
-              <ControlPoint Id="NhMb1SWmvQANi2PSG3CJXI" Bounds="766,155" />
+              <ControlPoint Id="NhMb1SWmvQANi2PSG3CJXI" Bounds="749,153" />
             </Canvas>
             <Patch Id="ETUEkToQrYnMhDQpUdnTXd" Name="Create" />
             <Patch Id="LqpxLDMVbxDMHkezekxAS8" Name="Update" ManuallySortedPins="true">

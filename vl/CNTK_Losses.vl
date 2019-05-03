@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="B6DOoJR72RyLEFXDuFqRS2" LanguageVersion="2019.1.0-0150-g4778b4a38a" Version="0.128">
+<Document xmlns:p="property" Id="B6DOoJR72RyLEFXDuFqRS2" LanguageVersion="2019.1.0-0252-g8cce69ed60" Version="0.128">
   <Patch Id="ERP90BKJLBgPyjg1xaxREJ">
     <Canvas Id="GFjpELdK7XpNdqiTYotKCR" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="HRnBt0PcIsoNqnQIrms9mR" Name="Losses" Position="337,324">
@@ -1488,10 +1488,10 @@
         </Node>
         <!--
 
-    ************************ MeanSquareError ************************
+    ************************ MeanSquaredError ************************
 
 -->
-        <Node Name="MeanSquareError" Bounds="945,901" Id="LFAPi0Vcn4qNxnzT958WGc" Remarks="Sometimes known as 'L2'" Tags="MSE,L2">
+        <Node Name="MeanSquaredError" Bounds="945,901" Id="LFAPi0Vcn4qNxnzT958WGc" Remarks="Sometimes known as 'L2'" Tags="MSE,L2">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="ContainerDefinition" Name="Process" />
           </p:NodeReference>

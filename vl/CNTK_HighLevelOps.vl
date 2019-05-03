@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="SQtEPj1VjwQMYwdjnYEpwD" LanguageVersion="2019.1.0-0150-g4778b4a38a" Version="0.128">
+<Document xmlns:p="property" Id="SQtEPj1VjwQMYwdjnYEpwD" LanguageVersion="2019.1.0-0252-g8cce69ed60" Version="0.128">
   <Patch Id="DhhY8Vnl3b5LNEWFz5NpCg">
     <Canvas Id="NUe4JYbim00LnqO7F9qc6E" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="BcCzdaai1SPNzh6hLjX8hN" Name="HighLevelOps" Position="343,311">
@@ -550,7 +550,7 @@
                   <Pin Id="UgOdUtHOXxnPdwKjhFE1xA" Name="Labels" Kind="InputPin" />
                   <Pin Id="TRbe0tN7KPrQAtaryK1Xcv" Name="Output" Kind="OutputPin" />
                 </Node>
-                <ControlPoint Id="KjQCejyCbPFQG4TNUfOwkR" Bounds="250,231" />
+                <ControlPoint Id="KjQCejyCbPFQG4TNUfOwkR" Bounds="262,225" />
                 <ControlPoint Id="VGJ5lLqC6acPRtDiTbspln" Bounds="462,232" />
                 <Node Bounds="470,392,94,13" Id="Nwi8aSaO9ksMPHCWfhTF36">
                   <p:NodeReference LastCategoryFullName="VLML.Metrics" LastSymbolSource="CNTK_Metrics.vl">
@@ -563,7 +563,7 @@
                 </Node>
                 <ControlPoint Id="JspsJf9JB7SOS12SyFXJY1" Bounds="263,573" />
                 <ControlPoint Id="OhpVY03Wt9NNWvce9QyAmy" Bounds="469,571" />
-                <Node Bounds="273,297,116,13" Id="QWDbQE4a2gEMEvGtdoc4H7">
+                <Node Bounds="262,310,120,19" Id="QWDbQE4a2gEMEvGtdoc4H7">
                   <p:NodeReference LastCategoryFullName="VLMLInternal.Axis" LastSymbolSource="CNTK_Operations.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="ReconcileDynamicAxes" />
