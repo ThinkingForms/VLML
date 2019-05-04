@@ -6,7 +6,9 @@ Machine learning in the visual language VL, part of [vvvv Gamma](https://vvvv.or
 
 - For now I __recommend installing__ and testing VLML with [vvvv alpha f7d5bf1879](http://teamcity.vvvv.org/guestAuth/app/rest/builds/id:30173/artifacts/content/vvvv_50alpha38.2_x64.zip) because later versions currently have some compile errors, I'll update this when they stabilize. 
 - There are now some __demos__ available to download from [here](https://drive.google.com/file/d/10EqCHrWxLO3k-K4JzKLmKHOXVc-noURU/view?usp=sharing) that go through some basic usecases for machine learning. A git repository can be found [here](https://github.com/ThinkingForms/VLML_Demos_V1).
-- Finally there is also a __toy__ to play with: [pix2pix face painting!](https://drive.google.com/open?id=1-kl213Frwk4mAQLASJ8EyZpBlRty9lcc) This is an evaluator of a pix2pix (ConditionalGan) model was trained on photographs and segmentation data. The neural network will be released soon so you can train your own. See more about this subject [here](https://github.com/phillipi/pix2pix)
+- Finally there is also a __toy__ to play with: [pix2pix face painting!](https://drive.google.com/open?id=1-kl213Frwk4mAQLASJ8EyZpBlRty9lcc). This is an evaluator of a pix2pix (ConditionalGan) model was trained on photographs and segmentation data. The neural network will be released soon so you can train your own. See more about this subject [here](https://github.com/phillipi/pix2pix).
+<img src="https://vvvv.org/sites/default/files/screenshot1556244666.png" width="400">
+
 ---
 ## Setting up a basic network
 #### Create and two flattened collections of data.
