@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Dg1g9Xqk83pMcSbs9aBDQb" Summary="Main conversion patch for CNTK features sanitized for VL" Authors="Hayden Anyasi, vvvv group" Credits="Motzi, Velcrome, Sebl, Natan" LanguageVersion="2019.1.0-0252-g8cce69ed60" Version="0.128">
+<Document xmlns:p="property" Id="Dg1g9Xqk83pMcSbs9aBDQb" Summary="Main conversion patch for CNTK features sanitized for VL" Authors="Hayden Anyasi, vvvv group" Credits="Motzi, Velcrome, Sebl, Natan" LanguageVersion="2019.1.0-0344-gd5eabf23a7" Version="0.128">
   <Patch Id="LxLbNTWJxlPPfBYWB6LKhu">
     <Canvas Id="FHcvwudRB2iNrvQuSK77nY" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="SJjPAZPUqgqQbCkWCvezVW" Name="Core" Position="604,307">
@@ -3823,7 +3823,7 @@
                       <Patch Id="S0bvqZoYFjhNHZpdCnjTHl" ManuallySortedPins="true">
                         <Patch Id="O4fIg8SWk0rLDpHcTczCqH" Name="Create" ManuallySortedPins="true" />
                         <Patch Id="F3YplSkZZglMLbGY7JEloL" Name="Then" ManuallySortedPins="true" />
-                        <Node Bounds="3020,590,354,184" Id="D1YBYZnLRbEQCV9CXgzK5H">
+                        <Node Bounds="3054,590,320,184" Id="D1YBYZnLRbEQCV9CXgzK5H">
                           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                             <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -3851,7 +3851,7 @@
                               <Pin Id="IfKt69FJ1MgPku6e9UD4S0" Name="Is Valid" Kind="OutputPin" />
                             </Node>
                             <ControlPoint Id="BYlJAnjUEhMN5pbQ1BT7R0" Bounds="3328,757" />
-                            <Node Bounds="3083,613,103,26" Id="IkXR6cOu8zOLj95UHMiew2">
+                            <Node Bounds="3071,614,103,26" Id="IkXR6cOu8zOLj95UHMiew2">
                               <p:NodeReference LastCategoryFullName="VLML.DataIO.DataSource.DataSet.MNIST_Formatted.DataDic" LastSymbolSource="VLML.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <CategoryReference Kind="ClassType" Name="DataDic" />
@@ -3861,7 +3861,7 @@
                               <Pin Id="PLtx4DNRu2bNBeUFRody90" Name="Output" Kind="StateOutputPin" />
                               <Pin Id="NqqyZZND3rpLVRZWH0JRKE" Name="MiniBatchStream" Kind="OutputPin" />
                             </Node>
-                            <Node Bounds="3083,661,98,26" Id="GDCXdrMMZZaPPR4ta3A7cn">
+                            <Node Bounds="3125,661,98,26" Id="GDCXdrMMZZaPPR4ta3A7cn">
                               <p:NodeReference LastCategoryFullName="CNTK.MinibatchSource" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                 <Choice Kind="OperationCallFlag" Name="GetNextMinibatch" />
@@ -3872,7 +3872,6 @@
                               <Pin Id="U8xV3YsPA82On1yglP4a2v" Name="Result" Kind="OutputPin" />
                             </Node>
                           </Patch>
-                          <ControlPoint Id="N8wLIvwaLV4NVoYHwVpz9B" Bounds="3034,597" Alignment="Top" />
                           <ControlPoint Id="PgQRlnLNUkRPYGT6ruEyJb" Bounds="3202,597" Alignment="Top" />
                           <ControlPoint Id="Kq7nNjp6bfzLPfug5aIGDF" Bounds="3079,764" Alignment="Bottom" />
                           <ControlPoint Id="Nsaktcf3lPZOar2VyChxtK" Bounds="3196,764" Alignment="Bottom" />
@@ -4005,8 +4004,6 @@
                     <Link Id="VzpUDFx4q6qMYaOB78kSSF" Ids="R6rZjJnmfvDMyELYr0r8RY,DQJRhAyp7oXM9gNPTNvk3l" IsHidden="true" />
                     <Link Id="FzkN4oKWVWuPMHTQcLSnis" Ids="P5eZyXkIGMvMw6U6u7XpMl,NMQ0nXrtbjzLhOkoROoVRk" />
                     <Link Id="CLdRvDeqSrrQGxP9DsHJud" Ids="SxZotWzmh2tOdnKmqK9tK1,R6rZjJnmfvDMyELYr0r8RY" />
-                    <Link Id="Kd1RcdjpE7tQT6XnNtBsLp" Ids="Ve3RpslRYYMPYGKMGAaBGA,N8wLIvwaLV4NVoYHwVpz9B" />
-                    <Link Id="CUrU5qmN5FxQI2K9eOpify" Ids="N8wLIvwaLV4NVoYHwVpz9B,DiSooBBe4abOABaWmcOdTl" />
                     <Link Id="MY5Xtq2WQHfLBZfbzXDZ6Q" Ids="PgQRlnLNUkRPYGT6ruEyJb,Kq7nNjp6bfzLPfug5aIGDF" IsFeedback="true" />
                     <Link Id="Aoxvw9yUb3iPbmorRzFYzo" Ids="PgQRlnLNUkRPYGT6ruEyJb,DfmJRJA9lACOCsTsr5atsc" />
                     <Link Id="Niu4GzR99EQNEPTIsENlCf" Ids="V1QkFebS3HZPi9IpD2BpYg,Kq7nNjp6bfzLPfug5aIGDF" />
@@ -4028,7 +4025,7 @@
                     <Link Id="L5OGjBkpsUsM452z0OHaEC" Ids="SYFr5GvWT84PxNgFeQSQnz,T5kxVcNv9f6Pb0vSylee7n" />
                     <Link Id="O6k1fyRXWjYOY3Q4ZPRBLP" Ids="SBJbgmx2yefPuykSph0ZxM,EEXSSRfAqiQPFiiA56WdOw" />
                     <Link Id="BwBlQOcqxmaPVoBtUHOLjx" Ids="FlvCTkUINcFOtfBSeyYl8V,DHhswkvBhR7PLFvQ44HlFf" />
-                    <Link Id="JfXBN4ivceyPM1bPUcN4HA" Ids="Uj62yWMS1reL8048HlVkDw,LFGTMRrBuCLPuiOILJ8Xsy" />
+                    <Link Id="JfXBN4ivceyPM1bPUcN4HA" Ids="Uj62yWMS1reL8048HlVkDw,GMjNWwLOvqkN0b8J0JzsOi,LFGTMRrBuCLPuiOILJ8Xsy" />
                     <Link Id="Hd3EFOea2gjMFvJt5nUhOS" Ids="MSO6udotpTNPCpW5FPyWn6,VkQ8upEU3SIQB5hmb9S4Rd" />
                     <Link Id="FYwPEuAGEwJLVVJBPu0Hzo" Ids="Uj62yWMS1reL8048HlVkDw,OOht3FPVTMvMKXTXVcUUAb" />
                     <ControlPoint Id="QcOJscDEMUvLhjH3BtyjOE" Bounds="2843,286" />
@@ -4203,6 +4200,8 @@
                     <Pin Id="UhSdTNsnRw3NLNKKWcMlxb" Name="Manual BatchStep" Kind="InputPin" Bounds="1905,1393" />
                     <Pin Id="BYgfqGVCWzXLC2KGp2WSjI" Name="Sweep" Kind="OutputPin" Bounds="1963,1837" />
                     <Pin Id="UCBx11s04AnPRNJa4SIlAv" Name="Minibatch Size" Kind="InputPin" Bounds="2307,1116" />
+                    <Link Id="CuCc3XbfFGoP1PY1R1EfbY" Ids="PLtx4DNRu2bNBeUFRody90,DiSooBBe4abOABaWmcOdTl" />
+                    <ControlPoint Id="GMjNWwLOvqkN0b8J0JzsOi" Bounds="2935,558" />
                   </Patch>
                 </Node>
                 <Node Bounds="245,468,65,86" Id="UCGD5DzrriiNvo9yu5qCEm">

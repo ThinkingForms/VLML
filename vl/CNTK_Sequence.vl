@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="IrT27anYRszL0u7DZRU732" Summary="VLML Sequence Operation document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.1.0-0150-g4778b4a38a" Version="0.128">
+<Document xmlns:p="property" Id="IrT27anYRszL0u7DZRU732" Summary="VLML Sequence Operation document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.1.0-0344-gd5eabf23a7" Version="0.128">
   <Patch Id="Au4BEzalPKDP95qcUhFWcx">
     <Canvas Id="KCjbU5bYTXcLLuajcFZdmU" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="Gilp3mhyvXBQQd8pn7FWFU" Name="SequenceOps" Position="234,229">
