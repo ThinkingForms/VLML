@@ -1676,25 +1676,37 @@
                     <Link Id="CuB4b4G4vZXPVCaxmQqUKZ" Ids="Kq5g5pI1hHTLzUozmChI4T,V0rNhPT5I1RQc5GUcKHXht" />
                   </Patch>
                 </Node>
-                <Node Bounds="434,662,160,19" Id="EZEDLCQiaICPSzqG5wS3v3">
-                  <p:NodeReference LastCategoryFullName="VLML.HighLevelOps._TransferLearningByQuery" LastSymbolSource="CNTK_HighLevelOps.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="MakeTheConstantParamCreator" />
+                <Node Bounds="701,691,236,84" Id="G5gy962zWZaMvTtAJD8VSM">
+                  <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                    <Choice Kind="ApplicationStatefulRegion" Name="If" />
+                    <FullNameCategoryReference ID="Primitive" />
                   </p:NodeReference>
-                  <Pin Id="BBtURG6crR5Nf0zRgM1Ttq" Name="Input" Kind="InputPin" />
-                  <Pin Id="N11iO9nwmYSPFKDxOzDDLV" Name="Output" Kind="OutputPin" />
+                  <Pin Id="JaW5UTc5RpEOehekTAt6wD" Name="Condition" Kind="InputPin" />
+                  <Patch Id="ViLFh2xZbfOOMZz1C0t9nZ" ManuallySortedPins="true">
+                    <Patch Id="B1duEglsAaINsbFPvjgrzL" Name="Create" ManuallySortedPins="true" />
+                    <Patch Id="KlkTGOl8v1GL49aGLyUF50" Name="Then" ManuallySortedPins="true" />
+                    <Node Bounds="701,694,160,19" Id="EZEDLCQiaICPSzqG5wS3v3">
+                      <p:NodeReference LastCategoryFullName="VLML.HighLevelOps._TransferLearningByQuery" LastSymbolSource="CNTK_HighLevelOps.vl">
+                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                        <Choice Kind="ProcessAppFlag" Name="MakeTheConstantParamCreator" />
+                      </p:NodeReference>
+                      <Pin Id="BBtURG6crR5Nf0zRgM1Ttq" Name="Input" Kind="InputPin" />
+                      <Pin Id="N11iO9nwmYSPFKDxOzDDLV" Name="Output" Kind="OutputPin" />
+                    </Node>
+                    <Node Bounds="725,730,82,19" Id="DN5DHkRhwThNT7Qwj7iBpk">
+                      <p:NodeReference LastCategoryFullName="VLML.Variables.Utils" LastSymbolSource="CNTK_Variables.vl">
+                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                        <Choice Kind="ProcessAppFlag" Name="GetParameters" />
+                      </p:NodeReference>
+                      <Pin Id="T9Jpz2rO88SLMAKT5gmCGy" Name="Input" Kind="InputPin" />
+                      <Pin Id="JgWrsQVNnJdO1F3ktPulbj" Name="Force" Kind="InputPin" />
+                      <Pin Id="APJOpchKr2NLw6uKvV1xb4" Name="Name" Kind="OutputPin" />
+                      <Pin Id="NzU6EwMBIeyNDuXWVxGQZ6" Name="Total Size" Kind="OutputPin" />
+                    </Node>
+                    <Pad Id="VPsHKutChoVMVR0b6z9X8f" Comment="Total Size" Bounds="804,764,67,18" ShowValueBox="true" isIOBox="true" />
+                  </Patch>
                 </Node>
-                <Node Bounds="458,698,82,19" Id="DN5DHkRhwThNT7Qwj7iBpk">
-                  <p:NodeReference LastCategoryFullName="VLML.Variables.Utils" LastSymbolSource="CNTK_Variables.vl">
-                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                    <Choice Kind="ProcessAppFlag" Name="GetParameters" />
-                  </p:NodeReference>
-                  <Pin Id="T9Jpz2rO88SLMAKT5gmCGy" Name="Input" Kind="InputPin" />
-                  <Pin Id="JgWrsQVNnJdO1F3ktPulbj" Name="Force" Kind="InputPin" />
-                  <Pin Id="APJOpchKr2NLw6uKvV1xb4" Name="Name" Kind="OutputPin" />
-                  <Pin Id="NzU6EwMBIeyNDuXWVxGQZ6" Name="Total Size" Kind="OutputPin" />
-                </Node>
-                <Pad Id="VPsHKutChoVMVR0b6z9X8f" Comment="Total Size" Bounds="537,732,67,18" ShowValueBox="true" isIOBox="true" />
               </Canvas>
               <Patch Id="TCyJZGl3FwCQCsOjaXg0Co" Name="Create" />
               <Patch Id="HyrgZlMOznSLsEVPJUxLFZ" Name="Update" ManuallySortedPins="true">
@@ -1741,10 +1753,10 @@
               <Link Id="Ntbq47xghpfPPSUzxaGrXD" Ids="KTqeCX2MSihNFnZfXcQ1Rl,P5SERvp1e8BLrhAmr8I4ju" />
               <Link Id="LIgbV2k2ATlM16W4MObjib" Ids="P5SERvp1e8BLrhAmr8I4ju,NCElmM9zCKaO7K1yRx4iCN" />
               <Link Id="DnzCmprGh1TLUVt3cP0Eyz" Ids="AcIfc5ENseaPwET5nW3ppH,ShhHCOmQtKLMnVpo8VpGdc" />
-              <Link Id="R88vWsANXP1O27jsSYSn6w" Ids="NzU6EwMBIeyNDuXWVxGQZ6,VPsHKutChoVMVR0b6z9X8f" />
-              <Link Id="P8ZlHcctvWbLqtQIF7t9VB" Ids="N11iO9nwmYSPFKDxOzDDLV,T9Jpz2rO88SLMAKT5gmCGy" />
               <Link Id="RQ6nSdDpMT2Ph97b4MxxgY" Ids="DllWoWjuWD2LrGcJgZQXXy,NvxrXIm77vuLpawWC165DX" />
               <Link Id="By9S36ZtXBLO7rTfiiMz9q" Ids="TmgWy1QXmCRMoD6MiBBObA,GpEJyHxrUIyMSmxbLWwLDQ" />
+              <Link Id="R88vWsANXP1O27jsSYSn6w" Ids="NzU6EwMBIeyNDuXWVxGQZ6,VPsHKutChoVMVR0b6z9X8f" />
+              <Link Id="P8ZlHcctvWbLqtQIF7t9VB" Ids="N11iO9nwmYSPFKDxOzDDLV,T9Jpz2rO88SLMAKT5gmCGy" />
             </Patch>
           </Node>
           <!--

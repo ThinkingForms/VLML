@@ -5513,7 +5513,7 @@
               </p:NodeReference>
               <Patch Id="MiQPwV6uMhKOyZKToCOD1c" IsGeneric="true">
                 <Canvas Id="A1eyChkkMv8LR5NLNCXA37" CanvasType="Group">
-                  <Node Bounds="441,520,185,221" Id="QvFjxQZCI5dMIHeW7E97y6">
+                  <Node Bounds="444,512,175,234" Id="QvFjxQZCI5dMIHeW7E97y6">
                     <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="ProcessStatefulRegion" Name="Cache" />
                       <FullNameCategoryReference ID="Primitive" />
@@ -5565,7 +5565,7 @@
                         <ControlPoint Id="HejurWxSuhYOTgv7939ViB" Bounds="482,715" Alignment="Bottom" />
                         <ControlPoint Id="EoYbrbDXp7FNJ7XvSJgtTG" Bounds="482,576" Alignment="Top" />
                       </Node>
-                      <Node Bounds="500,543" Id="VQCW1hpPUb6N9fkRB1YurB">
+                      <Node Bounds="490,535,42,19" Id="VQCW1hpPUb6N9fkRB1YurB">
                         <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="OperationNode" Name="IsNull" />
@@ -5582,7 +5582,7 @@
                     <Pin Id="KL16eTWXOV1NMTHGbtpQMm" Name="Dispose Cached Outputs" Kind="InputPin" />
                     <Pin Id="T0VFR4hARNLQA77okZIQYI" Name="Has Changed" Kind="OutputPin" />
                   </Node>
-                  <ControlPoint Id="PghY3MkFXGhL08hso1WvvN" Bounds="487,492" />
+                  <ControlPoint Id="PghY3MkFXGhL08hso1WvvN" Bounds="502,430" />
                   <ControlPoint Id="VZoR3BPeJIbOdDLVTu53f6" Bounds="602,488" />
                   <Node Bounds="651,764,53,13" AutoConnect="true" Id="HdTjbJcsmAsLlTiLVDZ4Wv">
                     <p:NodeReference LastCategoryFullName="VLML.Core" LastSymbolSource="CNTK_Core.vl">

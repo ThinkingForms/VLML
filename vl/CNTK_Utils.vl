@@ -4791,11 +4791,6 @@
                   <ControlPoint Id="DZdM9ZsxT4TQSkInMKD3zu" Bounds="719,465" Alignment="Top" />
                   <ControlPoint Id="IT32EXbvZ8COwYbqeQo8BV" Bounds="639,465" Alignment="Top" />
                 </Node>
-                <Pad Id="SnTEChVfJegNUtMsAvmj13" Comment="Force" Bounds="609,353,35,35" ShowValueBox="true" isIOBox="true" Value="True">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Boolean" />
-                  </p:TypeAnnotation>
-                </Pad>
               </Canvas>
               <Patch Id="PPTXQoQwXkvQYTM6w3aqJr" Name="Create" />
               <Patch Id="HhC9sLUEwNnQB5Ki2sWM0W" Name="Update" ManuallySortedPins="true">
@@ -4838,7 +4833,6 @@
               <Link Id="P4jofeuVXCyL0JkVfVeVcn" Ids="IT32EXbvZ8COwYbqeQo8BV,TIPAD7rZ1uGNZWUbeEzD5v,BuWwGOpErKCPLFBcQJC8jY" />
               <Link Id="RyYp3TlPQqgPk5oWeabeXO" Ids="AcudzBvd7JHM8MSUxvK1QM,SGUywLkEtwyLAEKLwhOJm8" />
               <Link Id="PQEqkkevLA3MHCuBRAif5b" Ids="DZdM9ZsxT4TQSkInMKD3zu,Tr8NEwEV1JsOqHGcuA1BZs" />
-              <Link Id="BmNP1IIovKhQc9Rs80uLTb" Ids="SnTEChVfJegNUtMsAvmj13,RQMuGTdsYieLMgQ8sqoix4" />
             </Patch>
           </Node>
           <!--
