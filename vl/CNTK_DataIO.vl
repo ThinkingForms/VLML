@@ -12044,11 +12044,11 @@
                   </p:TypeAnnotation>
                 </Pin>
                 <Pin Id="Q3RIYoMxS49M3TFNAURdPX" Name="Output" Kind="OutputPin" />
-                <Pin Id="PIY3tv3XmAePfpHbDmQB8g" Name="Biases" Kind="InputPin" Summary="Bias values for each channel">
-                  <p:TypeAnnotation>
+                <Pin Id="PIY3tv3XmAePfpHbDmQB8g" Name="Biases" Kind="InputPin" DefaultValue="0, 0, 0" Summary="Bias values for each channel">
+                  <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
                     <Choice Kind="TypeFlag" Name="Spread" />
                     <p:TypeArguments>
-                      <TypeReference>
+                      <TypeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="TypeFlag" Name="Float32" />
                       </TypeReference>
                     </p:TypeArguments>

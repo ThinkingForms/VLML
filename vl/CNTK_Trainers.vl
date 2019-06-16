@@ -108,7 +108,7 @@
     ************************ FilterByGraph ************************
 
 -->
-        <Node Name="FilterByGraph" Category="Internal" Bounds="751,1265" Id="TtwsGNuBa6UMzfnxHJPSIQ">
+        <Node Name="FilterByGraph" Category="Internal" Bounds="457,1295" Id="TtwsGNuBa6UMzfnxHJPSIQ">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="ContainerDefinition" Name="Process" />
           </p:NodeReference>
@@ -824,7 +824,7 @@
     ************************ TrainerTemplate ************************
 
 -->
-        <Node Name="TrainerTemplate" Category="Internal" Bounds="166,1063" Id="N9r5RzSmsiEMhix7yrTnbg" Remarks="For optimizer information please see http://ruder.io/optimizing-gradient-descent which reviews many of the optimization algorithms used in this framework.">
+        <Node Name="TrainerTemplate" Category="Internal" Bounds="171,1035" Id="N9r5RzSmsiEMhix7yrTnbg" Remarks="For optimizer information please see http://ruder.io/optimizing-gradient-descent which reviews many of the optimization algorithms used in this framework.">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="ContainerDefinition" Name="Process" />
           </p:NodeReference>
@@ -3448,7 +3448,7 @@
     ************************ DebugEvaluator2 ************************
 
 -->
-        <Node Name="DebugEvaluator2" Category="Internal" Bounds="751,1307" Id="Fa2QURdItp2OXoZiiBuuUR">
+        <Node Name="DebugEvaluator2" Category="Internal" Bounds="457,1325" Id="Fa2QURdItp2OXoZiiBuuUR">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="ContainerDefinition" Name="Process" />
           </p:NodeReference>
@@ -4248,7 +4248,7 @@
             <Link Id="NWxrTPNnmsOLHRNWBxCLXP" Ids="UPvOEodYRQRLBChvaP3j86,NALE0vopMoWK9YLNvgtJBR" />
           </Patch>
         </Node>
-        <Canvas Id="RN1CslsaAQSM8R0ZcnJ7mF" Name="TrainingResults.Internal" Position="749,1223">
+        <Canvas Id="RN1CslsaAQSM8R0ZcnJ7mF" Name="TrainingResults.Internal" Position="457,1243">
           <!--
 
     ************************ PrintTrainingProgress (Classification) ************************
@@ -5576,7 +5576,7 @@
     ************************ AdditionalLearningOptions ************************
 
 -->
-        <Node Name="AdditionalLearningOptions" Category="VLMLInternal.TrainingOptimizers.Advanced" Bounds="166,1105" Id="QW9ztHA0lnINWox2Yciy1Z">
+        <Node Name="AdditionalLearningOptions" Category="Advanced" Bounds="240,818" Id="QW9ztHA0lnINWox2Yciy1Z">
           <p:NodeReference>
             <Choice Kind="ForwardDefinition" Name="Forward" />
             <FullNameCategoryReference ID="Primitive" />
@@ -5594,7 +5594,7 @@
     ************************ SaveCheckpoint ************************
 
 -->
-        <Node Name="SaveCheckpoint" Category="Internal" Bounds="752,1095" Id="Jf7Mf0saeKyOrWHOcQ4z53">
+        <Node Name="SaveCheckpoint" Category="Internal" Bounds="457,1115" Id="Jf7Mf0saeKyOrWHOcQ4z53">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="ContainerDefinition" Name="Process" />
           </p:NodeReference>
@@ -5739,7 +5739,7 @@
     ************************ RestoreCheckpoint ************************
 
 -->
-        <Node Name="RestoreCheckpoint" Category="Internal" Bounds="752,1137" Id="POodL9skejPNyeL1wEwB6w">
+        <Node Name="RestoreCheckpoint" Category="Internal" Bounds="457,1145" Id="POodL9skejPNyeL1wEwB6w">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="ContainerDefinition" Name="Process" />
           </p:NodeReference>
@@ -5888,7 +5888,7 @@
             <Link Id="ISSdXldduEJPsQ7GfhxrfD" Ids="KTv4TlHAkRQNfTNe07JWB0,Mm2oEnNnR7FMD8cvzIAs9r" />
           </Patch>
         </Node>
-        <Canvas Id="JjXHSqAOyhrOPC4mCw1ogy" Name="Learners.Internal" Position="750,1181">
+        <Canvas Id="JjXHSqAOyhrOPC4mCw1ogy" Name="Learners.Internal" Position="457,1201">
           <!--
 
     ************************ _MomentumSGDLearner ************************
@@ -12522,7 +12522,7 @@
             </Patch>
           </Node>
         </Canvas>
-        <Canvas Id="FAhubfFoAiYLTzJyQr1Kld" Name="Experimental" Position="504,822">
+        <Canvas Id="FAhubfFoAiYLTzJyQr1Kld" Name="Experimental" Position="579,812">
           <Canvas Id="UQnDsGbQBV9NkyUR81sMEj" Name="Callbacks" Position="377,503">
             <!--
 
@@ -15852,7 +15852,7 @@
     ************************ LearnerBaseTemplate (NoMetric) ************************
 
 -->
-        <Node Name="LearnerBaseTemplate (NoMetric)" Bounds="449,969" Id="NM41ZpBZVdHN2NEt3caBsT" Remarks="https://ruder.io/optimizing-gradient-descent">
+        <Node Name="LearnerBaseTemplate (NoMetric)" Bounds="174,1083" Id="NM41ZpBZVdHN2NEt3caBsT" Remarks="https://ruder.io/optimizing-gradient-descent">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="ContainerDefinition" Name="Process" />
           </p:NodeReference>
@@ -16617,7 +16617,7 @@
             <Link Id="I1Llg9A8dPqO8Nyugsb73S" Ids="PFazKQMRFUjNYTExWKQTvT,Ne8SzwfLAUZNrHz3sDPFeR" />
           </Patch>
         </Node>
-        <Canvas Id="VRVEYlaTMTXNCrsjehqfos" Name="Advanced" Position="390,759">
+        <Canvas Id="VRVEYlaTMTXNCrsjehqfos" Name="Advanced" Position="241,763">
           <!--
 
     ************************ SGD2 (Metric) ************************
