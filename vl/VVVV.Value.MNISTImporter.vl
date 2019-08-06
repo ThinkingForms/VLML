@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" LanguageVersion="2019.1.0-0344-gd5eabf23a7" Version="0.128">
+<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" LanguageVersion="2019.1.0-0417-g808f072318" Version="0.128">
   <NugetDependency Id="RKFCmk1Lg5EP3I4IQegLTw" Location="VL.CoreLib" Version="0.35.21" />
   <NugetDependency Id="U2JwHqMJLyGLDs97lM6eZ6" Location="VL.CoreLib.VVVV" Version="0.35.21" />
   <Patch Id="Th8hpfHvBF4Lk6VOwDCc9D">
@@ -17,14 +17,14 @@
         <Patch Id="CzjSvRY5dvXQDxmAOA8mZj">
           <Patch Id="ESJZDDS0I02LAWDOx9RJVV" Name="Create" />
           <Patch Id="OkqGvJfa3PDOppp4PFQghD" Name="Update">
-            <Pin Id="BexawuGR4eQP3HQ7ss6dHn" Name="trainImagesFlat" Kind="OutputPin" Bounds="402,666" />
             <Pin Id="AQOsdsWXhJxQdt91Pz0gVR" Name="Reload" Kind="InputPin" Bounds="342,132" />
-            <Pin Id="SQaJuULsSyVPapmTN4xPH3" Name="trainImages" Kind="OutputPin" Bounds="455,668" />
             <Pin Id="H8tprnd0H0KQUFnsZwtZBK" Name="Training Batch Size" Kind="InputPin" Bounds="502,381" />
+            <Pin Id="FaVsSKZsmVjN12ZrQVJ1kF" Name="Test Batch Size" Kind="InputPin" Bounds="758,361" />
+            <Pin Id="BexawuGR4eQP3HQ7ss6dHn" Name="trainImagesFlat" Kind="OutputPin" Bounds="402,666" />
+            <Pin Id="SQaJuULsSyVPapmTN4xPH3" Name="trainImages" Kind="OutputPin" Bounds="455,668" />
             <Pin Id="FWTSOdxecLmOqJkYpOuUnY" Name="trainLabelsFlat" Kind="OutputPin" Bounds="552,661" />
             <Pin Id="V4JWi1t0ujILOuOSLm1w7d" Name="trainLabels" Kind="OutputPin" />
             <Pin Id="EfS86oBnaW0PqkoijNVHZU" Name="testImages" Kind="OutputPin" Bounds="690,658" />
-            <Pin Id="FaVsSKZsmVjN12ZrQVJ1kF" Name="Test Batch Size" Kind="InputPin" Bounds="758,361" />
             <Pin Id="IHXWTakaXc6NPZ0VYi68QM" Name="testLabels" Kind="OutputPin" Bounds="801,651" />
           </Patch>
           <Canvas Id="C4yd3S6BFv9NWqJ2WO3OFi" CanvasType="Group">

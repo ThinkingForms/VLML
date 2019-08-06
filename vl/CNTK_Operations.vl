@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="P5jcwScTkgQOKnwpUwLCjz" Summary="VLML Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.1.0-0344-gd5eabf23a7" Version="0.128">
+<Document xmlns:p="property" Id="P5jcwScTkgQOKnwpUwLCjz" Summary="VLML Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.1.0-0417-g808f072318" Version="0.128">
   <Patch Id="K5WstgkwwbFPVnvFSt5PXN">
     <Canvas Id="KUj70RuuPE9PFBjdHFx1Ud" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="PE0szg2zj6uQRvA8orbOT3" Name="MathOps" Position="254,234">
@@ -154,13 +154,13 @@
             <Patch Id="NG3pDaWiqutPWwOZXP2xLs" Name="Create" />
             <Patch Id="P4sUWgwLZTpLHOlOgwvZfl" Name="Update">
               <Pin Id="KMpKhU7j1t7MmpvgLeBXG2" Name="Left Operand" Kind="InputPin" Bounds="236,191" />
-              <Pin Id="OIq65huobAiO59y5fY6SYj" Name="Output" Kind="OutputPin" Bounds="419,507" />
               <Pin Id="RE0iZ9wOEIeLvgULSGLhNk" Name="Right Operand" Kind="InputPin" Bounds="379,169" />
               <Pin Id="RS5Zh5V4C6GPZRAJL8fmbi" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
-              <Pin Id="TYavtbybvYMOP9ofDljdN0" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               <Pin Id="PwdqsH1DGgSL2vEQBBbNuA" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
+              <Pin Id="OIq65huobAiO59y5fY6SYj" Name="Output" Kind="OutputPin" Bounds="419,507" />
+              <Pin Id="TYavtbybvYMOP9ofDljdN0" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="MN62UNmkWFbQCTCq9E2r7B">
               <Fragment Id="IO91XPwguh3L0EKVMtO7Pi" Patch="NG3pDaWiqutPWwOZXP2xLs" Enabled="true" />
@@ -250,13 +250,13 @@
             <Patch Id="MSr8BlS9oTwNDn3O4lRrxK" Name="Create" />
             <Patch Id="OtlQQP5NNDMQZQJZRRHDbW" Name="Update">
               <Pin Id="GZfqbcwbILQNCmIceknapv" Name="Left Operand" Kind="InputPin" Bounds="236,191" />
-              <Pin Id="Md2cnCyO8NCQbhspJjQ9t6" Name="Output" Kind="OutputPin" Bounds="419,507" />
               <Pin Id="TzjXvllKIa7M7nwJAK7QFL" Name="Right Operand" Kind="InputPin" Bounds="379,169" />
               <Pin Id="A9t9u6DirkBMF4aUSXBrpg" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
-              <Pin Id="MZwD7yUwRRgPkBSbXxg0px" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               <Pin Id="ITPEY10E3gkQJFBPyggaO4" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
+              <Pin Id="Md2cnCyO8NCQbhspJjQ9t6" Name="Output" Kind="OutputPin" Bounds="419,507" />
+              <Pin Id="MZwD7yUwRRgPkBSbXxg0px" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="TuGzK21reS5O4x3TPVnTIh">
               <Fragment Id="M39VdN08mNNLsIAYJtKF0B" Patch="MSr8BlS9oTwNDn3O4lRrxK" Enabled="true" />
@@ -342,12 +342,12 @@
             <Patch Id="I9ssTCV5ZkjLpSOA3S02zX" Name="Update">
               <Pin Id="I4pZhJQheVaMQBijKrQab2" Name="Left Operand" Kind="InputPin" Bounds="89,250" />
               <Pin Id="KesphA9OT9XM3XLOLuVFNY" Name="Right Operand" Kind="InputPin" Bounds="178,252" />
-              <Pin Id="GpXfSpjIOd4NwzN97aB89B" Name="Output" Kind="OutputPin" Bounds="419,507" />
               <Pin Id="BXba5PV2nsLPMmaZEw6cZd" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
-              <Pin Id="SHwegDR5RQ0LIgidnaHkL0" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               <Pin Id="Mg7TvMBFp91MWJ1D4dcEaK" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
+              <Pin Id="GpXfSpjIOd4NwzN97aB89B" Name="Output" Kind="OutputPin" Bounds="419,507" />
+              <Pin Id="SHwegDR5RQ0LIgidnaHkL0" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="Vfqkn9RF27eLhL3SrsVKds">
               <Fragment Id="E0Of71rXRWcPWVAVab11zT" Patch="BidMs2QnFJDOp5Owq02n4w" Enabled="true" />
@@ -432,16 +432,16 @@
             </Canvas>
             <Patch Id="SCHHG16fFyQNuVjB5SuQF6" Name="Create" />
             <Patch Id="OISl0IpvG0FPieGypNWsfz" Name="Update">
+              <Pin Id="LXCsmSby1hPMlCjEkMp776" Name="Operand" Kind="InputPin" Bounds="391,260" />
+              <Pin Id="JeNnMUAoRmINCR6PREkIPT" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+              <Pin Id="BgcIA5M0oK0N68D46JxhSA" Name="Debug" Kind="InputPin" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
               <Pin Id="Ocli1r44ayhPIZQ95aL8Ui" Name="Output" Kind="OutputPin" Bounds="372,565">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
-              <Pin Id="LXCsmSby1hPMlCjEkMp776" Name="Operand" Kind="InputPin" Bounds="391,260" />
-              <Pin Id="JeNnMUAoRmINCR6PREkIPT" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="KkRPiUfihOCPArL9L2nbKB" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
-              <Pin Id="BgcIA5M0oK0N68D46JxhSA" Name="Debug" Kind="InputPin" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="Ee1FheyO78mLczGwmE81b4">
@@ -541,14 +541,14 @@
               </Canvas>
               <Patch Id="KXIDx60U1qpOTvagAZfp7G" Name="Create" />
               <Patch Id="Q9ApwgXE14RLfpvCr8s4PT" Name="Update">
-                <Pin Id="NYsVs3EJM3sOeoTnrjWd7o" Name="Output" Kind="OutputPin" Bounds="454,438" />
                 <Pin Id="IrqVWJ2VIniOjLv2VP5IV7" Name="Operand" Kind="InputPin" Bounds="423,186" />
                 <Pin Id="AFUII2gMFR0NKRvTjbtcky" Name="Axis" Kind="InputPin" Bounds="543,172" Summary="Axis to reduce" />
                 <Pin Id="BiXNfyqyVgfLZI1q2LpvTG" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                <Pin Id="PoKZEyJrg7FNKM8TtHZc1w" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="GnnCZ0T0nBhNTdg0Rjrnsn" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
+                <Pin Id="NYsVs3EJM3sOeoTnrjWd7o" Name="Output" Kind="OutputPin" Bounds="454,438" />
+                <Pin Id="PoKZEyJrg7FNKM8TtHZc1w" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="DFiflpklUJNMFDkVJfHahd">
                 <Fragment Id="MZEdD8RfpohMkmIBDPTYYa" Patch="KXIDx60U1qpOTvagAZfp7G" Enabled="true" />
@@ -651,14 +651,14 @@
               </Canvas>
               <Patch Id="Jbrc3lWV9SZO8Rllk3EPal" Name="Create" />
               <Patch Id="H2DjY9W005KNh0tS6ViV2Z" Name="Update">
-                <Pin Id="G3mxe7bQCvKMHnSX45IeW1" Name="Output" Kind="OutputPin" Bounds="454,438" />
                 <Pin Id="S2wmEbycuwIQUqJqNiKIEx" Name="Operand" Kind="InputPin" Bounds="423,186" />
                 <Pin Id="Jtf4tuuCVfiOvzz9GS4UsO" Name="Axis" Kind="InputPin" Bounds="543,172" Summary="Axis to reduce" />
                 <Pin Id="Hez3PXFNvd8NYaL3y27pHb" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                <Pin Id="G34XoEDgyNtLhtZ7sMACSN" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="FyV0hI5fY2AQLSi6UT1RyV" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
+                <Pin Id="G3mxe7bQCvKMHnSX45IeW1" Name="Output" Kind="OutputPin" Bounds="454,438" />
+                <Pin Id="G34XoEDgyNtLhtZ7sMACSN" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="VJag3GGdqdiLE1a3doaPEX">
                 <Fragment Id="VQvqsP1w1WsPO1rX3VkTHy" Patch="Jbrc3lWV9SZO8Rllk3EPal" Enabled="true" />
@@ -764,13 +764,13 @@
               <Patch Id="V7JvUnrKPtlPi34slg17FI" Name="Create" />
               <Patch Id="KrrDzzfbyW0MQfAiRNXSgT" Name="Update">
                 <Pin Id="RUtP2AM00WDMkwrRzqcizD" Name="Operand" Kind="InputPin" Bounds="423,186" />
-                <Pin Id="HhGpzEB6y3rOZQPrAhcaqg" Name="Output" Kind="OutputPin" Bounds="454,438" />
                 <Pin Id="C5UUhXPHX48LSaD8JgdXzK" Name="Axis" Kind="InputPin" Bounds="543,172" Summary="Axis to reduce" />
                 <Pin Id="VKVNLaeNHCwQaAFdgT88zh" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                <Pin Id="PNKTu3i0ndBPgnhFsPtAqv" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="QZOCtc7kf7wO8GNC6mKYMX" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
+                <Pin Id="HhGpzEB6y3rOZQPrAhcaqg" Name="Output" Kind="OutputPin" Bounds="454,438" />
+                <Pin Id="PNKTu3i0ndBPgnhFsPtAqv" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="LUhz9K1LaWXPw36Q1e4Huu">
                 <Fragment Id="R8v9WFhcZiePWoas7KdUO7" Patch="V7JvUnrKPtlPi34slg17FI" Enabled="true" />
@@ -875,14 +875,14 @@
               </Canvas>
               <Patch Id="L8DemGkVoBZM5fAWKovrv2" Name="Create" />
               <Patch Id="LMLUzETC8g9MkPSd3VXe57" Name="Update">
-                <Pin Id="CJuLPeL36YXLqB0Jju1dD2" Name="Output" Kind="OutputPin" Bounds="454,438" />
                 <Pin Id="VB2BNVOePYpOPRaMQaHAx0" Name="Operand" Kind="InputPin" Bounds="423,186" />
                 <Pin Id="PQ1p0MPWwZ9Ms8fEHJynfd" Name="Axis" Kind="InputPin" Bounds="543,172" Summary="Axis to reduce" />
                 <Pin Id="GQU6zxYV2coQFjqdUEaxYY" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                <Pin Id="KYhCCV97UIsOsCtO5SvkXT" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="QxCyleJbcnxQcTKxwgEBrT" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
+                <Pin Id="CJuLPeL36YXLqB0Jju1dD2" Name="Output" Kind="OutputPin" Bounds="454,438" />
+                <Pin Id="KYhCCV97UIsOsCtO5SvkXT" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="VlJxKiBPQG2QSlnwLfR8y7">
                 <Fragment Id="R5eNOMna5qUNMQsaa9GPR6" Patch="L8DemGkVoBZM5fAWKovrv2" Enabled="true" />
@@ -987,14 +987,14 @@
               </Canvas>
               <Patch Id="QQk3WXwC5V9NWniJ26gaKw" Name="Create" />
               <Patch Id="C1Lch9YNuT6LI0wRhr5uVj" Name="Update">
-                <Pin Id="K3m14mAILPBLC7ZVGtbN5T" Name="Output" Kind="OutputPin" Bounds="454,438" />
                 <Pin Id="CQI4oSk9FAfNFw8WRNrOGm" Name="Operand" Kind="InputPin" Bounds="423,186" />
                 <Pin Id="HlFSjnzO1DePIWGBBiUDRh" Name="Axis" Kind="InputPin" Bounds="543,172" Summary="Axis to reduce" />
                 <Pin Id="JdkgQjYTq6PMaLhWDPjJfd" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                <Pin Id="FaiJ1iZXA5nNEkH7YAl7n0" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="CjUqqXWjXtbMXafr434Utk" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
+                <Pin Id="K3m14mAILPBLC7ZVGtbN5T" Name="Output" Kind="OutputPin" Bounds="454,438" />
+                <Pin Id="FaiJ1iZXA5nNEkH7YAl7n0" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="AsUs7FvfkTAMpj1sbLslM1">
                 <Fragment Id="LHE10WJ1VFaM3BbEsEBikD" Patch="QQk3WXwC5V9NWniJ26gaKw" Enabled="true" />
@@ -1098,13 +1098,13 @@
               <Patch Id="GDftcigprr0OvPng9wDJfM" Name="Create" />
               <Patch Id="SUli8AW0WqBLCvI4Ewophu" Name="Update">
                 <Pin Id="C3s8TIu5YMrNzUmalOts5C" Name="Operand" Kind="InputPin" Bounds="423,186" />
-                <Pin Id="U6MVjvZMJrmPbnGMXMDZYz" Name="Output" Kind="OutputPin" Bounds="454,438" />
                 <Pin Id="NiQtqyW0WeyLIG7zeeDE9z" Name="Axis" Kind="InputPin" Bounds="543,172" Summary="Axis to reduce" />
                 <Pin Id="UNERmzO1f9tL2Lb6k6qE1s" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                <Pin Id="ArJbyhdD1HlPxZOU6jP1e2" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="Pb4PqQuacHUMUa12xwCPEs" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
+                <Pin Id="U6MVjvZMJrmPbnGMXMDZYz" Name="Output" Kind="OutputPin" Bounds="454,438" />
+                <Pin Id="ArJbyhdD1HlPxZOU6jP1e2" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="R41ei3wsI5cPO33b0pmQCC">
                 <Fragment Id="Rw678ipbuOxMnR580atg8Y" Patch="GDftcigprr0OvPng9wDJfM" Enabled="true" />
@@ -1227,13 +1227,13 @@
               <Patch Id="Kspf0F5GF5mMo2jPsV1VF6" Name="Create" />
               <Patch Id="OAz7gP4pexTOhSaMw2N4tz" Name="Update">
                 <Pin Id="QfToKBOuO6yNuCQ6uxfo0G" Name="Operand" Kind="InputPin" Bounds="423,186" />
-                <Pin Id="T40DpyybBvfNmacj0uXcbN" Name="Output" Kind="OutputPin" Bounds="454,438" />
                 <Pin Id="GzPlKh3MySzOnOFMhAefTE" Name="Axis" Kind="InputPin" Bounds="543,172" Summary="Axis to reduce" />
                 <Pin Id="IM1PNHs7kpBMM9sYESc3kM" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                <Pin Id="BJReKfrAJYAQcfAQZ7AhF5" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="MHUg1ier4w6QPFbw2GI1SX" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
+                <Pin Id="T40DpyybBvfNmacj0uXcbN" Name="Output" Kind="OutputPin" Bounds="454,438" />
+                <Pin Id="BJReKfrAJYAQcfAQZ7AhF5" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="S2ksD600Us1OiIwy8J13Nv">
                 <Fragment Id="TPsmChlM3hkPQnlyQoCro1" Patch="Kspf0F5GF5mMo2jPsV1VF6" Enabled="true" />
@@ -1441,15 +1441,15 @@
               </Canvas>
               <Patch Id="JyPxhxvmkmdOIin6uBrCJD" Name="Create" />
               <Patch Id="AaVmlRFlSj6O0Rkr9G1XO7" Name="Update">
+                <Pin Id="VR4At0140AvMKzznMfFjxX" Name="Operand" Kind="InputPin" Bounds="423,186" />
+                <Pin Id="Cl017Lmre1RLoIEHV1Ct5l" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
+                <Pin Id="HbvV8sTbk7YPGWrEcIU6xw" Name="Debug" Kind="InputPin" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
                 <Pin Id="UzjENfHOhN8NDsp8lDaWLf" Name="Output" Kind="OutputPin" Bounds="372,565">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
-                <Pin Id="VR4At0140AvMKzznMfFjxX" Name="Operand" Kind="InputPin" Bounds="423,186" />
-                <Pin Id="Cl017Lmre1RLoIEHV1Ct5l" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
                 <Pin Id="HgE00L59YO9NaVE63JxlW2" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
-                <Pin Id="HbvV8sTbk7YPGWrEcIU6xw" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
@@ -1547,15 +1547,15 @@
               </Canvas>
               <Patch Id="VNHqDVvn8jGLMMsDJ2N29H" Name="Create" />
               <Patch Id="DBJHi6vJjJkMz9avGPq00e" Name="Update">
+                <Pin Id="E6ve5fK2LkOPajMJjp2rBu" Name="Operand" Kind="InputPin" Bounds="423,186" />
+                <Pin Id="UmdUQVGV1uzPV1pxmZDa2N" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
+                <Pin Id="L9stjHXzb0QOk4iSeyioPm" Name="Debug" Kind="InputPin" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
                 <Pin Id="EH3XZHc25F6N9IZYhB7ajC" Name="Output" Kind="OutputPin" Bounds="372,565">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
-                <Pin Id="E6ve5fK2LkOPajMJjp2rBu" Name="Operand" Kind="InputPin" Bounds="423,186" />
-                <Pin Id="UmdUQVGV1uzPV1pxmZDa2N" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
                 <Pin Id="JQQkAcbYRbRLKspDm7YUk3" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
-                <Pin Id="L9stjHXzb0QOk4iSeyioPm" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
@@ -1669,15 +1669,15 @@
               </Canvas>
               <Patch Id="AlYmu7zOHRuMOvSVYHf6Ba" Name="Create" />
               <Patch Id="PleIpyrTQ9sNsUgIaiN8mu" Name="Update">
+                <Pin Id="PqXeOiuVBohNBu3EyYx8XT" Name="Operand" Kind="InputPin" Bounds="423,186" />
+                <Pin Id="C3X1U6trJSTLymxpXnkppn" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
+                <Pin Id="THNJV7BtiLHOH91CnHdEyf" Name="Debug" Kind="InputPin" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
                 <Pin Id="ARZOOQbvr9bOOaINyuiDjl" Name="Output" Kind="OutputPin" Bounds="372,565">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
-                <Pin Id="PqXeOiuVBohNBu3EyYx8XT" Name="Operand" Kind="InputPin" Bounds="423,186" />
-                <Pin Id="C3X1U6trJSTLymxpXnkppn" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
                 <Pin Id="NbcaZKJcL3eL4X0yuKRNSC" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
-                <Pin Id="THNJV7BtiLHOH91CnHdEyf" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
@@ -1777,15 +1777,15 @@
               </Canvas>
               <Patch Id="Ke94q64USYQQPGCsXQYsoB" Name="Create" />
               <Patch Id="UdLJ8tiLjhSP251vPB1YPb" Name="Update">
+                <Pin Id="JN7wVEnkQ1kP6gkvblps9h" Name="Operand" Kind="InputPin" Bounds="423,186" />
+                <Pin Id="LjEtuIQKLKBN1mO9niHQPC" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
+                <Pin Id="Qy0H9yHlONcL2c6DBNUPHC" Name="Debug" Kind="InputPin" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
                 <Pin Id="IWj5D00PqZILEhNuPQsQHR" Name="Output" Kind="OutputPin" Bounds="372,565">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
-                <Pin Id="JN7wVEnkQ1kP6gkvblps9h" Name="Operand" Kind="InputPin" Bounds="423,186" />
-                <Pin Id="LjEtuIQKLKBN1mO9niHQPC" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
                 <Pin Id="Ij68Rhp6VpoPa1BbHVisOx" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
-                <Pin Id="Qy0H9yHlONcL2c6DBNUPHC" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
@@ -1883,15 +1883,15 @@
               </Canvas>
               <Patch Id="BNeSZEM2z8jPt8s9pnOxAB" Name="Create" />
               <Patch Id="Hq2GmUlZf64LrynvOQnX1r" Name="Update">
+                <Pin Id="CsHgMX3pItAMgpEofHsTag" Name="Operand" Kind="InputPin" Bounds="423,186" />
+                <Pin Id="PYKwdA9NXiJMdpTH9GlwSy" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
+                <Pin Id="OnQWdMx3QtDO8DhZ1RW7lA" Name="Debug" Kind="InputPin" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
                 <Pin Id="P9dPeYD0XzFMLmGTb0g7B5" Name="Output" Kind="OutputPin" Bounds="372,565">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
-                <Pin Id="CsHgMX3pItAMgpEofHsTag" Name="Operand" Kind="InputPin" Bounds="423,186" />
-                <Pin Id="PYKwdA9NXiJMdpTH9GlwSy" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
                 <Pin Id="JV3XjR1tPpVOgeFDWau18W" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
-                <Pin Id="OnQWdMx3QtDO8DhZ1RW7lA" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
@@ -1991,15 +1991,15 @@
               </Canvas>
               <Patch Id="HBEYwbsHIxjPkOKNCdxus2" Name="Create" />
               <Patch Id="EFqCaIzgOSFOckTOaXVf5O" Name="Update">
+                <Pin Id="J0cDLTjddPDNVZPbVtdUwW" Name="Operand" Kind="InputPin" Bounds="423,186" />
+                <Pin Id="A7SdCj4LR2tMHNBl6JM5sg" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
+                <Pin Id="KpIjynhrr47O57oU28yWSD" Name="Debug" Kind="InputPin" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
                 <Pin Id="PeBLcmNhtMmMf4FGMXUHNv" Name="Output" Kind="OutputPin" Bounds="372,565">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
-                <Pin Id="J0cDLTjddPDNVZPbVtdUwW" Name="Operand" Kind="InputPin" Bounds="423,186" />
-                <Pin Id="A7SdCj4LR2tMHNBl6JM5sg" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
                 <Pin Id="ARHLnvg5nInQbnIEjGTmLL" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
-                <Pin Id="KpIjynhrr47O57oU28yWSD" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
@@ -2096,15 +2096,15 @@
               </Canvas>
               <Patch Id="Fdlxfj2AjCGOJTLXH4xvCX" Name="Create" />
               <Patch Id="OcJMUZ0eN9cLH22gXpsMJS" Name="Update">
-                <Pin Id="D3TZuPgXTXDP0LrJVpf9E9" Name="Output" Kind="OutputPin" />
                 <Pin Id="LXn7Tij4n6yMyBnpQyVpJJ" Name="Operand" Kind="InputPin" Bounds="423,186" />
                 <Pin Id="SquQeqbjQqAQQyIjiXfdB6" Name="Axes" Kind="InputPin" Bounds="543,172" />
                 <Pin Id="Uo1YP5aDrOPPHVq3L40mK2" Name="Keep Dims" Kind="InputPin" Bounds="589,187" Visibility="Optional" />
                 <Pin Id="TWRXmI2QVIkOBlgQL2hQ3T" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                <Pin Id="IRwsMv49wwsPwQQiBH8j4B" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="El1PSfnbedKP6mH8FM3rzF" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
+                <Pin Id="D3TZuPgXTXDP0LrJVpf9E9" Name="Output" Kind="OutputPin" />
+                <Pin Id="IRwsMv49wwsPwQQiBH8j4B" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="J5ieMjky2deMwCnwvzlhci">
                 <Fragment Id="GmyHuD7xUE1M7ZBdonzOY4" Patch="Fdlxfj2AjCGOJTLXH4xvCX" Enabled="true" />
@@ -2202,15 +2202,15 @@
               </Canvas>
               <Patch Id="QJt6Ng2GDDWPEZbcsiJqJ3" Name="Create" />
               <Patch Id="QHPgVbDe62oMJkF5BhfTjD" Name="Update">
-                <Pin Id="HJJmbVj0QV6PdBeGrQeo34" Name="Output" Kind="OutputPin" />
                 <Pin Id="APraPeb7eQfNf2XD0D5Rw7" Name="Operand" Kind="InputPin" Bounds="423,186" />
                 <Pin Id="VKyXjOsifv9OVTKuHaM6e5" Name="Axes" Kind="InputPin" Bounds="543,172" />
                 <Pin Id="UHsVP54nVbGM3g3IIxIhpq" Name="Keep Dims" Kind="InputPin" Bounds="645,209" Visibility="Optional" />
                 <Pin Id="CUu9slTO5HKMwx6s04T70k" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                <Pin Id="IFE0XNWex1bOFeLdHpeC1M" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="E9hzghBYa6oPYL1G26FJU6" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
+                <Pin Id="HJJmbVj0QV6PdBeGrQeo34" Name="Output" Kind="OutputPin" />
+                <Pin Id="IFE0XNWex1bOFeLdHpeC1M" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="APPUfrV5k9RMuvJnmOXBrK">
                 <Fragment Id="OI6atm4aSsvMAYzEe3ZB1t" Patch="QJt6Ng2GDDWPEZbcsiJqJ3" Enabled="true" />
@@ -2310,15 +2310,15 @@
               </Canvas>
               <Patch Id="A6kWvaxJFIBK9np4WlYSiO" Name="Create" />
               <Patch Id="DWfHdQrPiwkMZWuOJYjyZy" Name="Update">
-                <Pin Id="IIgpnNGfsjPQWRccW75Ri5" Name="Output" Kind="OutputPin" />
                 <Pin Id="EC9H4iG3tbgLfXNEXoaHY3" Name="Operand" Kind="InputPin" Bounds="423,186" />
                 <Pin Id="DDQBDumrpImMkUV8LnkE2Z" Name="Axes" Kind="InputPin" Bounds="543,172" />
                 <Pin Id="LRkT2vz2fhvLH0jpg8RROj" Name="Keep Dims" Kind="InputPin" Bounds="708,223" Visibility="Optional" />
                 <Pin Id="FHq7znAikvJLOXtM2perUV" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                <Pin Id="UIflilDnfm9QUk0bvDn0gN" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="IBKC8eiEs3HLuGJwGFMkjJ" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
+                <Pin Id="IIgpnNGfsjPQWRccW75Ri5" Name="Output" Kind="OutputPin" />
+                <Pin Id="UIflilDnfm9QUk0bvDn0gN" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="SizElRzCPb7PVsrSK4h94P">
                 <Fragment Id="OUAEd9Q3yOyLbY32Emj9na" Patch="A6kWvaxJFIBK9np4WlYSiO" Enabled="true" />
@@ -2418,15 +2418,15 @@
               </Canvas>
               <Patch Id="IbXurZ0HZRgMxkKkW1Xkhe" Name="Create" />
               <Patch Id="OIRvqyotWEeP0lVUprXwDR" Name="Update">
-                <Pin Id="Quyre8iVCBOMP2MwmaLdpK" Name="Output" Kind="OutputPin" />
                 <Pin Id="KGD3KY7kxlENmeqBNPq8K6" Name="Operand" Kind="InputPin" Bounds="423,186" />
                 <Pin Id="G2g2ShwZzYMMdb966EuIWB" Name="Axes" Kind="InputPin" Bounds="543,172" />
                 <Pin Id="OuG7ERAInbALWLXIXTPENE" Name="Keep Dims" Kind="InputPin" Bounds="613,213" Visibility="Optional" />
                 <Pin Id="QXml3dnu9sOQcTYw5geIxr" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                <Pin Id="OKPcCQvNePtLhCVEK5d2uR" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="NU6bYL0RM2mPD8lU6LduNR" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
+                <Pin Id="Quyre8iVCBOMP2MwmaLdpK" Name="Output" Kind="OutputPin" />
+                <Pin Id="OKPcCQvNePtLhCVEK5d2uR" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="RqOL5JFdKAUOVzgmciAtYS">
                 <Fragment Id="HqlXH4ZcMAoMTOqxIFds43" Patch="IbXurZ0HZRgMxkKkW1Xkhe" Enabled="true" />
@@ -2526,15 +2526,15 @@
               </Canvas>
               <Patch Id="HxvzdbUthCXOwNaNIKlFwg" Name="Create" />
               <Patch Id="IY0XlNlCHcDOr4gJOOEZVl" Name="Update">
-                <Pin Id="RnxJZzeKf9UQTpgcX4o5mf" Name="Output" Kind="OutputPin" />
                 <Pin Id="Vr9pC6DoayYLjsVibXQVFG" Name="Operand" Kind="InputPin" Bounds="423,186" />
                 <Pin Id="CocApoowRPnM5IXQNckcQ8" Name="Axes" Kind="InputPin" Bounds="543,172" />
                 <Pin Id="AGcbqwN3lv7O4Snaa8PR7F" Name="Keep Dims" Kind="InputPin" Bounds="725,272" Visibility="Optional" />
                 <Pin Id="Bk1EeItaWOGNt81mXAUtEh" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                <Pin Id="MyvZkS8vFwOQLBvbRxBqx5" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="Huk6lUiUUj9Lfnk01UkVfA" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
+                <Pin Id="RnxJZzeKf9UQTpgcX4o5mf" Name="Output" Kind="OutputPin" />
+                <Pin Id="MyvZkS8vFwOQLBvbRxBqx5" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="FVyX3QTJJ50OUq7EzOzdj2">
                 <Fragment Id="JeZM4FPD6RKLAMzydP4cdU" Patch="HxvzdbUthCXOwNaNIKlFwg" Enabled="true" />
@@ -2663,15 +2663,15 @@
               </Canvas>
               <Patch Id="Rc4Q4TXwciJLCJq6CgPVRO" Name="Create" />
               <Patch Id="Ar2pRnn3KWxQcwEvvWM6kq" Name="Update">
-                <Pin Id="QjcnjHJrbRjOTtYCEuJXNR" Name="Output" Kind="OutputPin" />
                 <Pin Id="RtsO8cZVCklQBcqn4Q92dU" Name="Operand" Kind="InputPin" Bounds="423,186" />
                 <Pin Id="MF2W5r6IBxfPS8hpjFOs31" Name="Axes" Kind="InputPin" Bounds="543,172" />
                 <Pin Id="O2BvezjeJqfOPYLHwnKaN4" Name="Keep Dims" Kind="InputPin" Bounds="686,234" Visibility="Optional" />
                 <Pin Id="NA3Cop8JkipNM3ZMGa6r83" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                <Pin Id="KuSBrummfddL3Mmi5KQdSM" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="P4XtC4Tho3zPqb66D2sIVV" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
+                <Pin Id="QjcnjHJrbRjOTtYCEuJXNR" Name="Output" Kind="OutputPin" />
+                <Pin Id="KuSBrummfddL3Mmi5KQdSM" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="ByTXfK1qj82M42ex0R0pRT">
                 <Fragment Id="JRvGnWtW3FWOXSr246BEaH" Patch="Rc4Q4TXwciJLCJq6CgPVRO" Enabled="true" />
@@ -2777,15 +2777,15 @@
               </Canvas>
               <Patch Id="G7SjiJmoRYuOZICsb7MLYt" Name="Create" />
               <Patch Id="Tm6TMvEQbOWQW015mKG1W5" Name="Update">
-                <Pin Id="Nyp0v1gMWVePxnkDVT9qtQ" Name="Output" Kind="OutputPin" />
                 <Pin Id="Lk06pF3araVLpioSaRXpMK" Name="Operand" Kind="InputPin" Bounds="519,224" />
                 <Pin Id="VSbyBmGNtZVK9sAcivszqZ" Name="Axes" Kind="InputPin" Bounds="604,225" />
                 <Pin Id="EWzsCPASij0NcJTk55sckq" Name="Keep Dims" Kind="InputPin" Bounds="681,238" Visibility="Optional" />
                 <Pin Id="Bq6R9VzthLwMk1fmrX6jnA" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                <Pin Id="CJhmRqO7bcNNYTwXoLiA3v" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="EPzyx1Ji9NUP2YkcOhneFM" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
+                <Pin Id="Nyp0v1gMWVePxnkDVT9qtQ" Name="Output" Kind="OutputPin" />
+                <Pin Id="CJhmRqO7bcNNYTwXoLiA3v" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="I3MbYLWbycOQVyMPXhbJVW">
                 <Fragment Id="FGb1TC8myUQMi1OH1Nne1l" Patch="G7SjiJmoRYuOZICsb7MLYt" Enabled="true" />
@@ -2918,7 +2918,6 @@
               <Patch Id="De8GV5IXQlrN1Ed7uVY8PY" Name="Update">
                 <Pin Id="BS0nnD5AbBrNSrR7cQwnK9" Name="Input" Kind="InputPin" />
                 <Pin Id="LMFz8YQWsHaNBI8VB3alQl" Name="Operand" Kind="InputPin" Bounds="423,186" Summary="The tensor to reduce" />
-                <Pin Id="PP4UgYXGhSqOHeNrxa2F44" Name="Output" Kind="OutputPin" Bounds="454,438" />
                 <Pin Id="G5NMDRHTZF7OAeatUHI8mN" Name="Axes" Kind="InputPin" Bounds="543,172" Summary="The dimensions to reduce. Must be in the range">
                   <p:TypeAnnotation>
                     <Choice Kind="TypeFlag" Name="Spread" />
@@ -2931,8 +2930,9 @@
                 </Pin>
                 <Pin Id="CiopfWcWzYWLhuc47ffMuj" Name="Keep Dims" Kind="InputPin" Bounds="569,333" Visibility="Optional" Summary="If true, retains reduced dimensions with length 1" />
                 <Pin Id="GqHU1DFkhoIPOzpiXSiwCv" Name="Name" Kind="InputPin" Bounds="635,170" />
-                <Pin Id="GmyXXdzWdoJNY1SXn6I17Z" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 <Pin Id="KnCoy0ic6yHMH5epTLjLsn" Name="Debug" Kind="InputPin" Bounds="622,244" />
+                <Pin Id="PP4UgYXGhSqOHeNrxa2F44" Name="Output" Kind="OutputPin" Bounds="454,438" />
+                <Pin Id="GmyXXdzWdoJNY1SXn6I17Z" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="H1sW1LjQemROEjGx88rL9T">
                 <Fragment Id="FxD7I12PEOFM0qpdzF2oid" Patch="UpG5kV7Yyj5NiyT9Ze9Zp4" Enabled="true" />
@@ -3037,11 +3037,11 @@
                 <Patch Id="SNJsbUmCbNnNUzIJG2dZnG" Name="Create" />
                 <Patch Id="Q5qdVLXdINcMsEvNLm5nrD" Name="Update">
                   <Pin Id="FkOvbfpw2EBMdXnmMNqJmb" Name="Operand" Kind="InputPin" Bounds="423,186" />
-                  <Pin Id="M0zJlwDg8zGLNsZcdgyjS6" Name="Output" Kind="OutputPin" Bounds="454,438" />
                   <Pin Id="EpLVgz55PM7M4yDookqKTK" Name="Keep Dims" Kind="InputPin" Bounds="543,172" />
                   <Pin Id="F8dZkjpWMdKOl4pPKNVdlh" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
-                  <Pin Id="BVjDVbnWcLSO45aUd44CwO" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                   <Pin Id="LW2u7djvFR2NyRCYE96PUR" Name="Debug" Kind="InputPin" Bounds="706,180" Visibility="Optional" />
+                  <Pin Id="M0zJlwDg8zGLNsZcdgyjS6" Name="Output" Kind="OutputPin" Bounds="454,438" />
+                  <Pin Id="BVjDVbnWcLSO45aUd44CwO" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 </Patch>
                 <ProcessDefinition Id="NrnLSUALGtdQNiaHsUsZL9">
                   <Fragment Id="D3t2aeLooamNbYzW1ZeNH1" Patch="SNJsbUmCbNnNUzIJG2dZnG" Enabled="true" />
@@ -3150,11 +3150,11 @@
                 </Canvas>
                 <Patch Id="SRhJgFAWZC9MkYCqVntP2a" Name="Create" />
                 <Patch Id="NnaGOLbI6kWLy7No5z19nT" Name="Update">
-                  <Pin Id="LTYZWmTwbUPLJz5CVlybL1" Name="Output" Kind="OutputPin" Bounds="454,438" />
                   <Pin Id="NAOF7ozv0nUNqLrRegSchq" Name="Operand" Kind="InputPin" Bounds="423,186" />
                   <Pin Id="B5o6I3d8Q5vOeXszUhO35G" Name="Keep Dims" Kind="InputPin" Bounds="543,172" />
                   <Pin Id="N7MsCSKhzfpMLEjbm4ugqI" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
                   <Pin Id="VrbagnOxuldLoqfvbi0E3B" Name="Debug" Kind="InputPin" Bounds="720,175" Visibility="Optional" />
+                  <Pin Id="LTYZWmTwbUPLJz5CVlybL1" Name="Output" Kind="OutputPin" Bounds="454,438" />
                   <Pin Id="D6kS8K8yishNjhy356tazW" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 </Patch>
                 <ProcessDefinition Id="SbSQq9vztaVOMmt6k2hh8I">
@@ -3275,7 +3275,6 @@
                 <Patch Id="MR3p4eUTxt4PGGfWCasoAx" Name="Create" />
                 <Patch Id="FhFjvUuymfdL4VpQpLiKTP" Name="Update">
                   <Pin Id="LPKlH4LRBsyOZ27XR76hRx" Name="Operand" Kind="InputPin" Bounds="423,186" />
-                  <Pin Id="IV3loZoLidzPlSVyuiN3zX" Name="Output" Kind="OutputPin" Bounds="454,438" />
                   <Pin Id="ALDosJYhVbQNEJIrWZSaqS" Name="Axis" Kind="InputPin" Bounds="446,189" DefaultValue="-1">
                     <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                       <Choice Kind="TypeFlag" Name="Integer32" />
@@ -3284,6 +3283,7 @@
                   <Pin Id="DCVdna6iM37PigOCSC4vcd" Name="Keep Dims" Kind="InputPin" Bounds="543,172" />
                   <Pin Id="SZwnRy2IQzSQZXxsiKGySK" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
                   <Pin Id="NlfhzpYH1ENMj93DbPxRwV" Name="Debug" Kind="InputPin" Bounds="720,175" Visibility="Optional" />
+                  <Pin Id="IV3loZoLidzPlSVyuiN3zX" Name="Output" Kind="OutputPin" Bounds="454,438" />
                   <Pin Id="In3Hh1KDSBVO7vFPnrLYV8" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 </Patch>
                 <ProcessDefinition Id="LINCYriUOtQLEqE4KuoN5M">
@@ -3408,11 +3408,11 @@
                 <Patch Id="Gs4ccVVyg4QPN63xohCFdI" Name="Create" />
                 <Patch Id="NWLto6K6SYcMSmeeku8a3L" Name="Update">
                   <Pin Id="IjXN4CqCp5JNHS9YKgyS2H" Name="Operand" Kind="InputPin" Bounds="423,186" />
-                  <Pin Id="Hwz82D7t0InQFY00tp511d" Name="Output" Kind="OutputPin" Bounds="454,438" />
                   <Pin Id="PqiwuQ4W8EONTAtkfRfBpB" Name="Axis" Kind="InputPin" Bounds="446,189" />
                   <Pin Id="Lwmw8ztFfWzOHbdOt9lctp" Name="Keep Dims" Kind="InputPin" Bounds="543,172" />
                   <Pin Id="On7ABgKl20iNAnUYGg6KYm" Name="Name" Kind="InputPin" Bounds="635,170" Visibility="Optional" />
                   <Pin Id="V580JVcR4CQNTRQB7UXXU5" Name="Debug" Kind="InputPin" Bounds="720,175" Visibility="Optional" />
+                  <Pin Id="Hwz82D7t0InQFY00tp511d" Name="Output" Kind="OutputPin" Bounds="454,438" />
                   <Pin Id="RjF9SqlC23YOqwfPL3x2lS" Name="Value" Kind="OutputPin" Bounds="623,444" Visibility="Optional" />
                 </Patch>
                 <ProcessDefinition Id="UFYtLPwUlk7LIIWTozsHY8">
@@ -3607,7 +3607,6 @@
                   </p:TypeArguments>
                 </p:TypeAnnotation>
               </Pin>
-              <Pin Id="PRoDa5HDxBNLGnMXBLILLq" Name="Output" Kind="OutputPin" Bounds="419,507" />
               <Pin Id="ILApUpE6woFPbqR0RvjOhq" Name="Right Operand" Kind="InputPin" Bounds="379,169">
                 <p:TypeAnnotation>
                   <Choice Kind="TypeFlag" Name="V" />
@@ -3619,10 +3618,11 @@
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="MMOMFPDf0cWPdkjQcDZIJH" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
-              <Pin Id="BxJiXL7RVrFQaHr4Ghdn6m" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               <Pin Id="RQTteKMe1kzLb8kZ6uP7Zk" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
+              <Pin Id="PRoDa5HDxBNLGnMXBLILLq" Name="Output" Kind="OutputPin" Bounds="419,507" />
+              <Pin Id="BxJiXL7RVrFQaHr4Ghdn6m" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="C6nKmW1GbtdNBFckxr8qK6">
               <Fragment Id="HIGlUK8rpctMQMAKQYEdDi" Patch="KQcNxKW4tKENwA8KnRQ9qW" Enabled="true" />
@@ -3707,16 +3707,16 @@
             </Canvas>
             <Patch Id="NJnTpaeHS1COcwt8sghmce" Name="Create" />
             <Patch Id="VXN4BUj5zuyPJGRgqrkwB0" Name="Update">
+              <Pin Id="DWErv6ZqNsmOcPgjTLeutp" Name="Operand" Kind="InputPin" Bounds="391,260" />
+              <Pin Id="CrEDSx21duVMvw3pao6CGr" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+              <Pin Id="Qgd1Shr4TVOMHvsDCwb4NC" Name="Debug" Kind="InputPin" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
               <Pin Id="J6mn0kz2pNCMrfuRG4nyuY" Name="Output" Kind="OutputPin" Bounds="372,565">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
-              <Pin Id="DWErv6ZqNsmOcPgjTLeutp" Name="Operand" Kind="InputPin" Bounds="391,260" />
-              <Pin Id="CrEDSx21duVMvw3pao6CGr" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="P5YSjuFLqsFQRhmhyW0RCW" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
-              <Pin Id="Qgd1Shr4TVOMHvsDCwb4NC" Name="Debug" Kind="InputPin" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="JvuCqW8Ym9wOKg54wsN7gV">
@@ -3901,16 +3901,16 @@
             <Patch Id="OMO3gzJ5TZGO483CqIXRrL" Name="Create" />
             <Patch Id="R4elrpRcv6oL7S5qRnOYGm" Name="Update">
               <Pin Id="VyUVWZMYhxDQFnBTyOblhh" Name="Left Operand" Kind="InputPin" Bounds="368,229" />
-              <Pin Id="U1KSQAMsI0rOFQPC4UlO9d" Name="Output" Kind="OutputPin" Bounds="372,565">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
               <Pin Id="EWTK0lDl3UuMH1KkP1spqK" Name="Right Operand" Kind="InputPin" Bounds="481,233" />
-              <Pin Id="QUpcuMA74ZtPuZgLSQiGZV" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
               <Pin Id="OhcaKfEQnZ9QCEMbk33EmS" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="LYF16RnhmOHNIbxBsCy0Og" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
+              <Pin Id="U1KSQAMsI0rOFQPC4UlO9d" Name="Output" Kind="OutputPin" Bounds="372,565">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+              </Pin>
+              <Pin Id="QUpcuMA74ZtPuZgLSQiGZV" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="MwJS12md13pPRpp8ANWLFg">
@@ -4003,16 +4003,16 @@
             <Patch Id="KKcm3sfCNMKOqdsAv7CTB7" Name="Create" />
             <Patch Id="JcLOkqQWqKrLwoc5C30jL1" Name="Update">
               <Pin Id="FF4mQhMqHolQUHzExYK02a" Name="Left Operand" Kind="InputPin" Bounds="368,229" />
-              <Pin Id="HwXdl0xIifvMhUR5dvwbz6" Name="Output" Kind="OutputPin" Bounds="372,565">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
               <Pin Id="I0G91dF5BKxMjDulWFLkgr" Name="Right Operand" Kind="InputPin" Bounds="481,233" />
-              <Pin Id="Gk7EFzzHapeOsKJcjyQXvQ" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
               <Pin Id="NrcaYqqKrzqLJYGgzLM4WF" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="NYRLaVrl4GGQHxAOKPDHnb" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
+              <Pin Id="HwXdl0xIifvMhUR5dvwbz6" Name="Output" Kind="OutputPin" Bounds="372,565">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+              </Pin>
+              <Pin Id="Gk7EFzzHapeOsKJcjyQXvQ" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="OCrgRh9jOqSPh4M5jbTLmf">
@@ -4099,16 +4099,16 @@
             </Canvas>
             <Patch Id="J7muEU74lNgN9NDG1KJp88" Name="Create" />
             <Patch Id="ILK56dONzGqOwXnwNCFOTG" Name="Update">
+              <Pin Id="C4lMHGY2zLEP1Hq6nkqsOt" Name="Operand" Kind="InputPin" Bounds="391,260" />
+              <Pin Id="KpBkYZl9xNROJNbV08xsqa" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+              <Pin Id="BGagmi8rltpMs541UhgPrT" Name="Debug" Kind="InputPin" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
               <Pin Id="LnrEaRIQZaxOMnx3pgkBqu" Name="Output" Kind="OutputPin" Bounds="372,565">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
-              <Pin Id="C4lMHGY2zLEP1Hq6nkqsOt" Name="Operand" Kind="InputPin" Bounds="391,260" />
-              <Pin Id="KpBkYZl9xNROJNbV08xsqa" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="EpRrg8E0Li6MOdy4Wea1P8" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
-              <Pin Id="BGagmi8rltpMs541UhgPrT" Name="Debug" Kind="InputPin" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="NlMEJfg2jU3LIEC5T0C1I3">
@@ -4231,14 +4231,14 @@
             <Patch Id="QJ9hV1L6agfMv4cZogY8qP" Name="Create" />
             <Patch Id="F9fN28zs0uCLoRMSWL9KVF" Name="Update">
               <Pin Id="VEbyrDwGGhILcrWEEO84Y4" Name="Left Operand" Kind="InputPin" Bounds="236,191" />
-              <Pin Id="V6knYQdMpDBPazn4w0XHY1" Name="Output" Kind="OutputPin" Bounds="419,507" />
               <Pin Id="SQLsIrlhLNJLswmfUK8KJZ" Name="Right Operand" Kind="InputPin" Bounds="379,169" />
               <Pin Id="NZr6gtS4SFOP9u0eEcdT9O" Name="OutputRank" Kind="InputPin" Bounds="678,207" />
-              <Pin Id="L2qmVqFC3VQM8AJKxOqqGl" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               <Pin Id="LopdqtMzIXPQNMkUWSXKZb" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
               <Pin Id="P9YD4SbcpjSNONmgQ8PY2w" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
+              <Pin Id="V6knYQdMpDBPazn4w0XHY1" Name="Output" Kind="OutputPin" Bounds="419,507" />
+              <Pin Id="L2qmVqFC3VQM8AJKxOqqGl" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="Np1Uyc2ZQm4NxwItRA8bje">
               <Fragment Id="PhaDuSQObriMqP4bsyZ1HE" Patch="QJ9hV1L6agfMv4cZogY8qP" Enabled="true" />
@@ -4325,11 +4325,11 @@
             <Patch Id="Dei8cIbj74tPVyYKb8g8RI" Name="Create" />
             <Patch Id="QTpxpcKssliMLFQpkLx0tk" Name="Update">
               <Pin Id="MSIAxMlZWLCO4lYeY2rqL6" Name="Left Operand" Kind="InputPin" Bounds="236,191" />
-              <Pin Id="EaOknPIC4M3LGEAtNnmoU6" Name="Output" Kind="OutputPin" Bounds="419,507" />
               <Pin Id="HA4NCmTPNAcLIW9fhtJQEx" Name="Right Operand" Kind="InputPin" Bounds="379,169" />
               <Pin Id="G0KqHZCs1MqP4tYC90GVik" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
-              <Pin Id="RBUFojv3QsEPRfRsqxOTGY" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               <Pin Id="P07DFLDsFhDN61HA2YIZ6t" Name="Debug" Kind="InputPin" Bounds="695,203" Visibility="Optional" />
+              <Pin Id="EaOknPIC4M3LGEAtNnmoU6" Name="Output" Kind="OutputPin" Bounds="419,507" />
+              <Pin Id="RBUFojv3QsEPRfRsqxOTGY" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="NzxrbDDNnhBNQuXXGG9psi">
               <Fragment Id="SNoa9hnjbegL5C0xCse8Z1" Patch="Dei8cIbj74tPVyYKb8g8RI" Enabled="true" />
@@ -4420,13 +4420,13 @@
             <Patch Id="LPRgCE8F4kaLF53mJ7tgXc" Name="Create" />
             <Patch Id="MIVBedpaF12MokPfkOfC3v" Name="Update">
               <Pin Id="VQMzSgKVwbKP7UkrTVBQVf" Name="Left Operand" Kind="InputPin" Bounds="240,216" />
-              <Pin Id="LSCJUMxVHb9O2btJIfAsQn" Name="Output" Kind="OutputPin" Bounds="419,507" />
               <Pin Id="AMCz0YoB1e4Mx1ke3lIAvc" Name="Right Operand" Kind="InputPin" Bounds="449,208" />
-              <Pin Id="J1tFg5Q5XJpNBi6VtsoMej" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               <Pin Id="Fqe5G1VfEB9MsyyB2KRkrW" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
               <Pin Id="PJSZ76fb3FlLy62fN0S85J" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
+              <Pin Id="LSCJUMxVHb9O2btJIfAsQn" Name="Output" Kind="OutputPin" Bounds="419,507" />
+              <Pin Id="J1tFg5Q5XJpNBi6VtsoMej" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="PTgzKQBBmwIP0a3hr4Eem5">
               <Fragment Id="PlS41QB4I4MLQLyNt8pDsn" Patch="LPRgCE8F4kaLF53mJ7tgXc" Enabled="true" />
@@ -4529,13 +4529,13 @@
             <Patch Id="N3DfNs8EMqHO3TX7bGDK5t" Name="Create" />
             <Patch Id="R5wARf81YvSOk8xvwPU5wb" Name="Update">
               <Pin Id="KlHBKtJAS14L3F9x14IkPz" Name="Operand" Kind="InputPin" Bounds="682,373" />
-              <Pin Id="FAVX9jnIq6GMJN9G3MwYdF" Name="Output" Kind="OutputPin" Bounds="768,716" />
               <Pin Id="Hs2EF43ocFtPVySDQOotIg" Name="Epsilon" Kind="InputPin" Bounds="781,359" />
               <Pin Id="AyZZJAeiBbuNxnBEXEWc3i" Name="Use Stats Across Channels" Kind="InputPin" Bounds="855,346" />
               <Pin Id="K26283S9YGiLuqITaVzYV7" Name="Do Variance Scaling" Kind="InputPin" Bounds="918,384" />
               <Pin Id="AmDOhyzjpjNQAxVaXmbMc3" Name="Name" Kind="InputPin" Bounds="981,415" Visibility="Optional" />
               <Pin Id="OhPPD468z72M9QhpYR5MCk" Name="Debug" Kind="InputPin" Bounds="1099,413" Visibility="Optional" />
-              <Pin Id="UwiWI4iu0oZLytmo66o2HE" Name="Value" Kind="OutputPin" Bounds="1066,700" />
+              <Pin Id="FAVX9jnIq6GMJN9G3MwYdF" Name="Output" Kind="OutputPin" Bounds="768,716" />
+              <Pin Id="UwiWI4iu0oZLytmo66o2HE" Name="Value" Kind="OutputPin" Bounds="1066,700" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="RH63YwGqkE1PPmOzn27sAf">
               <Fragment Id="MQmtVHh9SlJLGHtxVl3Hd6" Patch="N3DfNs8EMqHO3TX7bGDK5t" Enabled="true" />
@@ -4733,16 +4733,16 @@
               <Patch Id="KL8AGT6AXEwQJxGMqNo394" Name="Create" />
               <Patch Id="K435y0UAclaNJGgr83M7Mw" Name="Update">
                 <Pin Id="BhUwsQa1r8bMtU8lRc3J2l" Name="Left Operand" Kind="InputPin" Bounds="368,229" />
-                <Pin Id="C0bnZ228tZDNJiwcp7uYA5" Name="Output" Kind="OutputPin" Bounds="372,565">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="VSM8H2fxJ0kLV5nMtSQ5Oc" Name="Right Operand" Kind="InputPin" Bounds="481,233" />
-                <Pin Id="EEtVdYkSYrSOv2jswEpzdq" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="RAqqPcBUnYnMjFiSKmgQZM" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="V1LQaiXbIiMO4FDIbD78uz" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
+                <Pin Id="C0bnZ228tZDNJiwcp7uYA5" Name="Output" Kind="OutputPin" Bounds="372,565">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
+                <Pin Id="EEtVdYkSYrSOv2jswEpzdq" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="CWY1xOLHqhsPEyRbrh2syE">
@@ -4835,16 +4835,16 @@
               <Patch Id="M8RB1oL1ykGPfFz7eYFoo4" Name="Create" />
               <Patch Id="IlVOwrNKGdMNRmAPEXWepJ" Name="Update">
                 <Pin Id="BJpbOGrEx8oNbi9Yu48RpF" Name="Left Operand" Kind="InputPin" Bounds="368,229" />
-                <Pin Id="OIMQWz3xwvdMWX9yrDvMyJ" Name="Output" Kind="OutputPin" Bounds="372,565">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="Mg3vPCkoxa5Ps5fyjhwH9e" Name="Right Operand" Kind="InputPin" Bounds="481,233" />
-                <Pin Id="DRX8urJqPsLNrcZlEGZfb8" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="VVrPmllOhjQMSyrYJWvwWh" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="Ekmrv0zLu1aLoY21KcIaTl" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
+                <Pin Id="OIMQWz3xwvdMWX9yrDvMyJ" Name="Output" Kind="OutputPin" Bounds="372,565">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
+                <Pin Id="DRX8urJqPsLNrcZlEGZfb8" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="SpwdiObwvlnLnoWcNYQIh5">
@@ -4937,16 +4937,16 @@
               <Patch Id="BOVlsiSf2paMk2N0DBKuHU" Name="Create" />
               <Patch Id="QdIcj2y5eWoNQtww5ugUmk" Name="Update">
                 <Pin Id="PjI5e0QWI3JNw6Fi4pCBo5" Name="Left Operand" Kind="InputPin" Bounds="368,229" />
-                <Pin Id="FhSukqkV2dSO5yIJ5N6fOn" Name="Output" Kind="OutputPin" Bounds="372,565">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="QCt0Eh3wrb6MmEatR172Gi" Name="Right Operand" Kind="InputPin" Bounds="481,233" />
-                <Pin Id="PSWseuSG4btP6RPllnI5WS" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="J0VusNxCzM2Pfiyc0BXyJ1" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="IULQSdErpkhOW0a5fF2Ktl" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
+                <Pin Id="FhSukqkV2dSO5yIJ5N6fOn" Name="Output" Kind="OutputPin" Bounds="372,565">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
+                <Pin Id="PSWseuSG4btP6RPllnI5WS" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="R0dilxMz7ZGOlUoHux8tMx">
@@ -5039,16 +5039,16 @@
               <Patch Id="P8vI6GJTFObOtMkuhftMKt" Name="Create" />
               <Patch Id="CrKeQK7Fa8LLpBmxhvj7wx" Name="Update">
                 <Pin Id="I8U4cfQetSJOVSOnCs7SGz" Name="Left Operand" Kind="InputPin" Bounds="368,229" />
-                <Pin Id="DAlIf4f6AOHNLfK0WsuY1q" Name="Output" Kind="OutputPin" Bounds="372,565">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="Sn1qmcvHqYcP4UOum70vMH" Name="Right Operand" Kind="InputPin" Bounds="481,233" />
-                <Pin Id="DOVi77L7E99Nf1BI0x0d4O" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="GgKzylSGfeyL62TQwb2O7M" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="HUCwrok4oJ4QP01bCna8qF" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
+                <Pin Id="DAlIf4f6AOHNLfK0WsuY1q" Name="Output" Kind="OutputPin" Bounds="372,565">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
+                <Pin Id="DOVi77L7E99Nf1BI0x0d4O" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="KYrYVdeuxajQD0nINKgtkF">
@@ -5158,16 +5158,16 @@
               <Patch Id="OniTHsZvKmMObudH5VTG5o" Name="Update">
                 <Pin Id="JGvyVFk847ZP9vDpvAiunN" Name="Condition" Kind="InputPin" Bounds="660,287" />
                 <Pin Id="EAEiIk32mJ7O7H8U0rjcCS" Name="Then" Kind="InputPin" Bounds="368,229" />
+                <Pin Id="JeczVYdRZUGQUIICH9wU5V" Name="Else" Kind="InputPin" Bounds="481,233" />
+                <Pin Id="FaQUlhL3X9QNGlrB06VQA8" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+                <Pin Id="Uateyzz35LfLVEUxisAjLs" Name="Debug" Kind="InputPin" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
                 <Pin Id="MN5f3vPtONIN89e0RgyARH" Name="Output" Kind="OutputPin" Bounds="372,565">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
-                <Pin Id="JeczVYdRZUGQUIICH9wU5V" Name="Else" Kind="InputPin" Bounds="481,233" />
-                <Pin Id="FaQUlhL3X9QNGlrB06VQA8" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="QMEKk2lGZrVLNONkPcj9nr" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
-                <Pin Id="Uateyzz35LfLVEUxisAjLs" Name="Debug" Kind="InputPin" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="SnGMQ44WXhhNRJjgg61CNE">
@@ -5267,16 +5267,16 @@
               <Patch Id="MVEdRjSgBPhLkqGaLlSfH5" Name="Create" />
               <Patch Id="NIceUAXTIRyNKQE2Fn0Kfq" Name="Update">
                 <Pin Id="Bh8mZoMacG0MD079hyypQN" Name="Left Operand" Kind="InputPin" Bounds="368,229" />
-                <Pin Id="UFOaNlOBROiPtPVupZjVdI" Name="Output" Kind="OutputPin" Bounds="372,565">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="UtwLeBCX8QpMXh2TEci6pN" Name="Right Operand" Kind="InputPin" Bounds="481,233" />
-                <Pin Id="B2ESh2x7N7QNzsRFkoWdNn" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="CI7CXX4IeXdLtOco1E6Yqo" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="Bm3uSwK8aXNLauRBWqL3SQ" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
+                <Pin Id="UFOaNlOBROiPtPVupZjVdI" Name="Output" Kind="OutputPin" Bounds="372,565">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
+                <Pin Id="B2ESh2x7N7QNzsRFkoWdNn" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="Gtm9PsECbtHNN1bRlR9MOQ">
@@ -5369,16 +5369,16 @@
               <Patch Id="L1FLsIitD53M8QxlrwNYbB" Name="Create" />
               <Patch Id="McJaAScs425PI9TVdrWYlm" Name="Update">
                 <Pin Id="UMfLKkH5gXJNGfrJtKBNAu" Name="Left Operand" Kind="InputPin" Bounds="368,229" />
-                <Pin Id="OeHMCP35sFeQC2Vp4f1hI5" Name="Output" Kind="OutputPin" Bounds="372,565">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="A2XiBAXBBvyPzPg1yWm9B9" Name="Right Operand" Kind="InputPin" Bounds="481,233" />
-                <Pin Id="LrM6M8RQj0WMTcXFvOJQNk" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="H2lgK3qSOWKQE9xD6WqWa7" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="UycN5HpynLaPBPmDZ05OS1" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
+                <Pin Id="OeHMCP35sFeQC2Vp4f1hI5" Name="Output" Kind="OutputPin" Bounds="372,565">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
+                <Pin Id="LrM6M8RQj0WMTcXFvOJQNk" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="OP2xWigdrf6O33obwctkyN">
@@ -5471,16 +5471,16 @@
               <Patch Id="VgOhqOVgQWkLEFSP2aEl3g" Name="Create" />
               <Patch Id="IdsZRMpyXPDMW1ZsShlz1B" Name="Update">
                 <Pin Id="EDFLIdCGhcvMy22pUPMMoq" Name="Left Operand" Kind="InputPin" Bounds="368,229" />
-                <Pin Id="ILNsyTsQYzwP2Q8wjIrSAK" Name="Output" Kind="OutputPin" Bounds="372,565">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="KZRypEwG2knLhCvf45AqUs" Name="Right Operand" Kind="InputPin" Bounds="481,233" />
-                <Pin Id="KMLmMTPAEfsN29xQcTR4OZ" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="LPSBiVCT9zOLJwezcIkBWr" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="PdOQT9SWZeONiiPSGH4B4H" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
+                <Pin Id="ILNsyTsQYzwP2Q8wjIrSAK" Name="Output" Kind="OutputPin" Bounds="372,565">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
+                <Pin Id="KMLmMTPAEfsN29xQcTR4OZ" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="JnfgiOW0WafLLP4ocqxxGP">
@@ -5566,16 +5566,16 @@
               </Canvas>
               <Patch Id="A46XVWA6raaNS5r3Clp209" Name="Create" />
               <Patch Id="RKt1uJ89ukjPbpMqq3iZdY" Name="Update">
+                <Pin Id="IRMs5aBIPA9L92nepRCX3F" Name="Operand" Kind="InputPin" Bounds="391,260" />
+                <Pin Id="NsjWspTLaltL8ytuNyRf3E" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+                <Pin Id="H6HaLshgQwYNjKceujiW2c" Name="Debug" Kind="InputPin" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
                 <Pin Id="DWEWBHtcjvFPyx0yYoaA29" Name="Output" Kind="OutputPin" Bounds="372,565">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
-                <Pin Id="IRMs5aBIPA9L92nepRCX3F" Name="Operand" Kind="InputPin" Bounds="391,260" />
-                <Pin Id="NsjWspTLaltL8ytuNyRf3E" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="FBVt0Qk4axDNpIj1uiLmWG" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
-                <Pin Id="H6HaLshgQwYNjKceujiW2c" Name="Debug" Kind="InputPin" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="VjGrLZD9EstPxwuQTx2QqT">
@@ -5664,16 +5664,16 @@
               <Patch Id="JWnl6CCItxSNUPDex8Eqi8" Name="Create" />
               <Patch Id="IWrjdakvji5NWsX7tb0eTG" Name="Update">
                 <Pin Id="ULexKhG65D1PK0ZW0HIikm" Name="Left Operand" Kind="InputPin" Bounds="368,229" />
-                <Pin Id="TdFePe8e3nxQBxeoOJw8je" Name="Output" Kind="OutputPin" Bounds="372,565">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="DH4va7sdRW6N4pfiWle8MJ" Name="Right Operand" Kind="InputPin" Bounds="481,233" />
-                <Pin Id="SkuQkLmpkYyMgZrcCIcrlP" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="IUQ21jOE98pOeBJDH0sJ6c" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="LbAiTgtooNvLeo3tkb4vE3" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
+                <Pin Id="TdFePe8e3nxQBxeoOJw8je" Name="Output" Kind="OutputPin" Bounds="372,565">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
+                <Pin Id="SkuQkLmpkYyMgZrcCIcrlP" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="SrBZjFhacEAM09NFYXfYSk">
@@ -5766,16 +5766,16 @@
               <Patch Id="EMzPQxwqOAHLGxXKd6Cauq" Name="Create" />
               <Patch Id="BeeguyiSl9aLeMm8QqIwu3" Name="Update">
                 <Pin Id="Gr3KhTjzrpuL4injgYdE6h" Name="Left Operand" Kind="InputPin" Bounds="368,229" />
-                <Pin Id="TmLRD3ZeANePoUzPU3P8u7" Name="Output" Kind="OutputPin" Bounds="372,565">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="CIgs12VGXmWPf140Seh5Ri" Name="Right Operand" Kind="InputPin" Bounds="481,233" />
-                <Pin Id="UgTQw8It05NNo4KquVXVG1" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="EFuKAvb80KdM92a9PEd9YW" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="OtAlJjQTy0iPHp0nRF9d1U" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
+                <Pin Id="TmLRD3ZeANePoUzPU3P8u7" Name="Output" Kind="OutputPin" Bounds="372,565">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+                </Pin>
+                <Pin Id="UgTQw8It05NNo4KquVXVG1" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="AoBylXElyAHLB3ZHeEKj4O">
@@ -6152,13 +6152,13 @@
               </Canvas>
               <Patch Id="EM8w1bOzYseLO1afqtBCwe" Name="Create" />
               <Patch Id="CpheJ0LYMOBMNtXVbFUoVx" Name="Update">
-                <Pin Id="Sbw54v7FRs0Oii7qZAXLzX" Name="Output" Kind="OutputPin" Bounds="372,565">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
                 <Pin Id="FOnYR113tN3PlPTAQVcoDc" Name="Operand" Kind="InputPin" Bounds="391,260" />
                 <Pin Id="GqEK15JMPbvNciotDzox7l" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="FjFH2zqmgPdQCuepQ1rKcj" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
+                <Pin Id="Sbw54v7FRs0Oii7qZAXLzX" Name="Output" Kind="OutputPin" Bounds="372,565">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
                 <Pin Id="UGEzJFYyQQYM2LL34V5GCx" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
@@ -6256,17 +6256,17 @@
               <Patch Id="BYOLuIaH71dMfI86rXI7hi" Name="Create" />
               <Patch Id="DSwbgkl070XQalhtBUxdLv" Name="Update">
                 <Pin Id="JXZXKQUokkGMmPIdEsh6SY" Name="Operand" Kind="InputPin" Bounds="328,135" />
-                <Pin Id="IfqMX7cFnwUNlBj44ImsgB" Name="Output" Kind="OutputPin" Bounds="646,365" />
                 <Pin Id="Km8u79CHyaxPBFF3TpXPqE" Name="Alpha" Kind="InputPin" Bounds="425,119" />
                 <Pin Id="Hb6HWTjDuxAO3l7fa0yHeR" Name="Beta" Kind="InputPin" Bounds="513,108" />
                 <Pin Id="R7aP9Fm7T3JNryEVvbpvX5" Name="Name" Kind="InputPin" Bounds="581,126" Visibility="Optional" />
-                <Pin Id="PDoO9duvScvM4cg5hI1pyE" Name="Value" Kind="OutputPin" Bounds="861,356" Visibility="Optional" />
                 <Pin Id="ChBzf3IfGqVQBSCFKxRbeF" Name="Debug" Kind="InputPin" DefaultValue="True" Visibility="Optional">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Boolean" />
                   </p:TypeAnnotation>
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
+                <Pin Id="IfqMX7cFnwUNlBj44ImsgB" Name="Output" Kind="OutputPin" Bounds="646,365" />
+                <Pin Id="PDoO9duvScvM4cg5hI1pyE" Name="Value" Kind="OutputPin" Bounds="861,356" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="NT6RYOhQMHSNsWpa7QUHUc">
                 <Fragment Id="Hlo6annOTFfMug22G9socO" Patch="BYOLuIaH71dMfI86rXI7hi" Enabled="true" />
@@ -6363,15 +6363,15 @@
               <Patch Id="NQAS4C4g5M8OMWJ2KWonQY" Name="Create" />
               <Patch Id="Pe80DsAMKFHLDExcnHoclR" Name="Update">
                 <Pin Id="GwESR6I8jx5PeMoqGzZsEJ" Name="Operand" Kind="InputPin" Bounds="392,140" />
-                <Pin Id="MnMKSpr12hDPfKY0zrPdTR" Name="Output" Kind="OutputPin" Bounds="400,405" />
                 <Pin Id="T8TtS8oWcGOLOuORnxYSx7" Name="Alpha" Kind="InputPin" Bounds="476,138" DefaultValue="0.100000001490116">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Float64" />
                   </p:TypeAnnotation>
                 </Pin>
                 <Pin Id="AmhCpov17PtPOVM5mOxdku" Name="Name" Kind="InputPin" Bounds="572,131" Visibility="Optional" />
-                <Pin Id="O98QLqYu6T4QPTExev1i1T" Name="Value" Kind="OutputPin" Bounds="555,401" Visibility="Optional" />
                 <Pin Id="FFIMwLmdc9BOXpF1wCryPS" Name="Debug" Kind="InputPin" Bounds="666,148" Visibility="Optional" />
+                <Pin Id="MnMKSpr12hDPfKY0zrPdTR" Name="Output" Kind="OutputPin" Bounds="400,405" />
+                <Pin Id="O98QLqYu6T4QPTExev1i1T" Name="Value" Kind="OutputPin" Bounds="555,401" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="VGRj0IpZwZzOZLKIfszFuQ">
                 <Fragment Id="I5ZHu7I6TCtLyc5r4oPu0N" Patch="NQAS4C4g5M8OMWJ2KWonQY" Enabled="true" />
@@ -6462,16 +6462,16 @@
               <Patch Id="C8LCos1spVXMOKb1CbkKrG" Name="Update">
                 <Pin Id="GeApODBhzYKPIcufpWENkk" Name="Operand" Kind="InputPin" Bounds="200,153" />
                 <Pin Id="A3kCbAPLdjCO5eZDm18G86" Name="Gamma" Kind="InputPin" Bounds="387,164" />
-                <Pin Id="HJ6tc3x7H7QMqYOy2vdNAl" Name="Output" Kind="OutputPin" Bounds="361,493" />
                 <Pin Id="KwQ13rt3DiILqHUdQmfqh3" Name="Alpha" Kind="InputPin" Bounds="501,147" />
                 <Pin Id="PatyQVUhotiMfo9XW4Lmh0" Name="Name" Kind="InputPin" Bounds="575,147" />
-                <Pin Id="GjUIL5XrQeTMVZ3MKyyDQY" Name="Value" Kind="OutputPin" Bounds="579,484" Visibility="Optional" />
                 <Pin Id="Vda5ztdA3g6LEt1ccf5INK" Name="Debug" Kind="InputPin" DefaultValue="False" Visibility="Optional">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Boolean" />
                   </p:TypeAnnotation>
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
+                <Pin Id="HJ6tc3x7H7QMqYOy2vdNAl" Name="Output" Kind="OutputPin" Bounds="361,493" />
+                <Pin Id="GjUIL5XrQeTMVZ3MKyyDQY" Name="Value" Kind="OutputPin" Bounds="579,484" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="ECXcZqkzAK0OCMjjTcfDCM">
                 <Fragment Id="SnokNEGbYKyMeoATX2CYN1" Patch="PHT1D67AzDNMZkHpU8jOd7" Enabled="true" />
@@ -6561,16 +6561,16 @@
               </Canvas>
               <Patch Id="LTIfojN1DUaOSfX5Z5JsDt" Name="Create" />
               <Patch Id="LXGLmTEdzfALf99bQkLsEx" Name="Update">
+                <Pin Id="NHQNcYklzULL4tP685yAYR" Name="Operand" Kind="InputPin" Bounds="391,260" />
+                <Pin Id="VsXajTiWcENOUMm05nEgap" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+                <Pin Id="DEa7Ft6IB4uPCZAkoECtFM" Name="Debug" Kind="InputPin" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
                 <Pin Id="JRzx5ouGt6QPnWqbWwAe9F" Name="Output" Kind="OutputPin" Bounds="372,565">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
-                <Pin Id="NHQNcYklzULL4tP685yAYR" Name="Operand" Kind="InputPin" Bounds="391,260" />
-                <Pin Id="VsXajTiWcENOUMm05nEgap" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="Nz6VbOYePMNLiWRu1GH6Ba" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
-                <Pin Id="DEa7Ft6IB4uPCZAkoECtFM" Name="Debug" Kind="InputPin" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="JNz1Qq6LBDFMWDtz6ORNxI">
@@ -6659,12 +6659,12 @@
               </Canvas>
               <Patch Id="VeFfEbd892xMww30oDzb2a" Name="Create" />
               <Patch Id="IT22EIedVlFO4Vt6t0qGsS" Name="Update">
-                <Pin Id="N2rcZu3FskcNNbY6zk9wa2" Name="Output" Kind="OutputPin" Bounds="414,567" />
                 <Pin Id="GpZBn8FmcMVNMSnW3FzkTt" Name="Operand" Kind="InputPin" Bounds="328,135" />
                 <Pin Id="LJmgE42qXHwOa49lakXM5f" Name="Alpha" Kind="InputPin" Bounds="528,112" />
                 <Pin Id="PFj67WbEmVEP6jF5NLZHRl" Name="Name" Kind="InputPin" Bounds="434,177" Visibility="Optional" />
-                <Pin Id="HELwvP6zQVFNIImmX9Zawj" Name="Value" Kind="OutputPin" />
                 <Pin Id="GsSnXvqegLNQGwaFDLmlSU" Name="Debug" Kind="InputPin" Bounds="729,401" />
+                <Pin Id="N2rcZu3FskcNNbY6zk9wa2" Name="Output" Kind="OutputPin" Bounds="414,567" />
+                <Pin Id="HELwvP6zQVFNIImmX9Zawj" Name="Value" Kind="OutputPin" />
               </Patch>
               <ProcessDefinition Id="K2bbR8LT0VOMlAP8nRKt8R">
                 <Fragment Id="T8VxDvFNH1LLbIkr7Ng6PI" Patch="VeFfEbd892xMww30oDzb2a" Enabled="true" />
@@ -6752,16 +6752,16 @@
               </Canvas>
               <Patch Id="A8slNU4cFR4PzPbuyvdiMJ" Name="Create" />
               <Patch Id="NzvHFxDi2LIOryJMOlyw9X" Name="Update">
+                <Pin Id="CavBehd4q0dNMo6Ct19u5k" Name="Operand" Kind="InputPin" Bounds="391,260" />
+                <Pin Id="PBfr9JVyo62QBZGiS2QXp8" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+                <Pin Id="FoLGueAC2DBMDjrJ6vWN2H" Name="Debug" Kind="InputPin" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
                 <Pin Id="CdKWhJX1eD0N0zGL8pwGrg" Name="Output" Kind="OutputPin" Bounds="372,565">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
-                <Pin Id="CavBehd4q0dNMo6Ct19u5k" Name="Operand" Kind="InputPin" Bounds="391,260" />
-                <Pin Id="PBfr9JVyo62QBZGiS2QXp8" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="P7PcsPFGhWvNRcjFdoaqbz" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
-                <Pin Id="FoLGueAC2DBMDjrJ6vWN2H" Name="Debug" Kind="InputPin" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="QOfCp1f7OFgMwtrN2z9zYK">
@@ -6862,14 +6862,14 @@
                 </Canvas>
                 <Patch Id="UC7h5JkeR6DOGvVWKefW0V" Name="Create" />
                 <Patch Id="Hz1hROngQ0CO0EGAbLBWN4" Name="Update">
-                  <Pin Id="FZLip1qxOeTPkjJkNqfk55" Name="Output" Kind="OutputPin" Bounds="414,567" />
                   <Pin Id="IOmyEQnL0SKMNo6wnFpJXg" Name="Operand" Kind="InputPin" Bounds="328,135" />
                   <Pin Id="HqgZlxv7pcdPZFL96Svrgb" Name="Axis" Kind="InputPin" Bounds="478,205" />
                   <Pin Id="FVRLok7uoJ0PVU1QH4MHbV" Name="Name" Kind="InputPin" Bounds="427,171" Visibility="Optional" />
-                  <Pin Id="Cw30vca4JxqL5zpcHEtL4H" Name="Value" Kind="OutputPin" Bounds="286,563" />
                   <Pin Id="K4DBw98VQIbQZGahXwgHtj" Name="Debug" Kind="InputPin" Visibility="Optional">
                     <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                   </Pin>
+                  <Pin Id="FZLip1qxOeTPkjJkNqfk55" Name="Output" Kind="OutputPin" Bounds="414,567" />
+                  <Pin Id="Cw30vca4JxqL5zpcHEtL4H" Name="Value" Kind="OutputPin" Bounds="286,563" />
                 </Patch>
                 <ProcessDefinition Id="DR8YKsDRv1PNSESNXECa5E">
                   <Fragment Id="Vo4eheoCkgGMawZC5E2WtP" Patch="UC7h5JkeR6DOGvVWKefW0V" Enabled="true" />
@@ -7053,16 +7053,16 @@
               </Canvas>
               <Patch Id="DXwlUujMx1eLlVbzZSmG7T" Name="Create" />
               <Patch Id="Jp8uVcYsS6SNoQYGTPGIjy" Name="Update">
+                <Pin Id="CxzNkulDShEPAzGgIwkOlv" Name="Operand" Kind="InputPin" Bounds="391,260" />
+                <Pin Id="Rc8XA87bkLwLgoKflYXFJX" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+                <Pin Id="UxYDaK0orw1OC2c5iWc9Q6" Name="Debug" Kind="InputPin" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
                 <Pin Id="FBCpM8JFvZXOHfVAckb8IM" Name="Output" Kind="OutputPin" Bounds="372,565">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
-                <Pin Id="CxzNkulDShEPAzGgIwkOlv" Name="Operand" Kind="InputPin" Bounds="391,260" />
-                <Pin Id="Rc8XA87bkLwLgoKflYXFJX" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="QaOBrHz1ASALWulYKujWcK" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
-                <Pin Id="UxYDaK0orw1OC2c5iWc9Q6" Name="Debug" Kind="InputPin" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="QgZefAw9UAaO7XhdFY8OKG">
@@ -7145,16 +7145,16 @@
               </Canvas>
               <Patch Id="HAWpWoMR7hrQIQvo9MnfUs" Name="Create" />
               <Patch Id="Rn8LlTmzdC1NLWnnpVsJIh" Name="Update">
+                <Pin Id="JPICXDf9DspLWFOtPtDnt2" Name="Operand" Kind="InputPin" Bounds="391,260" />
+                <Pin Id="THozj2VDPBWLxYT316QeOU" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+                <Pin Id="OvBJWp8b84FLnBggUNHEK9" Name="Debug" Kind="InputPin" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
                 <Pin Id="RVqVsomTHgqQaRkh7A9V8S" Name="Output" Kind="OutputPin" Bounds="372,565">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
-                <Pin Id="JPICXDf9DspLWFOtPtDnt2" Name="Operand" Kind="InputPin" Bounds="391,260" />
-                <Pin Id="THozj2VDPBWLxYT316QeOU" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="LoeWRdK0iREMtb8WavauSb" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
-                <Pin Id="OvBJWp8b84FLnBggUNHEK9" Name="Debug" Kind="InputPin" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="S4HnnwptY70P8FvkYf2L7Z">
@@ -7237,16 +7237,16 @@
               </Canvas>
               <Patch Id="BnmmtLvk1gENC8OOVJk4hR" Name="Create" />
               <Patch Id="VkZbUnBLaSoPfM3Sey74pa" Name="Update">
+                <Pin Id="M9rwhu5j6FuO76fnvfQp8X" Name="Operand" Kind="InputPin" Bounds="391,260" />
+                <Pin Id="NNajIVCZLDvO9AhwWjCj7J" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+                <Pin Id="RvMyUb2DGBRLgY2rO5S7WB" Name="Debug" Kind="InputPin" DefaultValue="False" Visibility="Optional">
+                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+                </Pin>
                 <Pin Id="RLHBfZJz2WFNhFlTZv1qB1" Name="Output" Kind="OutputPin" Bounds="372,565">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
-                <Pin Id="M9rwhu5j6FuO76fnvfQp8X" Name="Operand" Kind="InputPin" Bounds="391,260" />
-                <Pin Id="NNajIVCZLDvO9AhwWjCj7J" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
                 <Pin Id="O5AgAasYSA4O2ksFMy8lMT" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-                </Pin>
-                <Pin Id="RvMyUb2DGBRLgY2rO5S7WB" Name="Debug" Kind="InputPin" DefaultValue="False" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
               </Patch>
               <ProcessDefinition Id="AzgTCv6eEJzMfynCxb6ueO">
@@ -7270,6 +7270,114 @@
               <Link Id="JGjn8QnaOgrP7Cc24k6Y6d" Ids="LoEw4eNq28oNlmCTn0KM1P,QvRfLOcLHZxLrMVQ0bifkM" />
               <Link Id="MbNT6JtktQmPyLwtJ9wUk0" Ids="ViZyTf96qToNhSTruuUBnB,Gx6nZWIEIgPMakmdRUPb7N" />
               <Link Id="BOVtWPgzgqOOJU26aNid5n" Ids="BLBsrnXYYR7LJL9xheocKj,IKwMV4Gqoy1NBsXNfH2i2r" />
+            </Patch>
+          </Node>
+          <!--
+
+    ************************ PReLU ************************
+
+-->
+          <Node Name="PReLU" Bounds="458,749" Id="CaebeJhQc7hNoHhIujU1Hl">
+            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
+              <Choice Kind="ContainerDefinition" Name="Process" />
+            </p:NodeReference>
+            <Patch Id="Nb5mLwVOqQfPQz1ABB85cW">
+              <Canvas Id="UM3Z23YxVorMkHj8uQZlwk" CanvasType="Group">
+                <ControlPoint Id="M5Mn0eLLJlOM16ZV685GNa" Bounds="728,568" />
+                <ControlPoint Id="RH0DXLWDdwQOHj4htAb89b" Bounds="435,584" />
+                <ControlPoint Id="U5IgsZBfJyNPge3G3lAWIx" Bounds="488,396" />
+                <ControlPoint Id="JYzDLhbI3LyM7NTHCoRqrn" Bounds="653,396" />
+                <ControlPoint Id="GOt8CVEwQBwLmj5fI4MKh5" Bounds="622,351" />
+                <ControlPoint Id="MWvHxmtwQLHLZ0Gp1cIeNJ" Bounds="729,401" />
+                <Node Bounds="424,495,308,19" AutoConnect="true" Id="VJmq5Sxm04JLB4bnxbzoW5">
+                  <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
+                    <Choice Kind="ProcessAppFlag" Name="BinaryVarTemplate_0" />
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                  </p:NodeReference>
+                  <Pin Id="SUU1sIQ6SZ7Od7KPD3b70v" Name="Input" Kind="InputPin" />
+                  <Pin Id="Q3c4qbyICFMPJO8tnB57ha" Name="Left Operand" Kind="InputPin" />
+                  <Pin Id="MO1C9hgVXOPPztImjyVN5G" Name="Right Operand" Kind="InputPin" />
+                  <Pin Id="Uj4g0JRNthTOfxMn3M1qH3" Name="Name" Kind="InputPin" />
+                  <Pin Id="Lor614dSTKKPoJg0opsATo" Name="Debug" Kind="InputPin" />
+                  <Pin Id="HGLMWsw0QPNL4TuJmFRajR" Name="Output" Kind="OutputPin" />
+                  <Pin Id="JfDyKOfHxhGLEMnFTrtF32" Name="Value" Kind="OutputPin" />
+                </Node>
+                <Node Bounds="146,291,191,101" Id="HRLB7I3mUB7Pebs8impl9h">
+                  <p:NodeReference>
+                    <Choice Kind="ApplicationRegion" Name="Delegate" />
+                    <FullNameCategoryReference ID="Primitive" />
+                  </p:NodeReference>
+                  <Pin Id="F9ePwQJs00vLS4toT7g3zB" Name="Functionality" Kind="OutputPin" />
+                  <Patch Id="H1iy4Imv3WpL6Wm9ZKeiv5" ManuallySortedPins="true">
+                    <Pin Id="AfSBB8MIhQoOa107Wspbfk" Name="Arg 1" Kind="InputPin" />
+                    <Pin Id="D7dAavcGzZ4LOLpbgyYT3K" Name="Arg 2" Kind="InputPin" />
+                    <Pin Id="OFr7EIJdVwoL79WWo2iUJ9" Name="Arg 3" Kind="InputPin" />
+                    <Pin Id="FHGZ673lyKlP7gj7Wd5tgz" Name="Result" Kind="OutputPin" />
+                    <ControlPoint Id="LE4T18fyo96LmPJOPjd8mt" Bounds="160,309" />
+                    <ControlPoint Id="DTGaq0wKKSaOSWbegdEyPn" Bounds="220,309" />
+                    <ControlPoint Id="SxBveEbgSslMnnDF3NcdCk" Bounds="280,309" />
+                    <ControlPoint Id="B7gDqjea0wpPZfDfD254Wj" Bounds="171,375" />
+                    <Node Bounds="170,336,45,13" Id="IcFmF8IEdsGNHnxyvEahde">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
+                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                        <Choice Kind="OperationCallFlag" Name="PReLU" />
+                        <PinReference Kind="InputPin" Name="Name" />
+                      </p:NodeReference>
+                      <Pin Id="O650WA1YyeyQCtH54535NL" Name="Alpha" Kind="InputPin" />
+                      <Pin Id="IvYRVuU9fzSMr2ykAtEISc" Name="Operand" Kind="InputPin" />
+                      <Pin Id="JS4z7cMu23UO7ydVEcnSni" Name="Name" Kind="InputPin" />
+                      <Pin Id="P3rWIjrVxssMe8IKYUB6W2" Name="Result" Kind="OutputPin" />
+                    </Node>
+                  </Patch>
+                </Node>
+                <Node Bounds="570,437,57,19" Id="IglltFJHY7nO5K0Jx3R2gA">
+                  <p:NodeReference LastCategoryFullName="VLML.Variables.Constant" LastSymbolSource="CNTK_Variables.vl">
+                    <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                    <Choice Kind="ProcessAppFlag" Name="Constant" />
+                    <PinReference Kind="InputPin" Name="Init Value" />
+                  </p:NodeReference>
+                  <Pin Id="PxiPu9xKLk9PzuFdx6ZTpg" Name="Shape" Kind="InputPin" />
+                  <Pin Id="El2MoZmJRlUNER4VCpkjvr" Name="Init Value" Kind="InputPin" />
+                  <Pin Id="RQjJeqd2hQILZ6OHjpWlZK" Name="Output" Kind="OutputPin" />
+                </Node>
+              </Canvas>
+              <Patch Id="GwqimgFdGukMmIYEYy269U" Name="Create" />
+              <Patch Id="F1Kpo7qbKh5ODnbJydwQVJ" Name="Update">
+                <Pin Id="NtfxAZZHVVlLaqLPOjsoET" Name="Operand" Kind="InputPin" Bounds="328,135" />
+                <Pin Id="GnckhztAWqTMpulfXlXvtn" Name="Alpha" Kind="InputPin" Bounds="528,112" />
+                <Pin Id="OwAjbZ6KTrlMfQh5wyH1QL" Name="Name" Kind="InputPin" Bounds="434,177" Visibility="Optional" />
+                <Pin Id="Ai7CbiNUykbPHNOjkcQHWE" Name="Debug" Kind="InputPin" Bounds="729,401" Visibility="Optional" />
+                <Pin Id="AhUt0SV6ucINOPTYz1IZv1" Name="Output" Kind="OutputPin" Bounds="414,567" />
+                <Pin Id="CchQ9iEcBcVO5brdKLXBFT" Name="Value" Kind="OutputPin" Visibility="Optional" />
+              </Patch>
+              <ProcessDefinition Id="UxKa1SMWmGyPpgLAN3rbBn">
+                <Fragment Id="JXZIE2btnyKO3pkNcCn8sI" Patch="GwqimgFdGukMmIYEYy269U" Enabled="true" />
+                <Fragment Id="OUmNX9YruHUO6xRMAwEhVj" Patch="F1Kpo7qbKh5ODnbJydwQVJ" Enabled="true" />
+              </ProcessDefinition>
+              <Link Id="FztmTYRe58BODjS0khL16b" Ids="M5Mn0eLLJlOM16ZV685GNa,CchQ9iEcBcVO5brdKLXBFT" IsHidden="true" />
+              <Link Id="FU21EnaJBqaQAsWbUw3Ul7" Ids="RH0DXLWDdwQOHj4htAb89b,AhUt0SV6ucINOPTYz1IZv1" IsHidden="true" />
+              <Link Id="V7fDPHeRkpVPGXY3VGAOI3" Ids="NtfxAZZHVVlLaqLPOjsoET,U5IgsZBfJyNPge3G3lAWIx" IsHidden="true" />
+              <Link Id="BwVGNV43PK7Le7aX6we2w5" Ids="OwAjbZ6KTrlMfQh5wyH1QL,JYzDLhbI3LyM7NTHCoRqrn" IsHidden="true" />
+              <Pin Id="O1nrSckld6wNKCguy8bRmF" Name="Debug" Kind="InputPin" />
+              <Pin Id="LjEEezBseY0LVPSJP46rY7" Name="Context" Kind="InputPin" />
+              <Link Id="AVdV0y8k775MlREUgLkjly" Ids="GnckhztAWqTMpulfXlXvtn,GOt8CVEwQBwLmj5fI4MKh5" IsHidden="true" />
+              <Link Id="QsPvZaBaehSNphnVuVSDkP" Ids="Ai7CbiNUykbPHNOjkcQHWE,MWvHxmtwQLHLZ0Gp1cIeNJ" IsHidden="true" />
+              <Link Id="GFUjeCsKYbtNKzFC2MclzM" Ids="MWvHxmtwQLHLZ0Gp1cIeNJ,Lor614dSTKKPoJg0opsATo" />
+              <Link Id="K4slTtEU5M6PXYPhNMcRTe" Ids="JYzDLhbI3LyM7NTHCoRqrn,Uj4g0JRNthTOfxMn3M1qH3" />
+              <Link Id="AVLuov9DOuZMTWRcJpCfHH" Ids="U5IgsZBfJyNPge3G3lAWIx,Q3c4qbyICFMPJO8tnB57ha" />
+              <Link Id="GUW8k0nl9jPPU9QeZyBMjC" Ids="F9ePwQJs00vLS4toT7g3zB,SUU1sIQ6SZ7Od7KPD3b70v" />
+              <Link Id="KwhMytptfwnMaGRYJDf23z" Ids="AfSBB8MIhQoOa107Wspbfk,LE4T18fyo96LmPJOPjd8mt" IsHidden="true" />
+              <Link Id="VZ1KzndnMGzOc4sIu8wnuw" Ids="D7dAavcGzZ4LOLpbgyYT3K,DTGaq0wKKSaOSWbegdEyPn" IsHidden="true" />
+              <Link Id="ReDGUdKeIMxP1RBAF5m3z2" Ids="OFr7EIJdVwoL79WWo2iUJ9,SxBveEbgSslMnnDF3NcdCk" IsHidden="true" />
+              <Link Id="Bbz2B1xgF79P6e6pcBKQLG" Ids="B7gDqjea0wpPZfDfD254Wj,FHGZ673lyKlP7gj7Wd5tgz" IsHidden="true" />
+              <Link Id="TpZ9HqTBqzeQM8Mw9Yu6Ua" Ids="LE4T18fyo96LmPJOPjd8mt,IvYRVuU9fzSMr2ykAtEISc" />
+              <Link Id="HITeaNCWI9ROLUFbOBzBBU" Ids="DTGaq0wKKSaOSWbegdEyPn,O650WA1YyeyQCtH54535NL" />
+              <Link Id="A7gUA0pxSnGNoBqqzzFBDt" Ids="P3rWIjrVxssMe8IKYUB6W2,B7gDqjea0wpPZfDfD254Wj" />
+              <Link Id="RMKpNDePTmGLaerRWoc60i" Ids="SxBveEbgSslMnnDF3NcdCk,JS4z7cMu23UO7ydVEcnSni" />
+              <Link Id="RRRaaxuChnnOUDkSLQr5Cp" Ids="HGLMWsw0QPNL4TuJmFRajR,RH0DXLWDdwQOHj4htAb89b" />
+              <Link Id="B4rCvyRLjjCOnvXkEcLV3e" Ids="JfDyKOfHxhGLEMnFTrtF32,M5Mn0eLLJlOM16ZV685GNa" />
+              <Link Id="Uypeblxi4mQMBQuuYAtPub" Ids="RQjJeqd2hQILZ6OHjpWlZK,MO1C9hgVXOPPztImjyVN5G" />
+              <Link Id="GYW469IuYIKM9DcZrGWOH4" Ids="GOt8CVEwQBwLmj5fI4MKh5,El2MoZmJRlUNER4VCpkjvr" />
             </Patch>
           </Node>
         </Canvas>
@@ -7330,16 +7438,16 @@
             </Canvas>
             <Patch Id="FSA5hLzDOTEOh9kP36MrDo" Name="Create" />
             <Patch Id="EW1B9fPIaJePVUroCeKYRa" Name="Update">
+              <Pin Id="PxN9M5bB3JuPdx9vYiIe0b" Name="Operand" Kind="InputPin" Bounds="391,260" />
+              <Pin Id="BRZPj9FKwgnQHu4XV9cIDQ" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+              <Pin Id="B9mUt7Csj2ILx171ltOul5" Name="Debug" Kind="InputPin" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
               <Pin Id="RCXFPufyEihPAJzrA0dt1G" Name="Output" Kind="OutputPin" Bounds="372,565">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
-              <Pin Id="PxN9M5bB3JuPdx9vYiIe0b" Name="Operand" Kind="InputPin" Bounds="391,260" />
-              <Pin Id="BRZPj9FKwgnQHu4XV9cIDQ" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="UMqRtVIMHUWOA5W2puoO0x" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
-              <Pin Id="B9mUt7Csj2ILx171ltOul5" Name="Debug" Kind="InputPin" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="DZb3ZSaUGfmOzGWsNJ7knj">
@@ -7422,16 +7530,16 @@
             </Canvas>
             <Patch Id="KBQN04QNxakOvsN0lGnvfq" Name="Create" />
             <Patch Id="OPc2t7UPQy9MtcfGTzaiLw" Name="Update">
+              <Pin Id="Rk1oLvIDs7BNSrExCWkUN4" Name="Operand" Kind="InputPin" Bounds="391,260" />
+              <Pin Id="Rc4WiBVe3foNVKDpQC9021" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+              <Pin Id="UUck6ss7mobMLw2pjc1FZQ" Name="Debug" Kind="InputPin" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
               <Pin Id="DE6uJVddlAoMtgCWmnwG48" Name="Output" Kind="OutputPin" Bounds="372,565">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
-              <Pin Id="Rk1oLvIDs7BNSrExCWkUN4" Name="Operand" Kind="InputPin" Bounds="391,260" />
-              <Pin Id="Rc4WiBVe3foNVKDpQC9021" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="Vjlw2YRp2VSOP0AkgcpqxD" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
-              <Pin Id="UUck6ss7mobMLw2pjc1FZQ" Name="Debug" Kind="InputPin" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="CxJ1VjFg5biOjvGbnUj0IX">
@@ -7514,16 +7622,16 @@
             </Canvas>
             <Patch Id="EnonZujnnTTQWzHcgnMa5r" Name="Create" />
             <Patch Id="TBsB6LstfkjN0NeHQp8JoA" Name="Update">
+              <Pin Id="QDDdxInXmNNO6EzDcDGVz5" Name="Operand" Kind="InputPin" Bounds="391,260" />
+              <Pin Id="Nvlaeek7waaNxNJRrB8SbZ" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+              <Pin Id="Jkkad0owoDnMn0DGL5Lirv" Name="Debug" Kind="InputPin" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
               <Pin Id="CKm4ETbzJagOiJA6jQRltt" Name="Output" Kind="OutputPin" Bounds="372,565">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
-              <Pin Id="QDDdxInXmNNO6EzDcDGVz5" Name="Operand" Kind="InputPin" Bounds="391,260" />
-              <Pin Id="Nvlaeek7waaNxNJRrB8SbZ" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="CuAuTtxQaEwPOMhxnoE6NI" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
-              <Pin Id="Jkkad0owoDnMn0DGL5Lirv" Name="Debug" Kind="InputPin" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="B2lkCNxlv82NfyH3uxmffp">
@@ -7606,19 +7714,19 @@
             </Canvas>
             <Patch Id="FjgDH99euU2PjW0x4z9PYo" Name="Create" />
             <Patch Id="CPPxLVQ6dhFPEDuNGjFWvy" Name="Update">
-              <Pin Id="PG3oU4DEoGjNHv4k6EeeKy" Name="Output" Kind="OutputPin" Bounds="372,565">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
               <Pin Id="D3UJWJRwKLKQUZdJLyFEor" Name="Operand" Kind="InputPin" Bounds="391,260" />
               <Pin Id="NYnNpQSCkURPlAE3NNQIaf" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
-              <Pin Id="T9raWSMOot1NMptvCQXxcf" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
               <Pin Id="OTCoRcJJZkeMsC4o8U2LiF" Name="Debug" Kind="InputPin" DefaultValue="False" Visibility="Optional">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
+              <Pin Id="PG3oU4DEoGjNHv4k6EeeKy" Name="Output" Kind="OutputPin" Bounds="372,565">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+              </Pin>
+              <Pin Id="T9raWSMOot1NMptvCQXxcf" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="C7AC6CVSKVJLt3yLgG7dVa">
@@ -7701,16 +7809,16 @@
             </Canvas>
             <Patch Id="BEsl89yQEsXPGtstcOiEo7" Name="Create" />
             <Patch Id="PyV4sjvtkXDQKY8n0RBOot" Name="Update">
+              <Pin Id="JRqLfyflCGHPtTixBxi2EA" Name="Operand" Kind="InputPin" Bounds="391,260" />
+              <Pin Id="EbXJtwsrYsRPk55T8hVc4W" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+              <Pin Id="RfIp9wTYPcOMQaQTGrOXJZ" Name="Debug" Kind="InputPin" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
               <Pin Id="QSfdU6NvzxEMtW2vbCKSkh" Name="Output" Kind="OutputPin" Bounds="372,565">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
-              <Pin Id="JRqLfyflCGHPtTixBxi2EA" Name="Operand" Kind="InputPin" Bounds="391,260" />
-              <Pin Id="EbXJtwsrYsRPk55T8hVc4W" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="OHq30xszs6GPYKF9RoU871" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
-              <Pin Id="RfIp9wTYPcOMQaQTGrOXJZ" Name="Debug" Kind="InputPin" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="JN83ETNs3suLJGweJB8GPo">
@@ -7792,16 +7900,16 @@
             </Canvas>
             <Patch Id="F3jO9EvPWj7PyQAiFa90KC" Name="Create" />
             <Patch Id="Uj4mBTrZ8ncLa47nHxnoxm" Name="Update">
+              <Pin Id="KFlMavHAbX1PmolzVrfCP7" Name="Operand" Kind="InputPin" Bounds="391,260" />
+              <Pin Id="O7tjw8u6TYZLiu8Fwe7fFO" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+              <Pin Id="MUzGqw9y38fL3O6DYEOnTf" Name="Debug" Kind="InputPin" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
               <Pin Id="SMlJ2vkkNwzNuobb8VDaaR" Name="Output" Kind="OutputPin" Bounds="372,565">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
-              <Pin Id="KFlMavHAbX1PmolzVrfCP7" Name="Operand" Kind="InputPin" Bounds="391,260" />
-              <Pin Id="O7tjw8u6TYZLiu8Fwe7fFO" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="LvpaxYKa3zCNxE1h4MoNWA" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
-              <Pin Id="MUzGqw9y38fL3O6DYEOnTf" Name="Debug" Kind="InputPin" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="FAZgS7gxdmHO2QNMFVxxPq">
@@ -7884,16 +7992,16 @@
             </Canvas>
             <Patch Id="I39pqllPdz9PwgYwNlblUU" Name="Create" />
             <Patch Id="M8ugjtidgm8L46TZ6FLzSj" Name="Update">
+              <Pin Id="EB6hYtUnwbVNI3dcR6J0Bt" Name="Operand" Kind="InputPin" Bounds="391,260" />
+              <Pin Id="CyGCCANa4chN7IIEHW59RW" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+              <Pin Id="TZItOCSmz9IL7Ope3YzpMq" Name="Debug" Kind="InputPin" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
               <Pin Id="IeFvdeD8grKMlkbPNHYx4R" Name="Output" Kind="OutputPin" Bounds="372,565">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
-              <Pin Id="EB6hYtUnwbVNI3dcR6J0Bt" Name="Operand" Kind="InputPin" Bounds="391,260" />
-              <Pin Id="CyGCCANa4chN7IIEHW59RW" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="G5qU4bvXNVgQazP5E9yzYv" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
-              <Pin Id="TZItOCSmz9IL7Ope3YzpMq" Name="Debug" Kind="InputPin" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="O7ilJ5VUhrJPx981eCAN0f">
@@ -7978,11 +8086,11 @@
             </Canvas>
             <Patch Id="Sd13NOybb4DQLGgbfWMMlL" Name="Create" />
             <Patch Id="DxXOyX1oqtRNBbzPIaIHr2" Name="Update">
-              <Pin Id="MaJp7sT947RPfwZQFTIBOd" Name="Output" Kind="OutputPin" />
               <Pin Id="J7fGHcjsDVOQcEZOZWU9Aa" Name="Operand" Kind="InputPin" Bounds="334,221" Summary="Input tensor" />
               <Pin Id="OiGM2Bu7E9RM8p28XiWUqy" Name="Name" Kind="InputPin" Bounds="384,411" Visibility="Optional" />
-              <Pin Id="HTRHF1ATpVDP6gTZhQyfJD" Name="Value" Kind="OutputPin" Bounds="417,603" Visibility="Optional" />
               <Pin Id="MgkJxYxvzpyOHQXpXuc2P2" Name="Debug" Kind="InputPin" Bounds="418,472" Visibility="Optional" />
+              <Pin Id="MaJp7sT947RPfwZQFTIBOd" Name="Output" Kind="OutputPin" />
+              <Pin Id="HTRHF1ATpVDP6gTZhQyfJD" Name="Value" Kind="OutputPin" Bounds="417,603" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="OjT9ZDtJL2iO12rJFHYov8">
               <Fragment Id="M5Yp0D8eMI2OWhw2jnlLB1" Patch="Sd13NOybb4DQLGgbfWMMlL" Enabled="true" />
@@ -8064,16 +8172,16 @@
             </Canvas>
             <Patch Id="UpLeWKE6ltYL9FZFwvQFLz" Name="Create" />
             <Patch Id="PB4THwsczR4POjQcyXXAtW" Name="Update">
+              <Pin Id="Fkmm98aVSiSNE7lCfqd3It" Name="Operand" Kind="InputPin" Bounds="391,260" />
+              <Pin Id="OMX1I6HcEvANVP5S9Hui6L" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+              <Pin Id="V7khkyJ61vRP5gkvy6QUSe" Name="Debug" Kind="InputPin" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
               <Pin Id="D4lHjaGs5N6QDCOpyjAbH4" Name="Output" Kind="OutputPin" Bounds="372,565">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
-              <Pin Id="Fkmm98aVSiSNE7lCfqd3It" Name="Operand" Kind="InputPin" Bounds="391,260" />
-              <Pin Id="OMX1I6HcEvANVP5S9Hui6L" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="BjMf2maJ5X2OyMd9cQkvDN" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
-              <Pin Id="V7khkyJ61vRP5gkvy6QUSe" Name="Debug" Kind="InputPin" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="QNv5TlzDmg2NKc0ctQzWFQ">
@@ -8156,16 +8264,16 @@
             </Canvas>
             <Patch Id="E4hoxGkIj6pP0T9amJAPlO" Name="Create" />
             <Patch Id="QV1uUqyQILbLlUMheSg8eA" Name="Update">
+              <Pin Id="RnLMBw7dCiDLQPxLF4O26C" Name="Operand" Kind="InputPin" Bounds="391,260" />
+              <Pin Id="T5gi6YiHaWfNbVzBGcykyK" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+              <Pin Id="SlXB7trD9VAM58i8QlMNu7" Name="Debug" Kind="InputPin" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
               <Pin Id="EdwmSW6sNIiQWlbEfIpkHv" Name="Output" Kind="OutputPin" Bounds="372,565">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
-              <Pin Id="RnLMBw7dCiDLQPxLF4O26C" Name="Operand" Kind="InputPin" Bounds="391,260" />
-              <Pin Id="T5gi6YiHaWfNbVzBGcykyK" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="C4DjO89nfkCOEam3DjjeDD" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
-              <Pin Id="SlXB7trD9VAM58i8QlMNu7" Name="Debug" Kind="InputPin" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="En8b9LZTlBWLrfbM0bEvRW">
@@ -8249,10 +8357,10 @@
             <Patch Id="NmthtBnU81UNFe55o1vnMB" Name="Create" />
             <Patch Id="PAsFa1hrRpBMkWHRuwQq2Z" Name="Update">
               <Pin Id="VsJAeQhCw1zPs9LLYzJQu7" Name="Operand" Kind="InputPin" Bounds="334,221" />
-              <Pin Id="JQI4yqe4aWmPXlyHgtCZeZ" Name="Output" Kind="OutputPin" Bounds="359,525" />
               <Pin Id="VZS2O4qMACPO9qmxcaC75o" Name="Name" Kind="InputPin" Bounds="457,218" Visibility="Optional" />
-              <Pin Id="Dlofu8MCifNNd6i06nidfH" Name="Value" Kind="OutputPin" Bounds="536,517" Visibility="Optional" />
               <Pin Id="TxB8IDh3OtvNnVApe9Qf6C" Name="Debug" Kind="InputPin" Bounds="553,220" Visibility="Optional" />
+              <Pin Id="JQI4yqe4aWmPXlyHgtCZeZ" Name="Output" Kind="OutputPin" Bounds="359,525" />
+              <Pin Id="Dlofu8MCifNNd6i06nidfH" Name="Value" Kind="OutputPin" Bounds="536,517" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="QkL6EN5tlAzOgOEdTui3Cs">
               <Fragment Id="KHJZbrON5QnPNgERYIPjrD" Patch="NmthtBnU81UNFe55o1vnMB" Enabled="true" />
@@ -8488,11 +8596,11 @@
             <Patch Id="GShs8gaaosvM8Rwe1cRInd" Name="Create" />
             <Patch Id="M2s5BITBFulNfThSrUOMe9" Name="Update">
               <Pin Id="VZWX5G1YJCYMo5SEW2In6i" Name="Operand A" Kind="InputPin" />
-              <Pin Id="Vz69lyFpD8oLLqvQlxspKk" Name="Output" Kind="OutputPin" Bounds="304,457" />
               <Pin Id="JlJLhcs0lJeQaGYmLMxpJy" Name="Operand B" Kind="InputPin" />
               <Pin Id="Lt5B8lyDLJCNpBHiD0nZKo" Name="Operand C" Kind="InputPin" />
               <Pin Id="PWKmPHpUWRAMNrL8aeracn" Name="Alpha" Kind="InputPin" />
               <Pin Id="DvO92M3KBbhMmhFBGUWZNx" Name="Debug" Kind="InputPin" Visibility="Optional" />
+              <Pin Id="Vz69lyFpD8oLLqvQlxspKk" Name="Output" Kind="OutputPin" Bounds="304,457" />
               <Pin Id="VGCDjYUpuV8Lfojpw71BCn" Name="Value" Kind="OutputPin" Bounds="597,463" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="Ddrq1SvxnNaLev9bkDLcBC">
@@ -8588,16 +8696,16 @@
             </Canvas>
             <Patch Id="Aa4Ok2HmhRnMaSCdR8Qt7A" Name="Create" />
             <Patch Id="EzjcpPIu9L5MRLGWvLn2OC" Name="Update">
+              <Pin Id="CdcTNpY5xqBQYWBaZbRc3R" Name="Operand" Kind="InputPin" Bounds="391,260" />
+              <Pin Id="LoOYIQcN4IZQJ26MN2r8hg" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+              <Pin Id="LPQPsn3PjlwLOEzX7WVa06" Name="Debug" Kind="InputPin" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
               <Pin Id="JjLOs2auoNOQN1ZNaY8TDy" Name="Output" Kind="OutputPin" Bounds="372,565">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
-              <Pin Id="CdcTNpY5xqBQYWBaZbRc3R" Name="Operand" Kind="InputPin" Bounds="391,260" />
-              <Pin Id="LoOYIQcN4IZQJ26MN2r8hg" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="S0zGgrQ22OgPclkp55i3jO" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
-              <Pin Id="LPQPsn3PjlwLOEzX7WVa06" Name="Debug" Kind="InputPin" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="R8FTGFlmHCzLcdMX8YC805">
@@ -8880,16 +8988,16 @@
             <Patch Id="PO5iMH4RuWrPDoYqEtO4Vs" Name="Create" />
             <Patch Id="Az0q5GZYQXiMzaDp4MefKN" Name="Update">
               <Pin Id="OajXNIaJ6maMJClpXOljTI" Name="Left Operand" Kind="InputPin" Bounds="368,229" />
-              <Pin Id="SlUV3UZsGyiLb7KMIZWkg9" Name="Output" Kind="OutputPin" Bounds="372,565">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
               <Pin Id="MPdzw8CMW2VMW7LRRJ4mjV" Name="Right Operand" Kind="InputPin" Bounds="481,233" />
-              <Pin Id="I9PnQblBGPmLCQkcmv032M" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
               <Pin Id="Uuz2cWS2DnfPbcQR7OokJJ" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="V8eINtiTnCBOJy15RrcOqs" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
+              <Pin Id="SlUV3UZsGyiLb7KMIZWkg9" Name="Output" Kind="OutputPin" Bounds="372,565">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
+              </Pin>
+              <Pin Id="I9PnQblBGPmLCQkcmv032M" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="L9cUihEut3VPYzQR38Skqa">
@@ -9065,13 +9173,11 @@
             <Patch Id="GgASiXslKYYODVGLVGW7XO" Name="Create" />
             <Patch Id="DldBlQQ8pPbOsruxtC72as" Name="Update">
               <Pin Id="PjfY3JfefE2Lw359B1BWdQ" Name="Operand" Kind="InputPin" Summary="A tensor" />
-              <Pin Id="CAZbbzduebHLqKaLlC0GQt" Name="Output" Kind="OutputPin" Summary="2 Outputs: the indices the for the highest scoring tensors, the values of those tensors. will not pass as a single variable." />
               <Pin Id="KNtsmMsto27LU18I1XBKWZ" Name="K" Kind="InputPin" DefaultValue="1" Summary="Number of top items to return. Maximum is the number of samples available">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Integer32" />
                 </p:TypeAnnotation>
               </Pin>
-              <Pin Id="Mb62LsKtfV7LeROLC4KiKO" Name="Value" Kind="OutputPin" Bounds="472,487" Visibility="Optional" />
               <Pin Id="DkPNe2prg3ALAYI4nub4KY" Name="Axis" Kind="InputPin" Bounds="538,221" DefaultValue="-1" Visibility="Optional" Summary="axis along which to perform the operation (default: -1)">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Integer32" />
@@ -9079,6 +9185,8 @@
               </Pin>
               <Pin Id="GqIROllfopGOreT4YWKd9A" Name="Name" Kind="InputPin" Visibility="Optional" />
               <Pin Id="DocV27LCULNMk814yCaH8i" Name="Debug" Kind="InputPin" Bounds="696,220" Visibility="Optional" />
+              <Pin Id="CAZbbzduebHLqKaLlC0GQt" Name="Output" Kind="OutputPin" Summary="2 Outputs: the indices the for the highest scoring tensors, the values of those tensors. will not pass as a single variable." />
+              <Pin Id="Mb62LsKtfV7LeROLC4KiKO" Name="Value" Kind="OutputPin" Bounds="472,487" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="Kna8bgOGzEMOxhvqH4c5tf">
               <Fragment Id="Pm58i6bDPZqNm341B8gdXa" Patch="GgASiXslKYYODVGLVGW7XO" Enabled="true" />
@@ -9183,17 +9291,17 @@
               <Patch Id="GcffiCxyGMKOsrHMrINJHT" Name="Create" />
               <Patch Id="GTGcNcbTzO9PDpTuINkRoX" Name="Update">
                 <Pin Id="HuPNdCyNF9zMjsuZZtdKMm" Name="Left Operand" Kind="InputPin" Bounds="240,216" />
-                <Pin Id="TsEpDRteBJYQAtr7XOZOVd" Name="Output" Kind="OutputPin" Bounds="419,507" />
                 <Pin Id="UZEZHBjQdc6OZWf2BNsgbh" Name="Scalar" Kind="InputPin" Bounds="178,252" DefaultValue="1">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
                 </Pin>
                 <Pin Id="MhhQwgFxf1rNAM3ysk2ORA" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
-                <Pin Id="LrGsxDNDjAkNkfR4jQxGhN" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
                 <Pin Id="R83xveYWerZPnLb9tGMP1I" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
+                <Pin Id="TsEpDRteBJYQAtr7XOZOVd" Name="Output" Kind="OutputPin" Bounds="419,507" />
+                <Pin Id="LrGsxDNDjAkNkfR4jQxGhN" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="UjrBeR68dNPOr6zzzPuzOT">
                 <Fragment Id="M4epyLYJAOPPqUQaQbpuVX" Patch="GcffiCxyGMKOsrHMrINJHT" Enabled="true" />
@@ -9284,13 +9392,13 @@
               <Patch Id="IEFokjYH5zdPiQV3FF8QJJ" Name="Create" />
               <Patch Id="ImZvaASWMfqMcYQvp6IqXX" Name="Update">
                 <Pin Id="P0FwIHTtkgRO1iXBSsmg83" Name="Left Operand" Kind="InputPin" Bounds="240,216" />
-                <Pin Id="TLH5BIrAlqRLR4fUjv0EjW" Name="Output" Kind="OutputPin" Bounds="419,507" />
                 <Pin Id="KAp5QKM32VTQCAmJ5x3AT9" Name="Scalar" Kind="InputPin" Bounds="474,206" />
                 <Pin Id="UTN1vNIZCtGNS13uzC8FFu" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
-                <Pin Id="FzRCCvwHbKBLxqfzyO5tX0" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
                 <Pin Id="SDfn3uaz5LzLqiHMchoFdE" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
+                <Pin Id="TLH5BIrAlqRLR4fUjv0EjW" Name="Output" Kind="OutputPin" Bounds="419,507" />
+                <Pin Id="FzRCCvwHbKBLxqfzyO5tX0" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="L4Y9UKnV7mcPFaFkzZPLUs">
                 <Fragment Id="C8qLHHV2DmCNTL1ZyTs8IW" Patch="IEFokjYH5zdPiQV3FF8QJJ" Enabled="true" />
@@ -9381,13 +9489,13 @@
               <Patch Id="F2x3CGx4IjhNIjN1YNn11U" Name="Create" />
               <Patch Id="QhqrY4ytkGQN5w6l7P7cQI" Name="Update">
                 <Pin Id="DXEmTnZkg3pPvQwYzyaXFz" Name="Left Operand" Kind="InputPin" Bounds="240,216" />
-                <Pin Id="MswSzEVkITiPR6ZBk8fWHr" Name="Output" Kind="OutputPin" Bounds="419,507" />
                 <Pin Id="OvMcYW05y88OlWla5MRxeo" Name="Scalar" Kind="InputPin" Bounds="704,481" />
                 <Pin Id="RdRlH07LgsLPqg6O9cSCDW" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
-                <Pin Id="GMrKauM88wTPZXKZNOZWbT" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
                 <Pin Id="LcVa1kVgFuHLkVZoWkN3Xf" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
+                <Pin Id="MswSzEVkITiPR6ZBk8fWHr" Name="Output" Kind="OutputPin" Bounds="419,507" />
+                <Pin Id="GMrKauM88wTPZXKZNOZWbT" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="NHwgmFWTvL3L379SopybJz">
                 <Fragment Id="VQ74HUJ86SZPmw1sg7n2Qb" Patch="F2x3CGx4IjhNIjN1YNn11U" Enabled="true" />
@@ -9478,17 +9586,17 @@
               <Patch Id="GBHsvxV7yJzLDCSD7IRIO6" Name="Create" />
               <Patch Id="IvyG65CTc1VPQuRpVPyxbO" Name="Update">
                 <Pin Id="M2FGNapa0f0M4aestCcktm" Name="Left Operand" Kind="InputPin" Bounds="240,216" />
-                <Pin Id="QS0Z1RWgTYlQU7QRwpiyx8" Name="Output" Kind="OutputPin" Bounds="419,507" />
                 <Pin Id="JP6hwx0Aq1mL1iL6J9BdAw" Name="Scalar" Kind="InputPin" Bounds="178,252" DefaultValue="1">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
                 </Pin>
                 <Pin Id="Scq5xV1KdXfLTGyUD59Jxq" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
-                <Pin Id="K5PZ5xuztwIMXHxfOglLga" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
                 <Pin Id="LczYLkmt4A1OQLNm1j9z8b" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
+                <Pin Id="QS0Z1RWgTYlQU7QRwpiyx8" Name="Output" Kind="OutputPin" Bounds="419,507" />
+                <Pin Id="K5PZ5xuztwIMXHxfOglLga" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="I3vvVh5huaVMvObZJgThV8">
                 <Fragment Id="ND9T68d6Te5NfJkeX7QCMj" Patch="GBHsvxV7yJzLDCSD7IRIO6" Enabled="true" />
@@ -9591,13 +9699,13 @@
               <Patch Id="EjIACWSy8EXNMe1hTWr3hJ" Name="Update">
                 <Pin Id="NhjaK8XuYQEORhfsNiafoM" Name="Input" Kind="InputPin" Bounds="78,112" />
                 <Pin Id="Tlfl4QSY2vzLvIRHLgEIxf" Name="Left Operand" Kind="InputPin" Bounds="240,216" Summary="Input tensor" />
-                <Pin Id="P3vYN8WyMSnMFujJURWr8u" Name="Output" Kind="OutputPin" Bounds="419,507" />
                 <Pin Id="AeZQqf0vmmTNX7PHykye49" Name="Scalar" Kind="InputPin" Bounds="178,252" Summary="Float of your scalar" />
                 <Pin Id="M1jSNym90lIMSsB9jXPvHJ" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
-                <Pin Id="IRjTEzMOp2mLa8PDwljMOA" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
                 <Pin Id="RAtazN3SOxzPrwgnhFz41o" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
                 </Pin>
+                <Pin Id="P3vYN8WyMSnMFujJURWr8u" Name="Output" Kind="OutputPin" Bounds="419,507" />
+                <Pin Id="IRjTEzMOp2mLa8PDwljMOA" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="MLPWgM0tbfEPkRV8V05hnC">
                 <Fragment Id="PHMv5cMsYiIPduuOsVofFs" Patch="FzX0Y4zsN2tMXVch4rgjm0" Enabled="true" />
@@ -9702,11 +9810,11 @@
             </Canvas>
             <Patch Id="Gw5FpCrskYZOHR6zTpLKph" Name="Create" />
             <Patch Id="Fn7E7qxtjS2Lsiaodh8FLS" Name="Update">
-              <Pin Id="QnIcXmX7aiPNJHQbGLe7K4" Name="Output" Kind="OutputPin" Bounds="379,535" />
               <Pin Id="HHmtC6qhKoQMcB8C9Lhrzh" Name="Operands" Kind="InputPin" Bounds="430,287" Summary="List of Tensors" />
               <Pin Id="GtsrhHuJsIqLa9bjKkKKH7" Name="Name" Kind="InputPin" Bounds="515,333" Visibility="Optional" />
-              <Pin Id="GlNHItWJv0DOtvOhaePrNY" Name="Value" Kind="OutputPin" Bounds="486,527" />
               <Pin Id="MNSSxcCgoX4O6VcPOiDcfV" Name="Debug" Kind="InputPin" Bounds="530,404" Visibility="Optional" />
+              <Pin Id="QnIcXmX7aiPNJHQbGLe7K4" Name="Output" Kind="OutputPin" Bounds="379,535" />
+              <Pin Id="GlNHItWJv0DOtvOhaePrNY" Name="Value" Kind="OutputPin" Bounds="486,527" />
             </Patch>
             <ProcessDefinition Id="IG2HFE1Vq4qNLhzP5O1qSZ">
               <Fragment Id="RsZ4hQrzjqwQWTikifBqpQ" Patch="Gw5FpCrskYZOHR6zTpLKph" Enabled="true" />
@@ -9805,11 +9913,11 @@
             </Canvas>
             <Patch Id="RwHdM9YsNlfNO1M7CB9l3Q" Name="Create" />
             <Patch Id="BPeomgq4eahOa8AAFz39Pf" Name="Update">
-              <Pin Id="Kgqg2A6Fx8LO29NwlTGtNH" Name="Output" Kind="OutputPin" Bounds="379,535" />
               <Pin Id="LExRHuNuJJTLe1Xv2j7SrY" Name="Operands" Kind="InputPin" Bounds="430,287" Summary="List of Tensors" />
               <Pin Id="HRH2pulxGH1OWxIhqpBfgV" Name="Name" Kind="InputPin" Bounds="515,333" Visibility="Optional" />
-              <Pin Id="TBsll2iFkPaO7sqAr855Zk" Name="Value" Kind="OutputPin" Bounds="486,527" />
               <Pin Id="SwoOK8hNTyzOscC8EZceiN" Name="Debug" Kind="InputPin" Bounds="530,404" Visibility="Optional" />
+              <Pin Id="Kgqg2A6Fx8LO29NwlTGtNH" Name="Output" Kind="OutputPin" Bounds="379,535" />
+              <Pin Id="TBsll2iFkPaO7sqAr855Zk" Name="Value" Kind="OutputPin" Bounds="486,527" />
             </Patch>
             <ProcessDefinition Id="VP2CxBTSPBGN81FwyEsssS">
               <Fragment Id="U2BOuhDxcLpNI8d9GvvbFo" Patch="RwHdM9YsNlfNO1M7CB9l3Q" Enabled="true" />
@@ -9886,10 +9994,10 @@
             <Patch Id="Oojk7Fb06ySNwtJoU6S3O3" Name="Create" />
             <Patch Id="MNKwmrMfDaBOb3IEeIGCfI" Summary="Element-wise binarization node using the straight through estimator" Name="Update">
               <Pin Id="OzjmsoklgTbMPvvUCYv1em" Name="Operand" Kind="InputPin" Bounds="227,207" Summary="Input tensor" />
-              <Pin Id="KUfKbr28cg0LiTYhCpVMnQ" Name="Output" Kind="OutputPin" Bounds="358,592" Summary="Function" />
               <Pin Id="FPH1uCre41OPQMIZrl7Dne" Name="Name" Kind="InputPin" Bounds="512,209" Summary="The name of the Function instance in the networ" />
-              <Pin Id="AgicqMcZV90PR76H6HUpvR" Name="Value" Kind="OutputPin" Bounds="543,621" Visibility="Optional" />
               <Pin Id="USXpfhHfotsPWnIkEN8D5L" Name="Debug" Kind="InputPin" Bounds="609,205" Visibility="Optional" />
+              <Pin Id="KUfKbr28cg0LiTYhCpVMnQ" Name="Output" Kind="OutputPin" Bounds="358,592" Summary="Function" />
+              <Pin Id="AgicqMcZV90PR76H6HUpvR" Name="Value" Kind="OutputPin" Bounds="543,621" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="ThLtAZdAApvL10q7Znj8OF">
               <Fragment Id="J40yTZuWmL2P85M6M9LR18" Patch="Oojk7Fb06ySNwtJoU6S3O3" Enabled="true" />
@@ -10202,9 +10310,9 @@
                   </Canvas>
                   <Patch Id="APTreHZYd9lQApEigNXBdT" Name="Create" />
                   <Patch Id="Oan5fyOSumTNl5f4N94rOc" Name="Update">
-                    <Pin Id="EapXHr1215iOG9vpkD0SD6" Name="Result" Kind="OutputPin" Bounds="377,940" />
                     <Pin Id="Dlkhb6jEzFxLe0GC6K9V9p" Name="Input" Kind="InputPin" Bounds="370,379" />
                     <Pin Id="I34gGNSHXZXO31TUKdfDZD" Name="New Shape" Kind="InputPin" Bounds="448,410" />
+                    <Pin Id="EapXHr1215iOG9vpkD0SD6" Name="Result" Kind="OutputPin" Bounds="377,940" />
                     <Pin Id="MwqkvSYOeqOLDbPYwgoGHP" Name="Success" Kind="OutputPin" Bounds="499,935" />
                     <Pin Id="TrvnYdPBUAyNcc1Avkwzhn" Name="Error Message" Kind="OutputPin" Bounds="616,945" />
                   </Patch>
@@ -10247,14 +10355,14 @@
             <Patch Id="TdnGjHqtfLIMOX1khDmbzt" Name="Create" />
             <Patch Id="SpXxzAeHV6DMQYg9HCibU6" Name="Update">
               <Pin Id="NRcpCZ20cubNiKfButm13q" Name="Operand" Kind="InputPin" Bounds="634,269" />
-              <Pin Id="TBKcfhOisVPLXtWeP1QzT0" Name="Output" Kind="OutputPin" Bounds="485,928" />
               <Pin Id="G1exmsRIwhyPwaFcNquZui" Name="NewShape" Kind="InputPin" Bounds="755,260" />
-              <Pin Id="FrX319MT2uLLFMYZPhBaQW" Name="Value" Kind="OutputPin" Bounds="3974,3171" Visibility="Optional" />
-              <Pin Id="F690WLueTYZMy8fT6PsE7v" Name="Success" Kind="OutputPin" Bounds="425,1029" />
               <Pin Id="CvBueI1lddiOIRH8KqoXOm" Name="Name" Kind="InputPin" Visibility="Optional" Summary="The name of the Function instance in the network" />
               <Pin Id="PqrRflWyFLZMVrHGx4bA2P" Name="Debug" Kind="InputPin" DefaultValue="False" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
+              <Pin Id="TBKcfhOisVPLXtWeP1QzT0" Name="Output" Kind="OutputPin" Bounds="485,928" />
+              <Pin Id="FrX319MT2uLLFMYZPhBaQW" Name="Value" Kind="OutputPin" Bounds="3974,3171" Visibility="Optional" />
+              <Pin Id="F690WLueTYZMy8fT6PsE7v" Name="Success" Kind="OutputPin" Bounds="425,1029" />
               <Pin Id="HV2Li63SugwNBo76U0iy4d" Name="Error Message" Kind="OutputPin" Bounds="513,1027" />
             </Patch>
             <ProcessDefinition Id="CWcknx4LwPjPPOS3qaPz66">
@@ -10352,16 +10460,16 @@
             </Canvas>
             <Patch Id="A1MyL0wcLwaPf8cgbvpaZf" Name="Create" />
             <Patch Id="KpZnGTbfhOKMRubAFAMz16" Name="Update">
+              <Pin Id="ON22abIi3HqLOJm9vuQEGq" Name="Operand" Kind="InputPin" Bounds="634,269" />
+              <Pin Id="OMQAkcG4Mg8OQ2FaEbflNi" Name="Name" Kind="InputPin" Visibility="Optional" />
+              <Pin Id="BArrRAV5CMJL6ab3W0flLP" Name="Debug" Kind="InputPin" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
               <Pin Id="ML9n9FNuPfPL6GgavINA9X" Name="Output" Kind="OutputPin" Bounds="372,565">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
-              <Pin Id="ON22abIi3HqLOJm9vuQEGq" Name="Operand" Kind="InputPin" Bounds="634,269" />
-              <Pin Id="OMQAkcG4Mg8OQ2FaEbflNi" Name="Name" Kind="InputPin" Visibility="Optional" />
               <Pin Id="C3ErcUVWCjmLWpn1cqdwy6" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
-              <Pin Id="BArrRAV5CMJL6ab3W0flLP" Name="Debug" Kind="InputPin" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="GRMQBU3EGhgQF2GmHB6TWT">
@@ -10444,16 +10552,16 @@
             </Canvas>
             <Patch Id="SBs0fDbRwMZORgitSkWK6A" Name="Create" />
             <Patch Id="Sm2PO8m9VpUMWz5utuIqjy" Name="Update">
+              <Pin Id="QpIzWnSDovkOb4Loh3HQf5" Name="Operand" Kind="InputPin" Bounds="391,260" />
+              <Pin Id="AyQsvTv7t6WLnHDCVUAGKn" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
+              <Pin Id="QAWJE6ChEkjLtGKk9Ax6WR" Name="Debug" Kind="InputPin" Visibility="Optional">
+                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
+              </Pin>
               <Pin Id="Cx50HGC81dmNlY4M6kdbJv" Name="Output" Kind="OutputPin" Bounds="372,565">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
-              <Pin Id="QpIzWnSDovkOb4Loh3HQf5" Name="Operand" Kind="InputPin" Bounds="391,260" />
-              <Pin Id="AyQsvTv7t6WLnHDCVUAGKn" Name="Name" Kind="InputPin" Bounds="612,231" Visibility="Optional" />
               <Pin Id="MWidKJFT2cUPoucoUYfC2i" Name="Value" Kind="OutputPin" Bounds="573,547" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
-              </Pin>
-              <Pin Id="QAWJE6ChEkjLtGKk9Ax6WR" Name="Debug" Kind="InputPin" Visibility="Optional">
-                <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
             </Patch>
             <ProcessDefinition Id="RRPS7ZtqK5vNLQQG9AGkAV">
@@ -10543,17 +10651,17 @@
             <Patch Id="FUbaNo1LoSVOpu1DHJx4cN" Name="Create" />
             <Patch Id="UzdQvjkX4WmOAIfxHTE5N1" Name="Update">
               <Pin Id="UOFnef0AyAYQKoaVjjvq77" Name="Operand" Kind="InputPin" Bounds="275,269" />
-              <Pin Id="QJyoxs0Kz9HPkYU5KcW29O" Name="Output" Kind="OutputPin" Bounds="309,517" />
               <Pin Id="JVNwlEK18ChNdlY8UYLxqA" Name="Axis" Kind="InputPin" Bounds="407,260" />
               <Pin Id="SLeKxJgfO1TL3RDOAzLht2" Name="Name" Kind="InputPin" Bounds="415,292" Visibility="Hidden">
                 <p:TypeAnnotation>
                   <Choice Kind="TypeFlag" Name="String" />
                 </p:TypeAnnotation>
               </Pin>
-              <Pin Id="J0lYVHbLfhPMi9cid9S7cD" Name="Value" Kind="OutputPin" Bounds="707,629" Visibility="Optional" />
               <Pin Id="CDYfcydcPsvLdU34SPsCMO" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
+              <Pin Id="QJyoxs0Kz9HPkYU5KcW29O" Name="Output" Kind="OutputPin" Bounds="309,517" />
+              <Pin Id="J0lYVHbLfhPMi9cid9S7cD" Name="Value" Kind="OutputPin" Bounds="707,629" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="QDEp1uNN9UaLyAWGeMtrDU">
               <Fragment Id="NkUTlKdPXAOLOPRD4pXnsl" Patch="FUbaNo1LoSVOpu1DHJx4cN" Enabled="true" />
@@ -10689,19 +10797,8 @@
                   <Link Id="JalmeYEqanELNX6pJpT35K" Ids="JFnKhCsYT1oPTGZZ9j54e5,UMLWdCEY9HlNuDdHxmUrrW" />
                   <Link Id="DisNvVoQ2PwLWODCvwlEYd" Ids="PeOUIVX1yaQPP5rQ3itd4m,IPmYbtqfSmBQdZM6CKaVCq" />
                   <Link Id="JN8b4lr7LvHODmb2CMdESl" Ids="SzxJYGdGFstPMvOOjd6UcI,Skb4dcuUYkoQK2kMtlMF6b" />
-                  <Pin Id="BfnRD6pp3EoNA9OFe8PS4S" Name="Output" Kind="OutputPin" Bounds="992,674" />
                   <Link Id="EFgR8MRrxDLOyAFCZqWFfZ" Ids="LrqejVxhpScQaFhEyxKhvp,PeOUIVX1yaQPP5rQ3itd4m" />
                   <ControlPoint Id="LrqejVxhpScQaFhEyxKhvp" Bounds="896,322" />
-                  <Pin Id="UWKRzO8U1gSLIA98Lc9UzV" Name="Static Axis Idx" Kind="InputPin" Bounds="1067,582">
-                    <p:TypeAnnotation>
-                      <Choice Kind="TypeFlag" Name="Spread" />
-                      <p:TypeArguments>
-                        <TypeReference>
-                          <Choice Kind="TypeFlag" Name="Integer32" />
-                        </TypeReference>
-                      </p:TypeArguments>
-                    </p:TypeAnnotation>
-                  </Pin>
                   <Link Id="GZkJ1KUSibHPOEgGsY41pw" Ids="UWKRzO8U1gSLIA98Lc9UzV,LrqejVxhpScQaFhEyxKhvp" IsHidden="true" />
                   <Node Bounds="799,358,47,22" Id="LuTIJ2q9OUDOI4p40MaXUg">
                     <p:NodeReference LastCategoryFullName="CNTK.AxisVector" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
@@ -10725,6 +10822,17 @@
                     <Pin Id="UEpTwnxXfLwLkbcWZfOSSl" Name="Count" Kind="OutputPin" />
                   </Node>
                   <Link Id="DvYdRG2McYBPCSET5nlu0x" Ids="UEpTwnxXfLwLkbcWZfOSSl,TIooFg11gcbOyntlhNLSGQ" />
+                  <Pin Id="UWKRzO8U1gSLIA98Lc9UzV" Name="Static Axis Idx" Kind="InputPin" Bounds="1067,582">
+                    <p:TypeAnnotation>
+                      <Choice Kind="TypeFlag" Name="Spread" />
+                      <p:TypeArguments>
+                        <TypeReference>
+                          <Choice Kind="TypeFlag" Name="Integer32" />
+                        </TypeReference>
+                      </p:TypeArguments>
+                    </p:TypeAnnotation>
+                  </Pin>
+                  <Pin Id="BfnRD6pp3EoNA9OFe8PS4S" Name="Output" Kind="OutputPin" Bounds="992,674" />
                 </Patch>
               </Node>
               <Node Bounds="425,234,132,86" Id="SezF8EInjatLUTmwWTvr4Q">
@@ -10761,16 +10869,18 @@
               </Node>
               <ControlPoint Id="GS3q3waEAhNMmzIvCSfvgJ" Bounds="525,551" />
               <ControlPoint Id="SCWAI7MA0VCN3jEIRIYTKj" Bounds="614,225" />
+              <ControlPoint Id="FP9VkohUwbKQcPcwYWmdjq" Bounds="602,181" />
             </Canvas>
             <Patch Id="CUDAaOYw2sOPwSi8bxpfhD" Name="Create" />
             <Patch Id="MT2wznHYYaMQASitpHDofR" Name="Update">
-              <Pin Id="OKqVJPlmpwKPcaiorDcFOb" Name="Output" Kind="OutputPin" Bounds="499,556" />
               <Pin Id="SSYx3xqYqv9N5WmATJf8Uc" Name="Operand" Kind="InputPin" Bounds="420,100" />
               <Pin Id="ITQGv7nmjhkPLqtvG1cacI" Name="Permutation" Kind="InputPin" Bounds="550,96" />
-              <Pin Id="MakhVvVPeEYNbJNUDfyTvT" Name="Value" Kind="OutputPin" Bounds="803,487" />
+              <Pin Id="OFG1wI89MPdPyhijGMxgAo" Name="Name" Kind="InputPin" Bounds="601,180" />
               <Pin Id="FOPWqMHhb3cQLwQqgwVcrm" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
+              <Pin Id="OKqVJPlmpwKPcaiorDcFOb" Name="Output" Kind="OutputPin" Bounds="499,556" />
+              <Pin Id="MakhVvVPeEYNbJNUDfyTvT" Name="Value" Kind="OutputPin" Bounds="803,487" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="UxRDxi2xvA4OvIn4lASSoS">
               <Fragment Id="FNKEdZQfSgcPU6wSyRKK6o" Patch="CUDAaOYw2sOPwSi8bxpfhD" Enabled="true" />
@@ -10799,6 +10909,8 @@
             <Link Id="M7MGlJ82af0PdIGjZOaUJB" Ids="TDTaYPDV88uP4wOw3Kg07M,U7EwpIvMwXsQXbAsauhLv3" />
             <Link Id="NGEVAaYb87iMxyP6dlhBru" Ids="SM8FSsHVqeWNGIj5jtKIdW,DRUFIgxKR4wLTdZfblhlne" />
             <Link Id="EM2fmsho1EoQOOFEn7DCdB" Ids="CQczGTuK5ZtOOuCmCTjC0f,UH6LYOLp0NwN2dVIlMzhti" IsHidden="true" />
+            <Link Id="NA1fWm4WWkiMTZXxop2rHc" Ids="FP9VkohUwbKQcPcwYWmdjq,PaBFF6ZnRNJPogphmVLv5s" />
+            <Link Id="DwEqHkiT3feLyd2HhhyCrm" Ids="OFG1wI89MPdPyhijGMxgAo,FP9VkohUwbKQcPcwYWmdjq" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -10889,14 +11001,14 @@
             <Patch Id="TKy815kGRw2NPkozXjkiNt" Name="Create" />
             <Patch Id="Tbl8CLpCiEqLjANSQ4gY1m" Name="Update">
               <Pin Id="QyVC66yBqNcL7RsFHMCZXP" Name="Operand" Kind="InputPin" Bounds="340,199" />
-              <Pin Id="KtW8ldOoCpNMwElLUO2Oca" Name="Output" Kind="OutputPin" Bounds="480,511" />
               <Pin Id="Ccixz0lS75UMJweGZaFXoa" Name="Axis 1" Kind="InputPin" Bounds="422,191" />
               <Pin Id="LzKIE2lQwi0NF5K5MZZyYn" Name="Axis 2" Kind="InputPin" Bounds="507,183" />
               <Pin Id="GGAYyXFVYGvQCtctzqt2C5" Name="Name" Kind="InputPin" Bounds="612,174" />
-              <Pin Id="Jas7uYDt3bSQd3UD8LWDWw" Name="Value" Kind="OutputPin" Bounds="714,579" Visibility="Optional" />
               <Pin Id="U0bhgdKkgFrOdWJznGMHxX" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
+              <Pin Id="KtW8ldOoCpNMwElLUO2Oca" Name="Output" Kind="OutputPin" Bounds="480,511" />
+              <Pin Id="Jas7uYDt3bSQd3UD8LWDWw" Name="Value" Kind="OutputPin" Bounds="714,579" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="NUdMF6Ywpr6N8uNzEKqpVE">
               <Fragment Id="SNTyVJFMwB4QYe8cX4pZvt" Patch="TKy815kGRw2NPkozXjkiNt" Enabled="true" />
@@ -11016,7 +11128,6 @@
             <Patch Id="HiLSdd0vlaCNv5GE5WWXdC" Name="Create" />
             <Patch Id="KLdDz9i1CqDOl9gWVYvFU7" Name="Update">
               <Pin Id="GhsdtV0o6d9M7jvINMsuDW" Name="Operand" Kind="InputPin" Bounds="377,284" />
-              <Pin Id="Kcnen6Pw3zfQd8n0Wkd7yu" Name="Output" Kind="OutputPin" Bounds="455,635" />
               <Pin Id="PrMZkMcccD2LxJMJSyWmy6" Name="Axes" Kind="InputPin" Bounds="560,272">
                 <p:TypeAnnotation>
                   <Choice Kind="TypeFlag" Name="Spread" />
@@ -11029,10 +11140,11 @@
               </Pin>
               <Pin Id="NhiLR63LQGDOSWnOpDNfW8" Name="Keep Dims" Kind="InputPin" Bounds="596,265" Visibility="Optional" />
               <Pin Id="EH71V8zWUqKNezHRNTxqMj" Name="Name" Kind="InputPin" Bounds="608,292" Visibility="Optional" />
-              <Pin Id="PokXctlVwlQNjHwkMYOcT5" Name="Value" Kind="OutputPin" Bounds="624,604" Visibility="Optional" />
               <Pin Id="HlzzHW6Z3hPQDPfuVLGWCx" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
               </Pin>
+              <Pin Id="Kcnen6Pw3zfQd8n0Wkd7yu" Name="Output" Kind="OutputPin" Bounds="455,635" />
+              <Pin Id="PokXctlVwlQNjHwkMYOcT5" Name="Value" Kind="OutputPin" Bounds="624,604" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="DS50M3piy9ZNUhqZj1XNV2">
               <Fragment Id="NAIAWzm4oggLd5CECetmmR" Patch="HiLSdd0vlaCNv5GE5WWXdC" Enabled="true" />
@@ -11139,12 +11251,12 @@
               </Canvas>
               <Patch Id="TkvYwVPFR5OPBsaKPs4TBA" Name="Create" />
               <Patch Id="ACt05NjQmBnMilJ0ERKgBU" Name="Update">
-                <Pin Id="USddqnQ0xtaQRagerS2HkT" Name="Output" Kind="OutputPin" Bounds="485,928" />
                 <Pin Id="EqxCjrbJ44NNTx5Z0v6dHw" Name="Operand" Kind="InputPin" Bounds="634,269" />
                 <Pin Id="LAGc8zP3cUuLrnK6RBZ4UN" Name="Axis" Kind="InputPin" Bounds="395,340" />
-                <Pin Id="Qsn8vfAKSBwPtcL66vIMAn" Name="Value" Kind="OutputPin" Bounds="3974,3171" Visibility="Optional" />
                 <Pin Id="RPh2qZrzsZYOWvxQZKJB52" Name="Name" Kind="InputPin" Visibility="Optional" />
                 <Pin Id="APAckwmryaoNdu4enur5Cw" Name="Debug" Kind="InputPin" Bounds="556,342" Visibility="Optional" />
+                <Pin Id="USddqnQ0xtaQRagerS2HkT" Name="Output" Kind="OutputPin" Bounds="485,928" />
+                <Pin Id="Qsn8vfAKSBwPtcL66vIMAn" Name="Value" Kind="OutputPin" Bounds="3974,3171" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="GSW40ZzNHGUPnqJ1AVYeXJ">
                 <Fragment Id="LEpIlaIApZbObUhjnt1IXg" Patch="TkvYwVPFR5OPBsaKPs4TBA" Enabled="true" />
@@ -11264,7 +11376,6 @@
               <Patch Id="NWrPvalAxVcL7a8myntgl1" Name="Create" />
               <Patch Id="CS2B5NPdqzdOwOsGHcEqH7" Name="Update">
                 <Pin Id="J94wn60RafkOpBxbLjzlfE" Name="Operand" Kind="InputPin" Bounds="275,269" />
-                <Pin Id="JAReUDH9YTrN87knTaNlmS" Name="Output" Kind="OutputPin" Bounds="309,517" />
                 <Pin Id="RV9suzKT8E0QclUl5CTo47" Name="Axes" Kind="InputPin">
                   <p:TypeAnnotation>
                     <Choice Kind="TypeFlag" Name="Spread" />
@@ -11283,6 +11394,7 @@
                 <Pin Id="GCoG2iqMOjdNqosBpfD60d" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
+                <Pin Id="JAReUDH9YTrN87knTaNlmS" Name="Output" Kind="OutputPin" Bounds="309,517" />
                 <Pin Id="OA6KyqmkaR7Muucs65O6dc" Name="Value" Kind="OutputPin" Bounds="671,533" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="RNWwaiZGKa3NpD9fv9R0ib">
@@ -11387,13 +11499,13 @@
               </Canvas>
               <Patch Id="TOUd3IHNVsKLmh4Bbnk1Ef" Name="Create" />
               <Patch Id="C47vuzMhg7eLQyczsHloYD" Name="Update">
-                <Pin Id="CNOVIW0bt3XQLmep4QSybC" Name="Output" Kind="OutputPin" Bounds="492,622" />
                 <Pin Id="BxqZ3pevlZeMcJm5F6a2nf" Name="Operand" Kind="InputPin" Bounds="451,272" Summary="A Tensor" />
                 <Pin Id="JApUidu6fHwMkZbxLrNo9d" Name="Block Size" Kind="InputPin" Bounds="530,276" DefaultValue="1" Summary="An int that is &gt;= 2. The size of the spatial block, same as in Space2Depth." />
                 <Pin Id="NKsx5cr4Rw7Oi61JLnBBq1" Name="Name" Kind="InputPin" Bounds="657,261" Visibility="Optional" />
                 <Pin Id="O8uTVfNqjq1OFqPEBEClQX" Name="Debug" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
+                <Pin Id="CNOVIW0bt3XQLmep4QSybC" Name="Output" Kind="OutputPin" Bounds="492,622" />
                 <Pin Id="TSte7MCRTdcP28nwzIIL1q" Name="Value" Kind="OutputPin" Bounds="658,613" Visibility="Optional" />
               </Patch>
               <ProcessDefinition Id="BeaQErWQi6zOmkXVnScC9y">
@@ -11792,6 +11904,8 @@
                 <ControlPoint Id="EqVd1cv9VXYNIvYepyFDiT" Bounds="625,478" Alignment="Bottom" />
                 <ControlPoint Id="HHFAZSLaEidP6neJkDTNZa" Bounds="689,478" Alignment="Bottom" />
                 <ControlPoint Id="NgDaQBaFDL2PYPpi71ae2B" Bounds="518,208" Alignment="Top" />
+                <ControlPoint Id="CpweUhkVCPnQGl55KXoZXB" Bounds="606,208" Alignment="Top" />
+                <ControlPoint Id="LadR60DP9M7LnlGSCHGIlX" Bounds="686,208" Alignment="Top" />
               </Node>
             </Canvas>
             <Patch Id="ETUEkToQrYnMhDQpUdnTXd" Name="Create" />
@@ -11831,8 +11945,6 @@
             <Link Id="FbxmmxN0LjMMKKoROmx2g2" Ids="EFj46TkGaoEL47JYPxoj4s,OKqR5EA0kQ7N7rgFxlpTcp" IsHidden="true" />
             <Link Id="AUKUy49dLoJQVVmNKEvRKW" Ids="KW6rHIax2hXPrsWaGmXQHw,CtNDz4KHZmOMKsJeH9y2gB" IsHidden="true" />
             <Link Id="KrNQDsPgItYMgOrquKf1SC" Ids="JWg1kH5A9RKMHbdhKmgvUJ,P208FLLSPQtNxhbn8zDh29" />
-            <Link Id="VqMukjT7AeOOpeQXTK5gHz" Ids="RZy1Qbpi7TlN5dPkRvGYVL,FO4P8sHPQpbP2PAF3JGVV4" />
-            <Link Id="HSAMVc54EK1OLfHnNtzDyl" Ids="LymD3DmGLlVP7h5Dnue0zl,KGggwZuw7ZOM7Ng8tqllF5" />
             <Link Id="M3Y9TpFU3fcO7R9GzJzT8H" Ids="IKoGkee2DcHNEJYtxoRm81,RPXgHrmvPcBNRUoXmj99GP" IsHidden="true" />
             <Link Id="CKscjXMKDkxQEjc0CzofMA" Ids="D32RpcOKmYIP8XxALhm88h,K3bjltdpeZXOFACiHMLkg4" IsHidden="true" />
             <Link Id="VzNccHGpxBQPgEU37GdoH2" Ids="SxsOPJTrtQ7OrREhEvDsLf,Py2ucWgb35wPEPnz7KCwTv" />
@@ -11886,6 +11998,10 @@
             <Link Id="T4nLpGCVE0jPOyJYi4Wz7r" Ids="JJeYdv4AtftP7KkuTgyoIO,MSq8t4nHUrPQZqApveu5Is" />
             <Link Id="QUQ4eoipgi7OV8nLtdpeQs" Ids="NgDaQBaFDL2PYPpi71ae2B,JJeYdv4AtftP7KkuTgyoIO" />
             <Link Id="UZjmhYOcnSULcJAEJtJZBT" Ids="BQrvBvaFSLDLArrfBAagoy,NgDaQBaFDL2PYPpi71ae2B" />
+            <Link Id="CmzjMnaOtwiMSiSMDCtoRn" Ids="LymD3DmGLlVP7h5Dnue0zl,CpweUhkVCPnQGl55KXoZXB" />
+            <Link Id="QYucXR6gBQqPefvLAtgkHa" Ids="CpweUhkVCPnQGl55KXoZXB,KGggwZuw7ZOM7Ng8tqllF5" />
+            <Link Id="CA02RPLatFYLrh9tD7A22F" Ids="RZy1Qbpi7TlN5dPkRvGYVL,LadR60DP9M7LnlGSCHGIlX" />
+            <Link Id="E4QKGhVZgP5MfkU5nSyv5i" Ids="LadR60DP9M7LnlGSCHGIlX,FO4P8sHPQpbP2PAF3JGVV4" />
           </Patch>
         </Node>
         <!--
@@ -12067,8 +12183,7 @@
             </Canvas>
             <Patch Id="VyAxVjFWIEsNjmRVRH3MIP" Name="Create" />
             <Patch Id="BWWhrn5GWhqOu5qryORQmw" Name="Update">
-              <Pin Id="TZBWY531yHhPa31uUluQqO" Name="Output" Kind="OutputPin" Bounds="404,596" Summary="Concatenated tensor" />
-              <Pin Id="Qf5yXeqPrzaN1se0ccWksg" Name="Input" Kind="InputPin" Bounds="733,323" IsPinGroup="true" Summary="Spread of tensors for concatenation">
+              <Pin Id="Qf5yXeqPrzaN1se0ccWksg" Name="Input" Kind="InputPin" Bounds="733,323" IsPinGroup="true" PinGroupDefaultCount="2" Summary="Spread of tensors for concatenation">
                 <p:TypeAnnotation>
                   <Choice Kind="TypeFlag" Name="Spread" />
                 </p:TypeAnnotation>
@@ -12079,13 +12194,14 @@
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="D6zmS6EzyjhOdud5D4IE2B" Name="Name" Kind="InputPin" Bounds="783,306" Visibility="Optional" />
-              <Pin Id="HwTsoFkdH3nM5MQZuRKsYy" Name="Value" Kind="OutputPin" Bounds="601,531" Visibility="Optional" />
               <Pin Id="Od2ZwNPFIjFNFDRdty6MfP" Name="Debug" Kind="InputPin" Bounds="606,256" DefaultValue="False" Visibility="Optional">
                 <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="TypeFlag" Name="Boolean" />
                 </p:TypeAnnotation>
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
+              <Pin Id="TZBWY531yHhPa31uUluQqO" Name="Output" Kind="OutputPin" Bounds="404,596" Summary="Concatenated tensor" />
+              <Pin Id="HwTsoFkdH3nM5MQZuRKsYy" Name="Value" Kind="OutputPin" Bounds="601,531" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="SOumzyTTXLlLX90SMNLErJ">
               <Fragment Id="UkocbzqowPmPp9wkK37yl9" Patch="VyAxVjFWIEsNjmRVRH3MIP" Enabled="true" />
@@ -12279,7 +12395,6 @@
             </Canvas>
             <Patch Id="PLk6s0WuIbtP0Eam14ftpr" Name="Create" />
             <Patch Id="MIfAIdtrN6sOCWV1o8O6ua" Name="Update">
-              <Pin Id="RdtldOHgmJOQBZyGP5iffK" Name="Output" Kind="OutputPin" Bounds="571,601" />
               <Pin Id="J5ZbZof3fogO8hsdyXiAN6" Name="Operand" Kind="InputPin" Bounds="419,245" />
               <Pin Id="Tv0CcdeEJUkQVymKxgsqhO" Name="Mode" Kind="InputPin" Bounds="514,245" Summary="padding mode:CONSTANT PAD, REFLECT PAD and SYMMETRIC PAD" />
               <Pin Id="Cx75DMfKIgPO9AbvPNm3q1" Name="Head" Kind="InputPin" Bounds="607,244" Summary="Beginning padding pattern">
@@ -12303,9 +12418,10 @@
                 </p:TypeAnnotation>
               </Pin>
               <Pin Id="OYMvB8k1Y6FPlJC0DbYfse" Name="Constant Value" Kind="InputPin" Bounds="815,238" Summary="the value used to fill the padding cells, only meaningful under CONSTANT mode." />
-              <Pin Id="L6BX86rhYlNMA0ekDPV3xT" Name="Value" Kind="OutputPin" Bounds="917,761" Visibility="Optional" />
               <Pin Id="PoMq5OiZNJQMSo8t34ih5d" Name="Name" Kind="InputPin" Bounds="955,233" Visibility="Optional" />
               <Pin Id="R7TO6ZCZscXNkyNrFe1UT5" Name="Debug" Kind="InputPin" Bounds="1137,119" Visibility="Optional" />
+              <Pin Id="RdtldOHgmJOQBZyGP5iffK" Name="Output" Kind="OutputPin" Bounds="571,601" />
+              <Pin Id="L6BX86rhYlNMA0ekDPV3xT" Name="Value" Kind="OutputPin" Bounds="917,761" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="NF8EYt6heLnN93ytZtWbOw">
               <Fragment Id="HeZfiKGROayNHFQYOF2Fs5" Patch="PLk6s0WuIbtP0Eam14ftpr" Enabled="true" />
@@ -12416,12 +12532,12 @@
             </Canvas>
             <Patch Id="BGJ91dDnqa6OgGQeL18eFA" Name="Create" />
             <Patch Id="Ly1v3JX6W2cL7zpc9bP6ex" Name="Update">
-              <Pin Id="S3dN38YtFiiNM53lyGeEat" Name="Output" Kind="OutputPin" Bounds="316,523" />
               <Pin Id="BziZibUZUcQMzYIGSRUNfA" Name="Indices" Kind="InputPin" Bounds="385,234" />
               <Pin Id="FHCEFDhe57gPKwES31tvVh" Name="References" Kind="InputPin" Bounds="428,259" />
-              <Pin Id="AHSTXBxo8SOPX2Pg87mVGB" Name="Value" Kind="OutputPin" Bounds="502,491" />
               <Pin Id="C16QAkAGDUUM81pSROP306" Name="Name" Kind="InputPin" Bounds="540,244" />
               <Pin Id="JBckinoObM8QB1tna4qd42" Name="Debug" Kind="InputPin" Bounds="652,247" Visibility="Optional" />
+              <Pin Id="S3dN38YtFiiNM53lyGeEat" Name="Output" Kind="OutputPin" Bounds="316,523" />
+              <Pin Id="AHSTXBxo8SOPX2Pg87mVGB" Name="Value" Kind="OutputPin" Bounds="502,491" />
             </Patch>
             <ProcessDefinition Id="GyHLg9h4sm6MiTp8KBnMFw">
               <Fragment Id="ONxttd6Lg3SMnQYZ1pQE7R" Patch="BGJ91dDnqa6OgGQeL18eFA" Enabled="true" />
@@ -12604,8 +12720,8 @@
               <Patch Id="GXdpvjIbWWVOmLkc3yzwsS" Name="Create" />
               <Patch Id="Rj0AZjD3mmfPNAaL8dpKYx" Name="Update">
                 <Pin Id="R8oKvuS4DkiPbolRqORjBz" Name="Operand" Kind="InputPin" Bounds="279,225" />
-                <Pin Id="DSmuxYuQbZqN63DyN4dlFG" Name="Output" Kind="OutputPin" Bounds="422,518" />
                 <Pin Id="DTsCfkU7vciOFEiOgGARwL" Name="Axes As Operand" Kind="InputPin" Bounds="474,217" />
+                <Pin Id="DSmuxYuQbZqN63DyN4dlFG" Name="Output" Kind="OutputPin" Bounds="422,518" />
               </Patch>
               <ProcessDefinition Id="DZ2l9zE6k5YOUGi6LrJHdy">
                 <Fragment Id="G4UR7BNp0T4OKffD9w8yHU" Patch="GXdpvjIbWWVOmLkc3yzwsS" Enabled="true" />
@@ -12758,8 +12874,8 @@
               <Patch Id="LQKFeYU29b8OAtYBqUHgkg" Name="Create" />
               <Patch Id="TNQoSSuF2zdLZ6D9C5YdSU" Name="Update">
                 <Pin Id="CV4T8r2Az9zNRJInAf8LQP" Name="Axis Name Prefix" Kind="InputPin" Bounds="814,193" />
-                <Pin Id="IVY03QdDzUqLxYUUrWcbFu" Name="Result" Kind="OutputPin" Bounds="809,325" />
                 <Pin Id="LRmcwN8GaH7LOemQpsIdlY" Name="Is Ordered Dynamic Axis" Kind="InputPin" Bounds="967,193" Visibility="Optional" />
+                <Pin Id="IVY03QdDzUqLxYUUrWcbFu" Name="Result" Kind="OutputPin" Bounds="809,325" />
               </Patch>
               <ProcessDefinition Id="BibBsNZ200lPKWFFePyyaf">
                 <Fragment Id="KHwN6fLKSe0MJv8c5MkdvP" Patch="LQKFeYU29b8OAtYBqUHgkg" Enabled="true" />
