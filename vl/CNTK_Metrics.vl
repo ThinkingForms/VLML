@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="TrzbRN3DfuyO04FR6wiGOK" LanguageVersion="2019.1.0-0177-g8feb9fe666" Version="0.128">
+<Document xmlns:p="property" Id="TrzbRN3DfuyO04FR6wiGOK" LanguageVersion="2019.1.0-0417-g808f072318" Version="0.128">
   <Patch Id="AVKzyEm14uNLseiwezk2R5">
     <Canvas Id="DHtA5nes63uMGfL46EOr9u" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="NOAEsLaa8xNO7PdRar6Toi" Name="Metrics" Position="425,355">
@@ -49,7 +49,7 @@
                   <ControlPoint Id="UjuwexdidwSMngCnSqJ6AT" Bounds="283,249" />
                   <ControlPoint Id="FjW78mnjzrBNDXPccLdCGJ" Bounds="203,427" />
                   <Node Bounds="194,361,45,19" Id="SotOMfQrhg9L9UUR3Gzkv1">
-                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <PinReference Kind="InputPin" Name="Name" />
                       <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -66,13 +66,13 @@
             <Patch Id="TEVteHOEDicMhWj4vMkjbd" Name="Create" />
             <Patch Id="SEITMLqwHD5M1OJWpfAsat" Name="Update">
               <Pin Id="ATXTN49ZVlvMcOAWJ3FqIW" Name="Prediction" Kind="InputPin" Bounds="240,216" Summary="The computed posterior probability for a variable to be 1 from the network (typically  a `sigmoid`)" />
-              <Pin Id="VuUB5XMMRsaNlfXIbrU5Tw" Name="Output" Kind="OutputPin" Bounds="419,507" />
               <Pin Id="FRUVwVnWYJSOLL7BzRRVlh" Name="Target" Kind="InputPin" Bounds="449,208" Summary="It is one-hot vector where the hot bit corresponds to the label index." />
-              <Pin Id="PC99JFCudlRQMH7A6rBmHh" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               <Pin Id="JenuqWfrqueMHA1sp7JL3J" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
               <Pin Id="PNURvWJvL33QKkxHd7Xivn" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
+              <Pin Id="VuUB5XMMRsaNlfXIbrU5Tw" Name="Output" Kind="OutputPin" Bounds="419,507" />
+              <Pin Id="PC99JFCudlRQMH7A6rBmHh" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="OKiLHKhoPqPQJa31QG7xv7">
               <Fragment Id="PWvBpUJ3pfQLb7jrZxh9LB" Patch="TEVteHOEDicMhWj4vMkjbd" Enabled="true" />
@@ -171,7 +171,7 @@
                   <ControlPoint Id="J947Dp6t3IcLo928h6OaO7" Bounds="204,228" />
                   <ControlPoint Id="Jq3dBQ0Hv86NKhRxmwiSM3" Bounds="124,406" />
                   <Node Bounds="115,340,99,19" Id="EwktD9lGQeHLoCFdYeemzr">
-                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <PinReference Kind="InputPin" Name="Name" />
                       <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -191,7 +191,7 @@
                   <Pin Id="FRUfebgZL64N9J3kxyGD2I" Name="Arg 4" Kind="InputPin" />
                   <Pin Id="HlmgKBU0zrWOfXecVd7hyv" Name="Result" Kind="OutputPin" />
                   <Node Bounds="188,269" Id="N8M5Qwh6yoWOKMaQj0obgM">
-                    <p:NodeReference LastCategoryFullName="CNTK.Axis" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.Axis" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <CategoryReference Kind="AssemblyCategory" Name="Axis" />
                       <Choice Kind="OperationCallFlag" Name="Create" />
@@ -207,14 +207,14 @@
             <Patch Id="NEKqpdcyFWMLcnZnkJWlcQ" Name="Create" />
             <Patch Id="NOdiIhEKMueMOLn8vVm5qf" Name="Update">
               <Pin Id="HgFZTYU61X0LoxsfQR0nnt" Name="Prediction" Kind="InputPin" Bounds="240,216" Summary="the computed posterior probability for a variable to be 1 from the network (typically  a `sigmoid`)" />
-              <Pin Id="ELeyvfivXJ3OgYVxmsdtkT" Name="Output" Kind="OutputPin" Bounds="419,507" />
               <Pin Id="ODGyEIteLyjQRNk2OluBpy" Name="Target" Kind="InputPin" Bounds="449,208" Summary="ground-truth label, 0 or 1" />
               <Pin Id="Hs9VZkYqi20QFGJuMjRq7R" Name="Axis" Kind="InputPin" Bounds="576,224" Summary="Axis along which the classification error will be computed." />
-              <Pin Id="IksCMQlLxzwNMJaXSsVEk8" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               <Pin Id="J9u0P8bnGCAQFimx8Sqn27" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
               <Pin Id="VIPZGNsSTJ8PG913YHuP3X" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
+              <Pin Id="ELeyvfivXJ3OgYVxmsdtkT" Name="Output" Kind="OutputPin" Bounds="419,507" />
+              <Pin Id="IksCMQlLxzwNMJaXSsVEk8" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="BG3VZJV0rNtLuAOLEZpOPQ">
               <Fragment Id="Pnr2gPLy0RdMMAj8RtZTso" Patch="NEKqpdcyFWMLcnZnkJWlcQ" Enabled="true" />
@@ -291,7 +291,7 @@
                   <ControlPoint Id="KY2AsSkRoZhOybNiBsBbwz" Bounds="204,228" />
                   <ControlPoint Id="U1jRmlTT5rIOYFR3R32pcA" Bounds="124,406" />
                   <Node Bounds="115,340,99,19" Id="UcclFIuX0jPOnASyDothb5">
-                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <PinReference Kind="InputPin" Name="Name" />
                       <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -329,14 +329,14 @@
             <Patch Id="S2BUUm4KOXIPkFfvw0SOte" Name="Create" />
             <Patch Id="My80LpaJQAVQAafaNRXEtm" Name="Update">
               <Pin Id="FR8eqWuV4izLsbpg7O3C8c" Name="Prediction" Kind="InputPin" Bounds="240,216" Summary="the computed posterior probability for a variable to be 1 from the network (typically  a `sigmoid`)" />
-              <Pin Id="Mq0IV6WGvBYQBjZliBpatl" Name="Output" Kind="OutputPin" Bounds="419,507" />
               <Pin Id="E75wj56ONmTOyFf0TAetRU" Name="Target" Kind="InputPin" Bounds="449,208" Summary="ground-truth label, 0 or 1" />
-              <Pin Id="FUanLLe7JRaMquE2b2HXGB" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               <Pin Id="I9uWjCRTyzrNJPEo6aT9kt" Name="Axis" Kind="InputPin" Bounds="576,224" />
               <Pin Id="UAM583sFaPDM7wzfmt9bWA" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
               <Pin Id="SJ4OCSlngadNUMCnJWYzCs" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
+              <Pin Id="Mq0IV6WGvBYQBjZliBpatl" Name="Output" Kind="OutputPin" Bounds="419,507" />
+              <Pin Id="FUanLLe7JRaMquE2b2HXGB" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="MmduWr6jJayLIvQTFjMO5Y">
               <Fragment Id="IeQsjYgtN8sPY7eHQjP1T6" Patch="S2BUUm4KOXIPkFfvw0SOte" Enabled="true" />
@@ -425,7 +425,7 @@
                   <ControlPoint Id="Tv65DgFmfaiQEuio7qLsvg" Bounds="440,263" />
                   <ControlPoint Id="Ec3JrIkSapDNrHpR7CwEky" Bounds="20,343" />
                   <Node Bounds="19,293,412,19" Id="SlgZs0pfnpoNvIH0rquH0C">
-                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="EditDistanceError" />
                       <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -468,16 +468,16 @@
             <Patch Id="BP7FqhGbavPQCMHS5fhntc" Name="Create" />
             <Patch Id="D9pV7frExroMFGoLhMdAIg" Name="Update">
               <Pin Id="DdAzs5raA1yNppDp9N5x1Q" Name="Prediction" Kind="InputPin" Summary="first input sequence" />
-              <Pin Id="NzECGToVhkSL64bgxeha5m" Name="Output" Kind="OutputPin" Bounds="322,703" />
               <Pin Id="LlpmTGMo1pLMsFswfxqueT" Name="Labels" Kind="InputPin" Summary="second input sequence" />
               <Pin Id="BMzxHDmczleMh7kZlICkFW" Name="Substitution Penalty" Kind="InputPin" Summary="substitution penalty" />
               <Pin Id="Kwz4ASOo99oMfiklO89Xx6" Name="Deletion Penalty" Kind="InputPin" Summary="deletion penalty" />
               <Pin Id="A6Qf10XdiMTLA6LpexOsHs" Name="Insertion Penalty" Kind="InputPin" Summary="Insertion penalty" />
               <Pin Id="Ga3ZJ9z6dmZNf1mmwanAob" Name="Squash Inputs" Kind="InputPin" Summary="whether to merge sequences of identical samples (in both input sequences). If true and tokensToIgnore contains label ‘-‘ then given first input sequence as s1=”a-ab-” and second as s2=”-aa–abb” the edit distance will be computed against s1’ = “aab” and s2’ = “aab”." />
-              <Pin Id="EAiWO9hJPmuL6sBpMQybll" Name="Value" Kind="OutputPin" Bounds="795,705" />
               <Pin Id="E1llNrtvCjLLsCkeydNDkO" Name="Tokens To Ignore" Kind="InputPin" Summary="List of indices of samples to ignore during edit distance evaluation (in both sequences)" />
               <Pin Id="JoX1LUVbQTzOeKFZHRQUs4" Name="Name" Kind="InputPin" Visibility="Optional" />
               <Pin Id="OncUUO5H6DHNIFSaD3ria0" Name="Debug" Kind="InputPin" Bounds="1027,456" Visibility="Optional" />
+              <Pin Id="NzECGToVhkSL64bgxeha5m" Name="Output" Kind="OutputPin" Bounds="322,703" />
+              <Pin Id="EAiWO9hJPmuL6sBpMQybll" Name="Value" Kind="OutputPin" Bounds="795,705" />
             </Patch>
             <ProcessDefinition Id="UXBtm2VGKX1MIeVxllEdtO">
               <Fragment Id="C3M5oxYgJqRNb40HUAtseE" Patch="BP7FqhGbavPQCMHS5fhntc" Enabled="true" />
@@ -575,7 +575,7 @@
                   <ControlPoint Id="AWEqq9xzPXgP3u20RPAkQR" Bounds="53,422" />
                   <ControlPoint Id="DI9vHXUysW0LVXe6uch8K6" Bounds="-217,501" />
                   <Node Bounds="-230,453,305,19" Id="GxuuSbS409tPwvVyLcRxEh">
-                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="NDCGAt1" />
                       <PinReference Kind="InputPin" Name="Name" />
@@ -593,13 +593,13 @@
             </Canvas>
             <Patch Id="IzF0y6zhzEXL428wIQ23lR" Name="Create" />
             <Patch Id="FeJ7TsCyWKuMFEnOOOJ6Ja" Name="Update">
-              <Pin Id="GnX810sOKlWOBlVGOnPy23" Name="Output" Kind="OutputPin" />
               <Pin Id="R9wCmokSTHaP2VHBfpgoyG" Name="Prediction" Kind="InputPin" Summary="Score of each sample" />
               <Pin Id="TJwNyhs1M6aQHRL32qLi0c" Name="Gains" Kind="InputPin" Summary="Gain of each sample" />
               <Pin Id="FSVsOZb69EVPWLcCSY1JkM" Name="Group Id" Kind="InputPin" Summary="Group of each sample" />
               <Pin Id="FNB8JLmbC5RM1XXqmMvsad" Name="Name" Kind="InputPin" Visibility="Optional" />
-              <Pin Id="IFaMvqWESd3Mx1P1lkW1Tf" Name="Value" Kind="OutputPin" Bounds="604,699" />
               <Pin Id="Q5xnigo0uwPM763nYz57Of" Name="Debug" Kind="InputPin" Bounds="608,437" Visibility="Optional" />
+              <Pin Id="GnX810sOKlWOBlVGOnPy23" Name="Output" Kind="OutputPin" />
+              <Pin Id="IFaMvqWESd3Mx1P1lkW1Tf" Name="Value" Kind="OutputPin" Bounds="604,699" />
             </Patch>
             <ProcessDefinition Id="L7rEUI17slnLQjfPHVGrpQ">
               <Fragment Id="FvmmIxzapeiN7ISvAJP6iY" Patch="IzF0y6zhzEXL428wIQ23lR" Enabled="true" />
@@ -660,5 +660,6 @@
   <DocumentDependency Id="SeMOPNELiDEOjggbhL1Zxb" Location="./CNTK_Operations.vl" />
   <DocumentDependency Id="BYeYtmnWK5SPmDNPcZkzTK" Location="./CNTK_Utils.vl" />
   <PlatformDependency Id="CW4IEGk1nonQPeDiMt9djt" Location="../lib/net461/CNTK.VL.Helpers.dll" />
-  <PlatformDependency Id="GrztQtDEuKyQUItSX9WBqx" Location="../lib/net461/Cntk.Core.Managed-2.6.dll" />
+  <PlatformDependency Id="GrztQtDEuKyQUItSX9WBqx" Location="../lib/net461/Cntk.Core.Managed-2.7.dll" />
+  <PlatformDependency Id="T2x0PXhErcCNk7SBzcBCcy" Location="../../CNTK.GPU.2.7.0/lib/netstandard2.0/Cntk.Core.Managed-2.7.dll" />
 </Document>

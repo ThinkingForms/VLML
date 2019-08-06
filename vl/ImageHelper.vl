@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" Version="0.99">
+<Document xmlns:p="property" Id="GB2VxUl5VdhM5rsl5IbjQg" LanguageVersion="2019.1.0-0417-g808f072318" Version="0.128">
   <NugetDependency Id="RKFCmk1Lg5EP3I4IQegLTw" Location="VL.CoreLib" Version="0.35.21" />
   <NugetDependency Id="U2JwHqMJLyGLDs97lM6eZ6" Location="VL.CoreLib.VVVV" Version="0.35.21" />
   <Patch Id="Th8hpfHvBF4Lk6VOwDCc9D">
@@ -18,7 +18,7 @@
           <Patch Id="ESJZDDS0I02LAWDOx9RJVV" Name="Create" />
           <Patch Id="OkqGvJfa3PDOppp4PFQghD" Name="Update" />
           <Canvas Id="C4yd3S6BFv9NWqJ2WO3OFi" CanvasType="Group">
-            <Pad Id="Agp6p2ZFq4qLnygy5qKawZ" Bounds="394,90,222,17" ShowValueBox="true" Value="For getting started, see:">
+            <Pad Id="Agp6p2ZFq4qLnygy5qKawZ" Bounds="394,89,222,17" ShowValueBox="true" Value="For getting started, see:">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -28,7 +28,7 @@
                 <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
               </p:ValueBoxSettings>
             </Pad>
-            <Pad Id="O4Rbhs23ekpP1bPxi2C7IH" Bounds="394,124,350,13" ShowValueBox="true" Value="https://vvvv.org/documentation/dynamic-vl-plugin-reference">
+            <Pad Id="O4Rbhs23ekpP1bPxi2C7IH" Bounds="394,125,350,13" ShowValueBox="true" Value="https://vvvv.org/documentation/dynamic-vl-plugin-reference">
               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                 <Choice Kind="TypeFlag" Name="String" />
                 <CategoryReference Kind="Category" Name="Primitive" />
@@ -88,23 +88,7 @@
                 <Link Id="L07BqY3KPUWQO1hcCEG0Cu" Ids="MfV2LKSMivXQb1VKZn0HuS,MACaPItIuiJPl5ftY7WJ7C" IsHidden="true" />
                 <ControlPoint Id="PQkadr31X2pLZ9Xi43giQr" Bounds="606,786" />
                 <Link Id="GmRSfgArMXiNJxa3H9Q93j" Ids="PQkadr31X2pLZ9Xi43giQr,HccSholH8YpM86VuMM0bIC" IsHidden="true" />
-                <Pin Id="MACaPItIuiJPl5ftY7WJ7C" Name="R" Kind="OutputPin" Bounds="586,774">
-                  <p:TypeAnnotation>
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="HccSholH8YpM86VuMM0bIC" Name="G" Kind="OutputPin" Bounds="606,786">
-                  <p:TypeAnnotation>
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="PH7YPa1IQvaNheP8ONTam2" Name="PixelColor" Kind="InputPin" Bounds="570,307" />
                 <ControlPoint Id="RYpldMpr0MYQIDt0HBUw3I" Bounds="667,787" />
-                <Pin Id="Kpl1zPYNpZWN9HNLH4MawW" Name="B" Kind="OutputPin" Bounds="667,787">
-                  <p:TypeAnnotation>
-                    <Choice Kind="TypeFlag" Name="Float32" />
-                  </p:TypeAnnotation>
-                </Pin>
                 <Link Id="Vc9fCkoagCYNJzPpFeEEmk" Ids="RYpldMpr0MYQIDt0HBUw3I,Kpl1zPYNpZWN9HNLH4MawW" IsHidden="true" />
                 <Node Bounds="558,665,175,69" Id="GnjqmfPVe1RQGsNKF9NHxA">
                   <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -125,7 +109,7 @@
                       <Pin Id="TxZNLIQKeouMcZvVdsqNcY" Name="Input 2" Kind="InputPin" />
                       <Pin Id="A05QIFELFYfOaVIYs4XqRT" Name="Output" Kind="OutputPin" />
                     </Node>
-                    <Pad Id="ETCSmVuIMKnPxctaXcRtDX" Comment="" Bounds="563,675,45,19" ShowValueBox="true" isIOBox="true" Value="103.94">
+                    <Pad Id="ETCSmVuIMKnPxctaXcRtDX" Comment="" Bounds="563,673,45,19" ShowValueBox="true" isIOBox="true" Value="103.94">
                       <p:TypeAnnotation>
                         <Choice Kind="TypeFlag" Name="Float32" />
                       </p:TypeAnnotation>
@@ -148,12 +132,12 @@
                       <Pin Id="QAtbjVp72MqPXhfF8FQvLv" Name="Input 2" Kind="InputPin" />
                       <Pin Id="CoMLgfQj1UPLJT6bZvJYMe" Name="Output" Kind="OutputPin" />
                     </Node>
-                    <Pad Id="SSWrw884X1RNkAYUU5bODh" Comment="" Bounds="632,675,45,19" ShowValueBox="true" isIOBox="true" Value="116.78">
+                    <Pad Id="SSWrw884X1RNkAYUU5bODh" Comment="" Bounds="632,673,45,19" ShowValueBox="true" isIOBox="true" Value="116.78">
                       <p:TypeAnnotation>
                         <Choice Kind="TypeFlag" Name="Float32" />
                       </p:TypeAnnotation>
                     </Pad>
-                    <Pad Id="CDq1NQLnBpXNvcw9HyufWk" Comment="" Bounds="701,675,45,19" ShowValueBox="true" isIOBox="true" Value="123.68">
+                    <Pad Id="CDq1NQLnBpXNvcw9HyufWk" Comment="" Bounds="701,673,45,19" ShowValueBox="true" isIOBox="true" Value="123.68">
                       <p:TypeAnnotation>
                         <Choice Kind="TypeFlag" Name="Float32" />
                       </p:TypeAnnotation>
@@ -184,12 +168,28 @@
                 <Link Id="FgKMWSWdktZNIXIEljdcVD" Ids="BNwA6k1TLJ3OBIHPoyukH0,A5S7uNWDlpXPDI0wCP4EsD" />
                 <ControlPoint Id="NTB4Q9W0inwL0mVXlJOdjm" Bounds="753,556" />
                 <Link Id="PGo9CXed13EOImh0rXXQub" Ids="NTB4Q9W0inwL0mVXlJOdjm,TxAVsB7j1KJMszhg1LPzZF" />
-                <Pin Id="PV8MXYuQXgPMZ1RFln9Ddr" Name="ApplyOffset" Kind="InputPin" Bounds="753,556" />
                 <Link Id="Uo1x55qjXsXMRKHrZEFlSx" Ids="PV8MXYuQXgPMZ1RFln9Ddr,NTB4Q9W0inwL0mVXlJOdjm" IsHidden="true" />
                 <Link Id="KG50VbyiAePMtxA1IyQ2nJ" Ids="ETCSmVuIMKnPxctaXcRtDX,TxZNLIQKeouMcZvVdsqNcY" />
                 <Link Id="Lltm1yGXhhdLXXU01lt9KE" Ids="CDq1NQLnBpXNvcw9HyufWk,QAtbjVp72MqPXhfF8FQvLv" />
-                <Pad Id="Hj24aA0zp7uMpexxz2E1Jh" Comment="B" Bounds="721,598,18,19" ShowValueBox="true" isIOBox="true" />
+                <Pad Id="Hj24aA0zp7uMpexxz2E1Jh" Comment="B" Bounds="721,596,18,19" ShowValueBox="true" isIOBox="true" />
                 <Link Id="BPFahO1XBM8LZv9lXy095p" Ids="BNwA6k1TLJ3OBIHPoyukH0,Hj24aA0zp7uMpexxz2E1Jh" />
+                <Pin Id="PH7YPa1IQvaNheP8ONTam2" Name="PixelColor" Kind="InputPin" Bounds="570,307" />
+                <Pin Id="PV8MXYuQXgPMZ1RFln9Ddr" Name="ApplyOffset" Kind="InputPin" Bounds="753,556" />
+                <Pin Id="MACaPItIuiJPl5ftY7WJ7C" Name="R" Kind="OutputPin" Bounds="586,774">
+                  <p:TypeAnnotation>
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="HccSholH8YpM86VuMM0bIC" Name="G" Kind="OutputPin" Bounds="606,786">
+                  <p:TypeAnnotation>
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="Kpl1zPYNpZWN9HNLH4MawW" Name="B" Kind="OutputPin" Bounds="667,787">
+                  <p:TypeAnnotation>
+                    <Choice Kind="TypeFlag" Name="Float32" />
+                  </p:TypeAnnotation>
+                </Pin>
               </Patch>
             </Node>
             <!--
@@ -209,7 +209,7 @@
                     <CategoryReference Kind="Category" Name="Primitive" />
                   </p:NodeReference>
                   <Patch Id="DoPvdUtNGKXQZnw8gur0J1" ManuallySortedPins="true">
-                    <Pad Id="FPvXscODu02NefQ0hKmcBn" Bounds="1466,1051,744,801" ShowValueBox="true" isIOBox="true" Value="using System;&#xA;using System.Collections.Generic;&#xA;using System.Drawing;&#xA;using System.Drawing.Imaging;&#xA;using System.Linq;&#xA;using System.Threading.Tasks;&#xD;&#xA;public static List&lt;float&gt; Script(this Bitmap image)&#xA;        {&#xA;            // We use local variables to avoid contention on the image object through the multiple threads.&#xA;            int channelStride = image.Width * image.Height;&#xA;            int imageWidth = image.Width;&#xA;            int imageHeight = image.Height;&#xA;&#xA;            var features = new byte[imageWidth * imageHeight * 3];&#xA;            var bitmapData = image.LockBits(new System.Drawing.Rectangle(0, 0, imageWidth, imageHeight), ImageLockMode.ReadOnly, image.PixelFormat);&#xA;            IntPtr ptr = bitmapData.Scan0;&#xA;            int bytes = Math.Abs(bitmapData.Stride) * bitmapData.Height;&#xA;            byte[] rgbValues = new byte[bytes];&#xA;&#xA;            int stride = bitmapData.Stride;&#xA;&#xA;            // Copy the RGB values into the array.&#xA;            System.Runtime.InteropServices.Marshal.Copy(ptr, rgbValues, 0, bytes);&#xA;&#xA;            // The mapping depends on the pixel format&#xA;            // The mapPixel lambda will return the right color channel for the desired pixel&#xA;            Func&lt;int, int, int, int&gt; mapPixel = GetPixelMapper(image.PixelFormat, stride);&#xA;&#xA;            Parallel.For(0, imageHeight, (int h) =&gt;&#xA;            {&#xA;                Parallel.For(0, imageWidth, (int w) =&gt;&#xA;                {&#xA;                    Parallel.For(0, 3, (int c) =&gt;&#xA;                    {&#xA;                        features[channelStride * c + imageWidth * h + w] = rgbValues[mapPixel(h, w, c)];&#xA;                    });&#xA;                });&#xA;            });&#xA;&#xA;            image.UnlockBits(bitmapData);&#xA;&#xA;            return features.Select(b =&gt; (float)b).ToList();&#xA;        }&#xD;&#xA;        private static Func&lt;int, int, int, int&gt; GetPixelMapper(PixelFormat pixelFormat, int heightStride)&#xA;        {&#xA;            switch (pixelFormat)&#xA;            {&#xA;                case PixelFormat.Format32bppArgb:&#xA;                    return (h, w, c) =&gt; h * heightStride + w * 4 + c;  // bytes are B-G-R-A&#xA;                case PixelFormat.Format24bppRgb:&#xA;                default:&#xA;                    return (h, w, c) =&gt; h * heightStride + w * 3 + c;  // bytes are B-G-R&#xA;            }&#xA;        }">
+                    <Pad Id="FPvXscODu02NefQ0hKmcBn" Bounds="1466,658,744,801" ShowValueBox="true" isIOBox="true" Value="using System;&#xA;using System.Collections.Generic;&#xA;using System.Drawing;&#xA;using System.Drawing.Imaging;&#xA;using System.Linq;&#xA;using System.Threading.Tasks;&#xD;&#xA;public static List&lt;float&gt; Script(this Bitmap image)&#xA;        {&#xA;            // We use local variables to avoid contention on the image object through the multiple threads.&#xA;            int channelStride = image.Width * image.Height;&#xA;            int imageWidth = image.Width;&#xA;            int imageHeight = image.Height;&#xA;&#xA;            var features = new byte[imageWidth * imageHeight * 3];&#xA;            var bitmapData = image.LockBits(new System.Drawing.Rectangle(0, 0, imageWidth, imageHeight), ImageLockMode.ReadOnly, image.PixelFormat);&#xA;            IntPtr ptr = bitmapData.Scan0;&#xA;            int bytes = Math.Abs(bitmapData.Stride) * bitmapData.Height;&#xA;            byte[] rgbValues = new byte[bytes];&#xA;&#xA;            int stride = bitmapData.Stride;&#xA;&#xA;            // Copy the RGB values into the array.&#xA;            System.Runtime.InteropServices.Marshal.Copy(ptr, rgbValues, 0, bytes);&#xA;&#xA;            // The mapping depends on the pixel format&#xA;            // The mapPixel lambda will return the right color channel for the desired pixel&#xA;            Func&lt;int, int, int, int&gt; mapPixel = GetPixelMapper(image.PixelFormat, stride);&#xA;&#xA;            Parallel.For(0, imageHeight, (int h) =&gt;&#xA;            {&#xA;                Parallel.For(0, imageWidth, (int w) =&gt;&#xA;                {&#xA;                    Parallel.For(0, 3, (int c) =&gt;&#xA;                    {&#xA;                        features[channelStride * c + imageWidth * h + w] = rgbValues[mapPixel(h, w, c)];&#xA;                    });&#xA;                });&#xA;            });&#xA;&#xA;            image.UnlockBits(bitmapData);&#xA;&#xA;            return features.Select(b =&gt; (float)b).ToList();&#xA;        }&#xD;&#xA;        private static Func&lt;int, int, int, int&gt; GetPixelMapper(PixelFormat pixelFormat, int heightStride)&#xA;        {&#xA;            switch (pixelFormat)&#xA;            {&#xA;                case PixelFormat.Format32bppArgb:&#xA;                    return (h, w, c) =&gt; h * heightStride + w * 4 + c;  // bytes are B-G-R-A&#xA;                case PixelFormat.Format24bppRgb:&#xA;                default:&#xA;                    return (h, w, c) =&gt; h * heightStride + w * 3 + c;  // bytes are B-G-R&#xA;            }&#xA;        }">
                       <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="TypeFlag" Name="String" />
                       </p:TypeAnnotation>
@@ -227,8 +227,8 @@
                 <Link Id="Gw9HKWjIE1rPdS0UnTdcDR" Ids="QDUAsmUDe7XMFJx1GPPFOI,LhipK4VyQBLMIMDWsiC82E" />
                 <ControlPoint Id="LhipK4VyQBLMIMDWsiC82E" Bounds="1450,1496" />
                 <Link Id="O0Zy9etqKI2LA6YvnLQikG" Ids="LhipK4VyQBLMIMDWsiC82E,JOKtpVzVTJqM3wR8JtUZvE" IsHidden="true" />
-                <Pin Id="JOKtpVzVTJqM3wR8JtUZvE" Name="Result" Kind="OutputPin" Bounds="166,755" />
                 <Pin Id="B9LPY2npzKpLPCDAewMjun" Name="Input" Kind="InputPin" Bounds="195,-206" />
+                <Pin Id="JOKtpVzVTJqM3wR8JtUZvE" Name="Result" Kind="OutputPin" Bounds="166,755" />
               </Patch>
             </Node>
             <!--
@@ -248,7 +248,7 @@
                     <CategoryReference Kind="Category" Name="Primitive" />
                   </p:NodeReference>
                   <Patch Id="HqOy0tIPzMoNUVwCKZhRE0" ManuallySortedPins="true">
-                    <Pad Id="AhXXYCdWmBXLgJyS0ov2Aa" Bounds="2349,915,766,599" ShowValueBox="true" isIOBox="true" Value="using System;&#xA;using System.Collections.Generic;&#xA;using System.Drawing;&#xA;using System.Drawing.Imaging;&#xA;using System.Linq;&#xA;using System.Threading.Tasks;&#xD;&#xA;public static Bitmap Script(this Bitmap image, int width, int height, bool useHighQuality)&#xA;        {&#xA;            var newImg = new Bitmap(width, height);&#xA;&#xA;            newImg.SetResolution(image.HorizontalResolution, image.VerticalResolution);&#xA;&#xA;            using (var g = Graphics.FromImage(newImg))&#xA;            {&#xA;                g.CompositingMode = System.Drawing.Drawing2D.CompositingMode.SourceCopy;&#xA;                if (useHighQuality)&#xA;                {&#xA;                    g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;&#xA;                    g.CompositingQuality = System.Drawing.Drawing2D.CompositingQuality.HighQuality;&#xA;                    g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;&#xA;                    g.PixelOffsetMode = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;&#xA;                }&#xA;                else&#xA;                {&#xA;                    g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.Default;&#xA;                    g.CompositingQuality = System.Drawing.Drawing2D.CompositingQuality.Default;&#xA;                    g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.Default;&#xA;                    g.PixelOffsetMode = System.Drawing.Drawing2D.PixelOffsetMode.Default;&#xA;                }&#xA;&#xA;                var attributes = new ImageAttributes();&#xA;                attributes.SetWrapMode(System.Drawing.Drawing2D.WrapMode.TileFlipXY);&#xA;                g.DrawImage(image, new System.Drawing.Rectangle(0, 0, width, height), 0, 0, image.Width, image.Height, GraphicsUnit.Pixel, attributes);&#xA;            }&#xA;&#xA;            return newImg;&#xA;        }">
+                    <Pad Id="AhXXYCdWmBXLgJyS0ov2Aa" Bounds="2349,623,766,599" ShowValueBox="true" isIOBox="true" Value="using System;&#xA;using System.Collections.Generic;&#xA;using System.Drawing;&#xA;using System.Drawing.Imaging;&#xA;using System.Linq;&#xA;using System.Threading.Tasks;&#xD;&#xA;public static Bitmap Script(this Bitmap image, int width, int height, bool useHighQuality)&#xA;        {&#xA;            var newImg = new Bitmap(width, height);&#xA;&#xA;            newImg.SetResolution(image.HorizontalResolution, image.VerticalResolution);&#xA;&#xA;            using (var g = Graphics.FromImage(newImg))&#xA;            {&#xA;                g.CompositingMode = System.Drawing.Drawing2D.CompositingMode.SourceCopy;&#xA;                if (useHighQuality)&#xA;                {&#xA;                    g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.HighQualityBicubic;&#xA;                    g.CompositingQuality = System.Drawing.Drawing2D.CompositingQuality.HighQuality;&#xA;                    g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;&#xA;                    g.PixelOffsetMode = System.Drawing.Drawing2D.PixelOffsetMode.HighQuality;&#xA;                }&#xA;                else&#xA;                {&#xA;                    g.InterpolationMode = System.Drawing.Drawing2D.InterpolationMode.Default;&#xA;                    g.CompositingQuality = System.Drawing.Drawing2D.CompositingQuality.Default;&#xA;                    g.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.Default;&#xA;                    g.PixelOffsetMode = System.Drawing.Drawing2D.PixelOffsetMode.Default;&#xA;                }&#xA;&#xA;                var attributes = new ImageAttributes();&#xA;                attributes.SetWrapMode(System.Drawing.Drawing2D.WrapMode.TileFlipXY);&#xA;                g.DrawImage(image, new System.Drawing.Rectangle(0, 0, width, height), 0, 0, image.Width, image.Height, GraphicsUnit.Pixel, attributes);&#xA;            }&#xA;&#xA;            return newImg;&#xA;        }">
                       <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="TypeFlag" Name="String" />
                       </p:TypeAnnotation>
@@ -279,10 +279,10 @@
                 <Link Id="KPBRZpNYTV2MM5yiGzePvN" Ids="KKc19VwP0LtLTCe5ESBifl,H9ZZW3eNV7YMZaIHFlCPiU" />
                 <Link Id="EI1ss5lXpEzMuZSMCKVcxD" Ids="KIAkKpQVlYqPHi4nGH1p0a,KKc19VwP0LtLTCe5ESBifl" IsHidden="true" />
                 <Pin Id="Pgv63XXchaOOnrODVPQFKy" Name="Input" Kind="InputPin" Bounds="993,-348" />
-                <Pin Id="A3s0U0GAzTGOtUB2i9SQdi" Name="Output" Kind="OutputPin" Bounds="981,295" />
                 <Pin Id="APvMy6KsupaQTYuGzidZb5" Name="Width" Kind="InputPin" Bounds="1189,-369" />
                 <Pin Id="QTFi4gaHNwTMxNetjk0xwV" Name="Height" Kind="InputPin" Bounds="1364,-376" />
                 <Pin Id="KIAkKpQVlYqPHi4nGH1p0a" Name="Use High Quality" Kind="InputPin" Bounds="1544,-373" />
+                <Pin Id="A3s0U0GAzTGOtUB2i9SQdi" Name="Output" Kind="OutputPin" Bounds="981,295" />
               </Patch>
             </Node>
             <!--
@@ -302,7 +302,7 @@
                     <CategoryReference Kind="Category" Name="Primitive" />
                   </p:NodeReference>
                   <Patch Id="C1DkMLUflkYLKdoDdxz0dJ" ManuallySortedPins="true">
-                    <Pad Id="RsMEUo06yZIMtulkswddhO" Bounds="1012,926,305,631" ShowValueBox="true" isIOBox="true" Value="using VL.Lib.Basics.Imaging;&#xD;&#xA;using System.Threading.Tasks;&#xD;&#xA;using System.Linq;&#xD;&#xA;using System.Collections.Generic;&#xD;&#xA;&#xD;&#xA;public static unsafe float[] Script(IImage image, int channelCount = 3)&#xD;&#xA;{&#xD;&#xA;    using (var data = image.GetData())&#xD;&#xA;    {&#xD;&#xA;        var pixelCount = image.Info.Width * image.Info.Height;&#xD;&#xA;        var result = new float[pixelCount * channelCount];&#xD;&#xA;        var pixelSize = sizeof(float) * channelCount;&#xD;&#xA;        var channelStride = pixelCount;&#xD;&#xA;        var imgH = image.Info.Height;&#xD;&#xA;        var imgW = image.Info.Width;&#xD;&#xA;        fixed (float* resultPtr = result)&#xD;&#xA;        {&#xD;&#xA;            var srcPtr = (float*)data.Pointer.ToPointer();&#xD;&#xA;            var dstPtr = (float*)resultPtr;&#xD;&#xA;            //for (int i = 0; i &lt; pixelCount; i++)&#xD;&#xA;            //{&#xD;&#xA;            //    Buffer.MemoryCopy(srcPtr, dstPtr, pixelSize, pixelSize);&#xD;&#xA;            //    srcPtr += 4;&#xD;&#xA;            //    dstPtr += channelCount;&#xD;&#xA;            //}&#xD;&#xA;            Parallel.For(0, imgH, (int h) =&gt;&#xD;&#xA;            {&#xD;&#xA;                Parallel.For(0, imgW, (int w) =&gt;&#xD;&#xA;                {&#xD;&#xA;                    Parallel.For(0, 3, (int c) =&gt;&#xD;&#xA;                    {&#xD;&#xA;                        Buffer.MemoryCopy(srcPtr, dstPtr, pixelSize, pixelSize);&#xD;&#xA;                        srcPtr += 4;&#xD;&#xA;                        dstPtr += channelCount;&#xD;&#xA;                    });&#xD;&#xA;                });&#xD;&#xA;            });&#xD;&#xA;            return result;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;}">
+                    <Pad Id="RsMEUo06yZIMtulkswddhO" Bounds="1012,618,305,631" ShowValueBox="true" isIOBox="true" Value="using VL.Lib.Basics.Imaging;&#xD;&#xA;using System.Threading.Tasks;&#xD;&#xA;using System.Linq;&#xD;&#xA;using System.Collections.Generic;&#xD;&#xA;&#xD;&#xA;public static unsafe float[] Script(IImage image, int channelCount = 3)&#xD;&#xA;{&#xD;&#xA;    using (var data = image.GetData())&#xD;&#xA;    {&#xD;&#xA;        var pixelCount = image.Info.Width * image.Info.Height;&#xD;&#xA;        var result = new float[pixelCount * channelCount];&#xD;&#xA;        var pixelSize = sizeof(float) * channelCount;&#xD;&#xA;        var channelStride = pixelCount;&#xD;&#xA;        var imgH = image.Info.Height;&#xD;&#xA;        var imgW = image.Info.Width;&#xD;&#xA;        fixed (float* resultPtr = result)&#xD;&#xA;        {&#xD;&#xA;            var srcPtr = (float*)data.Pointer.ToPointer();&#xD;&#xA;            var dstPtr = (float*)resultPtr;&#xD;&#xA;            //for (int i = 0; i &lt; pixelCount; i++)&#xD;&#xA;            //{&#xD;&#xA;            //    Buffer.MemoryCopy(srcPtr, dstPtr, pixelSize, pixelSize);&#xD;&#xA;            //    srcPtr += 4;&#xD;&#xA;            //    dstPtr += channelCount;&#xD;&#xA;            //}&#xD;&#xA;            Parallel.For(0, imgH, (int h) =&gt;&#xD;&#xA;            {&#xD;&#xA;                Parallel.For(0, imgW, (int w) =&gt;&#xD;&#xA;                {&#xD;&#xA;                    Parallel.For(0, 3, (int c) =&gt;&#xD;&#xA;                    {&#xD;&#xA;                        Buffer.MemoryCopy(srcPtr, dstPtr, pixelSize, pixelSize);&#xD;&#xA;                        srcPtr += 4;&#xD;&#xA;                        dstPtr += channelCount;&#xD;&#xA;                    });&#xD;&#xA;                });&#xD;&#xA;            });&#xD;&#xA;            return result;&#xD;&#xA;        }&#xD;&#xA;    }&#xD;&#xA;}">
                       <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="TypeFlag" Name="String" />
                       </p:TypeAnnotation>
@@ -473,7 +473,7 @@
                       <Pin Id="KPjgWscOoFdQJxUcKmWmco" Name="Input" Kind="StateInputPin" />
                       <Pin Id="Pod0QclbTUnLySCTSzbbMt" Name="Result" Kind="OutputPin" />
                     </Node>
-                    <Pad Id="DdTW78F88TKNLuyjeLaA39" Comment="Alpha" Bounds="3449,1099,30,19" ShowValueBox="true" isIOBox="true" Value="255">
+                    <Pad Id="DdTW78F88TKNLuyjeLaA39" Comment="Alpha" Bounds="3449,1097,30,19" ShowValueBox="true" isIOBox="true" Value="255">
                       <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="TypeFlag" Name="Byte" />
                       </p:TypeAnnotation>
@@ -592,7 +592,7 @@
                   <Pin Id="GDN0l6X7WmnNAFvUkB7X1B" Name="Original Format" Kind="InputPin" />
                   <Pin Id="UA9bAonFFWYL1JpBw0nJpk" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Pad Id="NQGB0E8JtZOLv8OB4w6CIz" Comment="Format" Bounds="3442,1278,103,19" ShowValueBox="true" isIOBox="true" Value="B8G8R8A8">
+                <Pad Id="NQGB0E8JtZOLv8OB4w6CIz" Comment="Format" Bounds="3442,1276,103,19" ShowValueBox="true" isIOBox="true" Value="B8G8R8A8">
                   <p:TypeAnnotation LastCategoryFullName="Graphics.Imaging" LastSymbolSource="VL.Imaging.vl">
                     <Choice Kind="TypeFlag" Name="PixelFormat" />
                   </p:TypeAnnotation>
@@ -640,33 +640,6 @@
                 <ControlPoint Id="JWWWnepliV7QI0GXtc0hZP" Bounds="3532,574" />
                 <Link Id="Eoh9pExTuLmP3WVsNbGjPQ" Ids="JWWWnepliV7QI0GXtc0hZP,NJhpu5pIBdJNFGZ7eQjvFj" />
                 <Link Id="OmEmDzvrVg4ORkCeuNxuE3" Ids="DopICoofuOlMFgng0AbSc1,JWWWnepliV7QI0GXtc0hZP" IsHidden="true" />
-                <Pin Id="Hkysm9zwZ26LG4KwrvRQs6" Name="Input" Kind="InputPin" Bounds="1445,1059">
-                  <p:TypeAnnotation>
-                    <Choice Kind="TypeFlag" Name="IMutableList" />
-                    <p:TypeArguments>
-                      <TypeReference>
-                        <Choice Kind="TypeFlag" Name="IMutableList" />
-                        <p:TypeArguments>
-                          <TypeReference>
-                            <Choice Kind="TypeFlag" Name="Float32" />
-                          </TypeReference>
-                        </p:TypeArguments>
-                      </TypeReference>
-                    </p:TypeArguments>
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="DvOnBwWAHxmNx7tk7DbDej" Name="DataImageOutput" Kind="OutputPin" Bounds="1128,1217" />
-                <Pin Id="LJXVd5wJ99zLKJpNDmDdKS" Name="Width" Kind="InputPin" Bounds="1548,1614" DefaultValue="224">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Integer32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="VDhPLskwNGbNQDVJw2HvBa" Name="Height" Kind="InputPin" Bounds="1586,1600" DefaultValue="224">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Integer32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="DopICoofuOlMFgng0AbSc1" Name="ChannelCount" Kind="InputPin" Bounds="1616,920" />
                 <Node Bounds="3336,599,52,22" Id="Mq8ytLVFBd7PEaa7FFnW8I">
                   <p:NodeReference LastCategoryFullName="Collections.Interfaces.IMutableList" LastSymbolSource="VL.Collections.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -693,7 +666,7 @@
                 <Link Id="VSyRF5k6UYaLK6RVodoZMf" Ids="HBkTsnhDrADPaWUUtm5WGp,CbFsvmTUPOXOcEdpSELZRO" />
                 <Link Id="L99NtbPqxCOPT57gFnkNwO" Ids="TGYeO5KK187NDq2SlxtztF,BDOtFGMWwWgP4HXzO7S7bQ" />
                 <Link Id="KUPbK1mlxYaP7qTNAcaNBO" Ids="HsqmAB4h2trOH9AUtLlRJ3,R0odHHwes2WQIYMFVHhCKs" />
-                <Pad Id="Lnl7tFx1NOsLS0HASYPpet" Comment="" Bounds="3580,774,45,19" ShowValueBox="true" isIOBox="true" Value="1">
+                <Pad Id="Lnl7tFx1NOsLS0HASYPpet" Comment="" Bounds="3580,772,45,19" ShowValueBox="true" isIOBox="true" Value="1">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
                   </p:TypeAnnotation>
@@ -705,8 +678,35 @@
                 <Link Id="DkZ71kqIROEPUHbt1tQYPz" Ids="Lnl7tFx1NOsLS0HASYPpet,DVyKQmRJN1zNX2smWHmwYo" />
                 <ControlPoint Id="JXqLbHCRGZkPanONGeey8b" Bounds="3646,570" />
                 <Link Id="D1V2ExrsSsiPQbsQmWquxL" Ids="JXqLbHCRGZkPanONGeey8b,Lnl7tFx1NOsLS0HASYPpet" />
-                <Pin Id="L1irVia4ZjHPltMSlZoO6x" Name="Value Scalar" Kind="InputPin" Bounds="1998,-536" />
                 <Link Id="LS6iI41XvxTMQ6Yn7W2Isv" Ids="L1irVia4ZjHPltMSlZoO6x,JXqLbHCRGZkPanONGeey8b" IsHidden="true" />
+                <Pin Id="Hkysm9zwZ26LG4KwrvRQs6" Name="Input" Kind="InputPin" Bounds="1445,1059">
+                  <p:TypeAnnotation>
+                    <Choice Kind="TypeFlag" Name="IMutableList" />
+                    <p:TypeArguments>
+                      <TypeReference>
+                        <Choice Kind="TypeFlag" Name="IMutableList" />
+                        <p:TypeArguments>
+                          <TypeReference>
+                            <Choice Kind="TypeFlag" Name="Float32" />
+                          </TypeReference>
+                        </p:TypeArguments>
+                      </TypeReference>
+                    </p:TypeArguments>
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="LJXVd5wJ99zLKJpNDmDdKS" Name="Width" Kind="InputPin" Bounds="1548,1614" DefaultValue="224">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Integer32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="VDhPLskwNGbNQDVJw2HvBa" Name="Height" Kind="InputPin" Bounds="1586,1600" DefaultValue="224">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Integer32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="DopICoofuOlMFgng0AbSc1" Name="ChannelCount" Kind="InputPin" Bounds="1616,920" />
+                <Pin Id="L1irVia4ZjHPltMSlZoO6x" Name="Value Scalar" Kind="InputPin" Bounds="1998,-536" />
+                <Pin Id="DvOnBwWAHxmNx7tk7DbDej" Name="DataImageOutput" Kind="OutputPin" Bounds="1128,1217" />
               </Patch>
             </Node>
             <!--
@@ -817,12 +817,12 @@
                       <Pin Id="MZYcVMs590ELi6aOOQneOw" Name="Input" Kind="StateInputPin" />
                       <Pin Id="RawFawmVoDzLE8GXinbeBX" Name="Result" Kind="OutputPin" />
                     </Node>
-                    <Pad Id="GtVdt88pm5qQCbua0NANw8" Comment="Alpha" Bounds="4686,1189,30,19" ShowValueBox="true" isIOBox="true" Value="255">
+                    <Pad Id="GtVdt88pm5qQCbua0NANw8" Comment="Alpha" Bounds="4686,1187,30,19" ShowValueBox="true" isIOBox="true" Value="255">
                       <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="TypeFlag" Name="Byte" />
                       </p:TypeAnnotation>
                     </Pad>
-                    <Pad Id="QVtxLNh7AWhMfpThGo5J0J" Comment="Item" Bounds="4724,1006,33,19" ShowValueBox="true" isIOBox="true" />
+                    <Pad Id="QVtxLNh7AWhMfpThGo5J0J" Comment="Item" Bounds="4724,1004,33,19" ShowValueBox="true" isIOBox="true" />
                     <Node Bounds="4679,1012,25,13" Id="AD8r5bM15tHMVGEv56YARb">
                       <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -884,7 +884,7 @@
                   <Pin Id="UMdkFjL33S0PvsH8CigJRQ" Name="Original Format" Kind="InputPin" />
                   <Pin Id="BtR7yWrQl69Lk8A28asmM9" Name="Result" Kind="OutputPin" />
                 </Node>
-                <Pad Id="FJVdEHSiD36PNGadnHypBp" Comment="Format" Bounds="4679,1368,103,19" ShowValueBox="true" isIOBox="true" Value="B8G8R8A8">
+                <Pad Id="FJVdEHSiD36PNGadnHypBp" Comment="Format" Bounds="4679,1366,103,19" ShowValueBox="true" isIOBox="true" Value="B8G8R8A8">
                   <p:TypeAnnotation LastCategoryFullName="Graphics.Imaging" LastSymbolSource="VL.Imaging.vl">
                     <Choice Kind="TypeFlag" Name="PixelFormat" />
                   </p:TypeAnnotation>
@@ -928,32 +928,6 @@
                 <Link Id="AitiFFQFUOXOL0fXVFAJwa" Ids="Hyjwr5LCp3SQIZ45nZ4Umh,UyBh887A44pNcRLtVu9nKO" />
                 <Link Id="IaDqjY9unKdMOR5KfltZKQ" Ids="AIx6u1SRYvOOWaHzGiBEUj,EEpY0AVJ2agOVQVUhrQYHN" />
                 <Link Id="FIkchweyDXbP57vtXsXBix" Ids="Hyjwr5LCp3SQIZ45nZ4Umh,EX2cEnzPVp0QVw2vdhPCIC" />
-                <Pin Id="PCQYaFbz7emMpbTwrkzw40" Name="Input" Kind="InputPin" Bounds="1445,1059">
-                  <p:TypeAnnotation>
-                    <Choice Kind="TypeFlag" Name="IMutableList" />
-                    <p:TypeArguments>
-                      <TypeReference>
-                        <Choice Kind="TypeFlag" Name="IMutableList" />
-                        <p:TypeArguments>
-                          <TypeReference>
-                            <Choice Kind="TypeFlag" Name="Float32" />
-                          </TypeReference>
-                        </p:TypeArguments>
-                      </TypeReference>
-                    </p:TypeArguments>
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="FZhZSWZIox0Ndr8wF1pAQ1" Name="DataImageOutput" Kind="OutputPin" Bounds="1128,1217" />
-                <Pin Id="LvTqYfDloGQPEPjmilyq1s" Name="Width" Kind="InputPin" Bounds="1548,1614" DefaultValue="224">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Integer32" />
-                  </p:TypeAnnotation>
-                </Pin>
-                <Pin Id="SqEU6Lxmjf9Nmhp8cW6wHd" Name="Height" Kind="InputPin" Bounds="1586,1600" DefaultValue="224">
-                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                    <Choice Kind="TypeFlag" Name="Integer32" />
-                  </p:TypeAnnotation>
-                </Pin>
                 <Link Id="JajnfvsEKhpNFbkeMSpSUS" Ids="AIx6u1SRYvOOWaHzGiBEUj,QVtxLNh7AWhMfpThGo5J0J" />
                 <Link Id="FljxKlLpsLlNaL7XKpcNvT" Ids="Pby4dvj4RVaP7v318b6Gjb,B9EOTKu5Iz2M1RMFGnsSHK" />
                 <Link Id="ERb1GzIZQ4ePpNJHkCpcNR" Ids="Pby4dvj4RVaP7v318b6Gjb,G08nzyxdu3UPqEwRB1laL8" />
@@ -998,8 +972,34 @@
                   <Pin Id="F5WvwtfLFPSK9kB3hpmEgb" Name="Result" Kind="OutputPin" />
                 </Node>
                 <Link Id="Ge2qpxMtBPtOM0ULkMRZmB" Ids="F5WvwtfLFPSK9kB3hpmEgb,SRkZY0yILdyONtrdJ8Xujl" />
-                <Pad Id="KMmvPHrxD8sLkAvqjzDa9k" Comment="" Bounds="4704,637,35,35" ShowValueBox="true" isIOBox="true" />
+                <Pad Id="KMmvPHrxD8sLkAvqjzDa9k" Comment="" Bounds="4704,627,35,35" ShowValueBox="true" isIOBox="true" />
                 <Link Id="KDOIWLJFb27Mxi7g9Mr3gV" Ids="F5WvwtfLFPSK9kB3hpmEgb,KMmvPHrxD8sLkAvqjzDa9k" />
+                <Pin Id="PCQYaFbz7emMpbTwrkzw40" Name="Input" Kind="InputPin" Bounds="1445,1059">
+                  <p:TypeAnnotation>
+                    <Choice Kind="TypeFlag" Name="IMutableList" />
+                    <p:TypeArguments>
+                      <TypeReference>
+                        <Choice Kind="TypeFlag" Name="IMutableList" />
+                        <p:TypeArguments>
+                          <TypeReference>
+                            <Choice Kind="TypeFlag" Name="Float32" />
+                          </TypeReference>
+                        </p:TypeArguments>
+                      </TypeReference>
+                    </p:TypeArguments>
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="LvTqYfDloGQPEPjmilyq1s" Name="Width" Kind="InputPin" Bounds="1548,1614" DefaultValue="224">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Integer32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="SqEU6Lxmjf9Nmhp8cW6wHd" Name="Height" Kind="InputPin" Bounds="1586,1600" DefaultValue="224">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Integer32" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="FZhZSWZIox0Ndr8wF1pAQ1" Name="DataImageOutput" Kind="OutputPin" Bounds="1128,1217" />
               </Patch>
             </Node>
             <!--
@@ -1143,12 +1143,12 @@
                               <Pin Id="Cj6hd339tZiP5Dg6hrhWhL" Name="Input" Kind="StateInputPin" />
                               <Pin Id="IoUBSrpp4vgPYjeNyDaieh" Name="Result" Kind="OutputPin" />
                             </Node>
-                            <Pad Id="PRa2craoPxmNWMofOxUU1n" Comment="Alpha" Bounds="5165,1175,30,19" ShowValueBox="true" isIOBox="true" Value="255">
+                            <Pad Id="PRa2craoPxmNWMofOxUU1n" Comment="Alpha" Bounds="5165,1173,30,19" ShowValueBox="true" isIOBox="true" Value="255">
                               <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                 <Choice Kind="TypeFlag" Name="Byte" />
                               </p:TypeAnnotation>
                             </Pad>
-                            <Pad Id="TW16bA3skH5Ou1q79L2fgI" Comment="Item" Bounds="5203,992,33,19" ShowValueBox="true" isIOBox="true" />
+                            <Pad Id="TW16bA3skH5Ou1q79L2fgI" Comment="Item" Bounds="5203,990,33,19" ShowValueBox="true" isIOBox="true" />
                             <Node Bounds="5158,998,25,13" Id="Hf4xlWnAG4pM4YQ0IoP7YG">
                               <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -1210,7 +1210,7 @@
                           <Pin Id="P0YP8eInCJROaQZULoQ9Up" Name="Original Format" Kind="InputPin" />
                           <Pin Id="SCrpM13e1ZHPZHp5UGoWep" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Pad Id="MsTbbjDfNlNOXp7Wt1P27h" Comment="Format" Bounds="5158,1354,103,19" ShowValueBox="true" isIOBox="true" Value="B8G8R8A8">
+                        <Pad Id="MsTbbjDfNlNOXp7Wt1P27h" Comment="Format" Bounds="5158,1352,103,19" ShowValueBox="true" isIOBox="true" Value="B8G8R8A8">
                           <p:TypeAnnotation LastCategoryFullName="Graphics.Imaging" LastSymbolSource="VL.Imaging.vl">
                             <Choice Kind="TypeFlag" Name="PixelFormat" />
                           </p:TypeAnnotation>
@@ -1299,7 +1299,6 @@
                     </p:TypeArguments>
                   </p:TypeAnnotation>
                 </Pin>
-                <Pin Id="DrngmQYvlhvLEtNskTFF44" Name="DataImageOutput" Kind="OutputPin" Bounds="1128,1217" />
                 <Pin Id="N9CM2F5VVNDLf8aAvtuA79" Name="Scalar" Kind="InputPin" Bounds="2776,-576" DefaultValue="255">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Float32" />
@@ -1315,8 +1314,7 @@
                     <Choice Kind="TypeFlag" Name="Integer32" />
                   </p:TypeAnnotation>
                 </Pin>
-                <Pad Id="P5K61hfJY6VLQrUC5tWbFL" Comment="" Bounds="5078,604,35,35" ShowValueBox="true" isIOBox="true" />
-                <Link Id="UDUv5JBplRoOUttQKi2nca" Ids="Vm1WSpubc7sNrm3w7rRORt,P5K61hfJY6VLQrUC5tWbFL" />
+                <Pin Id="DrngmQYvlhvLEtNskTFF44" Name="DataImageOutput" Kind="OutputPin" Bounds="1128,1217" />
               </Patch>
             </Node>
             <!--
@@ -1328,7 +1326,7 @@
               <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
                 <Choice Kind="OperationDefinition" Name="Operation" />
               </p:NodeReference>
-              <Patch Id="BpZLdtGKRDcQQhXr7c8F5M" IsGeneric="true">
+              <Patch Id="BpZLdtGKRDcQQhXr7c8F5M">
                 <ControlPoint Id="BZmfMGR1EIfPdnXfIWpGcb" Bounds="4083,1381" />
                 <Link Id="C6V2KMmQ3vrLeBOEHxzlVz" Ids="BZmfMGR1EIfPdnXfIWpGcb,CUV57n9btdyOA9wNAZXeZs" IsHidden="true" />
                 <ControlPoint Id="H6scH89GjgdPAggDAPHnhL" Bounds="4032,563" />
@@ -1339,7 +1337,7 @@
                 <ControlPoint Id="Md0R2zmxLPHMUlEJNEgiQt" Bounds="4363,572" />
                 <Link Id="JgicWjNM1LyPjVequg9cH6" Ids="Md0R2zmxLPHMUlEJNEgiQt,HjCznjhY1mULuLCJ4hNeso" />
                 <Link Id="OXLzUeDpmlVOl3PSAY1sjq" Ids="OFLBxVAKAvbMOPIxRukslA,Md0R2zmxLPHMUlEJNEgiQt" IsHidden="true" />
-                <Node Bounds="4011,640,380,698" Id="TeUHLNh6zKrPptADPnNliN">
+                <Node Bounds="3997,640,378,702" Id="TeUHLNh6zKrPptADPnNliN">
                   <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                     <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -1361,7 +1359,7 @@
                       </Pin>
                     </Patch>
                     <Patch Id="JobRIomqeRcOHaZLhlJNO9" Name="Dispose" ManuallySortedPins="true" />
-                    <Node Bounds="4062,807,249,369" Id="GhObwfnBfLUOE7MGzwZb0h">
+                    <Node Bounds="4055,811,271,370" Id="GhObwfnBfLUOE7MGzwZb0h">
                       <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                         <Choice Kind="ApplicationStatefulRegion" Name="Repeat" />
@@ -1375,7 +1373,7 @@
                           <Pin Id="GefAP1Ym6lBPR7XNdAdBAg" Name="Index" Kind="InputPin" />
                         </Patch>
                         <Patch Id="LsJVS1FXStcM8mZHQuz1RS" Name="Dispose" ManuallySortedPins="true" />
-                        <Node Bounds="4137,890,52,22" Id="UrQgqARHwyMOGP4J4gT6nQ">
+                        <Node Bounds="4099,871,60,26" Id="UrQgqARHwyMOGP4J4gT6nQ">
                           <p:NodeReference LastCategoryFullName="Collections.Interfaces.IMutableList" LastSymbolSource="VL.Collections.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="GetItem" />
@@ -1386,7 +1384,7 @@
                           <Pin Id="G6cvfdBzm8QNST9CIBGMDA" Name="Output" Kind="StateOutputPin" />
                           <Pin Id="EFe2vchyDWkPVrULs22muU" Name="Item" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="4190,953,52,22" Id="ALTuqSxlzRuQboEDb807Pr">
+                        <Node Bounds="4175,925,60,26" Id="ALTuqSxlzRuQboEDb807Pr">
                           <p:NodeReference LastCategoryFullName="Collections.Interfaces.IMutableList" LastSymbolSource="VL.Collections.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="GetItem" />
@@ -1397,7 +1395,7 @@
                           <Pin Id="C8C1UA2P5QWQZJDUafNYQl" Name="Output" Kind="StateOutputPin" />
                           <Pin Id="VUoRTqjZLfyMXknNLFHYKe" Name="Item" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="4211,1014,52,22" Id="P7mOBDOkXFVQNvCW1OaZv1">
+                        <Node Bounds="4208,1006,60,26" Id="P7mOBDOkXFVQNvCW1OaZv1">
                           <p:NodeReference LastCategoryFullName="Collections.Interfaces.IMutableList" LastSymbolSource="VL.Collections.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="GetItem" />
@@ -1408,8 +1406,8 @@
                           <Pin Id="OQDP01OrfzGMpBZty2opwI" Name="Output" Kind="StateOutputPin" />
                           <Pin Id="HbMeoiDiKh6Oj5dVJ40DSt" Name="Item" Kind="OutputPin" />
                         </Node>
-                        <ControlPoint Id="FEi7t7fyX2dQY5UDpNMGTF" Bounds="4186,851" />
-                        <Node Bounds="4237,922,25,13" Id="OvAxEfIAuvLNyli3RUkSXC">
+                        <ControlPoint Id="FEi7t7fyX2dQY5UDpNMGTF" Bounds="4269,829" />
+                        <Node Bounds="4223,878,25,19" Id="OvAxEfIAuvLNyli3RUkSXC">
                           <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationFlag, ApplicationFlag" Name="+" />
@@ -1418,7 +1416,7 @@
                           <Pin Id="B9ycE2TI0BHM8lyjEYedmk" Name="Input 2" Kind="InputPin" />
                           <Pin Id="Odzea0oRYk7OPqYSMHpISS" Name="Output" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="4268,987,25,13" Id="CDmvfv8ST3aO17XKQ8l36N">
+                        <Node Bounds="4289,954,25,19" Id="CDmvfv8ST3aO17XKQ8l36N">
                           <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationFlag, ApplicationFlag" Name="+" />
@@ -1427,7 +1425,7 @@
                           <Pin Id="INyxyUvQfHnPbX9cVz5uU5" Name="Input 2" Kind="InputPin" />
                           <Pin Id="TQFxotIA3lbL9Si6JvhVW1" Name="Output" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="4074,984,58,22" Id="PYoARYrg3SYP6OgGJqEtBt">
+                        <Node Bounds="4067,990,66,26" Id="PYoARYrg3SYP6OgGJqEtBt">
                           <p:NodeReference LastCategoryFullName="Collections.Builder.SpreadBuilder" LastSymbolSource="VL.Collections.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="Add" />
@@ -1437,7 +1435,7 @@
                           <Pin Id="I6DzRhiIAgIPCCZKBZjXnS" Name="Item" Kind="InputPin" />
                           <Pin Id="T4P8KPJMyLHLzHBAEMA1aF" Name="Output" Kind="StateOutputPin" />
                         </Node>
-                        <Node Bounds="4074,1028,58,22" Id="CtcQFmzsKojNRdVfbMj5T8">
+                        <Node Bounds="4067,1034,66,26" Id="CtcQFmzsKojNRdVfbMj5T8">
                           <p:NodeReference LastCategoryFullName="Collections.Builder.SpreadBuilder" LastSymbolSource="VL.Collections.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="Add" />
@@ -1447,7 +1445,7 @@
                           <Pin Id="MeL7QyaGb2YLpdRdJB88hj" Name="Item" Kind="InputPin" />
                           <Pin Id="GMb3lb0lL8cMEC3aAS6NEG" Name="Output" Kind="StateOutputPin" />
                         </Node>
-                        <Node Bounds="4074,1072,58,22" Id="Thri64DrlecPdFwMLetM3C">
+                        <Node Bounds="4067,1078,66,26" Id="Thri64DrlecPdFwMLetM3C">
                           <p:NodeReference LastCategoryFullName="Collections.Builder.SpreadBuilder" LastSymbolSource="VL.Collections.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="Add" />
@@ -1457,7 +1455,7 @@
                           <Pin Id="VBaNY1GW2P7PMENTiHy8M8" Name="Item" Kind="InputPin" />
                           <Pin Id="B4YbGboaVjrLjamh1iZoiB" Name="Output" Kind="StateOutputPin" />
                         </Node>
-                        <Node Bounds="4074,1116,58,22" Id="P87FMJ18bdCPNvEckl5a5t">
+                        <Node Bounds="4067,1122,66,26" Id="P87FMJ18bdCPNvEckl5a5t">
                           <p:NodeReference LastCategoryFullName="Collections.Builder.SpreadBuilder" LastSymbolSource="VL.Collections.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="Add" />
@@ -1471,7 +1469,7 @@
                           </Pin>
                           <Pin Id="JLXstP3mUqqNp8yBBmB1M7" Name="Output" Kind="StateOutputPin" />
                         </Node>
-                        <Node Bounds="4129,957,40,13" Id="RnnYBbXHBVXOxlnBqE9sZR">
+                        <Node Bounds="4122,963,47,19" Id="RnnYBbXHBVXOxlnBqE9sZR">
                           <p:NodeReference LastCategoryFullName="System.Conversion" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="ToByte" />
@@ -1480,7 +1478,7 @@
                           <Pin Id="Vxu5ddEIj0ELSUE6oYBWxQ" Name="Input" Kind="StateInputPin" />
                           <Pin Id="FJ46wOtmRp4LypUeD9rIwj" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="4159,1006,40,13" Id="PRDytaUIREKLfw3Xf0m8PE">
+                        <Node Bounds="4148,1018,47,19" Id="PRDytaUIREKLfw3Xf0m8PE">
                           <p:NodeReference LastCategoryFullName="System.Conversion" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="ToByte" />
@@ -1489,7 +1487,7 @@
                           <Pin Id="FrNqYcvbjpyNUZ0IY5w6np" Name="Input" Kind="StateInputPin" />
                           <Pin Id="DZEhagetnqAPEgkgRkzvbQ" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="4259,1071,40,13" Id="LWoGVKVFkS3NNZgI4EUr1I">
+                        <Node Bounds="4264,1070,47,19" Id="LWoGVKVFkS3NNZgI4EUr1I">
                           <p:NodeReference LastCategoryFullName="System.Conversion" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="ToByte" />
@@ -1498,12 +1496,12 @@
                           <Pin Id="J1DAptfhyYvLLCqQTeIFJf" Name="Input" Kind="StateInputPin" />
                           <Pin Id="BSy8AF1OgWyLj4gclRyh6r" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Pad Id="DEUtS8ba5Y7P31MS4qGTuB" Comment="Alpha" Bounds="4166,1101,30,19" ShowValueBox="true" isIOBox="true" Value="255">
+                        <Pad Id="DEUtS8ba5Y7P31MS4qGTuB" Comment="Alpha" Bounds="4153,1115,30,19" ShowValueBox="true" isIOBox="true" Value="255">
                           <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="TypeFlag" Name="Byte" />
                           </p:TypeAnnotation>
                         </Pad>
-                        <Node Bounds="4174,924,25,13" Id="V7ccclqWJ5BOe0Nl2Fy0gU">
+                        <Node Bounds="4125,929,25,19" Id="V7ccclqWJ5BOe0Nl2Fy0gU">
                           <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="*" />
@@ -1516,7 +1514,7 @@
                           </Pin>
                           <Pin Id="IMeVyVvnBqFL7hndESWVQN" Name="Output" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="4209,989,25,13" Id="OVnGGzx1qdNMRC1RpG5klg">
+                        <Node Bounds="4151,992,25,19" Id="OVnGGzx1qdNMRC1RpG5klg">
                           <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="*" />
@@ -1525,7 +1523,7 @@
                           <Pin Id="V5snMGGnd1bPQ7yEvAV7tY" Name="Input 2" Kind="InputPin" />
                           <Pin Id="EOUQiK7QTW9MuPPrJCfJDx" Name="Output" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="4261,1056,25,13" Id="RbmBp901MzMLMgkelLpyBR">
+                        <Node Bounds="4264,1040,25,19" Id="RbmBp901MzMLMgkelLpyBR">
                           <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="*" />
@@ -1535,7 +1533,7 @@
                           <Pin Id="Oba4aiPCen7LN4Zjt1jyrf" Name="Output" Kind="OutputPin" />
                         </Node>
                       </Patch>
-                      <ControlPoint Id="HwcoSP2q1XrQcLD6CkP3Uc" Bounds="4081,813" Alignment="Top">
+                      <ControlPoint Id="HwcoSP2q1XrQcLD6CkP3Uc" Bounds="4074,818" Alignment="Top">
                         <p:TypeAnnotation>
                           <Choice Kind="TypeFlag" Name="SpreadBuilder" />
                           <p:TypeArguments>
@@ -1545,9 +1543,9 @@
                           </p:TypeArguments>
                         </p:TypeAnnotation>
                       </ControlPoint>
-                      <ControlPoint Id="FFrKZdnYsmZQZROKJ21K73" Bounds="4084,1170" Alignment="Bottom" />
+                      <ControlPoint Id="FFrKZdnYsmZQZROKJ21K73" Bounds="4077,1176" Alignment="Bottom" />
                     </Node>
-                    <Node Bounds="4055,719,25,13" Id="NkcQlk8a70PP2MswCiynki">
+                    <Node Bounds="4009,695,32,19" Id="NkcQlk8a70PP2MswCiynki">
                       <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="DIV" />
@@ -1560,7 +1558,7 @@
                       </Pin>
                       <Pin Id="Ee6RjIjzThtLQq6DWhswUN" Name="Output" Kind="OutputPin" />
                     </Node>
-                    <Node Bounds="4273,718,25,13" Id="B5TOl3SJZPCL5O3aziSDDL">
+                    <Node Bounds="4275,745,25,19" Id="B5TOl3SJZPCL5O3aziSDDL">
                       <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationFlag, ApplicationFlag" Name="*" />
@@ -1582,7 +1580,7 @@
                       <Pin Id="MTslksi9cGnOUHwcQeBzMw" Name="Capacity" Kind="InputPin" />
                       <Pin Id="Ut5DCgHQigIQIGwgLGdqbq" Name="Output" Kind="StateOutputPin" />
                     </Node>
-                    <Node Bounds="4239,735,25,13" Id="NuOy7wXqr0cL9edi3nhCXg">
+                    <Node Bounds="4237,761,25,19" Id="NuOy7wXqr0cL9edi3nhCXg">
                       <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationFlag, ApplicationFlag" Name="*" />
@@ -1617,7 +1615,7 @@
                       <Pin Id="DfBbtxFw51bPk7swnUOyxW" Name="Original Format" Kind="InputPin" />
                       <Pin Id="Rdp7PYUBt2MPJjjFhAUs29" Name="Result" Kind="OutputPin" />
                     </Node>
-                    <Pad Id="N6CTEzXyZccMjtoOo2IARn" Comment="Format" Bounds="4159,1280,103,19" ShowValueBox="true" isIOBox="true" Value="B8G8R8A8">
+                    <Pad Id="N6CTEzXyZccMjtoOo2IARn" Comment="Format" Bounds="4159,1278,103,19" ShowValueBox="true" isIOBox="true" Value="B8G8R8A8">
                       <p:TypeAnnotation LastCategoryFullName="Graphics.Imaging" LastSymbolSource="VL.Imaging.vl">
                         <Choice Kind="TypeFlag" Name="PixelFormat" />
                       </p:TypeAnnotation>
@@ -1631,7 +1629,7 @@
                       <Pin Id="QIsyURRM4ouMwP12f85yx4" Name="Input" Kind="InputPin" />
                       <Pin Id="P1HHICi11oMQK1MB2d2vUy" Name="Result" Kind="OutputPin" />
                     </Node>
-                    <Pad Id="HjCznjhY1mULuLCJ4hNeso" Comment="" Bounds="4297,776,45,19" ShowValueBox="true" isIOBox="true" Value="1">
+                    <Pad Id="HjCznjhY1mULuLCJ4hNeso" Comment="" Bounds="4297,774,45,19" ShowValueBox="true" isIOBox="true" Value="1">
                       <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="TypeFlag" Name="Float32" />
                       </p:TypeAnnotation>
@@ -1704,7 +1702,6 @@
                     </p:TypeArguments>
                   </p:TypeAnnotation>
                 </Pin>
-                <Pin Id="CUV57n9btdyOA9wNAZXeZs" Name="DataImageOutput" Kind="OutputPin" Bounds="1128,1217" />
                 <Pin Id="Ru0pyUAQfgRQLHAnOq5qTH" Name="ChannelCount" Kind="InputPin" Bounds="1616,920" />
                 <Pin Id="OFLBxVAKAvbMOPIxRukslA" Name="Value Scalar" Kind="InputPin" Bounds="1998,-536" />
                 <Pin Id="QfhDofGcxipMJk2Lv5RT7N" Name="Width" Kind="InputPin" Bounds="1548,1614" DefaultValue="224">
@@ -1717,6 +1714,7 @@
                     <Choice Kind="TypeFlag" Name="Integer32" />
                   </p:TypeAnnotation>
                 </Pin>
+                <Pin Id="CUV57n9btdyOA9wNAZXeZs" Name="DataImageOutput" Kind="OutputPin" Bounds="1128,1217" />
               </Patch>
             </Node>
           </Canvas>

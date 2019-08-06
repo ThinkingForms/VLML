@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="B6DOoJR72RyLEFXDuFqRS2" LanguageVersion="2019.1.0-0177-g8feb9fe666" Version="0.128">
+<Document xmlns:p="property" Id="B6DOoJR72RyLEFXDuFqRS2" LanguageVersion="2019.1.0-0417-g808f072318" Version="0.128">
   <Patch Id="ERP90BKJLBgPyjg1xaxREJ">
     <Canvas Id="GFjpELdK7XpNdqiTYotKCR" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="HRnBt0PcIsoNqnQIrms9mR" Name="Losses" Position="337,324">
@@ -49,7 +49,7 @@
                   <ControlPoint Id="TAokvJIOZqJLxKPh31UMXq" Bounds="263,254" />
                   <ControlPoint Id="KrS6CCkwSpRMLlSE0DwvIr" Bounds="183,432" />
                   <Node Bounds="174,366,104,19" Id="N9tizspohNRLcSaFQlFwJd">
-                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <PinReference Kind="InputPin" Name="Name" />
                       <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -115,7 +115,7 @@
     ************************ CrossEntropyWithSoftmax ************************
 
 -->
-        <Node Name="CrossEntropyWithSoftmax" Bounds="579,832" Id="MfYimni7d1bLMbBRVsM5Y4" Summary="This operation computes the cross entropy between thethe `target` and the softmax of the `prediction`" Remarks="The elements of `target` have to be non-negative and should sum to 1. The `prediction` can contain any values. The function will internally compute the softmax of the 'prediction">
+        <Node Name="CrossEntropyWithSoftmax" Bounds="579,832" Id="MfYimni7d1bLMbBRVsM5Y4" Summary="This operation computes the cross entropy between the `target` and the softmax of the `prediction`" Remarks="The elements of `target` have to be non-negative and should sum to 1. The `prediction` can contain any values. The function will internally compute the softmax of the 'prediction">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="ContainerDefinition" Name="Process" />
           </p:NodeReference>
@@ -156,7 +156,7 @@
                   <ControlPoint Id="KqCOdXuG3zBNCaxX96obcL" Bounds="201,262" />
                   <ControlPoint Id="QRDwkCBzHcpOaDnTa5tf3q" Bounds="90,487" />
                   <Node Bounds="84,450,134,19" Id="SDZKP8GAVV8MKihCUvvRRt">
-                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="CrossEntropyWithSoftmax" />
                       <PinReference Kind="InputPin" Name="Name" />
@@ -167,7 +167,7 @@
                     <Pin Id="VMBU9ZIN1A5MnN1wSwTbH4" Name="Result" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="84,327,120,19" Id="CLC7BlhXztaMmQCj4LtImr">
-                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="ReconcileDynamicAxes" />
                     </p:NodeReference>
@@ -176,7 +176,7 @@
                     <Pin Id="RAOMbdeyl65LO6B98wSkv4" Name="Result" Kind="OutputPin" />
                   </Node>
                   <Node Bounds="84,368,65,19" Id="OkPAS212uuOLc0TV5PYnuv">
-                    <p:NodeReference LastCategoryFullName="CNTK.Function" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.Function" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="ToVariable" />
                     </p:NodeReference>
@@ -303,7 +303,7 @@
                   <ControlPoint Id="CK8IFIlISjuN9Jcu1k1v2s" Bounds="381,281" />
                   <ControlPoint Id="AcRuftPQLKhPampOx9BUgB" Bounds="301,459" />
                   <Node Bounds="292,393,45,19" Id="V2H97oBdlNePV0jBazfgon">
-                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <PinReference Kind="InputPin" Name="Name" />
                       <Choice Kind="OperationCallFlag" Name="BinaryCrossEntropy" />
@@ -320,13 +320,13 @@
             <Patch Id="MHGJd2M9GSAPXufcJ5ATqo" Name="Create" />
             <Patch Id="Mlxh33ISMkIL3r8IIFC1Pc" Name="Update">
               <Pin Id="H65vcKpRrzAOMP66hlFw4l" Name="Prediction" Kind="InputPin" Bounds="240,216" Summary="the computed posterior probability for a variable to be 1 from the network (typically  a `sigmoid`)" />
-              <Pin Id="LvIFYkENko0PR8VoJq2giw" Name="Output" Kind="OutputPin" Bounds="419,507" />
               <Pin Id="OVFZaKhP6ITN5gdAsTT68f" Name="Target" Kind="InputPin" Bounds="449,208" Summary="ground-truth label, 0 or 1" />
-              <Pin Id="Q1TKm2XbZvwPTTnjw4hm8Z" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               <Pin Id="OFgN7HiP0zaO1Q1xnFlbVn" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
               <Pin Id="JrwL6rcH1NjPCh7URA0S0a" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
+              <Pin Id="LvIFYkENko0PR8VoJq2giw" Name="Output" Kind="OutputPin" Bounds="419,507" />
+              <Pin Id="Q1TKm2XbZvwPTTnjw4hm8Z" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="GIuwbcnp0AIOsujkV1nDcq">
               <Fragment Id="U5Qt8Et9nTuMRQTyOW067Q" Patch="MHGJd2M9GSAPXufcJ5ATqo" Enabled="true" />
@@ -425,7 +425,6 @@
             </Canvas>
             <Patch Id="JrboGXunP80MJ0jByL1Xbp" Name="Create" />
             <Patch Id="MUDFtu1j2h7MKwvu8Y72ao" Name="Update">
-              <Pin Id="V14ThFV494VQOudFtKfzx2" Name="Output" Kind="OutputPin" />
               <Pin Id="J7ZOki5KrjaP48HHACKDQy" Name="Prediction" Kind="InputPin" />
               <Pin Id="EAJX0RLIpgMLIymXe6qRL6" Name="Target" Kind="InputPin">
                 <p:TypeAnnotation>
@@ -437,6 +436,7 @@
                   </p:TypeArguments>
                 </p:TypeAnnotation>
               </Pin>
+              <Pin Id="V14ThFV494VQOudFtKfzx2" Name="Output" Kind="OutputPin" />
             </Patch>
             <ProcessDefinition Id="L7FBBkv4FkJLbcGjbndR00">
               <Fragment Id="MTKvEwUM5EHPlTO2EmeRta" Patch="JrboGXunP80MJ0jByL1Xbp" Enabled="true" />
@@ -536,7 +536,6 @@
             </Canvas>
             <Patch Id="HnoaoV44yigOyB86F6z1yk" Name="Create" />
             <Patch Id="FsI6EGtCNhQNhvtqhFmt75" Name="Update">
-              <Pin Id="F4YIrB9Rp0cNYT6pkqqBvb" Name="Output" Kind="OutputPin" />
               <Pin Id="R6PZpfb8YNTQZSmLY0kZhE" Name="Prediction" Kind="InputPin" />
               <Pin Id="Gp7BlaTTqfAQDiFhDFTbmW" Name="Target" Kind="InputPin">
                 <p:TypeAnnotation>
@@ -548,6 +547,7 @@
                   </p:TypeArguments>
                 </p:TypeAnnotation>
               </Pin>
+              <Pin Id="F4YIrB9Rp0cNYT6pkqqBvb" Name="Output" Kind="OutputPin" />
             </Patch>
             <ProcessDefinition Id="VtMyyBZw2lQQQ5S1otY5te">
               <Fragment Id="AQ3V9xBPgrnPrhDaf5TYzO" Patch="HnoaoV44yigOyB86F6z1yk" Enabled="true" />
@@ -970,9 +970,9 @@
             <Patch Id="IGSsLnOUFx8QCTOqLXb4Ae" Name="Create" />
             <Patch Id="MxfGQajAHh8MIXrH80YqPk" Name="Update">
               <Pin Id="HR95bCZfstTOEgFmZbmMap" Name="Prediction" Kind="InputPin" />
-              <Pin Id="EiE2nw5su8RPbJ8TMJQz2U" Name="Output" Kind="OutputPin" />
               <Pin Id="GDka7ZnDXg0NzER3ZFX1nD" Name="Target" Kind="InputPin" />
               <Pin Id="UnkJUYLJLNUOwsVgIed0rb" Name="Sequential" Kind="InputPin" Bounds="489,450" Visibility="Optional" />
+              <Pin Id="EiE2nw5su8RPbJ8TMJQz2U" Name="Output" Kind="OutputPin" />
             </Patch>
             <ProcessDefinition Id="OYz7AGzueiSLTRcipzHc9m">
               <Fragment Id="CO4QyRutZAOMaFYelpb6UN" Patch="IGSsLnOUFx8QCTOqLXb4Ae" Enabled="true" />
@@ -1046,7 +1046,7 @@
                   <ControlPoint Id="OFbIgi2j0B5OR6779fN7e9" Bounds="378,375" />
                   <ControlPoint Id="AFB6OfEe3e5LBQY2Fs0WL9" Bounds="216,449" />
                   <Node Bounds="215,400,146,19" Id="Vc4QrxKjZ0dQVrqUTaniJF">
-                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <PinReference Kind="InputPin" Name="Name" />
                       <CategoryReference Kind="AssemblyCategory" Name="CNTK" />
@@ -1064,14 +1064,14 @@
             <Patch Id="MQ9f7Xv5WFrQVRbsRfhwzW" Name="Create" />
             <Patch Id="NiURqll3FVhLv6jRRqfzZ6" Name="Update">
               <Pin Id="AqhnbMk8WPqLdekvoxo1PO" Name="Prediction" Kind="InputPin" Bounds="240,216" Summary="The computed posterior probability from the network" />
-              <Pin Id="QGaFxJDIsY1LOvq4XMeCJj" Name="Output" Kind="OutputPin" Bounds="419,507" />
               <Pin Id="LJySsGkxXtPQOoJsZhGsMz" Name="Target" Kind="InputPin" Bounds="449,208" Summary="Ground-truth label, 0 or 1" />
               <Pin Id="LZw94Wiqy1hMRBN2HHYl4Q" Name="Weights" Kind="InputPin" Bounds="640,275" Summary="Weight of each example" />
-              <Pin Id="P6HVjBMTaO7QEqSoG3Jinj" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
               <Pin Id="IFwSNvZDTpwMyfTM5RzhGv" Name="Name" Kind="InputPin" Bounds="532,174" Visibility="Optional" />
               <Pin Id="RMExeoeX1BKNTehzgeROob" Name="Debug" Kind="InputPin" Visibility="Optional">
                 <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Local</p:Exposition>
               </Pin>
+              <Pin Id="QGaFxJDIsY1LOvq4XMeCJj" Name="Output" Kind="OutputPin" Bounds="419,507" />
+              <Pin Id="P6HVjBMTaO7QEqSoG3Jinj" Name="Value" Kind="OutputPin" Bounds="632,495" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="NjZMJE4gEYoMXw5sVo2bWF">
               <Fragment Id="MJQiXnAShKHNM1OAeUVXm2" Patch="MQ9f7Xv5WFrQVRbsRfhwzW" Enabled="true" />
@@ -1147,7 +1147,7 @@
                   <ControlPoint Id="Hh4QRkj5zeXQcA6Mei1lbk" Bounds="308,291" />
                   <ControlPoint Id="F3Gf5bdsEzIMcePWn1TRjK" Bounds="128,371" />
                   <Node Bounds="161,318,75,19" Id="AoHVNqtNGuhO6J99bsGtIM">
-                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="LambdaRank" />
                       <PinReference Kind="InputPin" Name="Name" />
@@ -1170,13 +1170,13 @@
             </Canvas>
             <Patch Id="Ryvkf98Jt92OBcpG8R5Y3P" Name="Create" />
             <Patch Id="LrKhMmEjm02ONUVFKZrUkK" Name="Update">
-              <Pin Id="NHvuRu2XAtyLACEovQL8Rn" Name="Output" Kind="OutputPin" Bounds="390,590" />
               <Pin Id="ELJNITvTpI9OekwFY1OR2y" Name="Prediction" Kind="InputPin" Summary="Score of each sample" />
-              <Pin Id="FRHpfWiNawBMrTisUef1Qa" Name="Value" Kind="OutputPin" Bounds="503,593" Visibility="Optional" />
               <Pin Id="FJrnIyceHEnNrrhhZ0Plpw" Name="Gains" Kind="InputPin" Summary="Gain of each sample" />
               <Pin Id="TYPTNNUao6KLBn43uiTHNK" Name="Group Id" Kind="InputPin" Summary="Group of each sample" />
               <Pin Id="CiRN3WPPPMnPBN7EYFLjmf" Name="Name" Kind="InputPin" Visibility="Optional" />
               <Pin Id="KfmaM3WL1JZQakec1g6K3k" Name="Debug" Kind="InputPin" Bounds="731,270" Visibility="Optional" />
+              <Pin Id="NHvuRu2XAtyLACEovQL8Rn" Name="Output" Kind="OutputPin" Bounds="390,590" />
+              <Pin Id="FRHpfWiNawBMrTisUef1Qa" Name="Value" Kind="OutputPin" Bounds="503,593" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="T4nko7U0OcHOB7X3npugo2">
               <Fragment Id="BqESibZnzYzOWrwDOuyj2W" Patch="Ryvkf98Jt92OBcpG8R5Y3P" Enabled="true" />
@@ -1263,7 +1263,7 @@
                   <ControlPoint Id="Gtfa5jQipkhPU5RK4p87ji" Bounds="301,170" />
                   <ControlPoint Id="KlPzNvznJ7ANwqAPsMNRgO" Bounds="63,309" />
                   <Node Bounds="88,244,183,19" Id="L4y63ViaMjrLXwZKz0XYoA">
-                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.6.dll">
+                    <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                       <Choice Kind="OperationCallFlag" Name="CosineDistanceWithNegativeSamples" />
                       <CategoryReference Kind="AssemblyCategory" Name="CNTKLib" NeedsToBeDirectParent="true" />
@@ -1315,14 +1315,14 @@
             </Canvas>
             <Patch Id="JUjvUu2awuYQVRzA70ylEd" Name="Create" />
             <Patch Id="NnXKgdwTHehOPxPmtMbILf" Name="Update">
-              <Pin Id="RwSdtR3gekJNx0K11lBlEd" Name="Output" Kind="OutputPin" Bounds="215,662" />
               <Pin Id="JlqHeYP2gOfLjS56M6HQTB" Name="Prediction" Kind="InputPin" Summary="A tensor" />
               <Pin Id="A5FVEwGRerRLrDpMYiJ69q" Name="Target" Kind="InputPin" Summary="A tensor" />
               <Pin Id="KjX6dZ3uNtMPXwkiBN3iob" Name="Shift Window" Kind="InputPin" Summary="Non-zero positive integer representing number of shift to generate a negative sample" />
               <Pin Id="Ps3gb8nxNMGL6JSxyER0wY" Name="Number Of Negative Samples" Kind="InputPin" Summary="Number of negative samples to generate, a non-zero positive integer" />
               <Pin Id="EgVHQCVX4W9Mi6zXxzfJ6J" Name="Name" Kind="InputPin" Visibility="Optional" />
-              <Pin Id="L23qm8DystWLf1shtlsJAR" Name="Value" Kind="OutputPin" Bounds="803,629" Visibility="Optional" />
               <Pin Id="Q2dupn9qrbyPtikkGcsMmF" Name="Debug" Kind="InputPin" Bounds="885,321" Visibility="Optional" />
+              <Pin Id="RwSdtR3gekJNx0K11lBlEd" Name="Output" Kind="OutputPin" Bounds="215,662" />
+              <Pin Id="L23qm8DystWLf1shtlsJAR" Name="Value" Kind="OutputPin" Bounds="803,629" Visibility="Optional" />
             </Patch>
             <ProcessDefinition Id="GEellbTPVgiNqpLpmozKqz">
               <Fragment Id="A6z23WndDj5QdJKwsSoAaK" Patch="JUjvUu2awuYQVRzA70ylEd" Enabled="true" />
@@ -1389,6 +1389,7 @@
                   <Choice Kind="ProcessAppFlag" Name="ReduceMean" />
                 </p:NodeReference>
                 <Pin Id="RUlAOKVGsFFM4DPojiTQe0" Name="Operand" Kind="InputPin" />
+                <Pin Id="SF5FBio1gWVLLGFb25JxUh" Name="Name" Kind="InputPin" />
                 <Pin Id="CkIOdjbuhjrMxUnT9Nz5KM" Name="Output" Kind="OutputPin" />
               </Node>
               <Node Bounds="294,421,53,19" Id="K5zPc0MEaJSMemsp5XHf8I">
@@ -1402,18 +1403,15 @@
               <ControlPoint Id="DWTjBLDFZB3OfSX17qvxMg" Bounds="294,363" />
               <ControlPoint Id="UHKPDFAwdHALWDvdKhKCMw" Bounds="390,362" />
               <ControlPoint Id="Ut8qea4iISXN3Pnw5Lj8Ea" Bounds="296,548" />
+              <ControlPoint Id="EemFmSOm99WPoLKdjVlHkD" Bounds="473,357" />
             </Canvas>
             <Patch Id="QVhDhBGd7iKPgUsK7GXFa4" Name="Create" />
             <Patch Id="Oue94KEE7MQOJPOIGT4LC7" Name="Update">
               <Pin Id="SRZP5ivgITlNoet8AQ7FP9" Name="Prediction" Kind="InputPin" Bounds="302,318" Summary="Has a Sigmoid internally so logits can be used." />
-              <Pin Id="DhowDtRO7OwNwANxAmKemZ" Name="Output" Kind="OutputPin" Bounds="296,549" />
               <Pin Id="KLTd8AispJ9PZ46dZLuHnN" Name="Target" Kind="InputPin" Bounds="390,361" Summary="Should be true or False (Use Oneslike or Zeroslike yo set this criterion" />
+              <Pin Id="NXjT3B5mkd4LRYhatoIsYB" Name="Name" Kind="InputPin" Bounds="474,357" />
+              <Pin Id="DhowDtRO7OwNwANxAmKemZ" Name="Output" Kind="OutputPin" Bounds="296,549" />
             </Patch>
-            <!--
-
-    ************************  ************************
-
--->
             <ProcessDefinition Id="IhW5e0HACmaMqpitDiuYLP">
               <Fragment Id="VPB9BRpuQJTM2zcyxhKwhB" Patch="QVhDhBGd7iKPgUsK7GXFa4" Enabled="true" />
               <Fragment Id="FAuIgJqdVqrM2gW0FAV1uC" Patch="Oue94KEE7MQOJPOIGT4LC7" Enabled="true" />
@@ -1426,6 +1424,8 @@
             <Link Id="Hnbgu3NOmLKLI5fodUUk9K" Ids="KLTd8AispJ9PZ46dZLuHnN,UHKPDFAwdHALWDvdKhKCMw" IsHidden="true" />
             <Link Id="D5rp5vOtS4SPua4r14I02O" Ids="CkIOdjbuhjrMxUnT9Nz5KM,Ut8qea4iISXN3Pnw5Lj8Ea" />
             <Link Id="LDCYlqWDU4eLgogQnlppms" Ids="Ut8qea4iISXN3Pnw5Lj8Ea,DhowDtRO7OwNwANxAmKemZ" IsHidden="true" />
+            <Link Id="RrYpr8bEWjeNT7m6XA714w" Ids="EemFmSOm99WPoLKdjVlHkD,SF5FBio1gWVLLGFb25JxUh" />
+            <Link Id="LNs0FZoM16hMRGEexSO9hz" Ids="NXjT3B5mkd4LRYhatoIsYB,EemFmSOm99WPoLKdjVlHkD" IsHidden="true" />
           </Patch>
         </Node>
         <!--
@@ -1474,14 +1474,9 @@
             <Patch Id="TR54EAbOYK8M5MyTnVNASR" Name="Create" />
             <Patch Id="NcHX1W7uFk6OX081TP3xng" Name="Update">
               <Pin Id="DqjJQqVq2uHLNGy3nqDElg" Name="Prediction" Kind="InputPin" Bounds="308,222" />
-              <Pin Id="HeA1rmCbZlkL9JTgmlzWT6" Name="Output" Kind="OutputPin" Bounds="428,615" />
               <Pin Id="BctvEEyF8q7P2jV902ZTPE" Name="Target" Kind="InputPin" Bounds="530,212" />
+              <Pin Id="HeA1rmCbZlkL9JTgmlzWT6" Name="Output" Kind="OutputPin" Bounds="428,615" />
             </Patch>
-            <!--
-
-    ************************  ************************
-
--->
             <ProcessDefinition Id="KI6fjfuh42aOItxW5ZuIir">
               <Fragment Id="DcSBU4cNg5dLv2b34zVkHV" Patch="TR54EAbOYK8M5MyTnVNASR" Enabled="true" />
               <Fragment Id="NdGuZvgMuzxP2g0pHX7YgH" Patch="NcHX1W7uFk6OX081TP3xng" Enabled="true" />
@@ -1498,10 +1493,10 @@
         </Node>
         <!--
 
-    ************************ MeanSquareError ************************
+    ************************ MeanSquaredError ************************
 
 -->
-        <Node Name="MeanSquareError" Bounds="945,901" Id="LFAPi0Vcn4qNxnzT958WGc" Remarks="Sometimes known as 'L2'" Tags="MSE,L2">
+        <Node Name="MeanSquaredError" Bounds="945,901" Id="LFAPi0Vcn4qNxnzT958WGc" Remarks="Sometimes known as 'L2'" Tags="MSE,L2">
           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
             <Choice Kind="ContainerDefinition" Name="Process" />
           </p:NodeReference>
@@ -1526,6 +1521,7 @@
                   <CategoryReference Kind="Category" Name="Reducers" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="DuB4Pc27xDELo89JnrC4Zy" Name="Operand" Kind="InputPin" />
+                <Pin Id="KlUxOh0niouOt1PAd2wZ5U" Name="Name" Kind="InputPin" />
                 <Pin Id="SPZH6ncHuglPApLPufTJzk" Name="Output" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="KZjk19gtJMFNq6TyeuRFVj" Bounds="428,615" />
@@ -1538,12 +1534,14 @@
                 <Pin Id="FjjVjUm896JN20jjWnjRMK" Name="Operand" Kind="InputPin" />
                 <Pin Id="KbwrnxCFB2eQDCPnrxZEyN" Name="Output" Kind="OutputPin" />
               </Node>
+              <ControlPoint Id="TVvcKmNzOhcPO35fYQPyC4" Bounds="673,217" />
             </Canvas>
             <Patch Id="A1qcmhO5O8QMRFtIisdrDz" Name="Create" />
             <Patch Id="O0i5yDcgC1OLPmZS1a7Mzd" Name="Update">
               <Pin Id="MmHmJA4M9ctL6dvAf367if" Name="Prediction" Kind="InputPin" Bounds="308,222" />
-              <Pin Id="BCaceIS6qHdPPeN76V2fr5" Name="Output" Kind="OutputPin" Bounds="428,615" />
               <Pin Id="E4g9t81VN2VMiXjeelFPGY" Name="Target" Kind="InputPin" Bounds="530,212" />
+              <Pin Id="UufsyeSOyIfQJqB4QLboKE" Name="Name" Kind="InputPin" Bounds="677,217" Visibility="Optional" />
+              <Pin Id="BCaceIS6qHdPPeN76V2fr5" Name="Output" Kind="OutputPin" Bounds="428,615" />
             </Patch>
             <ProcessDefinition Id="MZj9hnKSvXIO2QSuImNlwC">
               <Fragment Id="BV9usP9ymmZLNA18TqlKap" Patch="A1qcmhO5O8QMRFtIisdrDz" Enabled="true" />
@@ -1554,9 +1552,11 @@
             <Link Id="UZLsXRnz0MWONa0BYXuby8" Ids="A18hHmev0bHO4fovKDBLIp,G8HQW3YF9SFNqr33QPTf0Y" />
             <Link Id="D9hu8tCyPRCLHZw2I3lWod" Ids="E4g9t81VN2VMiXjeelFPGY,A18hHmev0bHO4fovKDBLIp" IsHidden="true" />
             <Link Id="QOASsvZfrDsMIk4Uut8p8H" Ids="Cgr2Rew9BLIQND0HnQZCik,FjjVjUm896JN20jjWnjRMK" />
-            <Link Id="JcAv4gwcxkmQSFzaiG0Iny" Ids="SPZH6ncHuglPApLPufTJzk,KZjk19gtJMFNq6TyeuRFVj" />
             <Link Id="OODa83KHrtmPSvlMRcka0H" Ids="KZjk19gtJMFNq6TyeuRFVj,BCaceIS6qHdPPeN76V2fr5" IsHidden="true" />
             <Link Id="D1beoV9eJkqLXjYkOZDBFw" Ids="KbwrnxCFB2eQDCPnrxZEyN,DuB4Pc27xDELo89JnrC4Zy" />
+            <Link Id="Qc0nrlu9yUVPTNa65PGW9b" Ids="TVvcKmNzOhcPO35fYQPyC4,KlUxOh0niouOt1PAd2wZ5U" />
+            <Link Id="CR4I98St6YbObO7YTKBsMg" Ids="UufsyeSOyIfQJqB4QLboKE,TVvcKmNzOhcPO35fYQPyC4" IsHidden="true" />
+            <Link Id="KHIIhxKvQ8xNw0tQeVYLI0" Ids="SPZH6ncHuglPApLPufTJzk,KZjk19gtJMFNq6TyeuRFVj" />
           </Patch>
         </Node>
       </Canvas>
@@ -1589,6 +1589,6 @@
   <DocumentDependency Id="Iijdu3fRmyHLbmA8FQYghD" Location="./CNTK_Operations.vl" />
   <DocumentDependency Id="TR8tyXQD6aTMYGmYT96ZhC" Location="./CNTK_Utils.vl" />
   <PlatformDependency Id="G6aT6QQGf9vNsQkiUSCwf9" Location="../lib/net461/CNTK.VL.Helpers.dll" />
-  <PlatformDependency Id="TqYJfTSZoSYPo2cQEjIgDy" Location="../lib/net461/Cntk.Core.Managed-2.6.dll" />
   <DocumentDependency Id="G4iZLXecZ71NlSvccFWCKg" Location="./CNTK_Sequence.vl" />
+  <PlatformDependency Id="UgxifR8eqqFL7AOEL3SBZs" Location="../../CNTK.GPU.2.7.0/lib/netstandard2.0/Cntk.Core.Managed-2.7.dll" />
 </Document>
