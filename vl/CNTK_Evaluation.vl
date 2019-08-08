@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="SQtEPj1VjwQMYwdjnYEpwD" Summary="VLML Evalutor Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.1.0-0417-g808f072318" Version="0.128">
+<Document xmlns:p="property" Id="SQtEPj1VjwQMYwdjnYEpwD" Summary="VLML Evalutor Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.1.0-0562-g457400a887" Version="0.128">
   <Patch Id="DhhY8Vnl3b5LNEWFz5NpCg">
     <Canvas Id="NUe4JYbim00LnqO7F9qc6E" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="RDJ8egp4UwNPUwRZACftpx" Name="Evaluation" Position="368,390">
@@ -1991,7 +1991,7 @@
                   <Pin Id="MNyyEAuuoygMS5HI031nE3" Name="Output" Kind="StateOutputPin" />
                 </Node>
                 <Node Bounds="698,11,51,22" Id="JbmGZZeKitjOLXSIc6Dv9F">
-                  <p:NodeReference LastCategoryFullName="VL.Lib.Collections.Spread" LastSymbolSource="VL.Core.dll">
+                  <p:NodeReference LastCategoryFullName="VL.Lib.Collections.Spread" LastSymbolSource="VL.Core.DLL">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Any" />
                     <PinReference Kind="InputPin" Name="Predicate" />
@@ -2415,7 +2415,7 @@
                   <Pin Id="U9Lu7rgV1XrOmlZmT1JxgD" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="597,516,51,22" Id="AXBO2N5gnqIM3z9399mR3J">
-                  <p:NodeReference LastCategoryFullName="VL.Lib.Collections.Spread" LastSymbolSource="VL.Core.dll">
+                  <p:NodeReference LastCategoryFullName="VL.Lib.Collections.Spread" LastSymbolSource="VL.Core.DLL">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Any" />
                     <PinReference Kind="InputPin" Name="Predicate" />
@@ -2793,7 +2793,7 @@
                   <Pin Id="RjClR4IsQyRPeshrhnid2i" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="6,512,51,22" Id="DNwCvST3Wk5Lt0TCFu4sDM">
-                  <p:NodeReference LastCategoryFullName="VL.Lib.Collections.Spread" LastSymbolSource="VL.Core.dll">
+                  <p:NodeReference LastCategoryFullName="VL.Lib.Collections.Spread" LastSymbolSource="VL.Core.DLL">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Any" />
                     <PinReference Kind="InputPin" Name="Predicate" />

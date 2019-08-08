@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="P5jcwScTkgQOKnwpUwLCjz" Summary="VLML Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.1.0-0417-g808f072318" Version="0.128">
+<Document xmlns:p="property" Id="P5jcwScTkgQOKnwpUwLCjz" Summary="VLML Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.1.0-0562-g457400a887" Version="0.128">
   <Patch Id="K5WstgkwwbFPVnvFSt5PXN">
     <Canvas Id="KUj70RuuPE9PFBjdHFx1Ud" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="PE0szg2zj6uQRvA8orbOT3" Name="MathOps" Position="254,234">
@@ -11431,10 +11431,10 @@
         <Canvas Id="RqgMC0UvRynNZtEe081SJJ" Name="Experimental" Position="483,703">
           <!--
 
-    ************************ DepthToShape ************************
+    ************************ DepthToSpace ************************
 
 -->
-          <Node Name="DepthToShape" Bounds="333,351" Id="Qf8BrS0pVD9MOKuxf5JYnf" Summary="Rearranges data from depth into blocks of spatial data." Remarks="This is the reverse transformation of SpaceToDepth. More specifically, this op outputs a copy of the input tensor where values from the depth dimension are moved in spatial blocks to the height and width dimensions. Block_size indicates the input block size and how the data is moved. &#xD;&#xA; &#xD;&#xA;The data_format attr specifies the layout of the input and output tensors with the following options: &quot;NHWC&quot;: [ batch, height, width, channels ] &quot;NCHW&quot;: [ batch, channels, height, width ] &quot;NCHW_VECT_C&quot;: qint8 [ batch, channels / 4, height, width, 4 ]&#xD;&#xA;&#xD;&#xA;It is useful to consider the operation as transforming a 6-D Tensor. e.g. for data_format = NHWC, Each element in the input tensor can be specified via 6 coordinates, ordered by decreasing memory layout significance as: n,iY,iX,bY,bX,oC (where n=batch index, iX, iY means X or Y coordinates within the input image, bX, bY means coordinates within the output block, oC means output channels). The output would be the input transposed to the following layout: n,iY,bY,iX,bX,oC&#xD;&#xA;&#xD;&#xA;This operation is useful for resizing the activations between convolutions (but keeping all data), e.g. instead of pooling. It is also useful for training purely convolutional models.&#xD;&#xA;&#xD;&#xA;For example, given an input of shape [1, 1, 1, 4], data_format = &quot;NHWC&quot; and block_size = 2:&#xD;&#xA;&#xD;&#xA;x = [[[[1, 2, 3, 4]]]]&#xD;&#xA;&#xD;&#xA;This operation will output a tensor of shape [1, 2, 2, 1]:&#xD;&#xA;&#xD;&#xA;   [[[[1], [2]],&#xD;&#xA;     [[3], [4]]]]">
+          <Node Name="DepthToSpace" Bounds="333,351" Id="Qf8BrS0pVD9MOKuxf5JYnf" Summary="Rearranges data from depth into blocks of spatial data." Remarks="This is the reverse transformation of SpaceToDepth. More specifically, this op outputs a copy of the input tensor where values from the depth dimension are moved in spatial blocks to the height and width dimensions. Block_size indicates the input block size and how the data is moved. &#xD;&#xA; &#xD;&#xA;The data_format attr specifies the layout of the input and output tensors with the following options: &quot;NHWC&quot;: [ batch, height, width, channels ] &quot;NCHW&quot;: [ batch, channels, height, width ] &quot;NCHW_VECT_C&quot;: qint8 [ batch, channels / 4, height, width, 4 ]&#xD;&#xA;&#xD;&#xA;It is useful to consider the operation as transforming a 6-D Tensor. e.g. for data_format = NHWC, Each element in the input tensor can be specified via 6 coordinates, ordered by decreasing memory layout significance as: n,iY,iX,bY,bX,oC (where n=batch index, iX, iY means X or Y coordinates within the input image, bX, bY means coordinates within the output block, oC means output channels). The output would be the input transposed to the following layout: n,iY,bY,iX,bX,oC&#xD;&#xA;&#xD;&#xA;This operation is useful for resizing the activations between convolutions (but keeping all data), e.g. instead of pooling. It is also useful for training purely convolutional models.&#xD;&#xA;&#xD;&#xA;For example, given an input of shape [1, 1, 1, 4], data_format = &quot;NHWC&quot; and block_size = 2:&#xD;&#xA;&#xD;&#xA;x = [[[[1, 2, 3, 4]]]]&#xD;&#xA;&#xD;&#xA;This operation will output a tensor of shape [1, 2, 2, 1]:&#xD;&#xA;&#xD;&#xA;   [[[[1], [2]],&#xD;&#xA;     [[3], [4]]]]">
             <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="Builtin">
               <Choice Kind="ContainerDefinition" Name="Process" />
             </p:NodeReference>
@@ -11459,7 +11459,7 @@
                   <Pin Id="EVTefCutCZ3N0yZwoYioAM" Name="Output" Kind="OutputPin" />
                   <Pin Id="R7iH0DJbmsoL7rqFVSZJpe" Name="Value" Kind="OutputPin" />
                 </Node>
-                <Node Bounds="159,291,246,143" Id="Iyi3KcU5xndP3SRQMcMB2t">
+                <Node Bounds="159,291,247,143" Id="Iyi3KcU5xndP3SRQMcMB2t">
                   <p:NodeReference>
                     <Choice Kind="ApplicationRegion" Name="Delegate" />
                     <FullNameCategoryReference ID="Primitive" />
@@ -11485,7 +11485,7 @@
                       <Pin Id="AodGodZVEgxL61dJZr8IVl" Name="Name" Kind="InputPin" />
                       <Pin Id="UidBlFkvpHNN3aBY37Wp5H" Name="Result" Kind="OutputPin" />
                     </Node>
-                    <Node Bounds="264,334,58,26" Id="BE9XtlthfUTOjWmeRj5zHS">
+                    <Node Bounds="257,346,58,26" Id="BE9XtlthfUTOjWmeRj5zHS">
                       <p:NodeReference LastCategoryFullName="Primitive.Integer32" LastSymbolSource="CoreLibBasics.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <CategoryReference Kind="Int32Type" Name="Integer32" />
@@ -11493,6 +11493,19 @@
                       </p:NodeReference>
                       <Pin Id="EpRmFDt66KTNTNQq4RoJsn" Name="Input" Kind="StateInputPin" />
                       <Pin Id="MaXFatn4nKxMFeTcmSvgxj" Name="Result" Kind="OutputPin" />
+                    </Node>
+                    <Node Bounds="254,322,35,19" Id="BCVYccFITSWPlMzTyXW2d6">
+                      <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                        <Choice Kind="OperationCallFlag" Name="Max" />
+                      </p:NodeReference>
+                      <Pin Id="I7jImoehjzKNY6E7dGrnny" Name="Input" Kind="InputPin" />
+                      <Pin Id="N7QZIViUsZrL3wyZ1FfJzt" Name="Input 2" Kind="InputPin" DefaultValue="1">
+                        <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                          <Choice Kind="TypeFlag" Name="Integer32" />
+                        </p:TypeAnnotation>
+                      </Pin>
+                      <Pin Id="MUSNT0FiurrMMzpYaWcKEE" Name="Output" Kind="OutputPin" />
                     </Node>
                   </Patch>
                 </Node>
@@ -11524,7 +11537,7 @@
               <Link Id="KIHGyzEnwWIL0LgDvsqar2" Ids="AtNJenc4te1N7tZRuW4nsw,D5oqS0lKM6LMdkTFBDZIAS" IsHidden="true" />
               <Link Id="B6ilCzj6vvtNR9KXeVX94c" Ids="HYOKsOXguDkNj4wBhnbOMb,Fnv2BkXRQaXLBymU9IxANV" IsHidden="true" />
               <Link Id="LmHHT1TGHW0LRJU5ITqAHb" Ids="D5oqS0lKM6LMdkTFBDZIAS,AodGodZVEgxL61dJZr8IVl" />
-              <Link Id="NiKl61RL7iJMjszmimZUjJ" Ids="L21a8m18wYMQMOSWefkLyG,EpRmFDt66KTNTNQq4RoJsn" />
+              <Link Id="NiKl61RL7iJMjszmimZUjJ" Ids="L21a8m18wYMQMOSWefkLyG,I7jImoehjzKNY6E7dGrnny" />
               <Link Id="Kh65URkJAxVORXI1wBURDS" Ids="MaXFatn4nKxMFeTcmSvgxj,Lt4YyVDPgRMNdmHqdoqKPl" />
               <Link Id="Nr7Zkugy9lqOydmeVag9lP" Ids="JlBhFBfrjnRP0XF6qp8ecN,KqH4mIIsD4GNJDhPNJgMSr" />
               <Link Id="VWlehbcq1VTLc1Vszvfgld" Ids="UidBlFkvpHNN3aBY37Wp5H,HYOKsOXguDkNj4wBhnbOMb" />
@@ -11534,6 +11547,7 @@
               <Link Id="P1Kwa0fgVhAO49YAvSjiJR" Ids="V4L9jNfcUaCPVfq0PITlgm,JIjmUrhE7TxPAyERnKsEZ5" />
               <Link Id="HexjsmwnVWRL9tR2kTgZuY" Ids="EVTefCutCZ3N0yZwoYioAM,M4xdyRKUyCrNVCIyWyEoVy" />
               <Link Id="KnZRn0FRNjXNFn1psk6je3" Ids="R7iH0DJbmsoL7rqFVSZJpe,IPn0DhOWY6JM37SfrCnYDo" />
+              <Link Id="AV5nPryQ19vQOvmFIgYLem" Ids="MUSNT0FiurrMMzpYaWcKEE,EpRmFDt66KTNTNQq4RoJsn" />
             </Patch>
           </Node>
           <!--
@@ -11547,7 +11561,7 @@
             </p:NodeReference>
             <Patch Id="CXzl6MddWSmMEz2in498GP">
               <Canvas Id="D7tuBQb2umYM6vvCPm3Zn8" CanvasType="Group">
-                <Node Bounds="498,386,242,137" Id="N5PYRE8ztwSMgQXJsdxT36">
+                <Node Bounds="498,368,243,155" Id="N5PYRE8ztwSMgQXJsdxT36">
                   <p:NodeReference LastCategoryFullName="VLML.Core.Templates" LastSymbolSource="CNTK_Core.vl">
                     <Choice Kind="ProcessAppFlag" Name="SingleVarTemplate_1" />
                     <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
@@ -11564,7 +11578,7 @@
                     <Pin Id="KWOtIhzz6acMsAHlYEbKum" Name="Arg 3" Kind="InputPin" />
                     <Pin Id="GZtdn4EKcn0MgUm1AzW0PU" Name="Result" Kind="OutputPin" />
                     <ControlPoint Id="ST9Uyol2KEKLBwstM9wmtI" Bounds="502,394" />
-                    <ControlPoint Id="Ng2Oo79851AMRDTNJcGxfj" Bounds="578,394" />
+                    <ControlPoint Id="Ng2Oo79851AMRDTNJcGxfj" Bounds="578,376" />
                     <ControlPoint Id="OJQM1nH6OxwLsqew4Ges9Z" Bounds="693,394" />
                     <ControlPoint Id="UwjRVzbwm2ELl1vTlRycof" Bounds="506,516" />
                     <Node Bounds="516,472,125,19" Id="CN1VReQNsIKNTG6lqgA5yY">
@@ -11588,6 +11602,19 @@
                       <Pin Id="C8cR0QxxIdaMcRwpaSeNDj" Name="Input" Kind="InputPin" />
                       <Pin Id="VbrMdnqSbisOS1Ml1dlwB0" Name="Result" Kind="OutputPin" />
                     </Node>
+                    <Node Bounds="578,400" Id="FDoxZbb6wmTN6Zu4TN30HW">
+                      <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
+                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                        <Choice Kind="OperationCallFlag" Name="Max" />
+                      </p:NodeReference>
+                      <Pin Id="BLBher1nt5SOK3U7cSsUMG" Name="Input" Kind="InputPin" />
+                      <Pin Id="VxqNKyJsYtNMAfpMufDln4" Name="Input 2" Kind="InputPin" DefaultValue="1">
+                        <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                          <Choice Kind="TypeFlag" Name="Integer32" />
+                        </p:TypeAnnotation>
+                      </Pin>
+                      <Pin Id="KShlEgo6gGcOu6Pe06I47Y" Name="Output" Kind="OutputPin" />
+                    </Node>
                   </Patch>
                 </Node>
                 <ControlPoint Id="CovhxVrIIGrQAxIpHUzkeA" Bounds="535,269" />
@@ -11604,9 +11631,6 @@
                 <Pin Id="CoPAvNKpAPuLswlQy7R70A" Name="Block Size" Kind="InputPin" Bounds="530,276" DefaultValue="1" Summary="An int that is &gt;= 2. The size of the spatial block." />
                 <Pin Id="SaNRlCPr9ylOFPgBQO7TKj" Name="Name" Kind="InputPin" Bounds="657,261" Visibility="Optional" />
                 <Pin Id="CO2TmhESyUROWobZYJFwFL" Name="Debug" Kind="InputPin" Visibility="Optional">
-                  <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
-                </Pin>
-                <Pin Id="RKnu1Nn2HsoOKqmO8a3j99" Name="Context" Kind="InputPin">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
                 <Pin Id="Otg3yj2Wn7TLQqplUjB5FL" Name="Output" Kind="OutputPin" Bounds="492,622" />
@@ -11634,9 +11658,10 @@
               <Link Id="BmxA6zWextIPNIyphqgApW" Ids="SbueKmXItbeLMSE5pgWWHB,UwjRVzbwm2ELl1vTlRycof" />
               <Link Id="CIXpNCIoNmeMShx15vJ8kC" Ids="ST9Uyol2KEKLBwstM9wmtI,Kd2tPE1YHs1O3zldt6lzvC" />
               <Link Id="ODooKsxklXqPQvxZEl6GDs" Ids="OJQM1nH6OxwLsqew4Ges9Z,SIQD3ButS3WPpfiV6ut0mK" />
-              <Link Id="I78Go42CGL7OiVJZ2LemkU" Ids="Ng2Oo79851AMRDTNJcGxfj,C8cR0QxxIdaMcRwpaSeNDj" />
+              <Link Id="I78Go42CGL7OiVJZ2LemkU" Ids="Ng2Oo79851AMRDTNJcGxfj,BLBher1nt5SOK3U7cSsUMG" />
               <Link Id="BjhS6QeuIVhOt85x7B9x53" Ids="UwjRVzbwm2ELl1vTlRycof,GZtdn4EKcn0MgUm1AzW0PU" IsHidden="true" />
               <Link Id="U1C7Zx8iNweLzXPmL4oHUz" Ids="VbrMdnqSbisOS1Ml1dlwB0,FVHZEXYVhFcNMgZl5PqLNM" />
+              <Link Id="CXqhIiLkxfuOTOPY9rjneA" Ids="KShlEgo6gGcOu6Pe06I47Y,C8cR0QxxIdaMcRwpaSeNDj" />
             </Patch>
           </Node>
         </Canvas>
