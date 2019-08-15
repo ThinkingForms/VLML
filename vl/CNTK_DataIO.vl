@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="U0u96t61MHPLDzJOnIvZZD" LanguageVersion="2019.1.0-0417-g808f072318" Version="0.128">
+<Document xmlns:p="property" Id="U0u96t61MHPLDzJOnIvZZD" LanguageVersion="2019.1.0-0562-g457400a887" Version="0.128">
   <Patch Id="JSW0PLjff6iOCBacLF0O2B">
     <Canvas Id="KOybJZnVw2QPNgHyVMU73W" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="HSpE7NEJAl7MlIlfjhxNO7" Name="DataIO" Position="329,384">
@@ -10346,7 +10346,7 @@
                     <p:stringtype p:Assembly="VL.Core" p:Type="VL.Core.StringType">Comment</p:stringtype>
                   </p:ValueBoxSettings>
                 </Pad>
-                <ControlPoint Id="P7mYS4vppzbPwiynjLwbXR" Bounds="475,570" />
+                <ControlPoint Id="P7mYS4vppzbPwiynjLwbXR" Bounds="439,555" />
                 <ControlPoint Id="TWOJszQ7UHBMCV4JWtAFR8" Bounds="552,575" />
                 <Node Bounds="165,584,30,19" Id="E9hPnmL2EXlOnwDonznOqY">
                   <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastSymbolSource="CoreLibBasics.vl">
@@ -11341,6 +11341,73 @@
                         <CategoryReference Kind="AssemblyCategory" Name="StreamConfigurationVector" NeedsToBeDirectParent="true" />
                       </p:NodeReference>
                       <Pin Id="FUZPYYgT2a6Pz9ZZKBkoI3" Name="Output" Kind="StateOutputPin" />
+                    </Node>
+                    <Node Bounds="648,898,207,131" Id="TDabjT55ktpLcrfiaYqMla">
+                      <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                        <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
+                        <Choice Kind="ApplicationStatefulRegion" Name="If" />
+                        <CategoryReference Kind="Category" Name="Primitive" />
+                      </p:NodeReference>
+                      <Pin Id="GcWiuHPuuSOLe8KjjFM8aC" Name="Condition" Kind="InputPin" />
+                      <Patch Id="DmgHgbd4qBqN5xwY4fcKNg" ManuallySortedPins="true">
+                        <Patch Id="DyvQvNqYERdPANmo48xfqG" Name="Create" ManuallySortedPins="true" />
+                        <Patch Id="JBUTkNCIZlrO9LTiGo5NZt" Name="Then" ManuallySortedPins="true" />
+                        <Node Bounds="660,921,85,19" Id="R0sY173AZKiNz3pe5wWivI">
+                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="AssemblyCategory" Name="CNTK" />
+                            <Choice Kind="OperationCallFlag" Name="Crop" />
+                            <PinReference Kind="InputPin" Name="Name" />
+                            <PinReference Kind="InputPin" Name="Offset X" />
+                          </p:NodeReference>
+                          <Pin Id="Mw4oG1UYJgCMGpWRWr5F34" Name="Node Input" Kind="InputPin" />
+                          <Pin Id="CfihaiSc9WALPEoO77LGBM" Name="Node Referent" Kind="InputPin" />
+                          <Pin Id="KQT13kEpFrMMhyNXN99r1n" Name="Offset X" Kind="InputPin" />
+                          <Pin Id="MNvfZ2SwqUnNWaQOY47mq6" Name="Offset Y" Kind="InputPin" />
+                          <Pin Id="SWj5NXOjp50QTKMDEFCgc5" Name="Name" Kind="InputPin" />
+                          <Pin Id="Jwolb4FwQxgQCJIpNfjirc" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="738,990,105,19" Id="IKY9RnxbknpQA3kBJQzjkl">
+                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <Choice Kind="OperationCallFlag" Name="ReaderCrop" />
+                            <PinReference Kind="InputPin" Name="Area Ratio">
+                              <p:DataTypeReference p:Type="TypeReference" LastCategoryFullName="System" LastSymbolSource="mscorlib.dll">
+                                <Choice Kind="TypeFlag" Name="Tuple`2" />
+                                <p:TypeArguments>
+                                  <TypeReference LastCategoryFullName="System" LastSymbolSource="mscorlib.dll">
+                                    <Choice Kind="TypeFlag" Name="Single" />
+                                  </TypeReference>
+                                  <TypeReference LastCategoryFullName="System" LastSymbolSource="mscorlib.dll">
+                                    <Choice Kind="TypeFlag" Name="Single" />
+                                  </TypeReference>
+                                </p:TypeArguments>
+                              </p:DataTypeReference>
+                            </PinReference>
+                          </p:NodeReference>
+                          <Pin Id="Q17HyUA32foLOYyezz2sxt" Name="Crop Type" Kind="InputPin" />
+                          <Pin Id="P0zFkWn2hVqQSCKzsGyf72" Name="Crop Size" Kind="InputPin" />
+                          <Pin Id="Gu5N98Sf5xhOaZzvXAKY5B" Name="Side Ratio" Kind="InputPin" />
+                          <Pin Id="E8TXc1HkBU0P4djJcxuNn0" Name="Area Ratio" Kind="InputPin" />
+                          <Pin Id="PSVdnbQDOudLQZwu2mvbps" Name="Aspect Ratio" Kind="InputPin" />
+                          <Pin Id="AycYHFN3bXRMgTNKygUMfA" Name="Jitter Type" Kind="InputPin" />
+                          <Pin Id="A6qRFfgY2JdMwrjgnM0NYN" Name="Result" Kind="OutputPin" />
+                        </Node>
+                        <Node Bounds="660,959,85,19" Id="FR1GBJAuWNVOohFUtwaAus">
+                          <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
+                            <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                            <CategoryReference Kind="AssemblyCategory" Name="CNTK" />
+                            <Choice Kind="OperationCallFlag" Name="ReaderScale" />
+                            <PinReference Kind="InputPin" Name="Scale Mode" />
+                          </p:NodeReference>
+                          <Pin Id="BWGoO5wSRE6LJXdNAp9jUA" Name="Width" Kind="InputPin" />
+                          <Pin Id="EZfJuNltH9hLbDinfa4jZK" Name="Height" Kind="InputPin" />
+                          <Pin Id="IKhil8KyN6zOAhNNbtwLop" Name="Channels" Kind="InputPin" />
+                          <Pin Id="MLL1xCIcQDwOsmYMDE4lMs" Name="Interpolations" Kind="InputPin" />
+                          <Pin Id="HEqz5LIz2REPhZIVDJTvZk" Name="Scale Mode" Kind="InputPin" />
+                          <Pin Id="KVwQQtkLtqiLPNqJrHyHfV" Name="Result" Kind="OutputPin" />
+                        </Node>
+                      </Patch>
                     </Node>
                   </Patch>
                   <ControlPoint Id="DDucD3iuv90QKntQTNnli9" Bounds="619,437" Alignment="Top" />

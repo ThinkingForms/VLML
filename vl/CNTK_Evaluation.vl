@@ -6710,7 +6710,7 @@
                             <Patch Id="L6QHsA5rZVVNhki7WuwDM8" ManuallySortedPins="true">
                               <Patch Id="El3K1yXsV9kOcJRKsC6YvA" Name="Create" ManuallySortedPins="true" />
                               <Patch Id="EimPu0qdnOMNSDidRuxGxI" Name="Then" ManuallySortedPins="true" />
-                              <Node Bounds="360,750,283,301" Id="DEhqYXftkQtMvKZwXKhHPD">
+                              <Node Bounds="360,750,368,302" Id="DEhqYXftkQtMvKZwXKhHPD">
                                 <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                                   <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -6720,7 +6720,7 @@
                                 <Patch Id="O5ju23u7fI7O8B5GMf12rT" ManuallySortedPins="true">
                                   <Patch Id="L9kVXosP0MFMBfzIX2brs8" Name="Create" ManuallySortedPins="true" />
                                   <Patch Id="JI8f1N6chUINiKHcddDtiP" Name="Update" ManuallySortedPins="true" />
-                                  <Patch Id="QTUxdEKCEF3PoWjM8sOWmv" Name="Dispose" ManuallySortedPins="true" />
+                                  <Patch Id="QTUxdEKCEF3PoWjM8sOWmv" Name="Dispose" ParticipatingElements="RNbNttGURyJM0K3sfJFnUY" ManuallySortedPins="true" />
                                   <Node Bounds="548,844,75,22" Id="DaY1QjJRsJ6QDe6nYOSOaa">
                                     <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
@@ -6760,7 +6760,7 @@
                                     <Pin Id="G4cTrozfbaYMydeXmSlvHX" Name="Input" Kind="StateInputPin" />
                                     <Pin Id="VYDkpNTxEg0MYbNzq58unv" Name="Result" Kind="OutputPin" />
                                   </Node>
-                                  <Node Bounds="498,963,33,22" Id="Uj6M7UgD8dpQB2EFX6oqNZ">
+                                  <Node Bounds="470,963,40,26" Id="Uj6M7UgD8dpQB2EFX6oqNZ">
                                     <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                       <Choice Kind="OperationCallFlag" Name="Erase" />
@@ -6769,7 +6769,7 @@
                                     <Pin Id="Hnq71tKX6eUO6c3nJFwCgD" Name="Input" Kind="StateInputPin" />
                                     <Pin Id="Lizb9r6N1swPPYit6GyFfF" Name="Output" Kind="StateOutputPin" />
                                   </Node>
-                                  <Node Bounds="498,996,51,22" Id="HIv0KpVDldQPPkFAjNmuRr">
+                                  <Node Bounds="470,996,53,26" Id="HIv0KpVDldQPPkFAjNmuRr">
                                     <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
                                       <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                                       <Choice Kind="OperationCallFlag" Name="Dispose" />
@@ -6789,6 +6789,25 @@
                                     <Pin Id="T9f5ZepypwELmra4K8F29e" Name="Result" Kind="OutputPin" />
                                     <Pin Id="MZ1kUEZto99PHK8EVwZJyZ" Name="Value" Kind="OutputPin" />
                                   </Node>
+                                  <Node Bounds="663,898,40,26" Id="HJx968RaFF4NfbqHeDTkhD">
+                                    <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
+                                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                                      <Choice Kind="OperationCallFlag" Name="Erase" />
+                                      <CategoryReference Kind="AssemblyCategory" Name="Value" NeedsToBeDirectParent="true" />
+                                    </p:NodeReference>
+                                    <Pin Id="VoIrZ7ue3dUOlZaAOwhQz6" Name="Input" Kind="StateInputPin" />
+                                    <Pin Id="MqMNlRNpEETQTqXReoHxju" Name="Output" Kind="StateOutputPin" />
+                                  </Node>
+                                  <Node Bounds="663,931,53,26" Id="UIngS0G1rYZNcn6nwVTHNb">
+                                    <p:NodeReference LastCategoryFullName="CNTK.Value" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
+                                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                                      <Choice Kind="OperationCallFlag" Name="Dispose" />
+                                      <CategoryReference Kind="AssemblyCategory" Name="Value" NeedsToBeDirectParent="true" />
+                                    </p:NodeReference>
+                                    <Pin Id="Hu0Nu2daU80MQHHgLSEBye" Name="Input" Kind="StateInputPin" />
+                                    <Pin Id="SibQkAMEaRmLPP4RTqldNe" Name="Output" Kind="StateOutputPin" />
+                                  </Node>
+                                  <Pad Id="VbPhTYoHPjPLC6lBrqqrTo" Comment="" Bounds="664,877,20,15" isIOBox="true" />
                                 </Patch>
                                 <ControlPoint Id="Sd16YnfI78DN7p5LJpLPyQ" Bounds="621,757" Alignment="Top" />
                                 <ControlPoint Id="I9Yu3kys8uxNAXo4l6D0A1" Bounds="376,1045" Alignment="Bottom" />
@@ -6918,6 +6937,7 @@
                 <ProcessDefinition Id="OGnPiXt3mnEMUrxqsyScVU">
                   <Fragment Id="VWbJQXAIBcXLs214ADxwbu" Patch="L0AtyeK9eHjPZvJrbDX1U8" Enabled="true" />
                   <Fragment Id="MaRsSK6XsWhO9LhtjnQKCM" Patch="NqO8CZyq82aMyCYl4nde1O" Enabled="true" />
+                  <Fragment Id="INPE1zf8m4uLkyAR0rwDe0" Patch="UPez3rStOewLkALhOqjpUI" />
                 </ProcessDefinition>
                 <Link Id="NP1OB6DRgQ6Mv4Ntmrtoey" Ids="LmnwN4iHX44Mkh3i21BN0Y,O2QAwI5GS4NP8NLBc7Byjw" />
                 <Link Id="LVTmwcaX490NFWP1QnXzUE" Ids="Nk0ahJazkCZP0qpAYYHQkM,LmnwN4iHX44Mkh3i21BN0Y" IsHidden="true" />
@@ -6984,6 +7004,10 @@
                 <Link Id="CY1SRNffW7JPHd694sDk7H" Ids="Sd16YnfI78DN7p5LJpLPyQ,DAoDUPe674aNMk8q3SarJt" />
                 <Link Id="TNyfDKvS1hdQQLOXaklmqd" Ids="GeYsRKDmQMlOWD7CyjfXbe,Gls9iff4O83OXRdPik8HR0" />
                 <Link Id="AJkeCci6xmANNh40IhhSdS" Ids="MZ1kUEZto99PHK8EVwZJyZ,USLh7Fb0uQAOHXSlwYSHNR" />
+                <Patch Id="UPez3rStOewLkALhOqjpUI" Name="Destroy" />
+                <Link Id="QG557t8BD1QMhS6WaxAkDc" Ids="MqMNlRNpEETQTqXReoHxju,Hu0Nu2daU80MQHHgLSEBye" />
+                <Link Id="VcYjkBFGtlbOIhQQf7Gkf7" Ids="QYYJoCWCPGKN6ubbRkbBTt,VbPhTYoHPjPLC6lBrqqrTo" />
+                <Link Id="RNbNttGURyJM0K3sfJFnUY" Ids="VbPhTYoHPjPLC6lBrqqrTo,VoIrZ7ue3dUOlZaAOwhQz6" />
               </Patch>
             </Node>
             <!--

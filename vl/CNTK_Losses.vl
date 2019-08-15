@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="B6DOoJR72RyLEFXDuFqRS2" LanguageVersion="2019.1.0-0417-g808f072318" Version="0.128">
+<Document xmlns:p="property" Id="B6DOoJR72RyLEFXDuFqRS2" LanguageVersion="2019.1.0-0562-g457400a887" Version="0.128">
   <Patch Id="ERP90BKJLBgPyjg1xaxREJ">
     <Canvas Id="GFjpELdK7XpNdqiTYotKCR" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="HRnBt0PcIsoNqnQIrms9mR" Name="Losses" Position="337,324">
@@ -1409,7 +1409,7 @@
             <Patch Id="Oue94KEE7MQOJPOIGT4LC7" Name="Update">
               <Pin Id="SRZP5ivgITlNoet8AQ7FP9" Name="Prediction" Kind="InputPin" Bounds="302,318" Summary="Has a Sigmoid internally so logits can be used." />
               <Pin Id="KLTd8AispJ9PZ46dZLuHnN" Name="Target" Kind="InputPin" Bounds="390,361" Summary="Should be true or False (Use Oneslike or Zeroslike yo set this criterion" />
-              <Pin Id="NXjT3B5mkd4LRYhatoIsYB" Name="Name" Kind="InputPin" Bounds="474,357" />
+              <Pin Id="NXjT3B5mkd4LRYhatoIsYB" Name="Name" Kind="InputPin" Bounds="474,357" Visibility="Optional" />
               <Pin Id="DhowDtRO7OwNwANxAmKemZ" Name="Output" Kind="OutputPin" Bounds="296,549" />
             </Patch>
             <ProcessDefinition Id="IhW5e0HACmaMqpitDiuYLP">
@@ -1458,6 +1458,7 @@
                   <CategoryReference Kind="Category" Name="Reducers" NeedsToBeDirectParent="true" />
                 </p:NodeReference>
                 <Pin Id="PsGfOcRwe87LP9H4xTXhlH" Name="Operand" Kind="InputPin" />
+                <Pin Id="Qr9MpHLBMpgM4OyHw6JwNo" Name="Name" Kind="InputPin" />
                 <Pin Id="N35vpuGjhzeMKC7ErL6lRu" Name="Output" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="LH6c7kOTeiOMPcPqpqpGe7" Bounds="428,615" />
@@ -1470,11 +1471,13 @@
                 <Pin Id="MbTl0SXdrcINFuSTo5yQyJ" Name="Operand" Kind="InputPin" />
                 <Pin Id="PwYu5hnvb9ENsy8zv56IUq" Name="Output" Kind="OutputPin" />
               </Node>
+              <ControlPoint Id="AwVY16KWkskLKFRtzHSb1X" Bounds="654,215" />
             </Canvas>
             <Patch Id="TR54EAbOYK8M5MyTnVNASR" Name="Create" />
             <Patch Id="NcHX1W7uFk6OX081TP3xng" Name="Update">
               <Pin Id="DqjJQqVq2uHLNGy3nqDElg" Name="Prediction" Kind="InputPin" Bounds="308,222" />
               <Pin Id="BctvEEyF8q7P2jV902ZTPE" Name="Target" Kind="InputPin" Bounds="530,212" />
+              <Pin Id="I1iqIU983g5PrV49V6nhaj" Name="Name" Kind="InputPin" Bounds="653,213" Visibility="Optional" />
               <Pin Id="HeA1rmCbZlkL9JTgmlzWT6" Name="Output" Kind="OutputPin" Bounds="428,615" />
             </Patch>
             <ProcessDefinition Id="KI6fjfuh42aOItxW5ZuIir">
@@ -1489,6 +1492,8 @@
             <Link Id="D7y1uYVkrehN3LDV45GchM" Ids="PwYu5hnvb9ENsy8zv56IUq,PsGfOcRwe87LP9H4xTXhlH" />
             <Link Id="KsAbidQEgbFOmamoi2llG2" Ids="HTcQJucr1KePrOE2I60s0b,N8LRMEai69DLq68Qh34X6D" />
             <Link Id="P5oKYLy10zDNHStytaJfHK" Ids="Pz4MOEhULK4OeH6cK37a21,IW58tztF2o5LVKG8Gh83KP" />
+            <Link Id="TsAbOLg2C7GNYCOo8GlLp7" Ids="AwVY16KWkskLKFRtzHSb1X,Qr9MpHLBMpgM4OyHw6JwNo" />
+            <Link Id="EiM3kqb3Dc2QNVsNj17XZ7" Ids="I1iqIU983g5PrV49V6nhaj,AwVY16KWkskLKFRtzHSb1X" IsHidden="true" />
           </Patch>
         </Node>
         <!--

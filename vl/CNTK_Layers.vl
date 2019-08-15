@@ -1343,12 +1343,16 @@
                 </Pin>
                 <Pin Id="UkwoGw1F6oCQXPfeSQpzjh" Name="Reduce Rank" Kind="InputPin" Bounds="828,237" Visibility="Optional" />
                 <Pin Id="A182BrNFuxvPo96OI39P0z" Name="Sequential" Kind="InputPin" Bounds="724,287" Visibility="Optional" />
-                <Pin Id="VybqsC8aUFKQZY2pcYc1es" Name="Initializer" Kind="InputPin" DefaultValue="GloroNormal" Visibility="Optional">
+                <Pin Id="VybqsC8aUFKQZY2pcYc1es" Name="Initializer" Kind="InputPin" DefaultValue="Normal" Visibility="Optional">
                   <p:TypeAnnotation LastCategoryFullName="CNTK.VL.Helpers.SetMyInitializers" LastSymbolSource="CNTK.VL.Helpers.dll">
                     <Choice Kind="TypeFlag" Name="Initializers" />
                   </p:TypeAnnotation>
                 </Pin>
-                <Pin Id="G5iWNmbK4GMOobM5ASE4rR" Name="Init Scale" Kind="InputPin" Bounds="803,323" Visibility="Optional" />
+                <Pin Id="G5iWNmbK4GMOobM5ASE4rR" Name="Init Scale" Kind="InputPin" Bounds="803,323" DefaultValue="0.0999999977648258" Visibility="Optional">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Float64" />
+                  </p:TypeAnnotation>
+                </Pin>
                 <Pin Id="ML0GggxcyNnLKIk8l3BIHI" Name="Name" Kind="InputPin" Visibility="Optional">
                   <p:TypeAnnotation>
                     <Choice Kind="TypeFlag" Name="String" />
@@ -16388,7 +16392,7 @@
                     <CategoryReference Kind="Category" Name="Functions" />
                     <Choice Kind="OperationCallFlag" Name="Name" />
                   </p:NodeReference>
-                  <Pin Id="IzfquVupcWIMCp2VqvpXbI" Name="Input" Kind="InputPin" />
+                  <Pin Id="IzfquVupcWIMCp2VqvpXbI" Name="Operation" Kind="InputPin" />
                   <Pin Id="SgKSRxseQhgN0S8l98ksV4" Name="Name" Kind="OutputPin" />
                 </Node>
                 <Pad Id="FIZ6mg8LUMhPr8PSBEptKu" Comment="Force" Bounds="414,191,35,35" ShowValueBox="true" isIOBox="true" Value="False">

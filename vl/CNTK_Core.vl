@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Dg1g9Xqk83pMcSbs9aBDQb" Summary="Main conversion patch for CNTK features sanitized for VL" Authors="Hayden Anyasi, vvvv group" Credits="Motzi, Velcrome, Sebl, Natan" LanguageVersion="2019.1.0-0417-g808f072318" Version="0.128">
+<Document xmlns:p="property" Id="Dg1g9Xqk83pMcSbs9aBDQb" Summary="Main conversion patch for CNTK features sanitized for VL" Authors="Hayden Anyasi, vvvv group" Credits="Motzi, Velcrome, Sebl, Natan" LanguageVersion="2019.1.0-0562-g457400a887" Version="0.128">
   <Patch Id="LxLbNTWJxlPPfBYWB6LKhu">
     <Canvas Id="FHcvwudRB2iNrvQuSK77nY" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="SJjPAZPUqgqQbCkWCvezVW" Name="Core" Position="604,307">
@@ -7658,12 +7658,23 @@
                     <Pin Id="Bezt35TUC39NeqwIIoeoYl" Name="Success" Kind="OutputPin" />
                     <Pin Id="EG9UP6zbqPlMS7wRWGAOq8" Name="Value" Kind="OutputPin" />
                   </Node>
-                  <ControlPoint Id="DCvIObx9nq8QZX9cPtoO5S" Bounds="631,912" />
+                  <ControlPoint Id="DCvIObx9nq8QZX9cPtoO5S" Bounds="696,929" />
                   <ControlPoint Id="NqJP3G2ROf2NqApAEDTyUX" Bounds="365,890" />
                   <ControlPoint Id="FRYsDRjlTaHOTXFc7bBk9p" Bounds="329,224" />
                   <ControlPoint Id="J8KY3UAbE00LIRXfXnkHYG" Bounds="468,237" />
                   <ControlPoint Id="GSMRqMfK2V6LILXlihdlqK" Bounds="634,308" />
-                  <Pad Id="E2uSGrY8tTyMxQ0F7Pg52M" Comment="Success" Bounds="516,903,35,35" ShowValueBox="true" isIOBox="true" />
+                  <Pad Id="E2uSGrY8tTyMxQ0F7Pg52M" Comment="Success" Bounds="500,933,35,35" ShowValueBox="true" isIOBox="true" />
+                  <Node Bounds="407,304,81,13" Id="UmymYnbK7DfL283rHekopN">
+                    <p:NodeReference LastCategoryFullName="Primitive.TypeHelpers" LastSymbolSource="CoreLibBasics.vl">
+                      <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                      <Choice Kind="OperationCallFlag" Name="ConstrainTypes" />
+                    </p:NodeReference>
+                    <Pin Id="C5T0WN1Dej5QTAg7YCY4Q6" Name="Input" Kind="InputPin" />
+                    <Pin Id="QsxfKKuQIpgPHNYuIOxdnw" Name="Input 2" Kind="InputPin" />
+                    <Pin Id="FYkHZvVpdcfQGYraGhyCMp" Name="Input 3" Kind="InputPin" />
+                    <Pin Id="EtZdPectLFUNGJwGskVr5M" Name="Input 4" Kind="InputPin" />
+                  </Node>
+                  <ControlPoint Id="DCet6veuaqfMDWpNxaPAkf" Bounds="894,684" />
                 </Canvas>
                 <Patch Id="IVUlTFfcHi9N0a6Vp332WA" Name="Create" />
                 <ProcessDefinition Id="DjwI9w47hP1NpPY7lw9GH6">
@@ -7685,7 +7696,21 @@
                     <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                   </Pin>
                   <Pin Id="GHxUlx4OW0uMrHMllBgkTy" MergeId="1037990" Name="Output" Kind="OutputPin" Bounds="485,928" />
-                  <Pin Id="Uj9V3Ass88wMCiGFUT8hTq" MergeId="1021014" Name="Value" Kind="OutputPin" Bounds="3974,3171" />
+                  <Pin Id="Uj9V3Ass88wMCiGFUT8hTq" MergeId="1021014" Name="Value" Kind="OutputPin" Bounds="3974,3171">
+                    <p:TypeAnnotation>
+                      <Choice Kind="TypeFlag" Name="IMutableList" />
+                      <p:TypeArguments>
+                        <TypeReference>
+                          <Choice Kind="TypeFlag" Name="IMutableList" />
+                          <p:TypeArguments>
+                            <TypeReference>
+                              <Choice Kind="TypeFlag" Name="Float32" />
+                            </TypeReference>
+                          </p:TypeArguments>
+                        </TypeReference>
+                      </p:TypeArguments>
+                    </p:TypeAnnotation>
+                  </Pin>
                 </Patch>
                 <Link Id="KcggOb2F8EANkMCAEKYDq0" Ids="Jjl5es7LThoQbB3F2YNBBM,Ranv6kAxwz1QTZWuQxpYBf" />
                 <Link Id="KH0XRkh7BodO46QbiG0X6o" Ids="HhDY1l6Heb2Ni5jqLQ7JZK,PaFSYSV9hGnMunTOHL0caE" IsHidden="true" />
@@ -7725,6 +7750,10 @@
                 <Link Id="NIywm8a85XPOfYmxba22my" Ids="Jjl5es7LThoQbB3F2YNBBM,HnxcQz0pZiRP7S7qAWfhbt" />
                 <Link Id="GhmbBeZ8O3TMPc896JgQOv" Ids="LDjT8O4Z45dQCNaCBlQmbs,Co0ZngVQ5aOPLH14UswrDC" />
                 <Link Id="EtYPP8SdJp5PiWW9bd4oC5" Ids="Bezt35TUC39NeqwIIoeoYl,E2uSGrY8tTyMxQ0F7Pg52M" />
+                <Link Id="AdHCyj6rf3TOzuV980K6lw" Ids="PaFSYSV9hGnMunTOHL0caE,C5T0WN1Dej5QTAg7YCY4Q6" />
+                <Link Id="Fvccfh30h3DOCbmm9euPko" Ids="J8KY3UAbE00LIRXfXnkHYG,QsxfKKuQIpgPHNYuIOxdnw" />
+                <Link Id="Gxrw1LOPyVaMWZkkBOX0Mq" Ids="DCet6veuaqfMDWpNxaPAkf,RBXlOVYiI3KORALEby906t" />
+                <Link Id="ELZiPNMUZ4OLwFQyOLebhE" Ids="J5cewCHHzGNMhOXjiHPKGG,DCet6veuaqfMDWpNxaPAkf" IsHidden="true" />
               </Patch>
             </Node>
             <!--
