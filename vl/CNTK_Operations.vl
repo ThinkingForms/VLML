@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="P5jcwScTkgQOKnwpUwLCjz" Summary="VLML Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.1.0-0959-g3a31ab0c51" Version="0.128">
+<Document xmlns:p="property" Id="P5jcwScTkgQOKnwpUwLCjz" Summary="VLML Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.2.0-0126-07acdd0d5f" Version="0.128">
   <Patch Id="K5WstgkwwbFPVnvFSt5PXN">
     <Canvas Id="KUj70RuuPE9PFBjdHFx1Ud" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="PE0szg2zj6uQRvA8orbOT3" Name="MathOps" Position="254,234">
@@ -16,7 +16,7 @@
             <Canvas Id="CnASx8gT56wP9yPFXbrifM" CanvasType="Group">
               <ControlPoint Id="I78FHAgOQl7LA97cxDEjlI" Bounds="651,305" />
               <ControlPoint Id="RkB4S7jumT4OMmFH6alIUY" Bounds="438,650" />
-              <ControlPoint Id="HmXwLBnxpddNWjUmSpbgeo" Bounds="588,660" />
+              <ControlPoint Id="HmXwLBnxpddNWjUmSpbgeo" Bounds="562,641" />
               <ControlPoint Id="NdELOgk3WabMRBvGPgCPv7" Bounds="348,310" />
               <ControlPoint Id="HnkKriKjAmQMnOXephYQhn" Bounds="491,304" />
               <ControlPoint Id="M8vnN17ImIsNT1LWF7NR6A" Bounds="752,303" />
@@ -10749,7 +10749,6 @@
                       <Choice Kind="TypeFlag" Name="Integer32" />
                       <FullNameCategoryReference ID="Primitive" />
                     </p:TypeAnnotation>
-                    <p:ValueBoxSettings />
                   </Pad>
                   <Link Id="FmFqyvKKWlRNuDpbFqWMj0" Ids="LsjKfGo7glmQcukc2219ZR,NpNMeCC9s6YOuMkSluR8dc" />
                   <Link Id="CZhKZbpAcenQDKGlXgG8uk" Ids="VoT0joVRjA3Osc8OjSBdrH,INzDCAcSWLdLmnZym2SiuU" />
@@ -10871,9 +10870,8 @@
                       <Pin Id="BuZSPrlU2aaNy6EfObggOr" Name="Input" Kind="InputPin" />
                       <Pin Id="CvrLRRFb2FjPHKaP3JnT57" Name="Result" Kind="OutputPin" />
                     </Node>
-                    <Pad Id="Q3ZSCrZCwYcMe3kGcKzTms" Comment="" Bounds="393,467" isIOBox="true" />
                     <Pad Id="ENdTVeWAuVVLMlUQxtdcWe" Comment="" Bounds="457,560,88,30" ShowValueBox="true" isIOBox="true" />
-                    <ControlPoint Id="G0ujzh59SZwPDzux1hBZYh" Bounds="389,411" />
+                    <ControlPoint Id="G0ujzh59SZwPDzux1hBZYh" Bounds="361,408" />
                     <ControlPoint Id="GZKr8RQcn2UNDcy5ZWWwbH" Bounds="448,410" />
                     <ControlPoint Id="JefMzC518IEM0PR2rxsXn7" Bounds="384,922" />
                     <ControlPoint Id="Ep49yk5Oyo0PLyDToUfFHr" Bounds="559,929" />
@@ -10904,9 +10902,6 @@
                   <Link Id="JnjIAPNKN3cPQGwlVxqv49" Ids="ENdTVeWAuVVLMlUQxtdcWe,ArRSOaTCrNaLSHFBJ2bnhj" />
                   <Link Id="BEbKdIUyF6wP51EdVhXsUs" Ids="ENdTVeWAuVVLMlUQxtdcWe,LDxDyu547iSM98dIjJuosk" />
                   <Link Id="KKx50lv76SONMrXls8Dr5n" Ids="CvrLRRFb2FjPHKaP3JnT57,GajYHH43cAwPDZksyP5TGV" />
-                  <Link Id="Srda3ljE0ypLAqzzdh19MS" Ids="Q3ZSCrZCwYcMe3kGcKzTms,BuZSPrlU2aaNy6EfObggOr" />
-                  <Link Id="AsDEaByjl22QLu3olrI48P" Ids="Q3ZSCrZCwYcMe3kGcKzTms,E2ETGUpDeLmM7Ppz7aZEfA" />
-                  <Link Id="MeeEoGXgiY7O7g0vSumst1" Ids="G0ujzh59SZwPDzux1hBZYh,Q3ZSCrZCwYcMe3kGcKzTms" />
                   <Link Id="NVbSGimVEmKN8YKLZqNfRI" Ids="Dlkhb6jEzFxLe0GC6K9V9p,G0ujzh59SZwPDzux1hBZYh" IsHidden="true" />
                   <Link Id="IVxlIUvLwtJO36B3sYvJb8" Ids="GZKr8RQcn2UNDcy5ZWWwbH,ENdTVeWAuVVLMlUQxtdcWe" />
                   <Link Id="G9MzPOomAezPcpzDSGHxEr" Ids="I34gGNSHXZXO31TUKdfDZD,GZKr8RQcn2UNDcy5ZWWwbH" IsHidden="true" />
@@ -10917,6 +10912,8 @@
                   <Link Id="SGEzHyYgKGuLYzOSEuObRf" Ids="SdPClwoW9JTOM14K7rlcZE,S9P0fAoMn0uLJPEqsJoYwV" />
                   <Link Id="LmwrOULhCAeQM0SKVA5npc" Ids="S9P0fAoMn0uLJPEqsJoYwV,TrvnYdPBUAyNcc1Avkwzhn" IsHidden="true" />
                   <Link Id="GJIqeiC62UFOVtfmFNKx4r" Ids="MPv3EWZdhu9O53YdljIyJ0,RLiIYmYx8t6PbKDGllJ4Q1" />
+                  <Link Id="EZ4SHFW6tH0MVJJNN3H834" Ids="G0ujzh59SZwPDzux1hBZYh,E2ETGUpDeLmM7Ppz7aZEfA" />
+                  <Link Id="AjKBgmIPFrANVnwBKUHcPb" Ids="G0ujzh59SZwPDzux1hBZYh,BuZSPrlU2aaNy6EfObggOr" />
                 </Patch>
               </Node>
               <ControlPoint Id="Jc5lLnKqukhLGYbQGInNWo" Bounds="429,1035" />
@@ -12745,7 +12742,6 @@
                         <p:TypeAnnotation>
                           <Choice Kind="TypeFlag" Name="V" />
                         </p:TypeAnnotation>
-                        <p:ValueBoxSettings />
                       </Pad>
                     </Patch>
                   </Node>
@@ -13668,7 +13664,7 @@
         <FullNameCategoryReference ID="Primitive" />
       </p:NodeReference>
       <Patch Id="ILLgW1vniZdMHfSsgzLE6q">
-        <Canvas Id="QJxPFqE2QlEPdKE5cVGKxA" BordersChecked="false" CanvasType="Group" />
+        <Canvas Id="QJxPFqE2QlEPdKE5cVGKxA" CanvasType="Group" />
         <Patch Id="PZcussQTOdlNSqlpC1pppB" Name="Create" />
         <Patch Id="FQv2jOMyGxnM0oZpcRmRzs" Name="Update" />
         <ProcessDefinition Id="TRaBE7E3WulOYTG1yykUBP">
@@ -13678,8 +13674,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="TXK3ulHgEJ6N208U55aB5I" Location="VL.Core" Version="0.93.21-g99c25bebaf" />
-  <NugetDependency Id="JVZ69DKPHVTLVW4lXn8jVB" Location="VL.CoreLib" Version="0.93.21-g99c25bebaf" />
+  <NugetDependency Id="TXK3ulHgEJ6N208U55aB5I" Location="VL.Core" Version="2019.2.0-0126-g07acdd0d5f" />
+  <NugetDependency Id="JVZ69DKPHVTLVW4lXn8jVB" Location="VL.CoreLib" Version="2019.2.0-0126-g07acdd0d5f" />
   <NugetDependency Id="Q8XoN5zjHlDN4SRajRYBCt" Location="VL.CoreLib.VVVV" Version="0.93.21-g99c25bebaf" />
   <DocumentDependency Id="Vd8kfWDSDKwNsKg7uqqBO1" Location="./CNTK_Core.vl" />
   <PlatformDependency Id="BB0g8ObIWmJLn7VkzxQF4b" Location="../lib/net461/CNTK.VL.Helpers.dll" />

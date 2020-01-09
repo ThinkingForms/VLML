@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="EnR3kKykvNkLkVV4pCg6Q5" LanguageVersion="2019.1.0-0942-g8423ca97d7" Version="0.128">
+<Document xmlns:p="property" Id="EnR3kKykvNkLkVV4pCg6Q5" LanguageVersion="2019.2.0-0126-07acdd0d5f" Version="0.128">
   <Patch Id="NV49IyDUWuCMPuHdoZJ2YR">
     <Canvas Id="D6SJq14Y0NsLJDBBGLEc4W" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="OVnYIhQoXupPDwkxPdAQrz" Name="Variables" Position="258,274">
@@ -1224,7 +1224,7 @@
                       <ControlPoint Id="HtugvUCGjbEPA0tj2wZynN" Bounds="671,642" Alignment="Bottom" />
                     </Node>
                     <Link Id="Bm3FmpZrVkiOy2Z9gkqnDf" Ids="QzB67B7MnwdPeAMImOUg68,NvgyNq8dSZXMxMGqZkc7LG" />
-                    <ControlPoint Id="NLnr1E0gV7uOKiGqwBRdBC" Bounds="672,516" />
+                    <ControlPoint Id="NLnr1E0gV7uOKiGqwBRdBC" Bounds="658,516" />
                     <Link Id="P2YNcN0uD8JPbBYAeZxoKn" Ids="NLnr1E0gV7uOKiGqwBRdBC,QzB67B7MnwdPeAMImOUg68" />
                     <Pin Id="NpkKyhcbMkWPFVOdI1bA36" Name="Var" Kind="InputPin" Bounds="672,515" />
                     <Link Id="ItRsa9kGHiENCHTKCWmo1K" Ids="NpkKyhcbMkWPFVOdI1bA36,NLnr1E0gV7uOKiGqwBRdBC" IsHidden="true" />
@@ -4278,7 +4278,6 @@
                     <Choice Kind="TypeFlag" Name="String" />
                     <FullNameCategoryReference ID="Primitive" />
                   </p:TypeAnnotation>
-                  <p:ValueBoxSettings />
                 </Pad>
                 <Node Bounds="639,685,45,13" Id="SjzjOpJOxCML5Ztmh06Jig">
                   <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
@@ -6397,7 +6396,6 @@
                             <Choice Kind="TypeFlag" Name="Integer32" />
                             <FullNameCategoryReference ID="Primitive" />
                           </p:TypeAnnotation>
-                          <p:ValueBoxSettings />
                         </Pad>
                       </Patch>
                       <ControlPoint Id="PfbYlg3BZZ1MRxHnmwX5kK" Bounds="295,239" Alignment="Top" />
@@ -6617,7 +6615,6 @@
                             <Choice Kind="TypeFlag" Name="String" />
                             <FullNameCategoryReference ID="Primitive" />
                           </p:TypeAnnotation>
-                          <p:ValueBoxSettings />
                         </Pad>
                         <Node Bounds="548,313,100,223" Id="NIjfkoMSucWOyD6dL6WYVS">
                           <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -6694,7 +6691,6 @@
                             <Choice Kind="TypeFlag" Name="String" />
                             <FullNameCategoryReference ID="Primitive" />
                           </p:TypeAnnotation>
-                          <p:ValueBoxSettings />
                         </Pad>
                         <Node Bounds="383,727,25,13" Id="VzYaKWRhMiSQa1MNkPA7Se">
                           <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
@@ -7073,7 +7069,6 @@
                           <Choice Kind="TypeFlag" Name="Float32" />
                           <FullNameCategoryReference ID="Primitive" />
                         </p:TypeAnnotation>
-                        <p:ValueBoxSettings />
                       </Pad>
                     </Patch>
                     <ControlPoint Id="HHSNfRe0eSbMx8zHd4UDLz" Bounds="1389,356" Alignment="Top" />
@@ -7568,33 +7563,12 @@
         </ProcessDefinition>
       </Patch>
     </Node>
-    <!--
-
-    ************************ Application ************************
-
--->
-    <Node Name="Application" Bounds="100,100" Id="G4s9R3gQMTkNMX2yMOw0dC">
-      <p:NodeReference>
-        <Choice Kind="ContainerDefinition" Name="Process" />
-        <FullNameCategoryReference ID="Primitive" />
-      </p:NodeReference>
-      <Patch Id="K22HYmI0utCMmZrKdcccsp">
-        <Canvas Id="TgBy6m2F8vCNvJt4aXLnjC" BordersChecked="false" CanvasType="Group" />
-        <Patch Id="GPcabjM7CpRNt2ThZEuo2m" Name="Create" />
-        <Patch Id="PHndXSCv9wNOw0cOAUM98e" Name="Update" />
-        <ProcessDefinition Id="TRa6bm0ZGHBNi5lP69BqDk">
-          <Fragment Id="LurEP3O7Au7PjwK1khMkct" Patch="GPcabjM7CpRNt2ThZEuo2m" Enabled="true" />
-          <Fragment Id="G7PLE4Rqwd8PiyeoagfGzw" Patch="PHndXSCv9wNOw0cOAUM98e" Enabled="true" />
-        </ProcessDefinition>
-      </Patch>
-    </Node>
   </Patch>
-  <NugetDependency Id="HTRGCJkpmmpNUt2nNbeOJO" Location="VL.Core" Version="0.93.21-g99c25bebaf" />
-  <NugetDependency Id="VqjlN6dhdGWOLHW5tUniEk" Location="VL.CoreLib" Version="0.93.21-g99c25bebaf" />
+  <NugetDependency Id="HTRGCJkpmmpNUt2nNbeOJO" Location="VL.Core" Version="2019.2.0-0126-g07acdd0d5f" />
+  <NugetDependency Id="VqjlN6dhdGWOLHW5tUniEk" Location="VL.CoreLib" Version="2019.2.0-0126-g07acdd0d5f" />
   <NugetDependency Id="S3BYPCIOTBoM2Jn2gkoRK0" Location="VL.CoreLib.VVVV" Version="0.93.21-g99c25bebaf" />
   <DocumentDependency Id="AE3drnX2rnQM95Wy2oOxVN" Location="./CNTK_Core.vl" />
   <PlatformDependency Id="UcdJ1N12EGIOUxpTaF8JKI" Location="System.Net" />
   <PlatformDependency Id="Kg1mCvYMqkgNJBJpNCYaT4" Location="../lib/net461/CNTK.VL.Helpers.dll" />
-  <DocumentDependency Id="S646HPZ87PoPmMM3uIQAOX" Location="./CNTK_Operations.vl" />
   <PlatformDependency Id="QgC71LVrpNrQYfCZB7N02h" Location="../../CNTK.GPU.2.7.0/lib/netstandard2.0/Cntk.Core.Managed-2.7.dll" />
 </Document>
