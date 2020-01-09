@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="B6DOoJR72RyLEFXDuFqRS2" LanguageVersion="2019.1.0-0562-g457400a887" Version="0.128">
+<Document xmlns:p="property" Id="B6DOoJR72RyLEFXDuFqRS2" LanguageVersion="2019.1.0-0975-gbe94390fc5" Version="0.128">
   <Patch Id="ERP90BKJLBgPyjg1xaxREJ">
     <Canvas Id="GFjpELdK7XpNdqiTYotKCR" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="HRnBt0PcIsoNqnQIrms9mR" Name="Losses" Position="337,324">
@@ -934,12 +934,12 @@
               <Node Bounds="227,583,45,19" Id="K3jQIsKjFuJNwxqVHFJQbW">
                 <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="CoreLibBasics.vl">
                   <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
-                  <Choice Kind="OperationCallFlag" Name="Switch" />
-                  <CategoryReference Kind="Category" Name="Control" NeedsToBeDirectParent="true" />
+                  <Choice Kind="OperationNode" Name="Switch (Boolean)" />
+                  <FullNameCategoryReference ID="Control" />
                 </p:NodeReference>
                 <Pin Id="HMrGiuLOdPxLymRublvb2k" Name="Condition" Kind="InputPin" />
-                <Pin Id="ILSiKfMWopGP9VsLO00LAo" Name="False" Kind="InputPin" />
-                <Pin Id="FQo0qIYwFsGOpgf8nu7YDd" Name="True" Kind="InputPin" />
+                <Pin Id="ILSiKfMWopGP9VsLO00LAo" Name="Input" Kind="InputPin" />
+                <Pin Id="FQo0qIYwFsGOpgf8nu7YDd" Name="Input 2" Kind="InputPin" />
                 <Pin Id="EhhkDSDNc8DMYdWHU1dHG5" Name="Output" Kind="OutputPin" />
               </Node>
               <ControlPoint Id="V4rSyFxfMIxLxBoKwK5adB" Bounds="408,349" />
