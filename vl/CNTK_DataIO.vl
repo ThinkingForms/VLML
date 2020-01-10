@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="U0u96t61MHPLDzJOnIvZZD" LanguageVersion="2019.2.0-0126-07acdd0d5f" Version="0.128">
+<Document xmlns:p="property" Id="U0u96t61MHPLDzJOnIvZZD" LanguageVersion="2019.2.0-0140-63c55fb825" Version="0.128">
   <Patch Id="JSW0PLjff6iOCBacLF0O2B">
     <Canvas Id="KOybJZnVw2QPNgHyVMU73W" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="HSpE7NEJAl7MlIlfjhxNO7" Name="DataIO" Position="329,384">
@@ -15913,23 +15913,28 @@
                 <ControlPoint Id="UjbBlMbIsDqPM55Ie86pRY" Bounds="513,253" />
                 <ControlPoint Id="B2FW7d6swE1LkNMHkDP2Yq" Bounds="540,687" />
                 <ControlPoint Id="Lctdb1I11MQOIKFnggi1fL" Bounds="733,261" />
-                <Node Bounds="245,298,45,22" Id="ClESykgyvVGLZKPY1RmMCT">
+                <ControlPoint Id="RjTm9xiR1XkLo4HxGJlS0N" Bounds="808,261" />
+                <ControlPoint Id="UY7oSnhuyFFO3l53eHqjbt" Bounds="885,262" />
+                <Node Bounds="253,367" Id="DSIJzKRDu4KOlxsgJar0x9">
                   <p:NodeReference LastCategoryFullName="Collections.Spread" LastSymbolSource="VL.Collections.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="Add" />
                     <CategoryReference Kind="RecordType" Name="Spread" NeedsToBeDirectParent="true" />
                   </p:NodeReference>
-                  <Pin Id="CdXO0aQIgBKOuf9m6QuGcp" Name="Input" Kind="StateInputPin" />
-                  <Pin Id="TuZlc1c2esyM9lYed2Mrug" Name="Item" Kind="InputPin" DefaultValue="16">
-                    <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
-                      <Choice Kind="TypeFlag" Name="Integer32" />
-                    </p:TypeAnnotation>
-                  </Pin>
-                  <Pin Id="BIsjFoi0evmMqD36jyEv9T" Name="Item 2" Kind="InputPin" />
-                  <Pin Id="CmzTySvCphCMIWPdEIjtOu" Name="Output" Kind="StateOutputPin" />
+                  <Pin Id="AblMZwRt5vcNAoSYRS5SyZ" Name="Input" Kind="StateInputPin" />
+                  <Pin Id="Sw3FB7pGzTmO3kcaWKlXYw" Name="Item" Kind="InputPin" />
+                  <Pin Id="Iv5DQOAVhLCQBqNEIi8WqH" Name="Output" Kind="StateOutputPin" />
                 </Node>
-                <ControlPoint Id="RjTm9xiR1XkLo4HxGJlS0N" Bounds="808,261" />
-                <ControlPoint Id="UY7oSnhuyFFO3l53eHqjbt" Bounds="885,262" />
+                <Pad Id="GVrhNRHiTcuOUy3Hl7Ymrv" Comment="" Bounds="227,279,20,49" ShowValueBox="true" isIOBox="true" Value="4, 4">
+                  <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
+                    <Choice Kind="TypeFlag" Name="Spread" />
+                    <p:TypeArguments>
+                      <TypeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                        <Choice Kind="TypeFlag" Name="Integer32" />
+                      </TypeReference>
+                    </p:TypeArguments>
+                  </p:TypeAnnotation>
+                </Pad>
               </Canvas>
               <Patch Id="Vsv23JsW8CmQbzekXwXhB7" Name="Create" />
               <Patch Id="F78Rr61gQ0aNsWnxHzkMcA" Name="Update" ManuallySortedPins="true">
@@ -15955,7 +15960,7 @@
                     <Choice Kind="TypeFlag" Name="Boolean" />
                   </p:TypeAnnotation>
                 </Pin>
-                <Pin Id="J6q20wqg5saL9j8F768O9d" Name="Device" Kind="InputPin">
+                <Pin Id="J6q20wqg5saL9j8F768O9d" Name="Device" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
                 <Pin Id="Er6iOhm9AvTO6FsBEO0oZI" Name="As Batch" Kind="InputPin" Bounds="1215,255" Visibility="Optional" />
@@ -15985,8 +15990,6 @@
               <Link Id="BAzhsWPBFW9PpDwp1YA1bR" Ids="B2FW7d6swE1LkNMHkDP2Yq,GpffZN2tGx8Lo9woenAjzT" IsHidden="true" />
               <Link Id="MQrkGHCpUWlMUzIrNcddVA" Ids="Lctdb1I11MQOIKFnggi1fL,BEKDhVTWPzZLai191pOnq6" />
               <Link Id="HT01pUXOSwhQRaAegEWIhO" Ids="Er6iOhm9AvTO6FsBEO0oZI,Lctdb1I11MQOIKFnggi1fL" IsHidden="true" />
-              <Link Id="J4dX7ZWSmPaMeHfciNqqtq" Ids="Td9zXlrZfiAL9Eke6A1mje,BIsjFoi0evmMqD36jyEv9T" />
-              <Link Id="U9feR6bzpjKOgUpisXl35O" Ids="CmzTySvCphCMIWPdEIjtOu,Jl7Z6j9yFqpLjWbogo7SLz" />
               <Link Id="QvJxBdmaiEVOCFoEOI7Ts8" Ids="FbOfYICGIXoPMwdGbev3UQ,P4E4x0igybROfz0gGCRO0l" IsFeedback="true" />
               <Link Id="AK3emMhcZPQNWn7lPgGJEt" Ids="FbOfYICGIXoPMwdGbev3UQ,IDsaviv6wxLLFAX8Pm393Q" />
               <Link Id="RNf8zuEe1M1LNBCnRPiWEL" Ids="MEQGps335MEP03yZJ95U7h,P4E4x0igybROfz0gGCRO0l" />
@@ -15998,6 +16001,9 @@
               <Link Id="G1rvDIanSqoMRVSqTGtjrR" Ids="J6q20wqg5saL9j8F768O9d,UY7oSnhuyFFO3l53eHqjbt" IsHidden="true" />
               <Link Id="M1nwpeHrq13P1zCUiNCAQ9" Ids="Im0eWKh46DYM6QZfoagYUw,LceiZu6UgV4OQO3DIFm2SU" />
               <Link Id="UoJZa6VH6riQAKBMIhsjdB" Ids="JSCNJztIof4MVd5GhsVErR,Q1kZ5GzduVrO8CsRknTedw" />
+              <Link Id="RQZaac0jAEmM0hmb1mQ84Y" Ids="GVrhNRHiTcuOUy3Hl7Ymrv,AblMZwRt5vcNAoSYRS5SyZ" />
+              <Link Id="AWYnxo0OIO7NUksg1IhTe2" Ids="Td9zXlrZfiAL9Eke6A1mje,Sw3FB7pGzTmO3kcaWKlXYw" />
+              <Link Id="MR4nfH48LlnPUDq48QvIWG" Ids="Iv5DQOAVhLCQBqNEIi8WqH,Jl7Z6j9yFqpLjWbogo7SLz" />
             </Patch>
           </Node>
           <Canvas Id="HbXt2g92tBwOtr8V6XTAtM" Name="Experimental" Position="565,404">
@@ -20904,7 +20910,7 @@
                 <ControlPoint Id="LT0xZx0IkIrLdoZbpVsj79" Bounds="733,261" />
                 <ControlPoint Id="MzkqoYbCCnmQABoV4UKslG" Bounds="808,261" />
                 <ControlPoint Id="H6l9OZAZ2BTOIP4vKDlgQ6" Bounds="885,262" />
-                <Pad Id="FZny8p7b5wGPRyxb6kkcll" Comment="Dimensions" Bounds="513,352,35,17" ShowValueBox="true" isIOBox="true" Value="16">
+                <Pad Id="FZny8p7b5wGPRyxb6kkcll" Comment="Dimensions" Bounds="513,352,35,17" ShowValueBox="true" isIOBox="true" Value="4, 4">
                   <p:TypeAnnotation LastCategoryFullName="Collections" LastSymbolSource="VL.Collections.vl">
                     <Choice Kind="TypeFlag" Name="Spread" />
                     <p:TypeArguments>
@@ -20938,7 +20944,7 @@
                     <Choice Kind="TypeFlag" Name="Boolean" />
                   </p:TypeAnnotation>
                 </Pin>
-                <Pin Id="FOhEGHUhiUMLoPxNYropJQ" Name="Device" Kind="InputPin">
+                <Pin Id="FOhEGHUhiUMLoPxNYropJQ" Name="Device" Kind="InputPin" Visibility="Optional">
                   <p:Exposition p:Assembly="VL.Lang" p:Type="VL.Model.PinExpositionMode">Expose</p:Exposition>
                 </Pin>
                 <Pin Id="DwJfcNam6ANNGlKlYNjWqX" Name="As Batch" Kind="InputPin" Bounds="1215,255" Visibility="Optional" />
@@ -28444,8 +28450,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="OF9afBXDkTpPWfXUh3LR8y" Location="VL.Core" Version="2019.2.0-0126-g07acdd0d5f" />
-  <NugetDependency Id="MSt15ZZrQhzMt95vgik0cP" Location="VL.CoreLib" Version="2019.2.0-0126-g07acdd0d5f" />
+  <NugetDependency Id="OF9afBXDkTpPWfXUh3LR8y" Location="VL.Core" Version="2019.2.0-0140-g63c55fb825" />
+  <NugetDependency Id="MSt15ZZrQhzMt95vgik0cP" Location="VL.CoreLib" Version="2019.2.0-0140-g63c55fb825" />
   <NugetDependency Id="FwML1udgcESNX1l9TDX8tu" Location="VL.CoreLib.VVVV" Version="0.93.21-g99c25bebaf" />
   <DocumentDependency Id="EubI6mUKo1fObKLE9iiuX6" Location="./CNTK_Core.vl" />
   <DocumentDependency Id="U7Fetc7bNewLGYlcfRGCt4" Location="./CNTK_Utils.vl" />
