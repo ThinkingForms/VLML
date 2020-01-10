@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="C7HeUqm5R8qPb1qLqyOw2a" LanguageVersion="2019.2.0-0126-07acdd0d5f" Version="0.128">
-  <NugetDependency Id="Gl4ovq81L77MiIWKl1qcM1" Location="VL.CoreLib" Version="2019.2.0-0126-g07acdd0d5f" />
+<Document xmlns:p="property" Id="Ot5XwMHM9mROcD9m8HrQQX" LanguageVersion="2019.2.0-0140-63c55fb825" Version="0.128">
+  <NugetDependency Id="Gl4ovq81L77MiIWKl1qcM1" Location="VL.CoreLib" Version="2019.2.0-0140-g63c55fb825" />
   <Patch Id="Lw6cQKG7P0xMQGpFMjXtq1">
     <Canvas Id="VApVfXf7pRNNtuCrDJZPjW" DefaultCategory="VLML.HDE" CanvasType="FullCategory">
       <!--
@@ -41,7 +41,7 @@
                 <Patch Id="EDSaTlLXcLaOolWobCXYta" Name="Then" ManuallySortedPins="true" />
                 <Pad Id="LwROEFRrSQEPAcNzpb8YWZ" Comment="" Bounds="483,304,500,15" ShowValueBox="true" isIOBox="true" />
                 <Node Bounds="510,970,79,19" Id="Q7rXpqdWKfELM2Tf7tSGBB">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="NewMainViewerStructure" />
                   </p:NodeReference>
@@ -52,7 +52,7 @@
                   <Pin Id="RuMYqNZbv5pOVk86yViQIz" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="569,915,53,19" Id="HjAGv21aJO4LIq5bO94S3y">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="SideInfo" />
                   </p:NodeReference>
@@ -89,7 +89,7 @@
                     <Patch Id="JDiDQJUm7UMOll3pNOIONX" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="QcYnv6mGrKBNIism3GzxSJ" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="699,432,161,19" Id="VTiGTkTvekbLEl25Fba2cs">
-                      <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessNode" Name="MultiVarOuputString2" />
                       </p:NodeReference>
@@ -120,7 +120,7 @@
                       <Pin Id="NgWIdoNCOY5O3zVBn3sD6s" Name="Result" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="759,914,84,19" Id="USJbpba4TC4Ml0hEom3PPV">
-                      <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessNode" Name="InfoTextLayer" />
                       </p:NodeReference>
@@ -958,7 +958,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="1165,1021,86,19" Id="LHPFjRorLgRNoVYVnDQLkW">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="ImageRangeSetter" />
               </p:NodeReference>
@@ -971,7 +971,7 @@
               </p:TypeAnnotation>
             </Pad>
             <Node Bounds="457,1351,90,19" Id="BIDcX81jdFoNLJsaRVd7na">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="PicturePositioner" />
               </p:NodeReference>
@@ -1176,7 +1176,7 @@
               <Pin Id="T6UJmU6QuYgP8j8rdBzBlB" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="662,909,86,19" Id="Q0MyCXC8ogPLfXkpj4Wvdd">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="ImageRangeSetter" />
               </p:NodeReference>
@@ -1208,7 +1208,7 @@
               <Pin Id="USqun9yGy3cQRIcS7rV6B1" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="498,1027,90,19" Id="Ix98KaxJElzOven0F8kFGx">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="PicturePositioner" />
               </p:NodeReference>
@@ -1228,7 +1228,7 @@
                 <Patch Id="A5Hp6QbQ2d0NyrJ2WAqXeK" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="LHnvqxkFkDMOVV1g63CYAi" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="499,470,62,19" Id="MZ4PW8f7l2CLcysDsOGrG2">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE.ImageMultiChannelView" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE.ImageMultiChannelView" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessNode" Name="TakeTop3" />
                   </p:NodeReference>
@@ -1745,7 +1745,7 @@
               <Pin Id="FkS2aXSkzP7NFX2HF5nsxG" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Node Bounds="687,884,107,19" Id="UeEbveoeSk6PlUF4H4UAU7">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="RangePositionSetter" />
               </p:NodeReference>
@@ -2049,7 +2049,7 @@
                 </Node>
                 <Pad Id="KXkDsmpwTAsNZO0VSF9g2k" Comment="" Bounds="596,457" isIOBox="true" />
                 <Node Bounds="705,512,219,19" Id="G1os8JFsSAzLlMi33cxVOH">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="MultiVarOuputString3" />
                   </p:NodeReference>
@@ -2110,7 +2110,7 @@
                         <Patch Id="IGzptR39vFyLFx5ldDa2wY" Name="Update" ManuallySortedPins="true" />
                         <Patch Id="QdfrMrkMVg3QSyRxj8jjRp" Name="Dispose" ManuallySortedPins="true" />
                         <Node Bounds="742,1208,129,19" Id="U2VSopSkFNvOGAZi2ZVfHr">
-                          <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                          <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="ProcessAppFlag" Name="NewMainViewerStructure" />
                           </p:NodeReference>
@@ -2121,7 +2121,7 @@
                           <Pin Id="NeSm4aapGhbPYem50SQOhG" Name="Output" Kind="OutputPin" />
                         </Node>
                         <Node Bounds="756,1178,53,19" Id="AcUXtkH2YQCPMRFs5PgA5H">
-                          <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                          <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="ProcessAppFlag" Name="SideInfo" />
                           </p:NodeReference>
@@ -2189,7 +2189,7 @@
                     <Patch Id="QMvpXK1R40NOm9AX6djRu1" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="S4qRz80OAbyQVKtB0FSeEb" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="749,901,190,19" Id="RnG2ENkxP9yOhBTVpEGkTI">
-                      <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="NewMainViewerStructure" />
                       </p:NodeReference>
@@ -2200,7 +2200,7 @@
                       <Pin Id="V3RppnHfEorN0N1dvW67P0" Name="Output" Kind="OutputPin" />
                     </Node>
                     <Node Bounds="715,826,53,19" Id="IKVLK8OtxfPQB58BGt5ifi">
-                      <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessAppFlag" Name="SideInfo" />
                       </p:NodeReference>
@@ -2491,7 +2491,7 @@
                       <Patch Id="RosvPshdbpHPvqVPTaq2W1" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="VKyUqBgnSkkMeQ3rcjnBrS" Name="Then" ManuallySortedPins="true" />
                       <Node Bounds="523,938,83,19" Id="FedUTdqa3zhMaXDRdBLZu0">
-                        <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                        <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="ProcessNode" Name="ImageMultiChannelView" />
                         </p:NodeReference>
@@ -2590,7 +2590,7 @@
                       <Patch Id="OpVBjMMt5uiNMqvqvK3tzQ" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="T62m5rfonMyLIejtijSylU" Name="Then" ManuallySortedPins="true" />
                       <Node Bounds="580,814,125,19" Id="VeNIgce6Vu4L23jGOlBsmW">
-                        <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                        <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="ProcessNode" Name="ImageSingleChannelView" />
                         </p:NodeReference>
@@ -2723,7 +2723,7 @@
                       <Patch Id="MywOWq4RxmZQMgFhgX4GmY" Name="Create" ManuallySortedPins="true" />
                       <Patch Id="J6plOrtMHZIOWHwmcQg3Kh" Name="Then" ManuallySortedPins="true" />
                       <Node Bounds="706,681,160,19" Id="OTgIVBqgIBmNn0fi1mxr3O">
-                        <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                        <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                           <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                           <Choice Kind="ProcessNode" Name="ImageSingleChannelView" />
                         </p:NodeReference>
@@ -3291,7 +3291,7 @@
                   <Pin Id="SnnpqGm5ImiNc4WxsUm9C5" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="829,944,95,19" Id="VDCDuIjF13gPycoTNV64h4">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="ProcessNode" Name="ArrayRangeSetter" />
                   </p:NodeReference>
                   <Pin Id="ANrYe4yUeT9OwHyEODAjvY" Name="Min" Kind="InputPin" />
@@ -3299,7 +3299,7 @@
                   <Pin Id="GNlH4K3TaTqPTUIVCa0kgw" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="938,943,75,19" Id="Ptpi9NiCBbRLVzp5OgigXO">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="ProcessNode" Name="ArrayHighSetter" />
                   </p:NodeReference>
                   <Pin Id="Cn3TxMno8glOEbl4vmVGzc" Name="Data" Kind="InputPin" />
@@ -3320,7 +3320,7 @@
             <ControlPoint Id="QPa6SsQn54ENJ5AUhcAlnc" Bounds="609,254" />
             <ControlPoint Id="DXt29z0VW7rOC7T8n8bC6U" Bounds="618,1181" />
             <Node Bounds="615,1135,90,19" Id="QQ8mFmgIhnKMoBCmBWlP9w">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="PicturePositioner" />
               </p:NodeReference>
@@ -3684,7 +3684,7 @@
                   <Pin Id="S7TKEtgy14PM0VO9eVqwHm" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="713,874,58,19" Id="Gq3YBp4sE1fOzsWAYLryOI">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="ProcessNode" Name="ArrayRangeSetter" />
                   </p:NodeReference>
                   <Pin Id="Hnbo3yLQPJoMJ8XiHXXC2f" Name="Min" Kind="InputPin" />
@@ -3692,7 +3692,7 @@
                   <Pin Id="VkkL96mkkMOOjd2zJBW4Iy" Name="Output" Kind="OutputPin" />
                 </Node>
                 <Node Bounds="824,871,88,19" Id="VfOwIeOLS2dMOU7wwudxWE">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="ProcessNode" Name="ArrayHighSetter" />
                   </p:NodeReference>
                   <Pin Id="DGlJtBYLpomOGYcgKFsLoW" Name="Data" Kind="InputPin" />
@@ -3713,7 +3713,7 @@
             <ControlPoint Id="RuID5N0JI2APYr7fTXf1oW" Bounds="472,166" />
             <ControlPoint Id="Oo7tFgtveHILavsNbkm9Rn" Bounds="493,1062" />
             <Node Bounds="493,1009,90,19" Id="Mwmr2kPQQIsLvTFdJJMofz">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="PicturePositioner" />
               </p:NodeReference>
@@ -3946,7 +3946,7 @@
             <ControlPoint Id="Hjreq3rwgQbMNk0uTBu2u8" Bounds="911,390" />
             <ControlPoint Id="VqCSJXyDiWELlq1PcFSDCx" Bounds="1044,387" />
             <Node Bounds="830,867,107,19" Id="B3rQe5RMaHWPlY17RWiL6R">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="OperationCallFlag" Name="RangePositionSetter" />
               </p:NodeReference>
@@ -4179,7 +4179,7 @@
                 <Patch Id="HI0Xzsp3LayOqAxjqBy62W" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="ICyFdJEuYKRN0Nq6G4mMMd" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="523,938,83,19" Id="PoBAEowO69IO4kgU5AjnfC">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessNode" Name="ImageMultiChannelView" />
                   </p:NodeReference>
@@ -4278,7 +4278,7 @@
                 <Patch Id="TZghKDRjYV7NlP7Nodc2Ov" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="Lsf2X0Z7LhmMEAnGW94qqf" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="580,814,125,19" Id="IC13AZOXCXrMjcBqsTzt5W">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessNode" Name="ImageSingleChannelView" />
                   </p:NodeReference>
@@ -4333,7 +4333,7 @@
                 <ControlPoint Id="DjkcPC3qbNcPvxZhpPYmbF" Bounds="610,1138" />
                 <ControlPoint Id="ReclrlXHoDcLcLM8xge1GB" Bounds="607,1255" />
                 <Node Bounds="547,1197,65,26" Id="AXanxQJDsBlLJDOpl9j4Vu">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE.FViewer.CheatClass" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE.FViewer.CheatClass" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="OperationCallFlag" Name="MyCheater" />
                   </p:NodeReference>
@@ -4411,7 +4411,7 @@
                 <Patch Id="UfxkRxoIAo5O0PE9VILL2y" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="FC4BrP2Os2yMWP692txxBM" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="706,681,160,19" Id="D3zM5pB61laNrY6oV1bSJL">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessNode" Name="ImageSingleChannelView" />
                   </p:NodeReference>
@@ -4488,7 +4488,7 @@
                 <Patch Id="PS8Gb3LYHmtQDfaGPhEqIm" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="V2ot2VmFwpHOCC8gzv1nan" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="883,550,51,19" Id="DQka6lEQQBwODTazhA1KrU">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="1DViewerB" />
                   </p:NodeReference>
@@ -4510,7 +4510,7 @@
                 <Patch Id="VMJJpvDtBjbLlEZB1XtzHM" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="I9pYilOR42fPEFMXGotPMj" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="1139,409,73,19" Id="GhmqJzoXr5sPW4A7PxV9xP">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="ScalerViewer" />
                   </p:NodeReference>
@@ -4886,7 +4886,7 @@
                 <Patch Id="IA1BqIa4vPEQUYgU0CDKyy" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="KFZZlnutXKoMdnwiiGlbqw" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="538,791,93,19" Id="EWohodOslqoOwGoCLCvCYh">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessNode" Name="PicturePositioner" />
                   </p:NodeReference>
@@ -6268,7 +6268,7 @@
           <Canvas Id="KXconxCeNFIMhEM3rRgUUI" CanvasType="Group">
             <ControlPoint Id="NwgLFj3GrUePMUaT12zCgx" Bounds="423,159" />
             <Node Bounds="974,342,105,19" Id="FqZGLCDq6tePBtHC7p9cEE">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="SpectrumBarWidget" />
               </p:NodeReference>
@@ -6369,7 +6369,7 @@
             </Pad>
             <Overlay Id="MNUbpDMBVgiPd8fDzAQeAR" Name="Padding" Bounds="484,973,143,111" />
             <Node Bounds="574,1160,98,19" Id="EwSJB7ziZq4LAuPBC7Badb">
-              <p:NodeReference LastCategoryFullName="VLML.HDE.TensorRangeInfo" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE.TensorRangeInfo" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessNode" Name="RangeSetterFloat" />
               </p:NodeReference>
@@ -6498,7 +6498,7 @@
               <Pin Id="S0GZXhJ3pn0N3Kl4c0SYP3" Name="Output" Kind="StateOutputPin" />
             </Node>
             <Node Bounds="498,420,110,19" Id="N2gzLMHKbUqQNWU47mnnme">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="VImage" />
               </p:NodeReference>
@@ -6550,7 +6550,7 @@
             </Node>
             <ControlPoint Id="Tkq3x75Y2ufNIet6o3NA0w" Bounds="646,858" />
             <Node Bounds="643,797,93,19" Id="Gk0Ca35veAQMRD5aZErXJ7">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="TensorRangeInfo" />
               </p:NodeReference>
@@ -7103,7 +7103,7 @@
           <Canvas Id="PYnzT88msmZLsBsVTal5Qo" CanvasType="Group">
             <ControlPoint Id="KU9hkiakEKSPC3OAYncKBx" Bounds="826,691" />
             <Node Bounds="824,571,105,19" Id="FEIxCs54AtMLcGeyFUcfK8">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="SpectrumBarWidget" />
               </p:NodeReference>
@@ -7290,7 +7290,7 @@
             </Node>
             <ControlPoint Id="IjaiHCOrYDhOpoGOEMT5kX" Bounds="649,267" />
             <Node Bounds="682,621,80,19" Id="IM8xrlFv1pPMt0vxVRmK1Q">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ImageMinMax" />
               </p:NodeReference>
@@ -7505,7 +7505,7 @@
           <Canvas Id="AFTq320DSwxQdNieCEhqNF" CanvasType="Group">
             <ControlPoint Id="DPv0urGkBH1Nq2Kw8CTDnL" Bounds="473,166" />
             <Node Bounds="974,342,105,19" Id="SCig7nMxnCVNZ6ZXmXoSwL">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="SpectrumBarWidget" />
               </p:NodeReference>
@@ -7712,7 +7712,7 @@
             </Node>
             <ControlPoint Id="TpB6OLlpsalP8kPT3QY9Tp" Bounds="505,927" />
             <Node Bounds="493,393,154,19" Id="Dwe5bN3ctq1MdSRGchGIKb">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="VImage" />
               </p:NodeReference>
@@ -7765,7 +7765,7 @@
             </Node>
             <ControlPoint Id="DZyFfT9uPDVOFC5LOXNC9W" Bounds="607,175" />
             <Node Bounds="505,847,93,19" Id="JdqmBo7VwqbN3Z6cHIcMNI">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="TensorRangeInfo" />
               </p:NodeReference>
@@ -8480,7 +8480,7 @@
               <Pin Id="KuTMgIwtHzzL2qQnLoyalW" Name="Result" Kind="OutputPin" />
             </Node>
             <Node Bounds="503,806,103,19" Id="F82FFbY00mDNa2p3XOlY8P">
-              <p:NodeReference LastCategoryFullName="VLML.HDE.GraphWidget (View)" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE.GraphWidget (View)" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="HighIndexIndicator" />
               </p:NodeReference>
@@ -8649,7 +8649,7 @@
                 <Patch Id="KgJDYwW0nF4LcWgUzUky3R" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="UEzmlqm6IXCLiE61h0qVHh" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="392,745,125,19" Id="EeQaPkGY3vrPGfAnumhRe8">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="V3DViewer" />
                   </p:NodeReference>
@@ -8752,7 +8752,7 @@
                 <Patch Id="GSMaJ3QOEJhMLCHFS1cf1h" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="SlUnd0f0vUlOb1ft6svZ4r" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="449,621,68,19" Id="Chf6hzfJIfjOeN7oATy9Ey">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="V3DViewer" />
                   </p:NodeReference>
@@ -8825,7 +8825,7 @@
                 <Patch Id="CRrk4Y7bP2aPEFpQcHPxrl" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="ELpKT3Jt3BeNVKbdgG9VjT" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="576,472,72,19" Id="UpzoB3juYTuLTwubtednLk">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="V3DViewer" />
                   </p:NodeReference>
@@ -8891,7 +8891,7 @@
                 <Patch Id="UOnI20w5pWdMJxsl6xjREO" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="OwAgAmSaRWmOW2o608yhGK" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="752,341,75,19" Id="FsytnPZtluLQVv1teEQODI">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="V1DViewer" />
                   </p:NodeReference>
@@ -8928,7 +8928,7 @@
                 <Patch Id="THy5x6e6iAyQRrSGe9a9v2" Name="Create" ManuallySortedPins="true" />
                 <Patch Id="K9wrpgs7jMnOfS6fhCnsiX" Name="Then" ManuallySortedPins="true" />
                 <Node Bounds="1028,223,73,19" Id="BQradz8KtRpN1oYoVPW8Ug">
-                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+                  <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                     <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                     <Choice Kind="ProcessAppFlag" Name="ScalerViewer" />
                   </p:NodeReference>
@@ -9377,7 +9377,7 @@
             </Node>
             <ControlPoint Id="MQQOlBX83XuMTg5Pq9TVHg" Bounds="718,792" />
             <Node Bounds="706,295,46,19" Id="MMMMEOElR0PMoUVZBPeg1t">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="GraphWidget" />
               </p:NodeReference>
@@ -9462,7 +9462,7 @@
               <Pin Id="SYHY7FGkMwUQY9ORdM50H9" Name="Font3" Kind="OutputPin" />
             </Node>
             <Node Bounds="715,731,93,19" Id="NA5EIBXnHEcOICvBYTrK5h">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="TensorRangeInfo" />
               </p:NodeReference>
@@ -9726,7 +9726,7 @@
               <Pin Id="SmNg4SfBGncLMS5xQKhvF6" Name="Output" Kind="OutputPin" />
             </Node>
             <Node Bounds="648,1175,80,19" Id="RoEVwopBPEJM4YG2XA7e6y">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="ImageMinMax" />
               </p:NodeReference>
@@ -9848,7 +9848,7 @@
                     <Patch Id="QUcmMcGkoYTOHefC2HoR7V" Name="Create" ManuallySortedPins="true" />
                     <Patch Id="LKicWNtAS7BOPj7fzY2aRC" Name="Then" ManuallySortedPins="true" />
                     <Node Bounds="381,701,62,19" Id="Ai4mCkLSyeePTUa4HmxNMK">
-                      <p:NodeReference LastCategoryFullName="VLML.HDE.ImageMultiChannelView" LastSymbolSource="VLML_Dev.HDE.vl">
+                      <p:NodeReference LastCategoryFullName="VLML.HDE.ImageMultiChannelView" LastSymbolSource="VLML.HDE.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="ProcessNode" Name="TakeTop3" />
                       </p:NodeReference>
@@ -10289,7 +10289,7 @@
             </Pad>
             <Overlay Id="FdmgiqCUf14L16eHFlw82N" Name="Padding" Bounds="430,108,143,111" />
             <Node Bounds="520,295,98,19" Id="IdLTICkwVgvP3skAflMqlO">
-              <p:NodeReference LastCategoryFullName="VLML.HDE.TensorRangeInfo" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE.TensorRangeInfo" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="RangeSetterFloat" />
               </p:NodeReference>
@@ -11309,7 +11309,7 @@
         <Patch Id="VBUn3tvqsaPNfFworlrqWr" IsGeneric="true">
           <Canvas Id="JhdDMvpQ8TKL27waJkAKZd" CanvasType="Group">
             <Node Bounds="-154,216,1385,19" Id="EnsYz0HY5KDPxqYN9LHRzk">
-              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML_Dev.HDE.vl">
+              <p:NodeReference LastCategoryFullName="VLML.HDE" LastSymbolSource="VLML.HDE.vl">
                 <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                 <Choice Kind="ProcessAppFlag" Name="MultiVarOuputString3" />
               </p:NodeReference>
@@ -12021,8 +12021,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="EB16trgZnS5OOpMMVTKFSG" Location="VL.Skia" Version="2019.2.0-0126-g07acdd0d5f" />
-  <NugetDependency Id="CETqzaievHsOWfadKlLTph" Location="VL.HDE" Version="2019.2.0-0126-g07acdd0d5f" />
+  <NugetDependency Id="EB16trgZnS5OOpMMVTKFSG" Location="VL.Skia" Version="2019.2.0-0140-g63c55fb825" />
+  <NugetDependency Id="CETqzaievHsOWfadKlLTph" Location="VL.HDE" Version="2019.2.0-0140-g63c55fb825" />
   <NugetDependency Id="I90GfT7y7HjP1AzcMAB9PR" Location="VL.OpenCV" Version="0.2.133-alpha" />
-  <DocumentDependency Id="EY8tLUU3u7EPBQPstdUw2b" Location="./VLML_Dev.vl" />
+  <DocumentDependency Id="SsBvK0xXpgLQYpluhBwB60" Location="./VLML.vl" />
 </Document>
