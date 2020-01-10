@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="P5jcwScTkgQOKnwpUwLCjz" Summary="VLML Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.2.0-0126-07acdd0d5f" Version="0.128">
+<Document xmlns:p="property" Id="P5jcwScTkgQOKnwpUwLCjz" Summary="VLML Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.2.0-0140-63c55fb825" Version="0.128">
   <Patch Id="K5WstgkwwbFPVnvFSt5PXN">
     <Canvas Id="KUj70RuuPE9PFBjdHFx1Ud" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="PE0szg2zj6uQRvA8orbOT3" Name="MathOps" Position="254,234">
@@ -9120,8 +9120,8 @@
                   <ControlPoint Id="PHQEM4XZkQwOGcqsQ5Bp56" Bounds="266,290" />
                 </Patch>
               </Node>
-              <ControlPoint Id="AsrijHP9AzAPBaSGuUirwd" Bounds="292,429" />
-              <ControlPoint Id="EUnnWkyyfPXLnkgoNgrM5t" Bounds="388,433" />
+              <ControlPoint Id="AsrijHP9AzAPBaSGuUirwd" Bounds="382,416" />
+              <ControlPoint Id="EUnnWkyyfPXLnkgoNgrM5t" Bounds="298,416" />
               <ControlPoint Id="KYPsYDDQpJoODG7DbOZlXu" Bounds="469,490" />
               <ControlPoint Id="PH4GqKew94gOvdu62do91X" Bounds="589,526" />
               <ControlPoint Id="Ebq40zU3B2ILsKnL6yTZRG" Bounds="540,640" />
@@ -9209,10 +9209,10 @@
             <Link Id="GfcbdU8EDzGNFn31cFr1nI" Ids="Ebq40zU3B2ILsKnL6yTZRG,PnGK8YmmDZCLF3PQlEK9OK" IsHidden="true" />
             <Link Id="Of1oItvmvJ3OaSYfuM5zDB" Ids="D2RN3QhR0fnPuWjWCBv92i,OUaNdY3avApOsuVUB1aD8z" />
             <Link Id="RsDcEf0kYK9Nm4JlVn1OCv" Ids="Ie7158OlcULPDMg0ZtjsOF,MnS3sZpSvM9PgUMpxvZDKr" />
-            <Link Id="S1ANnoYWM54QGB3959xBIk" Ids="AsrijHP9AzAPBaSGuUirwd,IB3xlo5iYCrMZArMG4jRXp" />
             <Link Id="GIwfTRPMxLpOGlfLiiTBBW" Ids="LCCMcPTkMYQQVvoDXENX6v,Ci8KJfTmGgWQYz3jmNH7hb" />
-            <Link Id="GSGM6jFRGiKMtPKSd2lMqX" Ids="EUnnWkyyfPXLnkgoNgrM5t,PPzYqcyxXibNOeENLa1I3I" />
             <Link Id="B5BXTN0jdhSOHfNRps43Zs" Ids="PKwbXiMGVeeNCByWm8HI0W,FhC0LbfEAlmLWklHzhMXew" />
+            <Link Id="GctaJeFmzw9OEcKqhInm28" Ids="AsrijHP9AzAPBaSGuUirwd,PPzYqcyxXibNOeENLa1I3I" />
+            <Link Id="IGBzeVds8vmMf3WSZU1ws2" Ids="EUnnWkyyfPXLnkgoNgrM5t,IB3xlo5iYCrMZArMG4jRXp" />
           </Patch>
         </Node>
         <Canvas Id="DTnr9j7XLsjMO1KzjF0Rj4" Name="Experimental" Position="745,1143" />
@@ -10026,6 +10026,91 @@
               <Link Id="L3eq9iS9N1ALeaIHjQRuu3" Ids="Avzdo9AvxdYNgz22uYbYOA,NWNR8zkTYIpPUlpLU4ZNHU" />
               <Link Id="MOG7onT7fUBM1rP1Geiu7r" Ids="UNJNy1WogiLPrTrW4T2L0h,JFJ3rEUMohMPmiNUZdR840" />
               <Link Id="CFTHIYMaiJaPSWLR2hhVBY" Ids="NhjaK8XuYQEORhfsNiafoM,UNJNy1WogiLPrTrW4T2L0h" IsHidden="true" />
+            </Patch>
+          </Node>
+          <!--
+
+    ************************ MaxScalar ************************
+
+-->
+          <Node Name="MaxScalar" Bounds="587,490" Id="DdyamnZnMdaM0WXwNv0sHU">
+            <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="builtin">
+              <Choice Kind="ContainerDefinition" Name="Process" />
+            </p:NodeReference>
+            <Patch Id="HbqRPD1UCPGOWIwXRLIAD9">
+              <Canvas Id="Uh9notytOKSLl1fAnhditI" CanvasType="Group">
+                <Node Bounds="529,461,80,80" AutoConnect="true" Id="IYESAxWcg3TMgai4BrLFOT">
+                  <p:NodeReference LastSymbolSource="CNTK_Operations.vl">
+                    <Choice Kind="ProcessAppFlag" Name="ScalarTemplate" />
+                    <Choice Kind="RegionFlag" Name="Region (Stateless)" Fixed="true" />
+                  </p:NodeReference>
+                  <Pin Id="RSVdytVMMXzNcWjR9kGKTa" Name="Left Operand" Kind="InputPin" />
+                  <Pin Id="TqOGS76b8KIQIVb9yEXNte" Name="Scalar" Kind="InputPin" />
+                  <Pin Id="Bbk3yV0LnebMKIw4Wvbxlw" Name="Output" Kind="OutputPin" />
+                  <Patch Id="TEmdEPyECXMPu39v2YNLrw" Name="Input" ManuallySortedPins="true">
+                    <Pin Id="QPmGMKW9gCWNWYCt5kY8GS" Name="Input 1" Kind="InputPin" />
+                    <Pin Id="LJYQWoVafXzLvFmin48W4Q" Name="Input 2" Kind="InputPin" />
+                    <Pin Id="OPJm7y4FEFsO3hYoCjIfM0" Name="Input 3" Kind="InputPin" />
+                    <Pin Id="CowBBbWV6ynQQUi8bytfJ6" Name="Result" Kind="OutputPin" />
+                    <ControlPoint Id="CLNJf59lZt3PYh6yliDufT" Bounds="529,461" />
+                    <ControlPoint Id="IMgHN4uwO1hQEqIiRgXHjQ" Bounds="589,461" />
+                    <ControlPoint Id="BIsxYZUpR8qPwet7wgbEBw" Bounds="649,461" />
+                    <ControlPoint Id="OF9wMXGsCZOOiW2oj3xMur" Bounds="529,541" />
+                    <Node Bounds="574,498" Id="PsfbnJ05qMYQEXL7LajCuD">
+                      <p:NodeReference LastCategoryFullName="CNTK.CNTKLib" LastSymbolSource="Cntk.Core.Managed-2.7.dll">
+                        <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
+                        <Choice Kind="OperationCallFlag" Name="ElementMax" />
+                      </p:NodeReference>
+                      <Pin Id="MTQRAUY45jrLFUd2ka4OQD" Name="Left Operand" Kind="InputPin" />
+                      <Pin Id="UOT6GE5aEWjLH5kvUXvUnM" Name="Right Operand" Kind="InputPin" />
+                      <Pin Id="OmEiEpQrnhqNHZkE6erjaE" Name="Name" Kind="InputPin" />
+                      <Pin Id="AbjzZjg1JBmLiYLohy1jSb" Name="Result" Kind="OutputPin" />
+                    </Node>
+                  </Patch>
+                  <Pin Id="BKYPg7TS5TMMKPDGI8Z6SZ" Name="Name" Kind="InputPin" />
+                  <Pin Id="LvmsRy1FAM9NrDJMN13G1n" Name="Debug" Kind="InputPin" />
+                  <Pin Id="PlEfJPGsLmDNUe8dUYXLao" Name="Value" Kind="OutputPin" />
+                </Node>
+                <ControlPoint Id="DtkK8KcjNbaMCmtRIST02u" Bounds="683,578" />
+                <ControlPoint Id="KIlj4vPrlCCMBWcdqWGXPJ" Bounds="686,417" />
+                <ControlPoint Id="C3qk4ONR8DQLjRORBFYiCc" Bounds="754,421" />
+              </Canvas>
+              <!--
+
+    ************************  ************************
+
+-->
+              <ProcessDefinition Id="JpSeJAwboNWM6ggZRctOOm">
+                <Fragment Id="HzS4YSHmcYMNKh31wXgRjr" Patch="QwJRRPFvRV9MHFEuoktE8a" Enabled="true" />
+                <Fragment Id="Ha66fyyIsqRQbwmEwCDXrc" Patch="KvQwsZuuTG7OH3QdYYwSnD" Enabled="true" />
+              </ProcessDefinition>
+              <Link Id="CWnDiaHvQJdPAhNMmANAEC" Ids="QPmGMKW9gCWNWYCt5kY8GS,CLNJf59lZt3PYh6yliDufT" IsHidden="true" />
+              <Link Id="NHeGGEYHZnmOzzcDgEXqLP" Ids="LJYQWoVafXzLvFmin48W4Q,IMgHN4uwO1hQEqIiRgXHjQ" IsHidden="true" />
+              <Link Id="Jjfj6zdRco5LvozbXua9N2" Ids="OPJm7y4FEFsO3hYoCjIfM0,BIsxYZUpR8qPwet7wgbEBw" IsHidden="true" />
+              <Link Id="VwB7otO63CELINKg1ZRRCE" Ids="OF9wMXGsCZOOiW2oj3xMur,CowBBbWV6ynQQUi8bytfJ6" IsHidden="true" />
+              <Link Id="HBcLEc7B4TpLCLifcYO29G" Ids="CLNJf59lZt3PYh6yliDufT,MTQRAUY45jrLFUd2ka4OQD" />
+              <Link Id="SSWOxWZaJDtPAS4jiav8rt" Ids="IMgHN4uwO1hQEqIiRgXHjQ,UOT6GE5aEWjLH5kvUXvUnM" />
+              <Link Id="RItudujD7X2NPNRfAq95CP" Ids="BIsxYZUpR8qPwet7wgbEBw,OmEiEpQrnhqNHZkE6erjaE" />
+              <Link Id="BYpEJoUaaZlQCtQQcySPXn" Ids="AbjzZjg1JBmLiYLohy1jSb,OF9wMXGsCZOOiW2oj3xMur" />
+              <Link Id="SnLgMNZRGkNPIazVDz2a0n" Ids="DtkK8KcjNbaMCmtRIST02u,KIQCDSHz4MsOzPuYbMqnlK" IsHidden="true" />
+              <Link Id="QntUPwocarZPysszDjn2XO" Ids="PlEfJPGsLmDNUe8dUYXLao,DtkK8KcjNbaMCmtRIST02u" />
+              <Link Id="EOPzN0kekVSPVVTqoTUZHu" Ids="KIlj4vPrlCCMBWcdqWGXPJ,BKYPg7TS5TMMKPDGI8Z6SZ" />
+              <Link Id="HijpP62l6lyMhcV79X3831" Ids="NPcFsY774twMoe2wO3jSC6,KIlj4vPrlCCMBWcdqWGXPJ" IsHidden="true" />
+              <Link Id="C3FsLvPkb2WK9tldtK4Npz" Ids="C3qk4ONR8DQLjRORBFYiCc,LvmsRy1FAM9NrDJMN13G1n" />
+              <Link Id="GcvAQngeT5CLUHHDAsHhL5" Ids="By8Hn1NkXjbNtKI5DNOKuI,C3qk4ONR8DQLjRORBFYiCc" IsHidden="true" />
+              <Patch Id="QwJRRPFvRV9MHFEuoktE8a" Name="Create" />
+              <Patch Id="KvQwsZuuTG7OH3QdYYwSnD" Name="Update" ManuallySortedPins="true">
+                <Pin Id="Nnu5kXZ05HlLi6vuHiNJTv" Name="Left Operand" Kind="InputPin" />
+                <Pin Id="LvUs0kIOXeQMUUH2Oekb5p" Name="Scalar" Kind="InputPin" />
+                <Pin Id="NPcFsY774twMoe2wO3jSC6" Name="Name" Kind="InputPin" Bounds="686,417" Visibility="Optional" />
+                <Pin Id="By8Hn1NkXjbNtKI5DNOKuI" Name="Debug" Kind="InputPin" Bounds="754,421" DefaultValue="False" Visibility="Optional">
+                  <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
+                    <Choice Kind="TypeFlag" Name="Boolean" />
+                  </p:TypeAnnotation>
+                </Pin>
+                <Pin Id="KIQCDSHz4MsOzPuYbMqnlK" Name="Value" Kind="OutputPin" Visibility="Optional" />
+                <Pin Id="Hso4N0b0l1UN69qtFRCAuw" Name="Output" Kind="OutputPin" />
+              </Patch>
             </Patch>
           </Node>
         </Canvas>
@@ -13674,8 +13759,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="TXK3ulHgEJ6N208U55aB5I" Location="VL.Core" Version="2019.2.0-0126-g07acdd0d5f" />
-  <NugetDependency Id="JVZ69DKPHVTLVW4lXn8jVB" Location="VL.CoreLib" Version="2019.2.0-0126-g07acdd0d5f" />
+  <NugetDependency Id="TXK3ulHgEJ6N208U55aB5I" Location="VL.Core" Version="2019.2.0-0140-g63c55fb825" />
+  <NugetDependency Id="JVZ69DKPHVTLVW4lXn8jVB" Location="VL.CoreLib" Version="2019.2.0-0140-g63c55fb825" />
   <NugetDependency Id="Q8XoN5zjHlDN4SRajRYBCt" Location="VL.CoreLib.VVVV" Version="0.93.21-g99c25bebaf" />
   <DocumentDependency Id="Vd8kfWDSDKwNsKg7uqqBO1" Location="./CNTK_Core.vl" />
   <PlatformDependency Id="BB0g8ObIWmJLn7VkzxQF4b" Location="../lib/net461/CNTK.VL.Helpers.dll" />
