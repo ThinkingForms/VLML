@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="U0u96t61MHPLDzJOnIvZZD" LanguageVersion="2019.2.0-0140-63c55fb825" Version="0.128">
+<Document xmlns:p="property" Id="U0u96t61MHPLDzJOnIvZZD" LanguageVersion="2019.2.0-0081-9750350a10" Version="0.128">
   <Patch Id="JSW0PLjff6iOCBacLF0O2B">
     <Canvas Id="KOybJZnVw2QPNgHyVMU73W" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="HSpE7NEJAl7MlIlfjhxNO7" Name="DataIO" Position="329,384">
@@ -10413,6 +10413,7 @@
                   </Patch>
                   <ControlPoint Id="Vowjursm76nNm0fFaDfKnf" Bounds="256,630" Alignment="Top" />
                   <ControlPoint Id="SwWXUTmUZdBMIN8mBH3ZnZ" Bounds="322,630" Alignment="Top" />
+                  <ControlPoint Id="Cl9OoXTW8PVOrjXuZXaSQu" Bounds="427,630" Alignment="Top" />
                 </Node>
                 <Node Bounds="253,553,41,26" Id="J0cNW7Hvv5qL411E9mN7MM">
                   <p:NodeReference LastCategoryFullName="VL.Lib.Collections.Spread" LastSymbolSource="VL.Core.dll">
@@ -10447,6 +10448,9 @@
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Boolean" />
                   </p:TypeAnnotation>
+                  <p:ValueBoxSettings>
+                    <p:buttonmode p:Assembly="VL.UI.Forms" p:Type="VL.HDE.PatchEditor.Editors.ButtonModeEnum">Bang</p:buttonmode>
+                  </p:ValueBoxSettings>
                 </Pad>
                 <Pad Id="HaY8p7kmZpMLosKK31x507" Comment="" Bounds="336,530" isIOBox="true" />
                 <Pad Id="SGqeGCItU8aQVxA1Djwv8S" Comment="" Bounds="554,530" isIOBox="true" />
@@ -10784,7 +10788,7 @@
                   </p:TypeAnnotation>
                   <p:DefaultValue />
                 </Pin>
-                <Pin Id="VCADVTQ8iFKOHrG568jn4X" Name="Randomize" Kind="InputPin" Bounds="475,570" DefaultValue="False" Visibility="Optional">
+                <Pin Id="VCADVTQ8iFKOHrG568jn4X" Name="Randomize" Kind="InputPin" Bounds="475,570" DefaultValue="True" Visibility="Optional">
                   <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                     <Choice Kind="TypeFlag" Name="Boolean" />
                   </p:TypeAnnotation>
@@ -10894,7 +10898,6 @@
               <Link Id="Mb3Rr0JwCzdPJYgZZmLIEP" Ids="NzI9bVEDnUGOZKwUohulMl,P8QH4dpTwXeNyYxIUEEKli" />
               <Link Id="L21l2LKwEi6Ph1Xxo3jDx7" Ids="KJ1kYRxFwDNN65QidAAY3K,Pi05FOUhvNxMpbxLy3enF1" />
               <Link Id="O0bqSJPjlSkOaGHSb64kBc" Ids="PWdzfjFz785PxspIhDknv5,MiNUUxtxvzFOcukAe3kAXT" />
-              <Link Id="HcmTEmTnoYbMbJRDVhxq2A" Ids="P7mYS4vppzbPwiynjLwbXR,L1a3YZGze8hPD3oDV1TRQw" />
               <Link Id="KjZgM9vIL19OdMB6oVgYwn" Ids="HaY8p7kmZpMLosKK31x507,GLpn86IVtSiLg1MHMNKYqo" />
               <Link Id="SGBoaTK45vJO5mtlEqkYDn" Ids="Vowjursm76nNm0fFaDfKnf,KAaZx5bFxBlLE6riUaYTjs" />
               <Link Id="IaoL7wpXDRJNKTvZQqF7mx" Ids="Lau9f0NTlDEPEz9N0qz6Vq,Vowjursm76nNm0fFaDfKnf" />
@@ -10907,6 +10910,8 @@
               <Link Id="IGZuBIMxRWxLwaDQBFFvzY" Ids="BW83Ecq8zXjLjPBncjwGT9,TmTyc2mXfktO61MLzEXCap" IsHidden="true" />
               <Link Id="LE5azdspGO4OstywF2pPpl" Ids="SwWXUTmUZdBMIN8mBH3ZnZ,VTChjnwHKQQLgHk9c2Aj9a" />
               <Link Id="LJlhCTf9PehLSzwXKtynyR" Ids="TmTyc2mXfktO61MLzEXCap,SwWXUTmUZdBMIN8mBH3ZnZ" />
+              <Link Id="Jo0awKYMxXKMKmlQnqC9JM" Ids="Cl9OoXTW8PVOrjXuZXaSQu,L1a3YZGze8hPD3oDV1TRQw" />
+              <Link Id="St28kj3KiEMNHZh5OhVpn0" Ids="P7mYS4vppzbPwiynjLwbXR,Cl9OoXTW8PVOrjXuZXaSQu" />
             </Patch>
           </Node>
           <!--
@@ -28450,8 +28455,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="OF9afBXDkTpPWfXUh3LR8y" Location="VL.Core" Version="2019.2.0-0140-g63c55fb825" />
-  <NugetDependency Id="MSt15ZZrQhzMt95vgik0cP" Location="VL.CoreLib" Version="2019.2.0-0140-g63c55fb825" />
+  <NugetDependency Id="OF9afBXDkTpPWfXUh3LR8y" Location="VL.Core" Version="2019.2.0-0081-g9750350a10" />
+  <NugetDependency Id="MSt15ZZrQhzMt95vgik0cP" Location="VL.CoreLib" Version="2019.2.0-0081-g9750350a10" />
   <NugetDependency Id="FwML1udgcESNX1l9TDX8tu" Location="VL.CoreLib.VVVV" Version="0.93.21-g99c25bebaf" />
   <DocumentDependency Id="EubI6mUKo1fObKLE9iiuX6" Location="./CNTK_Core.vl" />
   <DocumentDependency Id="U7Fetc7bNewLGYlcfRGCt4" Location="./CNTK_Utils.vl" />

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="SQtEPj1VjwQMYwdjnYEpwD" LanguageVersion="2019.1.0-0942-g8423ca97d7" Version="0.128">
+<Document xmlns:p="property" Id="MzDXFOb0mjkNps5qq89WhB" LanguageVersion="2019.2.0-0166-1ac1c2a073" Version="0.128">
   <Patch Id="DhhY8Vnl3b5LNEWFz5NpCg">
     <Canvas Id="NUe4JYbim00LnqO7F9qc6E" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="BcCzdaai1SPNzh6hLjX8hN" Name="HighLevelOps" Position="343,311">
@@ -940,7 +940,6 @@
                           <Choice Kind="TypeFlag" Name="Boolean" />
                           <FullNameCategoryReference ID="Primitive" />
                         </p:TypeAnnotation>
-                        <p:ValueBoxSettings />
                       </Pad>
                       <Node Bounds="230,400,116,146" Id="T18WKw3KD8MN5BkUQCObBC">
                         <p:NodeReference LastSymbolSource="CNTK_HighLevelOps.vl">
@@ -1179,7 +1178,6 @@
                           <Choice Kind="TypeFlag" Name="Boolean" />
                           <FullNameCategoryReference ID="Primitive" />
                         </p:TypeAnnotation>
-                        <p:ValueBoxSettings />
                       </Pad>
                       <Node Bounds="389,487,100,72" Id="HUW7omAnpZIQAFYy2PEpSJ">
                         <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
@@ -1311,10 +1309,8 @@
                       <ControlPoint Id="FD4KPP5Lj4NNP5Xly3NSGd" Bounds="354,476" />
                     </Canvas>
                     <ProcessDefinition Id="E3osNmtTNy6LXCei5b81Eb">
-                      <Fragment Id="QaHy3IKXfRCQPLzJwJX0h3" Patch="L08OK3UPGoaPz1qPBIFtxJ" Enabled="true" />
                       <Fragment Id="JKf8MauPDEdOBWlT9y0Bvl" Patch="BA2E2USbNX1Lm0C6Lt8vb6" Enabled="true" />
                     </ProcessDefinition>
-                    <Patch Id="L08OK3UPGoaPz1qPBIFtxJ" Name="Create" />
                     <Patch Id="BA2E2USbNX1Lm0C6Lt8vb6" Name="Update">
                       <Pin Id="VemXRVpCReeOLgFsx8DOC9" Name="Input" Kind="InputPin" />
                       <Pin Id="PyMNPXazXKTPSczfvWSaUB" Name="Query" Kind="InputPin" />
@@ -1973,18 +1969,16 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="UUtYDza3QXqOlVJu7Nzq8h" Location="VL.Core" Version="0.93.21-g99c25bebaf" />
-  <NugetDependency Id="Igc0t9j3VgaPrG6aBCkRWy" Location="VL.CoreLib" Version="0.93.21-g99c25bebaf" />
+  <NugetDependency Id="UUtYDza3QXqOlVJu7Nzq8h" Location="VL.Core" Version="2019.2.0-0166-g1ac1c2a073" />
+  <NugetDependency Id="Igc0t9j3VgaPrG6aBCkRWy" Location="VL.CoreLib" Version="2019.2.0-0166-g1ac1c2a073" />
   <NugetDependency Id="L1W1MCKLRe3L7rcmHDbxq3" Location="VL.CoreLib.VVVV" Version="0.93.21-g99c25bebaf" />
   <DocumentDependency Id="Va1mvoyp6wlOPdwNjc85Di" Location="./CNTK_Core.vl" />
   <DocumentDependency Id="FqN6v710DhqNpeqjoYeffR" Location="./CNTK_DataIO.vl" />
-  <DocumentDependency Id="TDqDCdBEwmAO58K3iKuuWL" Location="./CNTK_Evaluation.vl" />
   <DocumentDependency Id="GoHpqaI78H2Po6H8EwVNxK" Location="./CNTK_Layers.vl" />
   <DocumentDependency Id="TCx604auiGbPFTROt34ly3" Location="./CNTK_Losses.vl" />
   <DocumentDependency Id="ILxekOWX9m0L4UgYBgDrMT" Location="./CNTK_Metrics.vl" />
   <DocumentDependency Id="SomxSKWuEjRNLOwcywIPIF" Location="./CNTK_Operations.vl" />
   <DocumentDependency Id="NrUkAPA7CxZOuMIEspiUf8" Location="./CNTK_Sequence.vl" />
-  <DocumentDependency Id="EQ9TegcL3c9PSNFGPZeawE" Location="./CNTK_Trainers.vl" />
   <DocumentDependency Id="UCmxqalJVJDLhvMg9Rucfw" Location="./CNTK_Utils.vl" />
   <DocumentDependency Id="TDK16D2JArhLDp2tbpi961" Location="./CNTK_Variables.vl" />
   <PlatformDependency Id="AfvUxvUvkXALVVGPphvuSo" Location="../lib/net461/CNTK.VL.Helpers.dll" />

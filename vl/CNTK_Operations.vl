@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="P5jcwScTkgQOKnwpUwLCjz" Summary="VLML Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.2.0-0140-63c55fb825" Version="0.128">
+<Document xmlns:p="property" Id="P5jcwScTkgQOKnwpUwLCjz" Summary="VLML Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.2.0-0081-9750350a10" Version="0.128">
   <Patch Id="K5WstgkwwbFPVnvFSt5PXN">
     <Canvas Id="KUj70RuuPE9PFBjdHFx1Ud" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="PE0szg2zj6uQRvA8orbOT3" Name="MathOps" Position="254,234">
@@ -10075,11 +10075,6 @@
                 <ControlPoint Id="KIlj4vPrlCCMBWcdqWGXPJ" Bounds="686,417" />
                 <ControlPoint Id="C3qk4ONR8DQLjRORBFYiCc" Bounds="754,421" />
               </Canvas>
-              <!--
-
-    ************************  ************************
-
--->
               <ProcessDefinition Id="JpSeJAwboNWM6ggZRctOOm">
                 <Fragment Id="HzS4YSHmcYMNKh31wXgRjr" Patch="QwJRRPFvRV9MHFEuoktE8a" Enabled="true" />
                 <Fragment Id="Ha66fyyIsqRQbwmEwCDXrc" Patch="KvQwsZuuTG7OH3QdYYwSnD" Enabled="true" />
@@ -10856,7 +10851,7 @@
                 </p:NodeReference>
                 <Patch Id="Q0ar5lWBdmkO0I3fAIIQV4" IsGeneric="true">
                   <Canvas Id="DEhTxsNdg0ALz018MLCpEa" CanvasType="Group">
-                    <Node Bounds="381,629,359,240" Id="FujgraNDX0XN1fLkNFPxys">
+                    <Node Bounds="358,578,443,305" Id="FujgraNDX0XN1fLkNFPxys">
                       <p:NodeReference LastCategoryFullName="Control" LastSymbolSource="VL.CoreLib.Experimental.vl">
                         <Choice Kind="ProcessAppFlag" Name="Try" />
                         <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
@@ -10870,8 +10865,8 @@
                         <Patch Id="AZTVOWD2KaZLGKgS9jFLXt" Name="Try" ManuallySortedPins="true">
                           <Pin Id="Pmqn9mN8n4pL2SeHxdU9Kj" Name="Output" Kind="OutputPin" />
                         </Patch>
-                        <ControlPoint Id="LDxDyu547iSM98dIjJuosk" Bounds="386,860" />
-                        <Node Bounds="393,652,34,13" Id="AkC82hGBq1ZPBgHbPFiXYO">
+                        <ControlPoint Id="LDxDyu547iSM98dIjJuosk" Bounds="384,876" />
+                        <Node Bounds="370,603,41,19" Id="AkC82hGBq1ZPBgHbPFiXYO">
                           <p:NodeReference LastCategoryFullName="VLML.Variables" LastSymbolSource="CNTK_Utils.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="VSize" />
@@ -10879,7 +10874,7 @@
                           <Pin Id="E2ETGUpDeLmM7Ppz7aZEfA" Name="Input" Kind="InputPin" />
                           <Pin Id="JeqtkcHpVHUQYUDzKytHof" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="466,652,42,13" Id="R0gVhgKgFw0LpX4JWDC9lF">
+                        <Node Bounds="488,698,49,19" Id="R0gVhgKgFw0LpX4JWDC9lF">
                           <p:NodeReference LastSymbolSource="CNTK_Operations.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="getsize" />
@@ -10887,7 +10882,7 @@
                           <Pin Id="ArRSOaTCrNaLSHFBJ2bnhj" Name="Input" Kind="InputPin" />
                           <Pin Id="AfWTUj1ZFvjOvQFeUWjnzt" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="393,720,25,13" Id="S9IrZ2I4hIPNAaOAmRoFgH">
+                        <Node Bounds="453,740,25,19" Id="S9IrZ2I4hIPNAaOAmRoFgH">
                           <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="=" />
@@ -10896,7 +10891,7 @@
                           <Pin Id="L0oPQw1n5HZPbnB01yHPuQ" Name="Input 2" Kind="InputPin" />
                           <Pin Id="I5imFWBYw8pMTnL2XFJ9N7" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="413,777,25,13" Id="Ns0VgjWuBVYMmnwDtSSKyA">
+                        <Node Bounds="473,797,30,19" Id="Ns0VgjWuBVYMmnwDtSSKyA">
                           <p:NodeReference LastCategoryFullName="Primitive.Boolean" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="OR" />
@@ -10906,7 +10901,7 @@
                           <Pin Id="RjeAxCWd4o9NbHIRYp2qO6" Name="Input 2" Kind="InputPin" />
                           <Pin Id="JZgQCbhX65bO6bSdywkG62" Name="Output" Kind="StateOutputPin" />
                         </Node>
-                        <Node Bounds="442,715,25,13" Id="KWmkW2bdpMzOkY0xVrfTeu">
+                        <Node Bounds="502,735,25,19" Id="KWmkW2bdpMzOkY0xVrfTeu">
                           <p:NodeReference LastCategoryFullName="Math" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="=" />
@@ -10919,7 +10914,7 @@
                           </Pin>
                           <Pin Id="Vlddh2z6r2mL91IMredHUV" Name="Result" Kind="OutputPin" />
                         </Node>
-                        <Node Bounds="490,777,85,13" Id="D1BsUd3e5COQEDH7vlIsEF">
+                        <Node Bounds="550,797,85,19" Id="D1BsUd3e5COQEDH7vlIsEF">
                           <p:NodeReference LastCategoryFullName="Primitive.String" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <CategoryReference Kind="StringType" Name="String" />
@@ -10932,7 +10927,7 @@
                           <Pin Id="R52kKjBdsZ6OhIvUGrrLRy" Name="Input 4" Kind="InputPin" />
                           <Pin Id="Ouh2mxEUAqhQZdmem0EgDu" Name="Output" Kind="StateOutputPin" />
                         </Node>
-                        <Node Bounds="431,812,38,13" Id="F0IKw4ednf2MPxyYRkYxfX">
+                        <Node Bounds="491,832,45,19" Id="F0IKw4ednf2MPxyYRkYxfX">
                           <p:NodeReference LastCategoryFullName="System.Test" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                             <Choice Kind="OperationCallFlag" Name="Assert" />
@@ -10940,14 +10935,15 @@
                           <Pin Id="PgCA2oFag5BO4XV8cCSZ55" Name="Condition" Kind="InputPin" />
                           <Pin Id="SumuNTWTQN1L3Azewvr9AR" Name="Message" Kind="InputPin" />
                         </Node>
-                        <Pad Id="MPv3EWZdhu9O53YdljIyJ0" Comment="Message" Bounds="494,712,174,53" ShowValueBox="true" isIOBox="true" Value="The size of the new shape ({0}) must be the same total size as that of the input shape ({1}), or -1">
+                        <Pad Id="MPv3EWZdhu9O53YdljIyJ0" Comment="Message" Bounds="554,732,174,53" ShowValueBox="true" isIOBox="true" Value="The size of the new shape ({0}) must be the same total size as that of the input shape ({1}), or -1">
                           <p:TypeAnnotation LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                             <Choice Kind="TypeFlag" Name="String" />
                           </p:TypeAnnotation>
                         </Pad>
+                        <Pad Id="ENdTVeWAuVVLMlUQxtdcWe" Comment="" Bounds="486,606" ShowValueBox="true" isIOBox="true" />
                       </Patch>
                     </Node>
-                    <Node Bounds="380,555,43,13" Id="BaB2gJkiQEBOlznFiap1ma">
+                    <Node Bounds="349,494,50,19" Id="BaB2gJkiQEBOlznFiap1ma">
                       <p:NodeReference LastCategoryFullName="VLML.Variables" LastSymbolSource="CNTK_Utils.vl">
                         <Choice Kind="NodeFlag" Name="Node" Fixed="true" />
                         <Choice Kind="OperationCallFlag" Name="VShape" />
@@ -10955,7 +10951,6 @@
                       <Pin Id="BuZSPrlU2aaNy6EfObggOr" Name="Input" Kind="InputPin" />
                       <Pin Id="CvrLRRFb2FjPHKaP3JnT57" Name="Result" Kind="OutputPin" />
                     </Node>
-                    <Pad Id="ENdTVeWAuVVLMlUQxtdcWe" Comment="" Bounds="457,560,88,30" ShowValueBox="true" isIOBox="true" />
                     <ControlPoint Id="G0ujzh59SZwPDzux1hBZYh" Bounds="361,408" />
                     <ControlPoint Id="GZKr8RQcn2UNDcy5ZWWwbH" Bounds="448,410" />
                     <ControlPoint Id="JefMzC518IEM0PR2rxsXn7" Bounds="384,922" />
@@ -13759,8 +13754,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="TXK3ulHgEJ6N208U55aB5I" Location="VL.Core" Version="2019.2.0-0140-g63c55fb825" />
-  <NugetDependency Id="JVZ69DKPHVTLVW4lXn8jVB" Location="VL.CoreLib" Version="2019.2.0-0140-g63c55fb825" />
+  <NugetDependency Id="TXK3ulHgEJ6N208U55aB5I" Location="VL.Core" Version="2019.2.0-0081-g9750350a10" />
+  <NugetDependency Id="JVZ69DKPHVTLVW4lXn8jVB" Location="VL.CoreLib" Version="2019.2.0-0081-g9750350a10" />
   <NugetDependency Id="Q8XoN5zjHlDN4SRajRYBCt" Location="VL.CoreLib.VVVV" Version="0.93.21-g99c25bebaf" />
   <DocumentDependency Id="Vd8kfWDSDKwNsKg7uqqBO1" Location="./CNTK_Core.vl" />
   <PlatformDependency Id="BB0g8ObIWmJLn7VkzxQF4b" Location="../lib/net461/CNTK.VL.Helpers.dll" />

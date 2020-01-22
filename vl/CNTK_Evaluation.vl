@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="SQtEPj1VjwQMYwdjnYEpwD" Summary="VLML Evalutor Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.2.0-0126-07acdd0d5f" Version="0.128">
+<Document xmlns:p="property" Id="SQtEPj1VjwQMYwdjnYEpwD" Summary="VLML Evalutor Operations document" Authors="Thinking Forms" Credits="VVVV Group" LicenseUrl="https://github.com/ThinkingForms/VLML/blob/master/LICENSE" ProjectUrl="https://github.com/ThinkingForms/VLML" LanguageVersion="2019.2.0-0166-1ac1c2a073" Version="0.128">
   <Patch Id="DhhY8Vnl3b5LNEWFz5NpCg">
     <Canvas Id="NUe4JYbim00LnqO7F9qc6E" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="RDJ8egp4UwNPUwRZACftpx" Name="Evaluation" Position="368,390">
@@ -5741,7 +5741,7 @@
                             <Patch Id="L6QHsA5rZVVNhki7WuwDM8" ManuallySortedPins="true">
                               <Patch Id="El3K1yXsV9kOcJRKsC6YvA" Name="Create" ManuallySortedPins="true" />
                               <Patch Id="EimPu0qdnOMNSDidRuxGxI" Name="Then" ManuallySortedPins="true" />
-                              <Node Bounds="364,944,368,302" Id="DEhqYXftkQtMvKZwXKhHPD">
+                              <Node Bounds="364,944,368,292" Id="DEhqYXftkQtMvKZwXKhHPD">
                                 <p:NodeReference LastCategoryFullName="Primitive" LastSymbolSource="CoreLibBasics.vl">
                                   <Choice Kind="StatefulRegion" Name="Region (Stateful)" Fixed="true" />
                                   <Choice Kind="ApplicationStatefulRegion" Name="ForEach" />
@@ -5841,9 +5841,9 @@
                                   <Pad Id="VbPhTYoHPjPLC6lBrqqrTo" Comment="" Bounds="668,1071" isIOBox="true" />
                                 </Patch>
                                 <ControlPoint Id="Sd16YnfI78DN7p5LJpLPyQ" Bounds="625,950" Alignment="Top" />
-                                <ControlPoint Id="I9Yu3kys8uxNAXo4l6D0A1" Bounds="380,1240" Alignment="Bottom" />
+                                <ControlPoint Id="I9Yu3kys8uxNAXo4l6D0A1" Bounds="380,1228" Alignment="Bottom" />
                                 <ControlPoint Id="Gfa4wRLydkcOAThM0mUX4I" Bounds="399,950" Alignment="Top" />
-                                <ControlPoint Id="UstOv6vEniaNwKLrYuL0VB" Bounds="624,1240" Alignment="Bottom" />
+                                <ControlPoint Id="UstOv6vEniaNwKLrYuL0VB" Bounds="624,1228" Alignment="Bottom" />
                                 <ControlPoint Id="PSzKjpt08fLOBU5kOocqMI" Bounds="594,950" Alignment="Top" />
                               </Node>
                             </Patch>
@@ -5988,7 +5988,7 @@
                   <Pad Id="CpB6Jvb5S0dNWSEG4ToE77" Comment="" Bounds="182,31" isIOBox="true" />
                   <ControlPoint Id="FBl9ZepFryfL01oChZSaCR" Bounds="765,-20" />
                   <ControlPoint Id="OsaC74blSj4LjS4v61kkVO" Bounds="476,-20" />
-                  <ControlPoint Id="PvTq2Ml2h6RLo6esCeLI0p" Bounds="624,1372" />
+                  <ControlPoint Id="PvTq2Ml2h6RLo6esCeLI0p" Bounds="626,1383" />
                   <ControlPoint Id="L0TsixIDtwzLI5COcLQdph" Bounds="379,1370" />
                   <ControlPoint Id="Li0FuSHtVEwPTvux5YMAL0" Bounds="293,1397" />
                   <Pad Id="Q8fWUZaoSHQPpjMnxcBeNA" Comment="Force" Bounds="764,10,35,35" ShowValueBox="true" isIOBox="true" />
@@ -9531,8 +9531,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="UUtYDza3QXqOlVJu7Nzq8h" Location="VL.Core" Version="2019.2.0-0126-g07acdd0d5f" />
-  <NugetDependency Id="Igc0t9j3VgaPrG6aBCkRWy" Location="VL.CoreLib" Version="2019.2.0-0126-g07acdd0d5f" />
+  <NugetDependency Id="UUtYDza3QXqOlVJu7Nzq8h" Location="VL.Core" Version="2019.2.0-0166-g1ac1c2a073" />
+  <NugetDependency Id="Igc0t9j3VgaPrG6aBCkRWy" Location="VL.CoreLib" Version="2019.2.0-0166-g1ac1c2a073" />
   <NugetDependency Id="L1W1MCKLRe3L7rcmHDbxq3" Location="VL.CoreLib.VVVV" Version="0.93.21-g99c25bebaf" />
   <DocumentDependency Id="GNhXCdoLwYtNfHH8qyeQPn" Location="./CNTK_Core.vl" />
   <DocumentDependency Id="L7l8xeBuRQFOCxPaYhYNYB" Location="./CNTK_Utils.vl" />
@@ -9540,4 +9540,5 @@
   <DocumentDependency Id="GktARfAhKPkNBl4vfIGUMO" Location="./CNTK_Operations.vl" />
   <DocumentDependency Id="SRAsnv96tsRPGxfZYUAbHM" Location="./CNTK_DataIO.vl" />
   <PlatformDependency Id="D2e1YDlpD6NNLAGgQ7Exm3" Location="../../CNTK.GPU.2.7.0/lib/netstandard2.0/Cntk.Core.Managed-2.7.dll" />
+  <NugetDependency Id="GRYHaZZbVFnLsjXynVG8Xu" Location="CNTK.GPU" Version="2.7.0" />
 </Document>
