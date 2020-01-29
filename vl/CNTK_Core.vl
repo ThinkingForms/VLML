@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Document xmlns:p="property" Id="Dg1g9Xqk83pMcSbs9aBDQb" Summary="Main conversion patch for CNTK features sanitized for VL" Authors="Hayden Anyasi, vvvv group" Credits="Motzi, Velcrome, Sebl, Natan" LanguageVersion="2019.2.0-0166-1ac1c2a073" Version="0.128">
+<Document xmlns:p="property" Id="Dg1g9Xqk83pMcSbs9aBDQb" Summary="Main conversion patch for CNTK features sanitized for VL" Authors="Hayden Anyasi, vvvv group" Credits="Motzi, Velcrome, Sebl, Natan" LanguageVersion="2019.2.0-0177-d1ea295167" Version="0.128">
   <Patch Id="LxLbNTWJxlPPfBYWB6LKhu">
     <Canvas Id="FHcvwudRB2iNrvQuSK77nY" DefaultCategory="VLML" CanvasType="FullCategory">
       <Canvas Id="SJjPAZPUqgqQbCkWCvezVW" Name="Core" Position="604,307">
@@ -653,16 +653,7 @@
                     <Choice Kind="OperationDefinition" Name="Operation" />
                   </p:NodeReference>
                   <Patch Id="Pcn3M7EeJLFNRqVHfRyNIr" IsGeneric="true">
-                    <Pin Id="SLXvyzfPSk2MzPK3QnkSXq" Name="Output" Kind="OutputPin">
-                      <p:TypeAnnotation>
-                        <Choice Kind="TypeFlag" Name="V" />
-                        <p:TypeArguments>
-                          <TypeReference>
-                            <Choice Kind="TypeFlag" Name="Float32" />
-                          </TypeReference>
-                        </p:TypeArguments>
-                      </p:TypeAnnotation>
-                    </Pin>
+                    <Pin Id="SLXvyzfPSk2MzPK3QnkSXq" Name="Output" Kind="OutputPin" />
                     <ControlPoint Id="OzA5scvNkuMO3A7t0fi5pF" Bounds="472,500" />
                     <Link Id="BgZQ14EOYP6LdsLInq2vKS" Ids="OzA5scvNkuMO3A7t0fi5pF,SLXvyzfPSk2MzPK3QnkSXq" IsHidden="true" />
                     <Node Bounds="468,411,42,13" Id="AeInKAmbHflLwEmDx3tEsA">
@@ -673,9 +664,7 @@
                       </p:NodeReference>
                       <Pin Id="NqpscMREwtxMjaGUQEirYO" Name="Default" Kind="OutputPin" />
                     </Node>
-                    <Pad Id="OXojD89J4ZPPeRmGv24sja" Comment="Default" Bounds="469,458" isIOBox="true" />
-                    <Link Id="Ejidx6ULnRrL007xuVuLau" Ids="NqpscMREwtxMjaGUQEirYO,OXojD89J4ZPPeRmGv24sja" />
-                    <Link Id="SzJt220ouaLQEdXdlBhn6l" Ids="OXojD89J4ZPPeRmGv24sja,OzA5scvNkuMO3A7t0fi5pF" />
+                    <Link Id="VZpH3E1FtPHOjRJb34m9oQ" Ids="NqpscMREwtxMjaGUQEirYO,OzA5scvNkuMO3A7t0fi5pF" />
                   </Patch>
                 </Node>
               </Canvas>
@@ -8460,8 +8449,8 @@
       </Patch>
     </Node>
   </Patch>
-  <NugetDependency Id="EwTOT9k9eR7QSezsboZuy0" Location="VL.Core" Version="2019.2.0-0166-g1ac1c2a073" />
-  <NugetDependency Id="V4FN6F9Ekn2MNIxj3xTdXB" Location="VL.CoreLib" Version="2019.2.0-0166-g1ac1c2a073" />
+  <NugetDependency Id="EwTOT9k9eR7QSezsboZuy0" Location="VL.Core" Version="2019.2.0-0177-gd1ea295167" />
+  <NugetDependency Id="V4FN6F9Ekn2MNIxj3xTdXB" Location="VL.CoreLib" Version="2019.2.0-0177-gd1ea295167" />
   <NugetDependency Id="UTaMLMa0om7LKdbSLFaoEM" Location="VL.CoreLib.VVVV" Version="0.93.21-g99c25bebaf" />
   <PlatformDependency Id="DgcxV7aj3e9PHJAWHDUvrs" Location="../lib/net461/CNTK.VL.Helpers.dll" IsForward="true" />
   <PlatformDependency Id="Gg0re25MCsjOtXDaA18Hh0" Location="../../CNTK.GPU.2.7.0/lib/netstandard2.0/Cntk.Core.Managed-2.7.dll" />
